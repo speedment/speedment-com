@@ -17,6 +17,7 @@
 
 
 <!-- Main hero unit for a primary marketing message or call to action -->
+<<<<<<< Updated upstream
 <div class="hero-unit">
   <h1>Hello, <?php bloginfo('name'); ?>!</h1>
   <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
@@ -47,33 +48,35 @@
       </div>
     </div>
   </nav>
+=======
+>>>>>>> Stashed changes
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-3">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <h1 class="display-3"># Tool to Accelereate Existing <br> Database Applications</h1>
+    <p class="lead"><form><input type="text"/> <input type="button"/></form></p>
   </div>
 </div>
-    <h1>Say hello to the new <?php bloginfo('name'); ?></h1>
-    <p>
-        <?php bloginfo('description'); ?>
-    </p>
-
-<!-- Example row of columns -->
-<div class="row">
-  <div class="span4">
-    <h2>Heading</h2>
-    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-    <p><a class="btn" href="#">View details &raquo;</a></p>
+<div class="row" id="why-speedment">
+  <div class="col-sm-4">
+    <div class="text-center">
+        <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
+    </div>
+    <h4>It´s Pure Java</h4>
+    <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
   </div>
-  <div class="span4">
-    <h2>Heading</h2>
-    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-    <p><a class="btn" href="#">View details &raquo;</a></p>
- </div>
-  <div class="span4">
-    <h2>Heading</h2>
-    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-    <p><a class="btn" href="#">View details &raquo;</a></p>
+  <div class="col-sm-4">
+    <div class="text-center">
+        <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
+    </div>
+    <h4>Super Fast</h4>
+    <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
+  </div>
+  <div class="col-sm-4">
+    <div class="text-center">
+        <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
+    </div>
+    <h4>Run Anywhere</h4>
+    <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
   </div>
 </div>
 <?php get_footer(); ?>

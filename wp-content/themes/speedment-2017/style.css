@@ -12,13 +12,25 @@ A nice theme.
 */
 @import url('assets/css/tether.min.css');
 @import url('assets/css/bootstrap.min.css');
-body {
-     padding-top: 60px;
-     padding-bottom: 40px;
-}
+.
 #developer-navbar{
   background-color: blue;
+  color: white;
 }
-#developer-navbar{
-  background-color: blue;
+#why-speedment{
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 30px 10px;
+}
+#why-speedment img{
+  height: 120px;
+  width: auto;
+
+}
+#why-speedment span{
+
+}
+#why-speedment h4{
+
 }
