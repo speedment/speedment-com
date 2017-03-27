@@ -10,3 +10,9 @@ Tags: speedment, awesome, hashtag
 
 A nice theme.
 */
+@import url('assets/css/tether.min.css');
+@import url('assets/css/bootstrap.min.css');
+body {
+     padding-top: 60px;
+     padding-bottom: 40px;
+}
