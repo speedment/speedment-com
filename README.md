@@ -2,7 +2,7 @@
 The 2017 www.speedment.com website.
 
 ## Installation
-1. Close the repository
+1. Clone the repository
 2. Create the database using the following script:
 ```sql
 create database speedment_com;
