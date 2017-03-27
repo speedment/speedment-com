@@ -1,4 +1,21 @@
 <?php get_header(); ?>
+
+<h3>Top left menu</h3>
+<?php wp_nav_menu(array('menu'=>'top-left-menu'));?>
+
+<h3>Top right menu</h3>
+<?php wp_nav_menu(array('menu'=>'top-right-menu'));?>
+
+<h3>Bottom left menu</h3>
+<?php wp_nav_menu(array('menu'=>'bottom-left-menu'));?>
+
+<h3>Bottom center menu</h3>
+<?php wp_nav_menu(array('menu'=>'bottom-center-menu'));?>
+
+<h3>Bottom right menu</h3>
+<?php wp_nav_menu(array('menu'=>'bottom-right-menu'));?>
+
+
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
   <h1>Hello, <?php bloginfo('name'); ?>!</h1>
