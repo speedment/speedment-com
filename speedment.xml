@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.7.3" created="2017-03-27 23:08" -->
+<!-- generator="WordPress/4.7.3" created="2017-03-27 23:22" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Speedment</title>
 	<link>http://127.0.0.1:8081</link>
 	<description>The World&#039;s Fastest ORM</description>
-	<pubDate>Mon, 27 Mar 2017 23:08:58 +0000</pubDate>
+	<pubDate>Mon, 27 Mar 2017 23:22:59 +0000</pubDate>
 	<language>sv-SE</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://127.0.0.1:8081</wp:base_site_url>
@@ -126,7 +126,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/73/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=73</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:11 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/73/</guid>
@@ -181,7 +181,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/74/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=74</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/74/</guid>
@@ -236,7 +236,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/75/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=75</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/75/</guid>
@@ -291,7 +291,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/76/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=76</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/76/</guid>
@@ -346,7 +346,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/77/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=77</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/77/</guid>
@@ -401,7 +401,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/78/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=78</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/78/</guid>
@@ -456,7 +456,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/79/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=79</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/79/</guid>
@@ -511,7 +511,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/80/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=80</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/80/</guid>
@@ -566,7 +566,7 @@
 	</item>
 	<item>
 		<title>Ext Speeder</title>
-		<link>http://127.0.0.1:8081/ext-speeder/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=81</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/ext-speeder/</guid>
@@ -621,7 +621,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/83/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=83</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/83/</guid>
@@ -676,7 +676,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/84/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=84</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/84/</guid>
@@ -731,7 +731,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/85/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=85</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/85/</guid>
@@ -786,7 +786,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/86/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=86</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:12 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/86/</guid>
@@ -841,7 +841,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/87/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=87</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:13 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/87/</guid>
@@ -896,7 +896,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/88/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=88</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:13 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/88/</guid>
@@ -951,7 +951,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/89/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=89</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:13 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/89/</guid>
@@ -1006,7 +1006,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/90/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=90</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:13 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/90/</guid>
@@ -1061,7 +1061,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/91/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=91</link>
 		<pubDate>Mon, 27 Mar 2017 22:44:13 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/91/</guid>
@@ -1116,7 +1116,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://127.0.0.1:8081/95/</link>
+		<link>http://127.0.0.1:8081/?post_type=nav_menu_item&#038;p=95</link>
 		<pubDate>Mon, 27 Mar 2017 22:50:29 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8081/95/</guid>
