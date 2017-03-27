@@ -23,7 +23,6 @@
   <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 </div>
 
-<doctype html>
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="developer-navbar">
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
