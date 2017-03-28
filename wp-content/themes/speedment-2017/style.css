@@ -15,6 +15,7 @@ A nice theme.
 @import url('assets/css/bootstrap.min.css');
 @import url('assets/css/bootstrap-grid.min.css');
 @import url('assets/css/bootstrap-reboot.min.css');
+@import url('assets/css/font-awesome.min.css');
 #mainbg_container {
     width: 100%;
     min-width: 960px;
