@@ -24,8 +24,8 @@
   <div class="row justify-content-md-center">
     <div class="col-7 pull-2 col-md-auto">
       <div class="col-md-auto" id="first-view-text-wrapper">
-        <h4 class="d-inline-flex"># Tool to Accelereate Existing <br> Database Applications</h4>
-        <form class="lead d-inline-flex">
+        <h4># Tool to Accelereate Existing <br> Database Applications</h4>
+        <form class="lead">
           <label class="sr-only" for="inlineFormInput">Name</label>
           <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"
           id="inlineFormInput" placeholder="Enter your work email">
@@ -59,7 +59,7 @@
       <div class="text-center">
           <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
       </div>
-      <h4>It´s Pure Java</h4>
+      <h4>IT`S PURE JAVA</h4>
       <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
     </div>
     <div class="col-sm-3">
@@ -67,29 +67,29 @@
         <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
 
       </div>
-      <h4>Super Fast</h4>
+      <h4>SUPER FAST</h4>
       <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
     </div>
     <div class="col-sm-3">
       <div class="text-center">
         <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
       </div>
-      <h4>Run Anywhere</h4>
+      <h4>RUN ANYWHERE</h4>
       <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
     </div>
   </div>
   <div class="row information justify-content-md-center">
-    <div class="col-sm-5">
+    <div class="col-md-7">
       <h3>Guides</h3>
       <p>Whether you´r an export or newcomer our task-focused Gettin Started. Guides and tutorials are designed to get your productive with Spring as Quckly as possible.</p>
       <a class="offset-feature--link" href="/guides">
           Browse the Guides
-      <i class="icon-chevron-right"></i>
+          <i class="icon-chevron-right"></i>
+      </a>
     </div>
-    <div class="col-sm-3 align-middle">
+    <div class="col-md-2 align-middle center-text">
       <img src="http://www.freeiconspng.com/uploads/book-icon--icon-search-engine-6.png"/>
     </div>
-</a>
   </div>
   </div>
 </div> <!-- /container -->
