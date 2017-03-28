@@ -30,7 +30,8 @@
 <h3>Bottom right menu</h3>
 <?php wp_nav_menu(array('menu'=>'bottom-right-menu'));?>
 
-<i class="fa fa-book" style="font-size:10000%"></i>
+<?php if (dynamic_sidebar('home_description')) : else : endif; ?>
+
 
 
 <!-- Main hero unit for a primary marketing message or call to action -->
