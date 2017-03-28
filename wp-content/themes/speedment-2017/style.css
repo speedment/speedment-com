@@ -208,3 +208,7 @@ A nice theme.
 #sharing-icons i{
   padding: 0 4px;
 }
+
+.widget-icon {
+  font-size: 1000%
+}
