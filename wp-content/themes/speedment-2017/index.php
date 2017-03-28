@@ -22,7 +22,7 @@
 <!-- Main hero unit for a primary marketing message or call to action -->
   <div class="jumbotron jumbotron-fluid" id="first-view">
   <div class="row justify-content-md-center">
-    <div class="col-4 pull-2 col-md-auto">
+    <div class="col-7 pull-2 col-md-auto">
       <div class="col-md-auto" id="first-view-text-wrapper">
         <h4 class="d-inline-flex"># Tool to Accelereate Existing <br> Database Applications</h4>
         <form class="lead d-inline-flex">
@@ -35,26 +35,6 @@
     </div>
 </div>
 </div>
-
-<!-- Start-->
-<div id="mainbg_container">
-		<div id="mainbg"><div id="vc_content" class="tab-ct"></div></div>
-		<form id="signup_form" class="form-vertical signup" action="javascript:;" novalidate="novalidate">
-			<div id="vc_title" class="tab-ct-text" data-id="vc">
-				<h2>#1 Video Conferencing and Web Conferencing Service</h2>
-			</div>
-			<div id="signup_form_body" class="form-group vc">
-				<label for="email" class="sr-only">Enter your work email</label>
-				<div class="controls">
-					<input type="email" id="email" name="email" class="form-control email" placeholder="Enter your work email" onclick="ga('send', 'event', 'product', 'type-home-free-email', 'Homepage Free Signup Email Form');" aria-label="Enter your work email">
-					<button class="btn btn-primary btn-home submit" onclick="ga('send', 'event', 'freesignup', 'click-home-free-button', 'Homepage Free Signup Orange Button');" role="button">Sign Up Free</button>
-				</div>
-				<div class="new-released"><a href="http://bit.ly/2jvcnFU" target="_blank">Zoom Partners with Sequoia in $100 Million Funding Round &amp; Releases Zoom 4.0</a></div>
-			</div>
-		</form>
-	</div>
-<!-- End -->
-
 
 
 
@@ -74,37 +54,42 @@
       </div>
     </div>
   </div>
-  <div class="row" id="why-speedment">
-    <div class="col-sm-4">
+  <div class="row justify-content-md-center" id="why-speedment">
+    <div class="col-sm-3">
       <div class="text-center">
-          <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
+          <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
       </div>
       <h4>It´s Pure Java</h4>
       <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <div class="text-center">
-          <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
+        <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
+
       </div>
       <h4>Super Fast</h4>
       <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <div class="text-center">
-          <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
+        <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
       </div>
       <h4>Run Anywhere</h4>
       <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
     </div>
   </div>
-  <div class="row information">
-    <div class="col-sm-6">
-      <h6>Guides</h6>
-      <p>Whether you´r an export or newcomer our task-focused Gettin Started. Guides and tutorials are designed to get your productive with Spring as Quckly as possible.
+  <div class="row information justify-content-md-center">
+    <div class="col-sm-5">
+      <h3>Guides</h3>
+      <p>Whether you´r an export or newcomer our task-focused Gettin Started. Guides and tutorials are designed to get your productive with Spring as Quckly as possible.</p>
+      <a class="offset-feature--link" href="/guides">
+          Browse the Guides
+      <i class="icon-chevron-right"></i>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3 align-middle">
       <img src="http://www.freeiconspng.com/uploads/book-icon--icon-search-engine-6.png"/>
     </div>
+</a>
   </div>
   </div>
 </div> <!-- /container -->
