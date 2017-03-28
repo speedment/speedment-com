@@ -132,7 +132,8 @@ A nice theme.
 
 #first-view {
     margin-bottom: 0;
-    background-image: url(http://media.istockphoto.com/photos/texting-picture-id526715754?s=2048x2048);
+    background-image: url('http://media.istockphoto.com/photos/texting-picture-id526715754?s=2048x2048');
+    background-position: 50% 20%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
