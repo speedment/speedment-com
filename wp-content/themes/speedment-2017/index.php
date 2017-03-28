@@ -47,4 +47,7 @@
 <div class="row justify-content-md-center">
   <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
 </div>
+<div class="row justify-content-md-center">
+  <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
+</div>
 <?php get_footer(); ?>

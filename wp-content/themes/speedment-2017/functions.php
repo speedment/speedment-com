@@ -39,6 +39,15 @@ function speedment_widgets_init() {
 		'before_title'  => '<h5>',
 		'after_title'   => '</h5>',
 	));
+
+  register_sidebar(array(
+		'name'          => 'Company Logos',
+		'id'            => 'company_logos',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '<h5>',
+		'after_title'   => '</h5>',
+	));
 }
 add_action( 'widgets_init', 'speedment_widgets_init' );
 
