@@ -1,5 +1,6 @@
 <?php
 require_once('wp-bootstrap-navwalker.php');
+require_once('wp-image-box-widget.php');
 
 function load_tether() {
   wp_register_script('tether', get_template_directory_uri().'/assets/js/tether.min.js');
