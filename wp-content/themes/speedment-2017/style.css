@@ -175,3 +175,7 @@ A nice theme.
     height: 100px;
     width: auto;
 }
+
+.widget-icon {
+  font-size: 1000%
+}

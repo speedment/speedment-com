@@ -30,12 +30,7 @@
 <h3>Bottom right menu</h3>
 <?php wp_nav_menu(array('menu'=>'bottom-right-menu'));?>
 
-<?php if (dynamic_sidebar('home_description')) : else : endif; ?>
-
-
-
 <!-- Main hero unit for a primary marketing message or call to action -->
-<<<<<<< Updated upstream
 <div class="hero-unit">
   <h1>Hello, <?php bloginfo('name'); ?>!</h1>
   <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
@@ -66,35 +61,19 @@
       </div>
     </div>
   </nav>
-=======
->>>>>>> Stashed changes
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-3"># Tool to Accelereate Existing <br> Database Applications</h1>
     <p class="lead"><form><input type="text"/> <input type="button"/></form></p>
   </div>
 </div>
+<div class="row">
+  <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+</div>
 <div class="row" id="why-speedment">
-  <div class="col-sm-4">
-    <div class="text-center">
-        <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
-    </div>
-    <h4>It´s Pure Java</h4>
-    <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
-  </div>
-  <div class="col-sm-4">
-    <div class="text-center">
-        <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
-    </div>
-    <h4>Super Fast</h4>
-    <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
-  </div>
-  <div class="col-sm-4">
-    <div class="text-center">
-        <img src="http://icons.iconarchive.com/icons/icons8/android/512/Measurement-Units-Speed-icon.png" class="rounded" alt="Speed">
-    </div>
-    <h4>Run Anywhere</h4>
-    <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
-  </div>
+  <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
+</div>
+<div class="row">
+  <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
 </div>
 <?php get_footer(); ?>
