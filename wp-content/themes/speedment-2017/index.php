@@ -6,7 +6,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <!-- Brand and toggle get grouped for better mobile display -->
-    <?php wp_nav_menu( array(
+    <?php wp_nav_menu(array(
       'menu'              => 'top-left-menu',
       'theme_location'    => 'top-left-menu',
       'depth'             => 2,
@@ -18,25 +18,27 @@
     ); ?>
 </nav>
 
+<h3>Top right menu</h3>
+<?php wp_nav_menu(array('menu'=>'top-right-menu'));?>
 
 <!-- Main hero unit for a primary marketing message or call to action -->
   <div class="jumbotron jumbotron-fluid" id="first-view">
-  <div class="row justify-content-md-center">
-    <div class="col-7 pull-2 col-md-auto">
-      <div class="col-md-auto" id="first-view-text-wrapper">
-        <h4># Tool to Accelereate Existing <br> Database Applications</h4>
-        <form class="lead">
-          <label class="sr-only" for="inlineFormInput">Name</label>
-          <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"
-          id="inlineFormInput" placeholder="Enter your work email">
-          <button type="submit" class="btn btn-success">Try For Free</button>
-        </form>
-     </div>
-    </div>
-</div>
+    <div class="row justify-content-md-center">
+      <div class="col-7 pull-2 col-md-auto">
+        <div class="col-md-auto" id="first-view-text-wrapper">
+          <h4># Tool to Accelereate Existing <br> Database Applications</h4>
+          <form class="lead">
+            <label class="sr-only" for="inlineFormInput">Name</label>
+            <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"
+            id="inlineFormInput" placeholder="Enter your work email">
+            <button type="submit" class="btn btn-success">Try For Free</button>
+          </form>
+       </div>
+      </div>
+  </div>
 </div>
 
-
+<?php if (dynamic_sidebar('home_description')) : else : endif; ?>
 
 
 <div class="container-fluid">
@@ -65,18 +67,17 @@
     <div class="col-sm-3">
       <div class="text-center">
         <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
-
       </div>
-      <h4>SUPER FAST</h4>
-      <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
-    </div>
-    <div class="col-sm-3">
-      <div class="text-center">
-        <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
+        <h4>SUPER FAST</h4>
+        <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
       </div>
-      <h4>RUN ANYWHERE</h4>
-      <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
-    </div>
+      <div class="col-sm-4">
+        <div class="text-center">
+            <img src="http://www.iconsdb.com/icons/preview/white/speedometer-xxl.png" class="rounded" alt="Speed">
+        </div>
+        <h4>RUN ANYWERE</h4>
+        <span>Single language in the entire applicaton. No need to learn SQL or an ORM API.</span>
+      </div>
   </div>
   <div class="row information justify-content-md-center">
     <div class="col-md-7">
@@ -90,7 +91,6 @@
     <div class="col-md-2 align-middle center-text">
       <img src="http://www.freeiconspng.com/uploads/book-icon--icon-search-engine-6.png"/>
     </div>
-  </div>
-  </div>
-</div> <!-- /container -->
+</div>
+</div>
 <?php get_footer(); ?>

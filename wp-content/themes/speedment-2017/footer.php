@@ -32,14 +32,15 @@
             </nav>
           </div>
         </div>
-        <div id="sharing-icons">
-          <i class="fa fa-facebook-square" aria-hidden="true"></i>
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <div id="sharing-icons" class="d-flex justify-content-end">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i> <br/>
         </div>
-        <p class="float-right" id="footer-logo">© Speedment 2017</p>
-      </div>
+        <div class="d-flex justify-content-end">
+          <div id="footer-logo">© Speedment 2017</div>
+        </div>
       </footer>
 
     <?php wp_footer(); ?>

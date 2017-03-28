@@ -202,3 +202,9 @@ A nice theme.
 .center-text{
   text-align: center;
 }
+#sharing-icons{
+  margin-right: 90px;
+}
+#sharing-icons i{
+  padding: 0 4px;
+}
