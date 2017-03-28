@@ -18,7 +18,7 @@
     ); ?>
 </nav>
 
-<h1>Hello, Github4!</h1>
+<h1>Hello, Github5!</h1>
 
 <h3>Top right menu</h3>
 <?php wp_nav_menu(array('menu'=>'top-right-menu'));?>
