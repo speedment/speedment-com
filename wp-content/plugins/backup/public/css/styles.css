@@ -1,0 +1,263 @@
+.bg-container {
+	float: left;
+	background-color: #333;
+	margin-top: 20px;
+	width: calc(100% - 20px);
+	border: 1px #5c5c5c solid;
+	position: relative;
+}
+
+#bg-wrapper {
+	float: left;
+	width: 100%;
+	position: relative;
+	font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.42857143;
+	color: #333333;
+}
+
+#bg-wrapper a {
+	font-size: 15px;
+	color: #2780e3;
+	text-decoration: none;
+}
+
+#bg-wrapper a:hover,
+#bg-wrapper a:focus {
+	color: #165ba8;
+	text-decoration: underline;
+}
+
+.bg-content {
+	margin-left: 210px;
+	min-height: 540px;
+	background-color: #fff;
+	padding: 15px;
+	position: relative;
+}
+
+.bg-content-dark {
+	background-color: transparent;
+}
+
+.bg-content-full-width {
+	margin: 0;
+}
+
+.bg-sidebar {
+	width: 210px;
+	float: left;
+	margin-left: -100%;
+	background-color: #3d3d3d;
+}
+
+.bg-form-control {
+	display: block;
+	width: 100%;
+	height: 43px !important;
+	padding: 10px 18px !important;
+	font-size: 15px !important;
+	line-height: 1.42857143 !important;
+	color: #333;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+#bg-wrapper .bg-btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 10px 18px;
+	font-size: 15px;
+	line-height: 1.42857143;
+	border-radius: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+#bg-wrapper .bg-btn:hover {
+	text-decoration: none;
+}
+
+#bg-wrapper .bg-btn-success {
+	color: #fff;
+	background-color: #3fb618;
+	border-color: #3fb618;
+}
+
+#bg-wrapper .bg-btn-success:hover,
+#bg-wrapper .bg-btn-success:focus,
+#bg-wrapper .bg-btn-success.focus,
+#bg-wrapper .bg-btn-success:active,
+#bg-wrapper .bg-btn-success.active {
+	color: #fff;
+	background-color: #2f8912;
+	border-color: #2c8011;
+}
+
+#bg-wrapper .bg-btn-primary {
+	color: #fff;
+	background-color: #2780e3;
+	border-color: #2780e3;
+}
+
+#bg-wrapper .bg-btn-primary:hover,
+#bg-wrapper .bg-btn-primary:focus,
+#bg-wrapper .bg-btn-primary.focus,
+#bg-wrapper .bg-btn-primary:active,
+#bg-wrapper .bg-btn-primary.active {
+	color: #fff;
+	background-color: #1967be;
+	border-color: #1862b5;
+}
+
+.bg-text-primary,
+.bg-text-primary:hover {
+	color: #2780e3;
+}
+
+.bg-text-success,
+.bg-text-success:hover {
+	color: #3fb618;
+}
+
+.bg-text-danger,
+.bg-text-danger:hover {
+	color: #ff0039;
+}
+
+.bg-text-warning,
+.bg-text-warning:hover {
+	color: #ff7518;
+}
+
+.bg-text-info,
+.bg-text-info:hover {
+	color: #9954bb;
+}
+
+.bg-pull-right {
+	float: right;
+}
+
+.bg-pull-left {
+	float: left;
+}
+
+.bg-text-center {
+	text-align: center;
+}
+
+.bg-tooltip {
+	position: relative;
+	display: inline-block;
+	font-size: 15px;
+	color: #2780e3;
+	cursor: pointer;
+}
+
+.bg-tooltip .bg-tooltiptext {
+	visibility: hidden;
+	width: 140px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -75px;
+	position: absolute;
+	z-index: 1;
+}
+
+.bg-tooltip:hover .bg-tooltiptext {
+	visibility: visible;
+}
+
+.bg-tooltip .bg-tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+/* General screen related styles */
+
+.bg-logged-msg-container {
+	float: right;
+	font-size: 12px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+/* Login screen related styles */
+
+.bg-login-container {
+	width: 300px;
+	margin: 51px auto;
+	overflow: auto;
+}
+
+.bg-login-container h1 {
+	font-size: 22.5px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.bg-login-container .bg-tooltip {
+	padding: 10px 0;
+	display: inline-block;
+}
+
+.bg-login-content {
+	padding: 25px;
+	background-color: #fff;
+	overflow: auto;
+}
+
+#bg-login-error {
+	display: none;
+}
+
+/* Assign license screen related styles */
+
+.bg-license-container {
+	width: 420px;
+	margin: 51px auto;
+	overflow: auto;
+}
+
+.bg-license-container h1 {
+	font-size: 22.5px;
+	font-weight: normal;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.bg-license-container .bg-tooltip {
+	padding: 10px 0;
+	display: inline-block;
+}
+
+.bg-license-content {
+	padding: 25px;
+	background-color: #fff;
+	overflow: auto;
+}
