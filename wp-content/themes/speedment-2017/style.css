@@ -14,13 +14,111 @@ A nice theme.
 @import url('assets/css/bootstrap.min.css');
 @import url('assets/css/bootstrap-grid.min.css');
 @import url('assets/css/bootstrap-reboot.min.css');
+#mainbg_container {
+    width: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 64px;
+}
+#mainbg_container .tab-ct {
+    height: 580px;
+    background-color: #8e8c99;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    box-shadow: inset 0 0 5px 0 rgba(58,60,62,0.3);
+}
+#signup_form {
+    position: absolute;
+    margin: 0 0 20px;
+    top: 64px;
+    left: 50%;
+    width: 720px;
+    margin-left: -480px;
+    z-index: 200;
+}
+#mainbg_container #vc_title {
+    position: relative;
+    margin-bottom: 50px;
+}
+#signup_form .form-group {
+    margin: 0;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+#signup_form .email {
+    display: inline-block;
+    width: 300px;
+    height: 52px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: lighter;
+    float: left;
+    margin-right: 6px;
+    color: #949698;
+    border: 2px solid white;
+    box-shadow: 0 0 8px 0 rgba(176,176,176,0.5);
+}
+#signup_form .btn {
+    min-width: 140px;
+    height: 52px;
+    border-radius: 3px;
+    background-color: #fd7822;
+}
+#mainbg_container .btn-home {
+    display: inline-block;
+    color: #fff;
+    border-radius: 0;
+    border-width: 0;
+    background-color: #ff7800;
+    background-image: -ms-linear-gradient(top,#ff7800,#ff6400);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ff7800),to(#ff6400));
+    background-image: -webkit-linear-gradient(top,#ff7800,#ff6400);
+    background-image: -o-linear-gradient(top,#ff7800,#ff6400);
+    background-image: linear-gradient(top,#ff7800,#ff6400);
+    background-image: -moz-linear-gradient(top,#ff7800,#ff6400);
+    background-repeat: repeat-x;
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff7800',endColorstr='#ff6400',GradientType=0);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+@media (min-width: 1100px){
+#signup_form{
+    width: 860px;
+    margin-left: -550px;
+    width: 1040px;
+    margin-left: -640px;
+
+}
+}
+#vc_content {
+    background: #8e8c99 url(http://www.smallbusinessdoctors.com/wp-content/uploads/2015/09/business-consulting2.jpg) right 0 no-repeat;
+}
+#info-one{
+  text-align: center;
+  padding: 20px 5px 60px 5px;
+}
 #developer-navbar{
-  background-color: blue;
-  color: white;
+  background-color: rgba( 9,83,119, 1 );
+}
+#developer-navbar a{
+  color:white;
 }
 #why-speedment{
   text-align: center;
-  background-color: green;
+  background-color: #87bd40;
   color: white;
   padding: 30px 10px;
 }
@@ -34,4 +132,27 @@ A nice theme.
 }
 #why-speedment h4{
 
+}
+#first-view{
+  margin-bottom: 0;
+  background-image: url(http://www.smallbusinessdoctors.com/wp-content/uploads/2015/09/business-consulting2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 10rem 2rem;
+}
+#first-view input{
+
+}
+#first-view-text-wrapper{
+  padding: 20px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color:white;
+  font-size: 17px;
+  text-align: center;
+}
+.information img{
+  height: 100px;
+  width: auto;
 }
