@@ -12,6 +12,8 @@ A nice theme.
 */
 @import url('assets/css/tether.min.css');
 @import url('assets/css/bootstrap.min.css');
+@import url('assets/css/bootstrap-grid.min.css');
+@import url('assets/css/bootstrap-reboot.min.css');
 body {
      padding-top: 60px;
      padding-bottom: 40px;
