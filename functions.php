@@ -57,6 +57,14 @@ function speedment_widgets_init() {
 		'after_title'   => '</h5>',
 	));
 }
+
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+
+add_filter('upload_mimes', 'cc_mime_types');
+
 add_action( 'widgets_init', 'speedment_widgets_init' );
 add_action( 'init',         'speedment_menues_init' );
 
