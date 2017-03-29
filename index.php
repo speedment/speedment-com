@@ -39,7 +39,7 @@
   </div>
 </div>
 
-<div class="row" id="speedment-description">
+<div class="row justify-content-md-center" id="speedment-description">
   <div class="col-6">
     <?php if (dynamic_sidebar('home_description')): else: endif; ?>
   </div>
