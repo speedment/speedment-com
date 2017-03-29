@@ -120,6 +120,11 @@ A nice theme.
     padding: 30px 0 88px;
 }
 
+#why-speedment .widget-icon {
+  font-size: 1000%
+  color: white;
+}
+
 #why-speedment img {
     margin-top: 44px;
     height: 88px;
@@ -130,6 +135,15 @@ A nice theme.
 #why-speedment h4 {
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+#small-boxes {
+  text-align: center;
+}
+
+#small-boxes .widget-icon {
+  font-size: 400%
+  color: #aaa;
 }
 
 #first-view {
@@ -162,6 +176,8 @@ A nice theme.
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+
 
 .information {
     padding: 90px 0;
@@ -220,8 +236,4 @@ A nice theme.
 }
 #sharing-icons i{
   padding: 0 4px;
-}
-
-.widget-icon {
-  font-size: 1000%
 }
