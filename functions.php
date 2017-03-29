@@ -24,7 +24,6 @@ function speedment_widgets_init() {
 	register_sidebar(array(
 		'name'          => 'Home Description',
 		'id'            => 'home_description',
-    'class'         => 'col-6',
 		'before_widget' => '',
 		'after_widget'  => '',
 		'before_title'  => '',

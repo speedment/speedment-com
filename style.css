@@ -54,17 +54,6 @@ A nice theme.
     margin-bottom: 50px;
 }
 
-#first-view h4 {
-    margin-top: 0;
-    margin-bottom: 24px;
-    max-width: 820px;
-    line-height: 60px;
-    font-size: 46px;
-    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
-    color: #fff;
-    font-size: 36px;
-}
-
 #signup_form .form-group {
     margin: 0;
 }
@@ -156,8 +145,17 @@ A nice theme.
 #first-view-text-wrapper {
     padding: 20px 10px;
     color: white;
-    font-size: 17px;
-    text-align: center;
+    text-align: left;
+}
+
+#first-view-text-wrapper > h1 {
+  font-size: 3.0rem;
+  font-family: 'Advent Pro';
+  margin-top: 0;
+  margin-bottom: 24px;
+  line-height: 6.0rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .information {
