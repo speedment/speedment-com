@@ -18,18 +18,20 @@
   </div>
 </div>
 
-<div class="row justify-content-md-center" id="speedment-description">
-  <div class="col-6">
-    <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+<div class="container-fluid">
+  <div class="row justify-content-md-center" id="speedment-description">
+    <div class="col-6">
+      <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+    </div>
   </div>
-</div>
-<div class="row justify-content-md-center" id="why-speedment">
-  <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
-</div>
-<div class="row justify-content-md-center" id="small-boxes">
-  <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
-</div>
-<div class="row justify-content-md-center" id="company-logos">
-  <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
+  <div class="row justify-content-md-center" id="why-speedment">
+    <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
+  </div>
+  <div class="row justify-content-md-center" id="small-boxes">
+    <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
+  </div>
+  <div class="row justify-content-md-center" id="company-logos">
+    <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
+  </div>
 </div>
 <?php get_footer(); ?>
