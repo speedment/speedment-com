@@ -2,6 +2,8 @@
 require_once('wp-bootstrap-navwalker.php');
 require_once('wp-image-box-widget.php');
 
+add_theme_support('custom-header');
+
 function load_tether() {
   wp_register_script('tether', get_template_directory_uri().'/assets/js/tether.min.js');
   wp_enqueue_script('tether');
