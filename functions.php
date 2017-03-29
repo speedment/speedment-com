@@ -58,6 +58,7 @@ function speedment_widgets_init() {
 	));
 }
 add_action( 'widgets_init', 'speedment_widgets_init' );
+add_action( 'init',         'speedment_menues_init' );
 
 add_action('wp_enqueue_scripts', 'load_tether');
 add_action('wp_enqueue_scripts', 'bootstrap_with_jquery_and_tether');
