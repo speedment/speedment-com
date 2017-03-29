@@ -53,6 +53,24 @@
   </div>
 
   <!--
+      Guides (Text Area with link and picture on light green background)
+  -->
+  <div class="row justify-content-center" id="small-boxes">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h3>Guides</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.</p>
+          <a href="<?php echo get_permalink(26); ?>">Browse the Guides <i class="ionicons ion-ios-arrow-right"></i></a>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-book" style="font-size:1000%"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
       Company Logos
   -->
   <div class="row justify-content-center" id="company-logos">
