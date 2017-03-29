@@ -24,7 +24,8 @@
 <?php wp_nav_menu(array('menu'=>'top-right-menu'));?>
 
 <!-- Main hero unit for a primary marketing message or call to action -->
-  <div class="jumbotron jumbotron-fluid" id="first-view">
+<div class="jumbotron jumbotron-fluid" id="first-view" style="
+  background-image: url(<?php header_image(); ?>);">
     <div class="row justify-content-md-center">
       <div class="col-7 pull-2 col-md-auto">
         <div class="col-md-auto" id="first-view-text-wrapper">
