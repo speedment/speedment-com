@@ -153,9 +153,14 @@ A nice theme.
   font-family: 'Advent Pro';
   margin-top: 0;
   margin-bottom: 24px;
-  line-height: 6.0rem;
+  line-height: 3.5rem;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
   color: #fff;
+}
+
+#speedment-description > div > .textwidget {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .information {
