@@ -18,6 +18,7 @@ A nice theme.
 @import url('assets/css/font-awesome.min.css');
 @import url('assets/css/ionicons.min.css');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
 #mainbg_container {
     width: 100%;
     min-width: 960px;
@@ -69,11 +70,6 @@ A nice theme.
     border: 0;
 }
 
-#speedment-description {
-  font-size: 200%;
-  font-family: 'Advent Pro';
-}
-
 #first-view input {
     display: inline-block;
     width: 300px;
@@ -113,6 +109,16 @@ A nice theme.
 
 }
 
+#speedment-description {
+  font-size: 200%;
+  font-family: 'Advent Pro';
+}
+
+#speedment-description > div > .textwidget {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 #why-speedment {
     text-align: center;
     background-color: #87bd40;
@@ -138,6 +144,8 @@ A nice theme.
 }
 
 #small-boxes {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -171,13 +179,6 @@ A nice theme.
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
   color: #fff;
 }
-
-#speedment-description > div > .textwidget {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-
 
 .information {
     padding: 90px 0;
