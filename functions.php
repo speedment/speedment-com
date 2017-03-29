@@ -14,6 +14,12 @@ function bootstrap_with_jquery_and_tether() {
   wp_enqueue_script('bootstrap');
 }
 
+function speedment_menues_init() {
+    register_nav_menu('top-left-menu',  __( 'Top Left (Blue) Menu'  ));
+    register_nav_menu('top-right-menu', __( 'Top Right (White) Menu' ));
+    register_nav_menu('footer-menu',    __( 'Footer Menu'    ));
+}
+
 function speedment_widgets_init() {
 	register_sidebar(array(
 		'name'          => 'Home Description',
