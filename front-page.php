@@ -55,7 +55,7 @@
   <!--
       Guides (Text Area with link and picture on light green background)
   -->
-  <div class="row justify-content-center" id="small-boxes">
+  <div class="row justify-content-center" id="guides">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8">
