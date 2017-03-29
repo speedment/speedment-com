@@ -97,7 +97,8 @@ A nice theme.
     min-width: 140px;
     height: 52px;
     border-radius: 3px;
-    background-color: #fd7822;
+    color: white;
+    background-color: #87bd40;
 }
 
 #info-one {
@@ -114,7 +115,7 @@ A nice theme.
 }
 
 #speedment-navbar {
-  
+
 }
 
 #why-speedment {
