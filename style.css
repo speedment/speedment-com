@@ -154,6 +154,10 @@ A nice theme.
   color: #aaa;
 }
 
+#small-boxes h5 {
+  margin-top: 10px;
+}
+
 #first-view {
     margin-bottom: 0;
     background-position: 50% 20%;
