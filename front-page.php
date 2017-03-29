@@ -32,37 +32,14 @@
     </div>
   </div>
   <div class="row justify-content-center" id="small-boxes">
-    <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
+    <div class="container">
+      <div class="row">
+        <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
+      </div>
+    </div>
   </div>
   <div class="row justify-content-center" id="company-logos">
     <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
   </div>
 </div>
 <?php get_footer(); ?>
-
-
-
-<div class="row justify-content-center" id="why-speedment">
-<div class="container">
-<div class="row">
-<div class="col">
-					<div class="text-center">
-				<i class="ionicons ion-coffee widget-icon" aria-hidden="true"></i>
-			</div>
-					<h3>IT’S PURE JAVA</h3>			<span>Single language in the entire application. No need to learn SQL or an ORM API</span>
-		</div>
-				<div class="col">
-					<div class="text-center">
-				<i class="ionicons ion-speedometer widget-icon" aria-hidden="true"></i>
-			</div>
-					<h3>SUPERFAST</h3>			<span>In JVM-memory Acceleration gives database load reduction and ultra low latency</span>
-		</div>
-				<div class="col">
-					<div class="text-center">
-				<i class="fa fa-question-circle-o widget-icon" aria-hidden="true"></i>
-			</div>
-					<h3>RUN ANYWHERE</h3>			<span>Speedment based application can be deployed anywhere, standalone, in and app server or on a Cloud</span>
-		</div>
-		  </div>
-    </div>
-</div>
