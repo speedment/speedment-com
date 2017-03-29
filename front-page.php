@@ -6,7 +6,7 @@
     <div class="row justify-content-md-center">
       <div class="col-7 pull-2 col-md-auto">
         <div class="col-md-auto" id="first-view-text-wrapper">
-          <h4># Tool to Accelereate Existing <br> Database Applications</h4>
+          <h4><?php echo get_bloginfo('description'); ?></h4>
           <form class="lead">
             <label class="sr-only" for="inlineFormInput">Name</label>
             <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"
@@ -18,16 +18,18 @@
   </div>
 </div>
 
-<div class="row">
-  <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+<div class="row justify-content-md-center" id="speedment-description">
+  <div class="col-6">
+    <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+  </div>
 </div>
 <div class="row justify-content-md-center" id="why-speedment">
   <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
 </div>
-<div class="row justify-content-md-center">
+<div class="row justify-content-md-center" id="small-boxes">
   <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
 </div>
-<div class="row justify-content-md-center">
+<div class="row justify-content-md-center" id="company-logos">
   <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
 </div>
 <?php get_footer(); ?>
