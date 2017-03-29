@@ -37,6 +37,12 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#speedment-navbar" aria-controls="speedment-navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <a class="navbar-brand" href="#">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/cross.svg" width="30" height="30" class="d-inline-block align-top" alt="Speedment">
+        Speedment
+      </a>
+
       <!-- Brand and toggle get grouped for better mobile display -->
       <?php wp_nav_menu(array(
         'menu'              => 'top-left-menu',
