@@ -18,11 +18,6 @@
     ); ?>
 </nav>
 
-<h1>Hello, Github15!</h1>
-
-<h3>Top right menu</h3>
-<?php wp_nav_menu(array('menu'=>'top-right-menu'));?>
-
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="jumbotron jumbotron-fluid" id="first-view" style="
   background-image: url(<?php header_image(); ?>);">
