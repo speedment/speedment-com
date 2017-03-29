@@ -26,20 +26,24 @@
   </div>
   <div class="row justify-content-center" id="why-speedment">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
         <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
       </div>
     </div>
   </div>
   <div class="row justify-content-center" id="small-boxes">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
         <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
       </div>
     </div>
   </div>
   <div class="row justify-content-center" id="company-logos">
-    <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
+    <div class="container">
+      <div class="row justify-content-center">
+        <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
+      </div>
+    </div>
   </div>
 </div>
 <?php get_footer(); ?>
