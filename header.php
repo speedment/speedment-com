@@ -17,28 +17,35 @@
   <?php wp_head(); ?>
 </head>
 <body>
-
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="developer-navbar">
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Features</a>
-        <a class="nav-item nav-link" href="#">Pricing</a>
-        <a class="nav-item nav-link disabled" href="#">Disabled</a>
-      </div>
-    </div>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded" role="navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#developer-navbar" aria-controls="developer-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <?php wp_nav_menu(array(
+        'menu'              => 'top-left-menu',
+        'theme_location'    => 'top-left-menu',
+        'depth'             => 2,
+        'container'         => 'div',
+        'container_class'   => 'collapse navbar-collapse justify-content-end',
+        'container_id'      => 'developer-navbar',
+        'menu_class'        => 'navbar-nav',
+        'walker'            => new bootstrap_4_walker_nav_menu())
+      ); ?>
   </nav>
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Navbar</a>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Features</a>
-        <a class="nav-item nav-link" href="#">Pricing</a>
-        <a class="nav-item nav-link disabled" href="#">Disabled</a>
-      </div>
-    </div>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded" role="navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <?php wp_nav_menu(array(
+        'menu'              => 'top-left-menu',
+        'theme_location'    => 'top-left-menu',
+        'depth'             => 2,
+        'container'         => 'div',
+        'container_class'   => 'collapse navbar-collapse',
+        'container_id'      => 'navbarNavAltMarkup',
+        'menu_class'        => 'navbar-nav',
+        'walker'            => new bootstrap_4_walker_nav_menu())
+      ); ?>
   </nav>

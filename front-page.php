@@ -16,6 +16,16 @@
       'menu_class'        => 'navbar-nav',
       'walker'            => new bootstrap_4_walker_nav_menu())
     ); ?>
+    <?php wp_nav_menu(array(
+      'menu'              => 'top-left-menu',
+      'theme_location'    => 'top-left-menu',
+      'depth'             => 2,
+      'container'         => 'div',
+      'container_class'   => 'collapse navbar-collapse',
+      'container_id'      => 'navbarNavAltMarkup',
+      'menu_class'        => 'navbar-nav',
+      'walker'            => new bootstrap_4_walker_nav_menu())
+    ); ?>
 </nav>
 
 <!-- Main hero unit for a primary marketing message or call to action -->
