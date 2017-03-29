@@ -23,8 +23,8 @@
       </button>
       <!-- Brand and toggle get grouped for better mobile display -->
       <?php wp_nav_menu(array(
-        'menu'              => 'top-left-menu',
-        'theme_location'    => 'top-left-menu',
+        'menu'              => 'top-right-menu',
+        'theme_location'    => 'top-right-menu',
         'depth'             => 2,
         'container'         => 'div',
         'container_class'   => 'collapse navbar-collapse justify-content-end',
