@@ -298,6 +298,10 @@ A nice theme.
 /*
     Product Widget
 */
+#products {
+  margin-bottom: 50px;
+}
+
 .product-padding {
   padding: 10px;
 }
