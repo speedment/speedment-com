@@ -4,7 +4,9 @@
  * Description: Page template with a widget area below the text
  */
 get_header(); ?>
-
-Features Here
-
+<!-- Start Page Content -->
+<?php while (have_posts()) : the_post();
+  the_content();
+endwhile; ?>
+<!-- Start Page Content -->
 <?php get_footer(); ?>
