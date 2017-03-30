@@ -1,15 +1,19 @@
     <footer class="container-fluid" id="footer">
-      <nav class="row" role="navigation">
-          <?php wp_nav_menu(array(
-            'theme_location' => 'footer-menu',
-            'menu'           => 'footer-menu',
-            'theme_location' => 'footer-menu',
-            'container'      => false,
-            'depth'          => 2,
-            'items_wrap'     => '%3$s',
-            'walker'         => new Footer_Menu_Walker()
-          )); ?>
-      </nav>
+      <div class="row justify-content-center">
+        <div class="container">
+          <nav class="row justify-content-start" role="navigation">
+              <?php wp_nav_menu(array(
+                'theme_location' => 'footer-menu',
+                'menu'           => 'footer-menu',
+                'theme_location' => 'footer-menu',
+                'container'      => false,
+                'depth'          => 2,
+                'items_wrap'     => '%3$s',
+                'walker'         => new Footer_Menu_Walker()
+              )); ?>
+          </nav>
+        </div>
+      </div>
       <div id="sharing-icons" class="d-flex justify-content-end">
         <i class="fa fa-facebook-square" aria-hidden="true"></i>
         <i class="fa fa-twitter" aria-hidden="true"></i>
