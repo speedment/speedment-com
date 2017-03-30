@@ -1,0 +1,18 @@
+#developer-navbar {
+    background-color: rgba( 9, 83, 119, 1);
+}
+
+#developer-navbar a {
+    color: white;
+}
+#mobile-navbar{
+  text-align: center;
+}
+#mobile-navbar .dropdown-menu {
+  background-color: none;
+  border: 0;
+  text-align: center;
+}
+.dropdown-item:hover{
+  font-size: 1.1rem;
+}

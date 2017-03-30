@@ -1,0 +1,38 @@
+#footer {
+  padding-top: 20px;
+  background-color: rgba(9, 83, 119, 1);
+  color: white;
+}
+#footer nav {
+  color:white;
+  background-color: rgba(9, 83, 119, 1)
+}
+#footer nav .col-md-2 {
+  padding-top: 20px;
+}
+#footer h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+#footer a {
+  font-size: 0.9rem;
+  color: white;
+  cursor: pointer;
+}
+#footer li {
+  list-style-type: none;
+}
+#footer .navbar{
+  padding: 0;
+}
+#footer-logo {
+  margin-right: 30px;
+}
+#sharing-icons {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+#sharing-icons i {
+  font-size: 200%;
+  padding: 0 4px;
+}
