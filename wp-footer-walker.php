@@ -16,7 +16,7 @@
 
     function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0) {
       if ($depth == 0) {
-        $output .= "\n<div class=\"col\">\n";
+        $output .= "\n<div class=\"col-2\">\n";
       }
 
       $indent = $depth ? str_repeat("\t", $depth) : '';

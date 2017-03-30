@@ -228,12 +228,16 @@ A nice theme.
   background-color: rgba(9, 83, 119, 1)
 }
 #footer h3 {
-  font-size: 18px;
+  font-size: 1rem;
+  font-weight: bold;
 }
 #footer a {
-  font-size: 14px;
-  color:white;
+  font-size: 0.9rem;
+  color: white;
   cursor: pointer;
+}
+#footer li {
+  list-style-type: none;
 }
 #footer .navbar{
   padding: 0;
