@@ -5,6 +5,10 @@
   The following templates are part of this theme:
 
   - front-page.php
+  - contact-page.php
+  - features-page.php
+  - two-columns-page.php
+  - videos-page.php
   - page.php
 
 -->
