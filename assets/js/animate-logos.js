@@ -1,9 +1,8 @@
 (function ($) {
-  $(document).ready(function () {
     var $list = $('#company-logos').find('div[data-info="company-logos"]');
     window.setInterval(function () {
       var $newArray = shuffle($list);
-      for (var i = 0; i < list.length; i += 1) {
+      for (var i = 0; i < $list.length; i += 1) {
         $(list[i]).fadeOut("slow", function () {
           $($newArray[i]).fadeIn("slow");
         });
@@ -23,5 +22,4 @@
       }
       return array;
     }
-  });
 })(jQuery);
