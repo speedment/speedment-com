@@ -6,6 +6,7 @@
             'theme_location' => 'footer-menu',
             'container'      => false,
             'depth'          => 2,
+            'items_wrap'     => '%3$s',
             'walker'         => new Footer_Menu_Walker()
           )); ?>
       </nav>
