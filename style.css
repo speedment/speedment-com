@@ -84,6 +84,10 @@ A nice theme.
     box-shadow: 0 0 8px 0 rgba(176, 176, 176, 0.5);
 }
 
+#subpage-hero {
+  background-color: #eee;
+}
+
 #first-view button {
     min-width: 140px;
     height: 52px;
@@ -181,13 +185,13 @@ A nice theme.
     padding: 10rem 2rem;
 }
 
-#first-view-text-wrapper {
+#first-view #first-view-text-wrapper {
     padding: 20px 10px;
     color: white;
     text-align: left;
 }
 
-#first-view-text-wrapper from {
+#first-view #first-view-text-wrapper from {
     text-align: center;
 }
 
@@ -197,12 +201,16 @@ A nice theme.
     }
 }
 
-#first-view-text-wrapper > h1 {
+#first-view-text-wrapper > h1,
+#first-view-text-wrapper > h2 {
   font-size: 3.0rem;
   font-family: 'Advent Pro';
   margin-top: 0;
   margin-bottom: 24px;
   line-height: 3.5rem;
+}
+
+#first-view #first-view-text-wrapper > h1 {
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
   color: #fff;
 }
