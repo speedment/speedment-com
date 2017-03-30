@@ -11,6 +11,7 @@
             <div class="col-md-7 pull-md-2 col-md-auto">
               <div class="col-md-auto" id="first-view-text-wrapper">
                 <h2><?php single_post_title(); ?></h2>
+                <div class="breadcrumb"><?php get_breadcrumb(); ?></div>
              </div>
             </div>
           </div>
