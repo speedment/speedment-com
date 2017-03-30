@@ -56,7 +56,7 @@
       ); ?>
   </nav>
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-md-up" role="navigation">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#speedment-navbar" aria-controls="speedment-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -72,7 +72,7 @@
         'depth'             => 2,
         'container'         => 'div',
         'container_class'   => 'collapse navbar-collapse',
-        'container_id'      => 'speedment-navbar',
+        'container_id'      => 'mobile-navbar',
         'menu_class'        => 'navbar-nav',
         'walker'            => new bootstrap_4_walker_nav_menu())
       ); ?>
