@@ -17,7 +17,6 @@
         });
         $listShow.push(tempShow);
         $listHide.push(tempHide);
-        console.log($listShow, $listHide);
     }, 3000);
 function getRandomElement(list){
   var index = Math.floor(Math.random() * list.length);
