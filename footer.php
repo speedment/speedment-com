@@ -6,6 +6,7 @@
             <?php wp_nav_menu( array(
               'menu'           => 'footer-menu',
               'theme_location' => 'footer-menu',
+              'container'      => false,
               'depth'          => 2,
               'walker'         => new Footer_Menu_Walker())
             ); ?>
