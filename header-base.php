@@ -62,7 +62,7 @@
 
       <a class="navbar-brand" href="/">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/cross.svg" width="30" height="30" class="d-inline-block align-top" alt="Speedment">
-        Speedment
+        Speedment Mobile
       </a>
 
       <!-- Brand and toggle get grouped for better mobile display -->
