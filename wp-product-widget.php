@@ -21,7 +21,7 @@ class Product_Widget extends WP_Widget {
 	 * @param array $instance Saved values from database.
 	 */
 	public function widget($args, $instance) {
-		$content = explode('\n', $instance['content']);
+		$content = explode("\n", $instance['content']);
 		$title   = apply_filters('widget_title', $instance['title']);
 		echo $args['before_widget']; ?>
 		<div class="<?php echo $instance['widget_classes']; ?>">
