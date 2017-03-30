@@ -81,7 +81,7 @@
   -->
   <div class="row justify-content-center" id="company-logos">
     <div class="container">
-      <div class="row align-items-center justify-content-center">
+      <div class="row align-items-center justify-content-between">
         <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
       </div>
     </div>
