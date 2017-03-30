@@ -4,13 +4,10 @@
         <nav class="navbar  navbar-light bg-faded" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <?php wp_nav_menu( array(
-              'menu'            => 'footer-menu',
-              'theme_location'  => 'footer-menu',
-              'depth'           => 2,
-              'container'       => 'div',
-              'container_id'    => 'bottom-left-footer',
-              'menu_class'      => 'navbar-nav',
-              'walker'          => new bootstrap_4_walker_nav_menu())
+              'menu'           => 'footer-menu',
+              'theme_location' => 'footer-menu',
+              'depth'          => 2,
+              'walker'         => new Footer_Menu_Walker())
             ); ?>
         </nav>
       </div>

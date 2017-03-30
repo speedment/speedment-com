@@ -1,6 +1,7 @@
 <?php
 require_once('wp-bootstrap-navwalker.php');
 require_once('wp-image-box-widget.php');
+require_once('wp-footer-walker.php');
 
 add_theme_support('custom-header');
 
