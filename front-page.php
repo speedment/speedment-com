@@ -54,6 +54,7 @@
       Company Logos
   -->
   <div class="row justify-content-center" id="company-logos">
+    <h2>Companys that using Speedment</h2>
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <?php if (dynamic_sidebar('company_logos')): else: endif; ?>

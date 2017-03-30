@@ -288,3 +288,9 @@ A nice theme.
 .display-none{
   display: none;
 }
+::selection {
+  background: #87bd40; /* WebKit/Blink Browsers blue color is #095377 */
+}
+::-moz-selection {
+  background: #87bd40; /* Gecko Browsers #095377 */
+}
