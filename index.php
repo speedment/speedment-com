@@ -9,7 +9,9 @@
   - features-page.php
   - two-columns-page.php
   - videos-page.php
+  - nav-page.php
   - page.php
+  - blog.php
 
 -->
 <?php get_footer(); ?>
