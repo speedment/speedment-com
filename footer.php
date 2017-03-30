@@ -1,13 +1,11 @@
     <footer class="container-fluid" id="footer">
       <nav class="row" role="navigation">
-          <!-- Brand and toggle get grouped for better mobile display -->
           <?php wp_nav_menu(array(
             'theme_location' => 'footer-menu',
             'menu'           => 'footer-menu',
             'theme_location' => 'footer-menu',
             'container'      => false,
             'depth'          => 2,
-            'echo'           => false,
             'walker'         => new Footer_Menu_Walker()
           )); ?>
       </nav>
