@@ -294,3 +294,44 @@ A nice theme.
 ::-moz-selection {
   background: #87bd40; /* Gecko Browsers #095377 */
 }
+
+/*
+    Product Widget
+*/
+.product {
+  background-color: white;
+  border-radius: 2px;
+  border: solid 1px #ccc;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.product .product-padding {
+  padding: 10px;
+}
+
+.product .product-icon {
+  font-size: 400%;
+}
+
+.product h3 {
+  text-align: center;
+}
+
+.product ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product ul li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+.product ul li::before {
+  vertical-align: middle;
+  font-size: 200%;
+  content: "• ";
+  color: #87bd40;
+}

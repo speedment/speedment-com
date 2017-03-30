@@ -1,6 +1,7 @@
 <?php
 require_once('wp-bootstrap-navwalker.php');
 require_once('wp-image-box-widget.php');
+require_once('wp-product-widget.php');
 require_once('wp-footer-walker.php');
 require_once('wp-dimox-breadcrumbs.php');
 
@@ -61,6 +62,24 @@ function speedment_widgets_init() {
 		'after_widget'  => '</div>',
 		'before_title'  => '',
 		'after_title'   => '',
+	));
+
+  register_sidebar(array(
+		'name'          => 'Products',
+		'id'            => 'products',
+		'before_widget' => '<div class="product-padding">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3>',
+		'after_title'   => '</h3>',
+	));
+
+  register_sidebar(array(
+		'name'          => 'Features',
+		'id'            => 'features',
+		'before_widget' => '<div class="col">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3>',
+		'after_title'   => '</h3>',
 	));
 }
 
