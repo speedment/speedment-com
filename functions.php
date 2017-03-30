@@ -9,6 +9,10 @@ function load_tether() {
   wp_register_script('tether', get_template_directory_uri().'/assets/js/tether.min.js');
   wp_enqueue_script('tether');
 }
+function load_animateLogo() {
+  wp_register_script('animate-logos', get_template_directory_uri().'/assets/js/animate-logos.js');
+  wp_enqueue_script('animate-logos');
+}
 
 function bootstrap_with_jquery_and_tether() {
   wp_register_script('bootstrap', get_template_directory_uri().'/assets/js/bootstrap.min.js', array('jquery', 'tether'));
@@ -52,7 +56,7 @@ function speedment_widgets_init() {
   register_sidebar(array(
 		'name'          => 'Company Logos',
 		'id'            => 'company_logos',
-		'before_widget' => '<div class="col-md-2">',
+		'before_widget' => '<div class="col-md-2" data-info="comapny-logos">',
 		'after_widget'  => '</div>',
 		'before_title'  => '',
 		'after_title'   => '',
@@ -70,5 +74,6 @@ add_action( 'widgets_init', 'speedment_widgets_init' );
 add_action( 'init',         'speedment_menues_init' );
 
 add_action('wp_enqueue_scripts', 'load_tether');
+add_action('wp_enqueue_scripts', 'load_animateLogo');
 add_action('wp_enqueue_scripts', 'bootstrap_with_jquery_and_tether');
 ?>
