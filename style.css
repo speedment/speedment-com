@@ -306,8 +306,7 @@ A nice theme.
   background-color: white;
   border-radius: 2px;
   border: solid 1px #ccc;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding: 50px 20px 30px 20px;
 }
 
 .product .product-icon {
@@ -315,6 +314,8 @@ A nice theme.
 }
 
 .product h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -334,4 +335,10 @@ A nice theme.
   font-size: 200%;
   content: "• ";
   color: #87bd40;
+}
+
+.product button {
+  border-radius: 3px;
+  color: white;
+  background-color: #87bd40;
 }
