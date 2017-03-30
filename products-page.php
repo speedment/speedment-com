@@ -22,7 +22,7 @@ get_header(); ?>
     <!--
         Products Widget Area
     -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center row-eq-height">
       <?php if (dynamic_sidebar('products')): else: endif; ?>
     </div>
   </div>
