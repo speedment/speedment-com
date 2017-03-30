@@ -5,12 +5,12 @@
  */
 get_header(); ?>
 
-<div class="row justify-content-center">
+<div class="row justify-content-center" id="products">
   <div class="container">
     <!--
         Products Page Content
     -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center product-page">
       <div class="col">
         <!-- Start Page Content -->
         <?php while (have_posts()) : the_post();
