@@ -166,6 +166,11 @@ A nice theme.
   font-weight: bold;
 }
 
+#company-logos {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #first-view {
     margin-bottom: 0;
     background-position: 50% 20%;
