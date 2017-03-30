@@ -1,26 +1,28 @@
-(function($) {
-  $( document ).ready(function() {
-    var $listHide = $('#company-logos').find('div[data-info="comapny-logos"]');
-    var $listShow = [];
-    var numElements = Math.min($listHide.length-1, 4);
-    for(var i = 0; i < numElements; i += 1){
-      $listShow.push(getRandomElement($listHide));
-    }
-    $listShow.forEach(function(e){
-      $(e).fadeIn("slow");
-    });
-    window.setInterval(function(){
-        var tempHide = getRandomElement($listShow);
-        var tempShow = getRandomElement($listHide);
-        $(tempHide).fadeOut("slow", function(){
-          $(tempShow).fadeIn("slow");
+(function ($) {
+    var $list = $('#company-logos').find('div[data-info="company-logos"]');
+    window.setInterval(function () {
+      var $newArray = shuffle($list);
+      var $wrapper = $('div[data-info="company-logos-wrapper"]');
+      for (var i = 0; i < 3; i += 1) {
+        $wrapper.fadeOut("slow", function () {
+          for (var i = 0; i < 3; i += 1) {
+            $($newArray[i]).fadeIn("slow");
+          }
         });
-        $listShow.push(tempShow);
-        $listHide.push(tempHide);
-    }, 3000);
-function getRandomElement(list){
-  var index = Math.floor(Math.random() * list.length);
-  return list.splice(index,1)[0];
-}
-});
-})( jQuery );
+      $list = $newArray;
+    }, 6000);
+    function shuffle(oldArray) {
+      var array = oldArray.slice();
+      var currentIndex = array.length,
+        temporaryValue,
+        randomIndex;
+      while (0 !== currentIndex) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+      return array;
+    }
+})(jQuery);
