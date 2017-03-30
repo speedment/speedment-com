@@ -302,6 +302,11 @@ A nice theme.
   margin-bottom: 50px;
 }
 
+.product-page {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .product-padding {
   padding: 10px;
 }
@@ -333,6 +338,7 @@ A nice theme.
   margin: 0;
   text-align: left;
   flex-grow: 1;
+  margin-bottom: 20px;
 }
 
 .product ul li {

@@ -10,7 +10,7 @@ get_header(); ?>
     <!--
         Products Page Content
     -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" class="product-page">
       <div class="col">
         <!-- Start Page Content -->
         <?php while (have_posts()) : the_post();
