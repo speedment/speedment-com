@@ -285,3 +285,6 @@ A nice theme.
   font-size: 200%;
   padding: 0 4px;
 }
+.display-none{
+  display: none;
+}

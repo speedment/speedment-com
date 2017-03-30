@@ -8,7 +8,7 @@
       }
       $listShow.forEach(function(e){
         e.fadeIn();
-      }
+      });
       window.setInterval(function(){
         for(var i = 0; i < numElements; i += 1){
           $listShow.push(getRandomElement($listHide));
