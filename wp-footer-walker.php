@@ -11,12 +11,14 @@
       $indent  = str_repeat("\t", $depth);
       if ($depth > 0) {
         $output .= "\n$indent<ul class=\"footer-menu depth_$depth\">\n";
-      } else {
-        $output .= "\n$indent<div class=\"col\">\n";
       }
     }
 
     function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0) {
+      if ($depth == 0) {
+        $output .= "\n<div class=\"col\">\n";
+      }
+
       $indent = $depth ? str_repeat("\t", $depth) : '';
       $output .= $indent;
 
@@ -27,7 +29,13 @@
 
       //$item_output = $args->before;
       $item_output .= '<a' . $attributes . '>';
+      if ($depth == 0) {
+        $item_output .= '<h3>';
+      }
       $item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
+      if ($depth == 0) {
+        $item_output .= '</h3>';
+      }
       $item_output .= '</a>';
       //$item_output .= $args->after;
 
