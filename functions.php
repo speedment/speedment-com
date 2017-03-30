@@ -24,6 +24,7 @@ function bootstrap_with_jquery_and_tether() {
 function speedment_menues_init() {
     register_nav_menu('top-left-menu',  __( 'Top Left (Blue) Menu'  ));
     register_nav_menu('top-right-menu', __( 'Top Right (White) Menu' ));
+    register_nav_menu('top-mobile-menu', __( 'Mobile Menu' ));
     register_nav_menu('footer-menu',    __( 'Footer Menu'    ));
 }
 

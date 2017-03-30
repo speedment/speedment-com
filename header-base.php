@@ -17,7 +17,7 @@
   <?php wp_head(); ?>
 </head>
 <body>
-  <nav class="navbar-toggleable-md navbar-light bg-faded" role="navigation">
+  <nav class="navbar-toggleable-md navbar-light bg-faded hidden-md-down" role="navigation">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#developer-navbar" aria-controls="developer-navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,7 +33,7 @@
         'walker'            => new bootstrap_4_walker_nav_menu())
       ); ?>
   </nav>
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded" role="navigation">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-md-down" role="navigation">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#speedment-navbar" aria-controls="speedment-navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -47,6 +47,28 @@
       <?php wp_nav_menu(array(
         'menu'              => 'top-left-menu',
         'theme_location'    => 'top-left-menu',
+        'depth'             => 2,
+        'container'         => 'div',
+        'container_class'   => 'collapse navbar-collapse',
+        'container_id'      => 'speedment-navbar',
+        'menu_class'        => 'navbar-nav',
+        'walker'            => new bootstrap_4_walker_nav_menu())
+      ); ?>
+  </nav>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-md-up" role="navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#speedment-navbar" aria-controls="speedment-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand" href="/">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/cross.svg" width="30" height="30" class="d-inline-block align-top" alt="Speedment">
+        Speedment
+      </a>
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <?php wp_nav_menu(array(
+        'menu'              => 'top-mobile-menu',
+        'theme_location'    => 'top-mobile-menu',
         'depth'             => 2,
         'container'         => 'div',
         'container_class'   => 'collapse navbar-collapse',
