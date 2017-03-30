@@ -70,7 +70,7 @@
           <a href="<?php echo get_permalink(26); ?>">Browse the Guides <i class="ionicons ion-ios-arrow-right"></i></a>
         </div>
         <div class="col-md-auto">
-          <i class="fa fa-book" style="font-size:1000%"></i>
+          <i class="fa fa-book" style="font-size:1000%; opacity: 0.5;"></i>
         </div>
       </div>
     </div>
