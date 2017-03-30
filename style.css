@@ -158,6 +158,12 @@ A nice theme.
   margin-top: 10px;
 }
 
+#guides {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(135, 189, 64, 0.5);
+}
+
 #first-view {
     margin-bottom: 0;
     background-position: 50% 20%;
