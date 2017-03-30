@@ -2,7 +2,7 @@
       <nav class="row" role="navigation">
           <!-- Brand and toggle get grouped for better mobile display -->
           <?php wp_nav_menu(array(
-            'theme_location' => 'footer-menu'
+            'theme_location' => 'footer-menu',
             'menu'           => 'footer-menu',
             'theme_location' => 'footer-menu',
             'container'      => false,
