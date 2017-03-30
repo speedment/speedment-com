@@ -59,7 +59,7 @@ class Product_Widget extends WP_Widget {
 		$title             = !empty($instance['title'])             ? $instance['title']             : esc_html__('New title', 'text_domain');
 		$font_icon_classes = !empty($instance['font_icon_classes']) ? $instance['font_icon_classes'] : esc_html__('fa fa-question-circle-o', 'text_domain');
 		$widget_classes    = !empty($instance['widget_classes'])    ? $instance['widget_classes']    : esc_html__('col-md-4', 'text_domain');
-		$content           = !empty($instance['content'])           ? $instance['content']           : esc_html__('Point A\nPoint B\nPoint C', 'text_domain');
+		$content           = !empty($instance['content'])           ? $instance['content']           : esc_html__("Point A\nPoint B\nPoint C", 'text_domain');
 		$link_text         = !empty($instance['link_text'])         ? $instance['link_text']         : esc_html__('Read More', 'text_domain');
 		$link_href         = !empty($instance['link_href'])         ? $instance['link_href']         : esc_html__('', 'text_domain');
 		?>
