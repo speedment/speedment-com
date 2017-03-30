@@ -218,19 +218,19 @@ A nice theme.
     height: 100px;
     width: auto;
 }
-#footer{
+#footer {
   padding: 40px 0;
-  background-color: rgba( 9,83,119, 1 );
+  background-color: rgba(9, 83, 119, 1);
   color: white;
 }
-#footer nav{
+#footer nav {
   color:white;
-  background-color: rgba( 9,83,119, 1 )
+  background-color: rgba(9, 83, 119, 1)
 }
-#footer h3{
+#footer h3 {
   font-size: 18px;
 }
-#footer a{
+#footer a {
   font-size: 14px;
   color:white;
   cursor: pointer;
@@ -238,15 +238,16 @@ A nice theme.
 #footer .navbar{
   padding: 0;
 }
-#footer-logo{
+#footer-logo {
   margin-right: 30px;
 }
-.center-text{
+.center-text {
   text-align: center;
 }
-#sharing-icons{
+#sharing-icons {
   margin-right: 90px;
 }
-#sharing-icons i{
+#sharing-icons i {
+  font-size: 200%;
   padding: 0 4px;
 }
