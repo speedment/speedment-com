@@ -2,12 +2,15 @@
     var $list = $('#company-logos').find('div[data-info="company-logos"]');
     window.setInterval(function () {
       var $newArray = shuffle($list);
-      for (var i = 0; i < $list.length; i += 1) {
-        $(list[i]).fadeOut("slow", function () {
-          $($newArray[i]).fadeIn("slow");
+      var $wrapper = $('div[data-info="company-logos-wrapper"]');
+      for (var i = 0; i < 3; i += 1) {
+        $wrapper.fadeOut("slow", function () {
+          for (var i = 0; i < 3; i += 1) {
+            $($newArray[i]).fadeIn("slow");
+          }
         });
-      }
-    }, 3000);
+      $list = $newArray;
+    }, 6000);
     function shuffle(oldArray) {
       var array = oldArray.slice();
       var currentIndex = array.length,
