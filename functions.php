@@ -67,8 +67,8 @@ function speedment_widgets_init() {
   register_sidebar(array(
 		'name'          => 'Products',
 		'id'            => 'products',
-		'before_widget' => '<div class="product-padding">',
-		'after_widget'  => '</div>',
+		'before_widget' => '',
+		'after_widget'  => '',
 		'before_title'  => '<h3>',
 		'after_title'   => '</h3>',
 	));

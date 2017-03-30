@@ -24,26 +24,28 @@ class Product_Widget extends WP_Widget {
 		$content = explode("\n", $instance['content']);
 		$title   = apply_filters('widget_title', $instance['title']);
 		echo $args['before_widget']; ?>
-		<div class="<?php echo $instance['widget_classes']; ?> product">
-		<?php if (!empty($instance['font_icon_classes'])) { ?>
-			<div class="text-center">
-				<i class="<?php echo $instance['font_icon_classes']; ?> product-icon" aria-hidden="true"></i>
-			</div>
-		<?php } ?>
-			<?php echo $args['before_title'] . $title . $args['after_title']; ?>
-			<?php if (!empty($content)) { ?>
-				<ul class="feature-list">
-					<?php foreach ($content as $c) { ?>
-						<li><?php echo $c; ?></li>
-					<?php } ?>
-				</ul>
-			<?php } ?>
+		<div class="<?php echo $instance['widget_classes']; ?> product-padding">
+			<div class="product">
+				<?php if (!empty($instance['font_icon_classes'])) { ?>
+					<div class="text-center">
+						<i class="<?php echo $instance['font_icon_classes']; ?> product-icon" aria-hidden="true"></i>
+					</div>
+				<?php } ?>
+				<?php echo $args['before_title'] . $title . $args['after_title']; ?>
+				<?php if (!empty($content)) { ?>
+					<ul class="feature-list">
+						<?php foreach ($content as $c) { ?>
+							<li><?php echo $c; ?></li>
+						<?php } ?>
+					</ul>
+				<?php } ?>
 
-			<?php if (!empty($instance['link_text'])) { ?>
-				<a href="<?php echo $instance['link_href']; ?>" rel="Link to <?php echo $title; ?>" class="btn">
-					<?php echo $instance['link_text']; ?>
-				</a>
-			<?php } ?>
+				<?php if (!empty($instance['link_text'])) { ?>
+					<a href="<?php echo $instance['link_href']; ?>" rel="Link to <?php echo $title; ?>" class="btn">
+						<?php echo $instance['link_text']; ?>
+					</a>
+				<?php } ?>
+			</div>
 		</div>
 		<?php echo $args['after_widget'];
 	}
