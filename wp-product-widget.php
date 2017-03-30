@@ -24,10 +24,10 @@ class Product_Widget extends WP_Widget {
 		$content = explode("\n", $instance['content']);
 		$title   = apply_filters('widget_title', $instance['title']);
 		echo $args['before_widget']; ?>
-		<div class="<?php echo $instance['widget_classes']; ?>">
+		<div class="<?php echo $instance['widget_classes']; ?> product">
 		<?php if (!empty($instance['font_icon_classes'])) { ?>
 			<div class="text-center">
-				<i class="<?php echo $instance['font_icon_classes']; ?> widget-icon" aria-hidden="true"></i>
+				<i class="<?php echo $instance['font_icon_classes']; ?> product-icon" aria-hidden="true"></i>
 			</div>
 		<?php } ?>
 			<?php echo $args['before_title'] . $title . $args['after_title']; ?>
