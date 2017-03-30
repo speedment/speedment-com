@@ -232,7 +232,7 @@ A nice theme.
   color:white;
   background-color: rgba(9, 83, 119, 1)
 }
-#footer nav col-md-2 {
+#footer nav .col-md-2 {
   padding-top: 20px;
 }
 #footer h3 {
