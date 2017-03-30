@@ -9,7 +9,7 @@
         $wrapper.fadeOut("slow", function () {
           showIcons();
         });
-    }, 3000);
+    }, 8000);
     function showIcons() {
       $wrapper.html('');
       $wrapper.show();
