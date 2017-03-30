@@ -57,13 +57,13 @@
   -->
   <div class="row justify-content-center" id="guides">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8">
+      <div class="row">
+        <div class="col">
           <h3>Guides</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.</p>
           <a href="<?php echo get_permalink(26); ?>">Browse the Guides <i class="ionicons ion-ios-arrow-right"></i></a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-auto">
           <i class="fa fa-book" style="font-size:1000%"></i>
         </div>
       </div>
