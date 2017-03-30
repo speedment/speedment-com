@@ -149,20 +149,33 @@ A nice theme.
     text-align: center;
 }
 
+#first-view-text-wrapper from {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    #inlineFormInput {
+        width: 100%;
+    }
+}
+
 .information {
     padding: 90px 0;
 }
+
 .offset-feature--link {
     color: #5fa134;
     font-size: 18px;
     line-height: 18px;
 }
+
 .offset-feature--link i {
     font-size: 18px;
     line-height: 10px;
     margin-left: 10px;
     text-decoration: none;
 }
+
 .information h3 {
     font-size: 30px;
     line-height: 30px;
@@ -175,39 +188,48 @@ A nice theme.
     height: 100px;
     width: auto;
 }
-#footer{
-  padding: 40px 0;
-  background-color: rgba( 9,83,119, 1 );
-  color: white;
+
+#footer {
+    padding: 40px 0;
+    background-color: rgba( 9, 83, 119, 1);
+    color: white;
 }
-#footer nav{
-  color:white;
-  background-color: rgba( 9,83,119, 1 )
+
+#footer nav {
+    color: white;
+    background-color: rgba( 9, 83, 119, 1)
 }
-#footer h3{
-  font-size: 18px;
+
+#footer h3 {
+    font-size: 18px;
 }
-#footer a{
-  font-size: 14px;
-  color:white;
-  cursor: pointer;
+
+#footer a {
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
 }
-#footer .navbar{
-  padding: 0;
+
+#footer .navbar {
+    padding: 0;
 }
-#footer-logo{
-  margin-right: 30px;
+
+#footer-logo {
+    margin-right: 30px;
 }
-.center-text{
-  text-align: center;
+
+.center-text {
+    text-align: center;
 }
-#sharing-icons{
-  margin-right: 90px;
+
+#sharing-icons {
+    margin-right: 90px;
 }
-#sharing-icons i{
-  padding: 0 4px;
+
+#sharing-icons i {
+    padding: 0 4px;
 }
 
 .widget-icon {
-  font-size: 1000%
+    font-size: 1000%
 }
