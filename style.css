@@ -1,7 +1,7 @@
 /*
 Theme Name: Speedment 2017
 Theme URI: http://speedment.com
-Author: Speedment, Inc.
+Author: Emil Forslund, John Rossberg
 Author URI: https://github.com/speedment/speedment-com
 Description: A theme for www.speedment.com
 Version: 1.0
@@ -17,6 +17,8 @@ A nice theme.
 @import url('assets/css/bootstrap-reboot.min.css');
 @import url('assets/css/font-awesome.min.css');
 @import url('assets/css/ionicons.min.css');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
 #mainbg_container {
     width: 100%;
     min-width: 960px;
@@ -53,17 +55,6 @@ A nice theme.
     margin-bottom: 50px;
 }
 
-#first-view h4 {
-    margin-top: 0;
-    margin-bottom: 24px;
-    max-width: 820px;
-    line-height: 60px;
-    font-size: 46px;
-    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
-    color: #fff;
-    font-size: 36px;
-}
-
 #signup_form .form-group {
     margin: 0;
 }
@@ -97,7 +88,8 @@ A nice theme.
     min-width: 140px;
     height: 52px;
     border-radius: 3px;
-    background-color: #fd7822;
+    color: white;
+    background-color: #87bd40;
 }
 
 #info-one {
@@ -113,28 +105,75 @@ A nice theme.
     color: white;
 }
 
+#speedment-navbar {
+
+}
+
+#speedment-description {
+  font-size: 200%;
+  font-family: 'Advent Pro';
+}
+
+#speedment-description > div > .textwidget {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 #why-speedment {
     text-align: center;
     background-color: #87bd40;
     color: white;
-    padding: 30px 0 88px;
+    padding: 30px 0 50px;
 }
 
-#why-speedment img {
-    margin-top: 44px;
-    height: 88px;
-    width: auto;
-    margin-bottom: 44px;
+#why-speedment .widget-icon {
+  font-size: 1000%;
+  color: white;
 }
 
-#why-speedment h4 {
-    font-size: 30px;
-    margin-bottom: 20px;
+#why-speedment .big_boxes_title {
+  font-family: 'Advent Pro';
+}
+
+#why-speedment span {
+  font-size: 120%;
+}
+
+#small-boxes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#small-boxes .widget-icon {
+  font-size: 400%;
+  color: #aaa;
+}
+
+#small-boxes h5 {
+  margin-top: 10px;
+}
+
+#guides {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #d4e8c6;
+}
+
+#guides a {
+  color: #87bd40;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#company-logos {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #first-view {
     margin-bottom: 0;
-    background-position: 50% 20%;
+    background-position: 60% 20%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -145,8 +184,7 @@ A nice theme.
 #first-view-text-wrapper {
     padding: 20px 10px;
     color: white;
-    font-size: 17px;
-    text-align: center;
+    text-align: left;
 }
 
 #first-view-text-wrapper from {
@@ -157,6 +195,16 @@ A nice theme.
     #inlineFormInput {
         width: 100%;
     }
+}
+
+#first-view-text-wrapper > h1 {
+  font-size: 3.0rem;
+  font-family: 'Advent Pro';
+  margin-top: 0;
+  margin-bottom: 24px;
+  line-height: 3.5rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .information {
@@ -188,48 +236,44 @@ A nice theme.
     height: 100px;
     width: auto;
 }
-
 #footer {
-    padding: 40px 0;
-    background-color: rgba( 9, 83, 119, 1);
-    color: white;
+  padding-top: 20px;
+  background-color: rgba(9, 83, 119, 1);
+  color: white;
 }
-
 #footer nav {
-    color: white;
-    background-color: rgba( 9, 83, 119, 1)
+  color:white;
+  background-color: rgba(9, 83, 119, 1)
 }
-
+#footer nav .col-md-2 {
+  padding-top: 20px;
+}
 #footer h3 {
-    font-size: 18px;
+  font-size: 1rem;
+  font-weight: bold;
 }
-
 #footer a {
-    font-size: 14px;
-    color: white;
-    cursor: pointer;
+  font-size: 0.9rem;
+  color: white;
+  cursor: pointer;
 }
-
-#footer .navbar {
-    padding: 0;
+#footer li {
+  list-style-type: none;
 }
-
+#footer .navbar{
+  padding: 0;
+}
 #footer-logo {
-    margin-right: 30px;
+  margin-right: 30px;
 }
-
 .center-text {
-    text-align: center;
+  text-align: center;
 }
-
 #sharing-icons {
-    margin-right: 90px;
+  margin-right: 30px;
+  margin-bottom: 10px;
 }
-
 #sharing-icons i {
-    padding: 0 4px;
-}
-
-.widget-icon {
-    font-size: 1000%
+  font-size: 200%;
+  padding: 0 4px;
 }

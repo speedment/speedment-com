@@ -1,61 +1,92 @@
 <?php get_header(); ?>
 
-<h3>Top left menu</h3>
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded" role="navigation">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <?php wp_nav_menu(array(
-      'menu'              => 'top-left-menu',
-      'theme_location'    => 'top-left-menu',
-      'depth'             => 2,
-      'container'         => 'div',
-      'container_class'   => 'collapse navbar-collapse',
-      'container_id'      => 'navbarNavAltMarkup',
-      'menu_class'        => 'navbar-nav',
-      'walker'            => new bootstrap_4_walker_nav_menu())
-    ); ?>
-    <?php wp_nav_menu(array(
-      'menu'              => 'top-left-menu',
-      'theme_location'    => 'top-left-menu',
-      'depth'             => 2,
-      'container'         => 'div',
-      'container_class'   => 'collapse navbar-collapse',
-      'container_id'      => 'navbarNavAltMarkup',
-      'menu_class'        => 'navbar-nav',
-      'walker'            => new bootstrap_4_walker_nav_menu())
-    ); ?>
-</nav>
-
-<!-- Main hero unit for a primary marketing message or call to action -->
+<!--
+    Main Hero (#1 Tool to Accelerate Existing Database Applications)
+-->
 <div class="jumbotron jumbotron-fluid" id="first-view" style="
-  background-image: url(<?php header_image(); ?>);">
+  background-image: url('<?php header_image(); ?>');">
     <div class="row justify-content-md-center">
-      <div class="col-7 pull-2 col-md-auto">
-        <div class="col-md-auto" id="first-view-text-wrapper">
-          <h4># Tool to Accelereate Existing <br> Database Applications</h4>
-          <form class="lead">
-            <label class="sr-only" for="inlineFormInput">Name</label>
-            <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"
-            id="inlineFormInput" placeholder="Enter your work email">
-            <button type="submit" class="btn btn-success">Try For Free</button>
-          </form>
-       </div>
+      <div class="col">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-md-7 pull-md-2 col-md-auto">
+              <div class="col-md-auto" id="first-view-text-wrapper">
+                <h1><?php echo get_bloginfo('description'); ?></h1>
+                <form class="lead">
+                  <label class="sr-only" for="inlineFormInput">Name</label>
+                  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0"
+                  id="inlineFormInput" placeholder="Enter your work email">
+                  <button type="submit" class="btn btn-success">Try For Free</button>
+                </form>
+             </div>
+            </div>
+          </div>
+        </div>
       </div>
   </div>
 </div>
 
-<div class="row">
-  <?php if (dynamic_sidebar('home_description')): else: endif; ?>
-</div>
-<div class="row justify-content-md-center" id="why-speedment">
-  <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
-</div>
-<div class="row justify-content-md-center">
-  <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
-</div>
-<div class="row justify-content-md-center">
-  <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
-</div>
+<div class="container-fluid">
+  <!--
+      Description (Speedment Enables You to Perform... etc.)
+  -->
+  <div class="row justify-content-center" id="speedment-description">
+    <div class="col-lg-6">
+      <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+    </div>
+  </div>
+
+  <!--
+      Why Speedment (Large boxes on green background)
+  -->
+  <div class="row justify-content-center" id="why-speedment">
+    <div class="container">
+      <div class="row justify-content-center">
+        <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
+      </div>
+    </div>
+  </div>
+
+  <!--
+      Buzzwords (Small boxes on white background)
+  -->
+  <div class="row justify-content-center" id="small-boxes">
+    <div class="container">
+      <div class="row justify-content-center">
+        <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
+      </div>
+    </div>
+  </div>
+
+  <!--
+      Guides (Text Area with link and picture on light green background)
+  -->
+  <div class="row justify-content-center" id="guides">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <h3>Guides</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.</p>
+          <a href="<?php echo get_permalink(26); ?>">Browse the Guides <i class="ionicons ion-ios-arrow-right"></i></a>
+        </div>
+        <div class="col-md-auto">
+          <i class="fa fa-book" style="font-size:1000%; opacity: 0.5;"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+      Company Logos
+  -->
+  <div class="row justify-content-center" id="company-logos">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
+      </div>
+    </div>
+  </div>
+
+</div><!-- container-fluid -->
+
 <?php get_footer(); ?>
