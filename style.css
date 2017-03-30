@@ -123,7 +123,7 @@ A nice theme.
     text-align: center;
     background-color: #87bd40;
     color: white;
-    padding: 30px 0 88px;
+    padding: 30px 0 50px;
 }
 
 #why-speedment .widget-icon {
@@ -131,16 +131,12 @@ A nice theme.
   color: white;
 }
 
-#why-speedment img {
-    margin-top: 44px;
-    height: 88px;
-    width: auto;
-    margin-bottom: 44px;
+#why-speedment .big_boxes_title {
+  font-family: 'Advent Pro';
 }
 
-#why-speedment h4 {
-    font-size: 30px;
-    margin-bottom: 20px;
+#why-speedment span {
+  font-size: 120%;
 }
 
 #small-boxes {
@@ -161,7 +157,13 @@ A nice theme.
 #guides {
   padding-top: 30px;
   padding-bottom: 30px;
-  background: rgba(135, 189, 64, 0.5);
+  background-color: #d4e8c6;
+}
+
+#guides a {
+  color: #87bd40;
+  font-size: 110%;
+  font-weight: bold;
 }
 
 #first-view {

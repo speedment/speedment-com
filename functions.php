@@ -35,7 +35,7 @@ function speedment_widgets_init() {
 		'id'            => 'big_boxes',
 		'before_widget' => '',
 		'after_widget'  => '',
-		'before_title'  => '<h3>',
+		'before_title'  => '<h3 class="big_boxes_title">',
 		'after_title'   => '</h3>',
 	));
 

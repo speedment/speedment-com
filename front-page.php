@@ -57,7 +57,7 @@
   -->
   <div class="row justify-content-center" id="guides">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col">
           <h3>Guides</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.</p>
