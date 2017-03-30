@@ -70,7 +70,7 @@ A nice theme.
     border: 0;
 }
 
-#first-view input {
+#inlineFormInput {
     display: inline-block;
     width: 300px;
     height: 52px;
