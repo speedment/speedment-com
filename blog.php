@@ -3,7 +3,9 @@
 Template Name: Blog
 */
 get_header(); ?>
-
-Blog Posts Here
-
+<!-- Start Page Content -->
+<?php while (have_posts()) : the_post();
+  the_content();
+endwhile; ?>
+<!-- Start Page Content -->
 <?php get_footer(); ?>
