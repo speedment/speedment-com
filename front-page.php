@@ -43,7 +43,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.</p>
           <a href="<?php echo get_permalink(26); ?>">Browse the Guides <i class="ionicons ion-ios-arrow-right"></i></a>
         </div>
-        <div class="col-md-auto">
+        <div class="col-md-auto hidden-sm-down">
           <i class="fa fa-book" style="font-size:1000%; opacity: 0.5;"></i>
         </div>
       </div>
