@@ -1,7 +1,8 @@
 <?php
 /*
-Template Name: Navigation Page
-*/
+ * Template Name: Navigation Page
+ * Description: Page template with links to subpages above the text
+ */
 get_header(); ?>
 
 Links to subpages here
