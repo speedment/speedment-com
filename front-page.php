@@ -9,7 +9,7 @@
       <div class="col">
         <div class="container">
           <div class="row justify-content-md-center">
-            <div class="col-7 pull-2 col-md-auto">
+            <div class="col-md-7 pull-md-2 col-md-auto">
               <div class="col-md-auto" id="first-view-text-wrapper">
                 <h1><?php echo get_bloginfo('description'); ?></h1>
                 <form class="lead">
