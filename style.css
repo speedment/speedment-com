@@ -302,6 +302,12 @@ A nice theme.
   background-color: white;
   border-radius: 2px;
   border: solid 1px #ccc;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.product .product-padding {
+  padding: 10px;
 }
 
 .product .product-icon {
@@ -324,6 +330,7 @@ A nice theme.
 }
 
 .product ul li::before {
+  vertical-align: middle;
   font-size: 200%;
   content: "• ";
   color: #87bd40;
