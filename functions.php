@@ -52,10 +52,10 @@ function speedment_widgets_init() {
   register_sidebar(array(
 		'name'          => 'Company Logos',
 		'id'            => 'company_logos',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h5>',
-		'after_title'   => '</h5>',
+		'before_widget' => '<div class="col-md-2">',
+		'after_widget'  => '</div>',
+		'before_title'  => '',
+		'after_title'   => '',
 	));
 }
 
