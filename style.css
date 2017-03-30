@@ -245,7 +245,8 @@ A nice theme.
   text-align: center;
 }
 #sharing-icons {
-  margin-right: 90px;
+  margin-right: 30px;
+  margin-bottom: 10px;
 }
 #sharing-icons i {
   font-size: 200%;
