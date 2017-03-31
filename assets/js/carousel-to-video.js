@@ -10,7 +10,6 @@
         var modal = $(this)
         modal.find('iframe').attr('src', url);
       }).on('hidden.bs.modal', function () {
-        console.log("click");
       $(this).find('iframe').removeAttr('src');
     });
   });
