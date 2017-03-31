@@ -5,8 +5,12 @@
       Description (Speedment Enables You to Perform... etc.)
   -->
   <div class="row justify-content-center" id="speedment-description">
-    <div class="col-lg-6">
-      <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -85,6 +89,7 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+
 <div class="modal fade" id="front-page-video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
