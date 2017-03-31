@@ -1,19 +1,30 @@
-#nav-bar-wrapper{
+#nav-bar-wrapper {
   position: fixed;
   width: 100%;
   z-index: 600;
   top: 0;
 }
+
+#nav-bar-wrapper.logged-in {
+  top: 32;
+}
+
 #developer-navbar {
-    background-color: rgba( 9, 83, 119, 1);
+  background-color: rgba(9, 83, 119, 1);
 }
 
 #developer-navbar a {
-    color: white;
+  color: white;
 }
+
+#developer-navbar ul > li:last-child {
+  margin-right: 16px;
+}
+
 #mobile-navbar{
   text-align: center;
 }
+
 #mobile-navbar .dropdown-menu {
   background-color: none;
   border: 0;
