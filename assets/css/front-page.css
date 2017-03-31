@@ -36,6 +36,14 @@
 #front-page-video-modal .modal-content {
     background-color: transparent;
     border: 0;
+    position: relative;
+}
+#front-page-video-modal .button {
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    top: -10px;
+    right: 5px;
 }
 #front-page-video-modal .modal-header {
   background-color: transparent;
