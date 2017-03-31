@@ -15,7 +15,7 @@ function load_animateLogo() {
   wp_register_script('animate-logos', get_template_directory_uri().'/assets/js/animate-logos.js');
   wp_enqueue_script('animate-logos');
 }
-function load_animateLogo() {
+function load_carosuelVideo() {
   wp_register_script('carousel-to-video', get_template_directory_uri().'/assets/js/carousel-to-video.js');
   wp_enqueue_script('carousel-to-video');
 }
@@ -100,6 +100,6 @@ add_action( 'init',         'speedment_menues_init' );
 
 add_action('wp_enqueue_scripts', 'load_tether');
 add_action('wp_enqueue_scripts', 'load_animateLogo');
-add_action('wp_enqueue_scripts', 'carousel-to-video');
+add_action('wp_enqueue_scripts', 'load_carosuelVideo');
 add_action('wp_enqueue_scripts', 'bootstrap_with_jquery_and_tether');
 ?>
