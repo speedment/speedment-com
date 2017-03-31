@@ -62,13 +62,32 @@
     </div>
   </div>
   <!---
-  Video
+  Videos
   --->
-  <div class="row justify-content-center" id="front-page-video">
-    <div class="col-12">
-      <iframe src="//www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="http://130.211.229.25/hello-speedment/" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <p><i class="fa fa-play-circle" aria-hidden="true"></i></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="http://130.211.229.25/forest/" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <p><i class="fa fa-play-circle" aria-hidden="true"></i></p>
+      </div>
     </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 </div><!-- container-fluid -->
 
