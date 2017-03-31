@@ -38,5 +38,5 @@
 }
 
 #wpadminbar {
-  position: fixed;
+  position: fixed !important;
 }
