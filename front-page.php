@@ -61,28 +61,29 @@
       </div>
     </div>
   </div>
-  <!---
-  Videos
-  --->
+
+  <!--
+      Videos
+  -->
   <div id="front-page-video-carousel" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/Hello-Speedment.png" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-        <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap">
-          <i class="fa fa-play-circle" aria-hidden="true" data-video="https://www.youtube.com/watch?v=tDpwKZbeDuU"></i></p>
-        </a>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/Hello-Speedment.png" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap">
+            <i class="fa fa-play-circle" aria-hidden="true" data-video="https://www.youtube.com/watch?v=tDpwKZbeDuU"></i></p>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
 </div>
 <div class="modal fade" id="front-page-video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
