@@ -1,3 +1,7 @@
+#nav-bar-wrapper{
+  position: fixed;
+  width: 100%;
+}
 #developer-navbar {
     background-color: rgba( 9, 83, 119, 1);
 }
