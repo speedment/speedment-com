@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   z-index: 20000;
-  padding-top: -40px;
+  top: 0;
 }
 #developer-navbar {
     background-color: rgba( 9, 83, 119, 1);
