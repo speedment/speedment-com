@@ -114,9 +114,8 @@ body{
   font-family: 'Advent Pro';
 }
 
-#speedment-description > div > .textwidget {
-  margin-top: 50px;
-  margin-bottom: 50px;
+#speedment-description .textwidget {
+  padding: 50px;
 }
 
 #why-speedment {

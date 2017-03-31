@@ -7,7 +7,7 @@
   <div class="row justify-content-center" id="speedment-description">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-6">
+        <div class="col-lg">
           <?php if (dynamic_sidebar('home_description')): else: endif; ?>
         </div>
       </div>
