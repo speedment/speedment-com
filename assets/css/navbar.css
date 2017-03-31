@@ -41,6 +41,11 @@
   #mobile-navbar{
     text-align: left;
   }
+  #mobile-navbar .dropdown-menu {
+    background-color: none;
+    border: 0;
+    text-align: left;
+  }
 }
 
 #wpadminbar {
