@@ -70,7 +70,7 @@
       Videos
   -->
   <div class="row justify-content-center">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row align-items-center">
           <div id="front-page-video-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
