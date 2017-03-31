@@ -6,7 +6,13 @@
 }
 
 #nav-bar-wrapper.logged-in {
-  top: 32;
+  top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  #nav-bar-wrapper.logged-in {
+    top: 46px;
+  }
 }
 
 #developer-navbar {
@@ -29,4 +35,8 @@
   background-color: none;
   border: 0;
   text-align: center;
+}
+
+#wpadminbar {
+  position: fixed !important;
 }
