@@ -91,6 +91,7 @@
                   </a>
                 </div>
               </div>
+            </div>
               <a class="carousel-control-prev" href="#front-page-video-carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -100,7 +101,6 @@
                 <span class="sr-only">Next</span>
               </a>
           </div>
-         </div>
 
 <div class="modal fade " id="front-page-video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
