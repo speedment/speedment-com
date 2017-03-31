@@ -64,16 +64,10 @@
   <!---
   Videos
   --->
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div id="front-page-video-carousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/Hello-Speedment.png" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
-        <p><i class="fa fa-play-circle" aria-hidden="true"></i></p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/Forest.png" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <p><i class="fa fa-play-circle" aria-hidden="true"></i></p>
       </div>

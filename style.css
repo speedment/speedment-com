@@ -19,6 +19,7 @@ A nice theme.
 @import url('assets/css/ionicons.min.css');
 @import url('assets/css/footer.css');
 @import url('assets/css/navbar.css');
+@import url('assets/css/front-page.css');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
 body{
   padding-top: 40px;

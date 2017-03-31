@@ -1,4 +1,10 @@
-#front-page-video{
-  height: 100%;
+#front-page-video-carousel{
+  height: auto;
   width:100%;
+}
+#front-page-video-carousel .carousel-caption{
+  top:auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
 }
