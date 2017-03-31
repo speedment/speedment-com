@@ -1,7 +1,6 @@
 
 (function ($) {
   $( document ).ready(function() {
-    console.log('ready to go!!');
       $('#front-page-video-modal').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget) // Button that triggered the modal
         var url = button.data('video') // Extract info from data-* attributes
@@ -10,6 +9,8 @@
         // other methods instead.
         var modal = $(this)
         modal.find('iframe').attr('src', url);
-      })
+      }).on('hidden.bs.modal', function () {
+      $(this).removeAttr('src');
+    });
   });
 })(jQuery);
