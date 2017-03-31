@@ -69,8 +69,8 @@
     <div class="carousel-item active">
       <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/Hello-Speedment.png" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-        <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap">
-          <i class="fa fa-play-circle" aria-hidden="true" data-video="https://www.youtube.com/watch?v=tDpwKZbeDuU"></i></p>
+        <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap" data-video="https://www.youtube.com/watch?v=tDpwKZbeDuU">
+          <i class="fa fa-play-circle" aria-hidden="true"></i></p>
         </a>
       </div>
     </div>
