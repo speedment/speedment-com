@@ -33,3 +33,11 @@
 #front-page-video-carousel img{
   width: 100%;
 }
+#front-page-video-modal .modal-content {
+    background-color: transparent;
+    border: 0;
+}
+#front-page-video-modal .modal-header {
+  background-color: transparent;
+  border: 0;
+}
