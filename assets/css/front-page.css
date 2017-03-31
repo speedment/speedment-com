@@ -10,6 +10,14 @@
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 }
+#front-page-video-carousel .carousel-caption button{
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
 #front-page-video-carousel .carousel-caption p{
   width: 50%;
   height: 50%;
@@ -29,4 +37,7 @@
   right: 0;
   font-size: 60px;
   color: green;
+}
+#front-page-video-carousel img{
+  width: 100%;
 }
