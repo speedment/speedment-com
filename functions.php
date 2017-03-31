@@ -6,6 +6,7 @@ require_once('wp-footer-walker.php');
 require_once('wp-dimox-breadcrumbs.php');
 
 add_theme_support('custom-header');
+add_theme_support('post-thumbnails', array('page'));
 
 function load_tether() {
   wp_register_script('tether', get_template_directory_uri().'/assets/js/tether.min.js');

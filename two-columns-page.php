@@ -4,9 +4,22 @@
  * Description: Page template that shows text on left and the cover image to the right
  */
 get_header(); ?>
-<!-- Start Page Content -->
-<?php while (have_posts()) : the_post();
-  the_content();
-endwhile; ?>
-<!-- Start Page Content -->
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="container">
+      <?php while (have_posts()) : the_post(); ?>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-sm-12">
+          <?php the_content(); ?>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <?php the_post_thumbnail('medium_large'); ?>
+        </div>
+      </div>
+      <?php endwhile; ?>
+    </div>
+  </div>
+</div>
+
 <?php get_footer(); ?>
