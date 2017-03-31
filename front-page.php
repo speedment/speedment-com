@@ -5,8 +5,12 @@
       Description (Speedment Enables You to Perform... etc.)
   -->
   <div class="row justify-content-center" id="speedment-description">
-    <div class="col-lg-6">
-      <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -61,9 +65,10 @@
       </div>
     </div>
   </div>
-  <!---
-  Videos
-  --->
+
+  <!--
+      Videos
+  -->
   <div id="front-page-video-carousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
@@ -74,16 +79,16 @@
         </a>
       </div>
     </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
 </div>
+
 <div class="modal fade" id="front-page-video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
