@@ -76,6 +76,7 @@
   <div class="row justify-content-center">
     <div class="container-fluid">
         <div class="row align-items-center">
+          <div class="col-12"
           <div id="front-page-video-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active" style="background-image: url(http://130.211.229.25/wp-content/uploads/2017/03/Hello-Speedment.png);">
@@ -97,6 +98,7 @@
           </div>
          </div>
       </div>
+    </div>
     </div>
   </div>
 
