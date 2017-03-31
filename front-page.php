@@ -83,7 +83,7 @@
                   </a>
                 </div>
               </div>
-              <div class="carousel-item active" style="background-image: url(http://130.211.229.25/wp-content/uploads/2017/03/bigstock-handshake-isolated-on-business-42882616-1500x630.jpg);">
+              <div class="carousel-item" style="background-image: url(http://130.211.229.25/wp-content/uploads/2017/03/bigstock-handshake-isolated-on-business-42882616-1500x630.jpg);">
                 <div class="carousel-caption d-none d-md-block">
                   <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap"
                   data-video="https://www.youtube.com/embed/QJs3yjInlKI">
