@@ -18,7 +18,7 @@
 </head>
 <body>
   <div class="nav-bar-wrapper">
-    <nav class="navbar-toggleable-md navbar-light bg-faded hidden-sm-down" role="navigation">
+    <nav class="navbar-toggleable-md navbar-light bg-faded hidden-md-down" role="navigation">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#developer-navbar" aria-controls="developer-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,7 +34,7 @@
           'walker'            => new bootstrap_4_walker_nav_menu())
         ); ?>
     </nav>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-sm-down" role="navigation">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-md-down" role="navigation">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#speedment-navbar" aria-controls="speedment-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,7 +56,7 @@
           'walker'            => new bootstrap_4_walker_nav_menu())
         ); ?>
     </nav>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-md-up" role="navigation">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-lgg-up" role="navigation">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
