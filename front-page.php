@@ -58,8 +58,12 @@
       Company Logos
   -->
   <div class="row justify-content-center" id="company-logos">
-    <h2>Companys that using Speedment</h2>
     <div class="container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h2>Companys that using Speedment</h2>
+        </div>
+      </div>
       <div class="row align-items-center justify-content-between" data-info="company-logos-wrapper">
         <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
       </div>
