@@ -21,7 +21,7 @@ A nice theme.
 @import url('assets/css/navbar.css');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
 body{
-  padding-top: 20px;
+  padding-top: 40px;
 }
 #mainbg_container {
     width: 100%;
