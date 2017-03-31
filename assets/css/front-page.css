@@ -43,6 +43,13 @@
 #front-page-video-carousel img {
     margin: -100%;
 }
+#front-page-video-carousel .carousel-inner{
+    background-color: #f4f4f8!important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1440px auto;
+    height: 720px;
+}
 
 #front-page-video-modal .modal-content {
     background-color: transparent;
@@ -70,12 +77,4 @@
     overflow: hidden;
     text-align: center;
     width: 200px;
-}
-
-#front-page-video-modal .carousel-inner{
-    background-color: #f4f4f8!important;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 1440px auto;
-    height: 720px;
 }

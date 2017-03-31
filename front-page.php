@@ -86,15 +86,6 @@
                   </a>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/bigstock-handshake-isolated-on-business-42882616-1500x630.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap"
-                  data-video="https://www.youtube.com/embed/QJs3yjInlKI">
-                    <i class="fa fa-play-circle" aria-hidden="true"></i></p>
-                  </a>
-                </div>
-              </div>
               <a class="carousel-control-prev" href="#front-page-video-carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
