@@ -1,7 +1,7 @@
 #nav-bar-wrapper{
   position: fixed;
   width: 100%;
-  z-index: 20000;
+  z-index: 600;
   top: 0;
 }
 #developer-navbar {
