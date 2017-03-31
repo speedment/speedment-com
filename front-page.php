@@ -61,7 +61,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col">
-          <h2>Companys that using Speedment</h2>
+          <h2 class="text-center">Companys that using Speedment</h2>
         </div>
       </div>
       <div class="row align-items-center justify-content-between" data-info="company-logos-wrapper">
