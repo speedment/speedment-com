@@ -73,7 +73,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/forest/" alt="Second slide">
+      <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/Forest.png" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <p><i class="fa fa-play-circle" aria-hidden="true"></i></p>
       </div>
