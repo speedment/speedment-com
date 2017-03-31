@@ -1,6 +1,7 @@
 #nav-bar-wrapper{
   position: fixed;
   width: 100%;
+  z-index: 20000;
 }
 #developer-navbar {
     background-color: rgba( 9, 83, 119, 1);
