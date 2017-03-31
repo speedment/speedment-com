@@ -40,3 +40,14 @@
 #wpadminbar {
   position: fixed !important;
 }
+
+/* Speedment Logo */
+.navbar-brand {
+    font-family: 'Advent Pro';
+    font-weight: bold;
+    margin-right: 1.5rem;
+}
+
+.navbar-brand > img {
+    margin-right: -2px;
+}
