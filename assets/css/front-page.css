@@ -43,7 +43,14 @@
 #front-page-video-carousel img {
     margin: -100%;
 }
-#front-page-video-carousel .carousel-inner{
+
+#front-page-video-carousel .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#front-page-video-carousel .carousel-item {
     background-color: #f4f4f8!important;
     background-position: center center;
     background-repeat: no-repeat;
