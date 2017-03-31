@@ -1,43 +1,55 @@
-#front-page-video-carousel{
-  height: auto;
-  width:100%;
+#front-page-video-carousel {
+    height: auto;
+    width: 100%;
 }
-#front-page-video-carousel .carousel-caption{
-  width: 50%;
-  height: 50%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+
+#front-page-video-carousel .carousel-caption {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
-#front-page-video-carousel .carousel-caption a{
-  width: 50%;
-  height: 50%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+
+#front-page-video-carousel .carousel-caption a {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
-#front-page-video-carousel .carousel-caption i{
-  height: 50%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  font-size: 60px;
-  color: green;
+
+#front-page-video-carousel .carousel-caption i {
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 60px;
+    color: green;
 }
-#front-page-video-carousel img{
-  width: 100%;
+
+#front-page-video-carousel img {
+    margin: -100%;
 }
+
 #front-page-video-modal .modal-content {
     background-color: transparent;
     border: 0;
     position: relative;
 }
+
 #front-page-video-modal button {
     position: absolute;
     font-size: 14px;
@@ -46,7 +58,24 @@
     right: 5px;
     opacity: 0;
 }
+
 #front-page-video-modal .modal-header {
-  background-color: transparent;
-  border: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+#front-page-video-modal .image-wraper {
+    height: 200px;
+    line-height: 200px;
+    overflow: hidden;
+    text-align: center;
+    width: 200px
+}
+
+#front-page-video-modal .carousel-inner{
+    background-color: #f4f4f8!important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1440px auto;
+    height: 720px;
 }
