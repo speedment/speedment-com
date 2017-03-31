@@ -61,6 +61,14 @@
       </div>
     </div>
   </div>
+  <!---
+  Video
+  --->
+  <div class="row justify-content-center" id="front-page-video">
+    <div class="col-12">
+      <iframe src="//www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+    </div>
+  </div>
 
 </div><!-- container-fluid -->
 
