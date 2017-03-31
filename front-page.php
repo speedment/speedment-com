@@ -84,7 +84,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/bigstock-handshake-isolated-on-business-42882616-1500x630.jpg" alt="First slide">
+                <img class="d-block img-fluid" src="http://130.211.229.25/wp-content/uploads/2017/03/bigstock-handshake-isolated-on-business-42882616-1500x630.jpg" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
                   <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap"
                   data-video="https://www.youtube.com/embed/QJs3yjInlKI">
