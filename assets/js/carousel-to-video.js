@@ -1,6 +1,7 @@
 
 (function ($) {
   $( document ).ready(function() {
+    console.log('ready to go!!');
       $('#front-page-video-modal').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget) // Button that triggered the modal
         var recipient = button.data('video') // Extract info from data-* attributes
