@@ -105,6 +105,10 @@ body{
     background-color: #87bd40;
 }
 
+.breadcrumb {
+  padding: 0px;
+}
+
 #info-one {
     text-align: center;
     padding: 20px 5px 60px 5px;
