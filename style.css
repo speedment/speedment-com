@@ -315,3 +315,16 @@ body{
   color: white;
   background-color: #87bd40;
 }
+
+/*
+    Two Column Layout
+*/
+#two-column-layout {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#two-column-layout .right-side img {
+  width: 100%;
+  height: auto;
+}
