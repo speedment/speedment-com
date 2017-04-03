@@ -189,8 +189,7 @@ body{
     padding: 10rem 2rem;
 }
 
-#first-view-text-wrapper {
-    padding: 20px 10px;
+#first-view #first-view-text-wrapper {
     color: white;
     text-align: left;
 }
@@ -212,6 +211,10 @@ body{
     #first-view #first-view-text-wrapper > form {
         flex-direction: column;
     }
+}
+
+#first-view-text-wrapper {
+  padding: 20px 10px;
 }
 
 #first-view-text-wrapper > h1,
