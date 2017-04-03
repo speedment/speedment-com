@@ -44,6 +44,7 @@
       <div class="row align-items-center">
         <div class="col">
           <h3>Guides</h3>
+          <p><?php echo $wp_customize->get_setting('front_page_guides_text'); ?></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.</p>
           <a href="<?php echo get_permalink(26); ?>">Browse the Guides <i class="fa fa-arrow-right"></i></a>
         </div>

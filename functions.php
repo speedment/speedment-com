@@ -101,6 +101,23 @@ function speedment_widgets_init() {
 	));
 }
 
+function speedment_options_init($wp_customize) {
+  $wp_customize->add_control(
+  	'front_page_guides_text',
+  	array(
+  		'label'       => __('Guides Text', 'default'),
+      'description' => __('The text to be shown under the "Guides" section on the frontpage.', 'default'),
+  		'section'     => 'static_front_page',
+  		'settings'    => 'front_page_guides_text_setting',
+  		'type'        => 'textarea',
+  		'choices'     => array(
+  			'left'  => 'left',
+  			'right' => 'right',
+  		),
+  	)
+  );
+}
+
 function cc_mime_types($mimes) {
   $mimes['svg'] = 'image/svg+xml';
   return $mimes;
@@ -115,4 +132,5 @@ add_action('wp_enqueue_scripts', 'load_tether');
 add_action('wp_enqueue_scripts', 'load_animateLogo');
 add_action('wp_enqueue_scripts', 'load_carosuelVideo');
 add_action('wp_enqueue_scripts', 'bootstrap_with_jquery_and_tether');
+add_action('customize_register', 'speedment_options_init');
 ?>
