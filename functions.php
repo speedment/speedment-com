@@ -2,6 +2,7 @@
 require_once('wp-bootstrap-navwalker.php');
 require_once('wp-image-box-widget.php');
 require_once('wp-product-widget.php');
+require_once('wp-portrait-widget.php');
 require_once('wp-footer-walker.php');
 require_once('wp-dimox-breadcrumbs.php');
 
@@ -12,10 +13,12 @@ function load_tether() {
   wp_register_script('tether', get_template_directory_uri().'/assets/js/tether.min.js');
   wp_enqueue_script('tether');
 }
+
 function load_animateLogo() {
   wp_register_script('animate-logos', get_template_directory_uri().'/assets/js/animate-logos.js');
   wp_enqueue_script('animate-logos');
 }
+
 function load_carosuelVideo() {
   wp_register_script('carousel-to-video', get_template_directory_uri().'/assets/js/carousel-to-video.js');
   wp_enqueue_script('carousel-to-video');
@@ -87,6 +90,15 @@ function speedment_widgets_init() {
 		'before_title'  => '<h3>',
 		'after_title'   => '</h3>',
 	));
+
+  register_sidebar(array(
+		'name'          => 'Portraits',
+		'id'            => 'portraits',
+		'before_widget' => '<div class="col">',
+		'after_widget'  => '</div>',
+		'before_title'  => '',
+		'after_title'   => '',
+	));
 }
 
 function cc_mime_types($mimes) {
@@ -96,8 +108,8 @@ function cc_mime_types($mimes) {
 
 add_filter('upload_mimes', 'cc_mime_types');
 
-add_action( 'widgets_init', 'speedment_widgets_init' );
-add_action( 'init',         'speedment_menues_init' );
+add_action('widgets_init', 'speedment_widgets_init');
+add_action('init',         'speedment_menues_init');
 
 add_action('wp_enqueue_scripts', 'load_tether');
 add_action('wp_enqueue_scripts', 'load_animateLogo');
