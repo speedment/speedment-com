@@ -42,6 +42,7 @@
 
 #front-page-video-carousel .carousel-caption i:hover {
     color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
 }
 
 #front-page-video-carousel img {
