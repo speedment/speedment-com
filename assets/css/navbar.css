@@ -27,7 +27,7 @@
   margin-right: 16px;
 }
 
-#mobile-navbar{
+#mobile-navbar {
   text-align: center;
 }
 
@@ -37,10 +37,11 @@
   text-align: center;
 }
 
-@media (max-width: 576px) {
-  #mobile-navbar{
+@media (min-width: 576px) {
+  #mobile-navbar {
     text-align: left;
   }
+
   #mobile-navbar .dropdown-menu {
     background-color: none;
     border: 0;
