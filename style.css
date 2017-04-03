@@ -21,14 +21,22 @@ A nice theme.
 @import url('assets/css/navbar.css');
 @import url('assets/css/front-page.css');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
 body{
   padding-top: 54px;
 }
+
 @media (min-width: 992px){
   body {
     padding-top: 97px;
   }
 }
+
+.row {
+  margin-left: inherit !important;
+  margin-right: inherit !important;
+}
+
 #mainbg_container {
     width: 100%;
     min-width: 960px;
