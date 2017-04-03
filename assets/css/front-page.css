@@ -37,7 +37,11 @@
     bottom: 0;
     right: 0;
     font-size: 60px;
-    color: green;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#front-page-video-carousel .carousel-caption i:hover {
+    color: rgba(255, 255, 255, 0.75);
 }
 
 #front-page-video-carousel img {
