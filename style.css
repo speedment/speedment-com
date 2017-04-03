@@ -360,6 +360,10 @@ body{
   padding: 20px;
 }
 
+.portrait-image {
+  padding-bottom: 20px;
+}
+
 .portrait-image > img {
   width: 100%;
 }
