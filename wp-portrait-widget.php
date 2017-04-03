@@ -100,5 +100,11 @@ function register_portrait_widget() {
     register_widget('Portrait_Widget');
 }
 
+function register_portrait_script() {
+  wp_register_script('portrait_script', get_template_directory_uri().'/wp_portrait_widget.js');
+  wp_enqueue_script('portrait_script');
+}
+
 add_action('widgets_init', 'register_portrait_widget');
+add_action('admin_enqueue_scripts', 'register_portrait_script');
 ?>
