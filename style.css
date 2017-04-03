@@ -343,3 +343,10 @@ body{
   width: 100%;
   height: auto;
 }
+
+/*
+    Gallery Layout
+*/
+.portrait-image > img {
+  width: 100%;
+}
