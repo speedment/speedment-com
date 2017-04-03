@@ -1,7 +1,7 @@
     <footer class="container-fluid" id="footer">
       <div class="row justify-content-center">
         <div class="container">
-          <nav class="row justify-content-start" role="navigation">
+          <nav class="row justify-content-center" role="navigation">
               <?php wp_nav_menu(array(
                 'theme_location' => 'footer-menu',
                 'menu'           => 'footer-menu',
