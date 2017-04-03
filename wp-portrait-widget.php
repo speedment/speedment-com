@@ -22,22 +22,22 @@ class Portrait_Widget extends WP_Widget {
 	 */
 	public function widget($args, $instance) {
 		echo $args['before_widget']; ?>
-		<div class="portrait">
-		<?php if (!empty($instance['image_uri'])) { ?>
-			<div class="portrait-image">
-				<img src="<?php echo esc_url($instance['image_uri']); ?>" alt="Portrait of <?php echo $instance['name']; ?>" />
-			</div>
-		<?php } ?>
-		<?php if (!empty($instance['name'])) { ?>
-			<div class="portrait-name"><?php echo $args['before_title'] .
-			apply_filters('widget_title', $instance['name']) .
-			$args['after_title']; ?></div>
-		<?php } ?>
-		<?php if (!empty($instance['title'])) { ?>
-			<div class="portrait-title">
-				<a href="<?php echo esc_url($instance['link']); ?>"><?php echo $instance['title']; ?></a>
-			</div>
-		<?php } ?>
+		<div class="portrait col-md-4 col-sm-6 col-xs-12">
+			<?php if (!empty($instance['image_uri'])) { ?>
+				<div class="portrait-image">
+					<img src="<?php echo esc_url($instance['image_uri']); ?>" alt="Portrait of <?php echo $instance['name']; ?>" />
+				</div>
+			<?php } ?>
+			<?php if (!empty($instance['name'])) { ?>
+				<div class="portrait-name"><?php echo $args['before_title'] .
+				apply_filters('widget_title', $instance['name']) .
+				$args['after_title']; ?></div>
+			<?php } ?>
+			<?php if (!empty($instance['title'])) { ?>
+				<div class="portrait-title">
+					<a href="<?php echo esc_url($instance['link']); ?>"><?php echo $instance['title']; ?></a>
+				</div>
+			<?php } ?>
 		</div>
 		<?php echo $args['after_widget'];
 	}

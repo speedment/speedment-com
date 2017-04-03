@@ -7,6 +7,7 @@
   - front-page.php
   - contact-page.php
   - features-page.php
+  - gallery-page.php
   - two-columns-page.php
   - videos-page.php
   - nav-page.php
