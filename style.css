@@ -114,6 +114,7 @@ body{
 #speedment-description {
   font-size: 200%;
   font-family: 'Advent Pro';
+  text-align: center;
 }
 
 #speedment-description .textwidget {
