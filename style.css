@@ -347,6 +347,10 @@ body{
 /*
     Gallery Layout
 */
+.portrait {
+  padding: 20px;
+}
+
 .portrait-image > img {
   width: 100%;
 }
