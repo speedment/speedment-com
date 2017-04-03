@@ -358,6 +358,7 @@ body{
 
 .portrait {
   padding: 20px;
+  text-align: center;
 }
 
 .portrait-image {

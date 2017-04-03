@@ -29,9 +29,12 @@ class Portrait_Widget extends WP_Widget {
 				</div>
 			<?php } ?>
 			<?php if (!empty($instance['name'])) { ?>
-				<div class="portrait-name"><?php echo $args['before_title'] .
-				apply_filters('widget_title', $instance['name']) .
-				$args['after_title']; ?></div>
+				<div class="portrait-name">
+					<a href="<?php echo esc_url($instance['link']); ?>"><?php echo $args['before_title'] .
+						apply_filters('widget_title', $instance['name']) .
+						$args['after_title'];
+					?></a>
+				</div>
 			<?php } ?>
 			<?php if (!empty($instance['title'])) { ?>
 				<div class="portrait-title">
