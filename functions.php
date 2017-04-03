@@ -94,8 +94,8 @@ function speedment_widgets_init() {
   register_sidebar(array(
 		'name'          => 'Portraits',
 		'id'            => 'portraits',
-		'before_widget' => '<div class="col">',
-		'after_widget'  => '</div>',
+		'before_widget' => '',
+		'after_widget'  => '',
 		'before_title'  => '',
 		'after_title'   => '',
 	));
