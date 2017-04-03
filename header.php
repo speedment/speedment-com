@@ -3,7 +3,7 @@
   <!--
       Main Hero (#1 Tool to Accelerate Existing Database Applications)
   -->
-  <div class="jumbotron jumbotron-fluid" id="subpage-hero">
+  <div class="row jumbotron jumbotron-fluid" id="subpage-hero">
       <div class="row justify-content-md-center">
         <div class="col">
           <div class="container">

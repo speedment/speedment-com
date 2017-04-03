@@ -3,6 +3,7 @@
   width: 100%;
   z-index: 600;
   top: 0;
+  margin-left: -15px;
 }
 
 #nav-bar-wrapper.logged-in {
