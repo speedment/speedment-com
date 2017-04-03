@@ -99,7 +99,7 @@ function register_portrait_widget() {
 }
 
 function register_portrait_script() {
-  wp_register_script('portrait_script', get_template_directory_uri().'/wp_portrait_widget.js');
+  wp_register_script('portrait_script', get_template_directory_uri().'/wp_portrait_widget.js', array('jquery'));
   wp_enqueue_script('portrait_script');
 }
 
