@@ -4,9 +4,22 @@
  * Description: Page template for the most simple page types
  */
 get_header(); ?>
-<!-- Start Posts Section -->
-<?php while (have_posts()) : the_post();
-  the_content();
-endwhile; ?>
+
+<div class="row justify-content-center">
+  <div class="container">
+    <!--
+        Products Page Content
+    -->
+    <div class="row justify-content-center product-page">
+      <div class="col">
+        <!-- Start Page Content -->
+        <?php while (have_posts()) : the_post();
+          the_content();
+        endwhile; ?>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- End Posts Section -->
 <?php get_footer(); ?>
