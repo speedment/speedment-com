@@ -32,11 +32,6 @@ body{
   }
 }
 
-.row {
-  margin-left: inherit !important;
-  margin-right: inherit !important;
-}
-
 #mainbg_container {
     width: 100%;
     min-width: 960px;
@@ -355,6 +350,12 @@ body{
 /*
     Gallery Layout
 */
+#gallery.row,
+#gallery .row {
+  margin-left: inherit !important;
+  margin-right: inherit !important;
+}
+
 .portrait {
   padding: 20px;
 }
