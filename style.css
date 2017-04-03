@@ -190,13 +190,24 @@ body{
     text-align: left;
 }
 
-#first-view #first-view-text-wrapper from {
-    text-align: center;
+#first-view #first-view-text-wrapper > form {
+    display: flex;
+}
+
+#first-view #first-view-text-wrapper > form > input,
+#first-view #first-view-text-wrapper > form > button {
+    width: auto;
+    min-width: 0px;
+    display: inherit;
 }
 
 @media screen and (max-width: 480px) {
     #inlineFormInput {
         width: 100%;
+    }
+
+    #first-view #first-view-text-wrapper > form {
+        flex-direction: column;
     }
 }
 
