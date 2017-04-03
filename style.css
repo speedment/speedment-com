@@ -162,10 +162,13 @@ body{
   background-color: #d4e8c6;
 }
 
+#guides h3 {
+  font-family: 'Advent Pro';
+}
+
 #guides a {
   color: #87bd40;
   font-size: 110%;
-  font-weight: bold;
 }
 
 #company-logos {
