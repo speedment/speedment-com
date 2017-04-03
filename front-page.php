@@ -44,7 +44,7 @@
       <div class="row align-items-center">
         <div class="col">
           <h3>Guides</h3>
-          <p><?php echo $wp_customize->get_setting('front_page_guides_text'); ?></p>
+          <p><?php echo get_option('front_page_guides_text'); ?></p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.</p>
           <a href="<?php echo get_permalink(26); ?>">Browse the Guides <i class="fa fa-arrow-right"></i></a>
         </div>
@@ -74,49 +74,49 @@
   <!--
       Videos
   -->
-          <div id="front-page-video-carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active" style="background-image: url(http://130.211.229.25/wp-content/uploads/2017/03/Hello-Speedment.png);">
-                <div class="carousel-caption d-none d-md-block">
-                  <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap"
-                  data-video="https://www.youtube.com/embed/tDpwKZbeDuU">
-                    <i class="fa fa-play-circle" aria-hidden="true"></i></p>
-                  </a>
-                </div>
-              </div>
-              <div class="carousel-item" style="background-image: url(http://130.211.229.25/wp-content/uploads/2017/03/bigstock-handshake-isolated-on-business-42882616-1500x630.jpg);">
-                <div class="carousel-caption d-none d-md-block">
-                  <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap"
-                  data-video="https://www.youtube.com/embed/QJs3yjInlKI">
-                    <i class="fa fa-play-circle" aria-hidden="true"></i></p>
-                  </a>
-                </div>
-              </div>
-            </div>
-              <a class="carousel-control-prev" href="#front-page-video-carousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#front-page-video-carousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-          </div>
+  <div id="front-page-video-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active" style="background-image: url(http://130.211.229.25/wp-content/uploads/2017/03/Hello-Speedment.png);">
+        <div class="carousel-caption d-none d-md-block">
+          <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap"
+          data-video="https://www.youtube.com/embed/tDpwKZbeDuU">
+            <i class="fa fa-play-circle" aria-hidden="true"></i></p>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url(http://130.211.229.25/wp-content/uploads/2017/03/bigstock-handshake-isolated-on-business-42882616-1500x630.jpg);">
+        <div class="carousel-caption d-none d-md-block">
+          <a data-toggle="modal" data-target="#front-page-video-modal" data-whatever="@getbootstrap"
+          data-video="https://www.youtube.com/embed/QJs3yjInlKI">
+            <i class="fa fa-play-circle" aria-hidden="true"></i></p>
+          </a>
+        </div>
+      </div>
+    </div>
+      <a class="carousel-control-prev" href="#front-page-video-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#front-page-video-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
 
-<div class="modal fade " id="front-page-video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen allowfullscreen></iframe>
+  <div class="modal fade " id="front-page-video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
 </div><!-- container-fluid -->
 
