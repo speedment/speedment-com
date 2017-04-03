@@ -102,13 +102,18 @@ function speedment_widgets_init() {
 }
 
 function speedment_options_init($wp_customize) {
+  $wp_customize->add_setting('front_page_guides_text', array(
+    'default'   => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.',
+    'transport' => 'refresh',
+  ));
+
   $wp_customize->add_control(
-  	'front_page_guides_text',
+  	'front_page_guides_text_control',
   	array(
   		'label'       => __('Guides Text', 'default'),
       'description' => __('The text to be shown under the "Guides" section on the frontpage.', 'default'),
   		'section'     => 'static_front_page',
-  		'settings'    => 'front_page_guides_text_setting',
+  		'settings'    => 'front_page_guides_text',
   		'type'        => 'textarea',
   		'choices'     => array(
   			'left'  => 'left',
