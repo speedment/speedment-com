@@ -63,11 +63,9 @@ class Portrait_Widget extends WP_Widget {
 			<input class="widefat" id="<?php echo esc_attr($this->get_field_id('title')); ?>" name="<?php echo esc_attr( $this->get_field_name('title')); ?>" type="text" value="<?php echo esc_attr($title); ?>" placeholder="Job title (eg. CEO)">
 		</p><p>
 			<label for="<?php echo $this->get_field_id('image_uri'); ?>">Picture</label><br />
-      <?php if ($instance['image_uri'] != ''): ?>
-        <img class="custom_media_image" src="<?php echo $instance['image_uri']; ?>'" style="margin:0;padding:0;max-width:100px;float:left;display:inline-block" /><br />
-      <?php endif; ?>
+      <img class="custom_media_image" src="<?php echo ($instance['image_uri'] == '') ? (get_template_directory_uri() . '/assets/img/unknown.jpg') : $instance['image_uri']; ?>'" style="margin:0;padding:0;max-width:100px;float:left;display:inline-block" /><br />
       <input type="text" class="widefat custom_media_url" name="<?php echo $this->get_field_name('image_uri'); ?>" id="<?php echo $this->get_field_id('image_uri'); ?>" value="<?php echo $instance['image_uri']; ?>" style="margin-top:5px;" placeholder="URL to portrait image">
-      <input type="button" class="button button-primary custom_media_button" id="custom_media_button" name="<?php echo $this->get_field_name('image_uri'); ?>" value="Upload Image" style="margin-top:5px;" />
+      <input type="button" class="button button-primary custom_media_button" id="<?php echo $this->get_field_id('image_uri') . '_button'; ?>" name="<?php echo $this->get_field_name('image_uri'); ?>" value="Upload Image" style="margin-top:5px;" />
 		</p><p>
 			<label for="<?php echo esc_attr($this->get_field_id('link')); ?>"><?php esc_attr_e('LinkedIn URL:', 'text_domain'); ?></label>
 			<input class="widefat" id="<?php echo esc_attr($this->get_field_id('link')); ?>" name="<?php echo esc_attr($this->get_field_name('link')); ?>" type="text" value="<?php echo esc_attr($link); ?>" placeholder="URL to LinkedIn page">
