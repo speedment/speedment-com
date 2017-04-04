@@ -99,6 +99,15 @@ function speedment_widgets_init() {
 		'before_title'  => '',
 		'after_title'   => '',
 	));
+
+  register_sidebar(array(
+		'name'          => 'Videos',
+		'id'            => 'videos',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	));
 }
 
 function speedment_options_init($wp_customize) {

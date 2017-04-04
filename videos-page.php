@@ -5,8 +5,29 @@
  */
 get_header(); ?>
 <!-- Start Page Content -->
-<?php while (have_posts()) : the_post();
-  the_content();
-endwhile; ?>
+
+<div class="row justify-content-center" id="videos">
+  <div class="container">
+    <!--
+        Videos Page Content
+    -->
+    <div class="row justify-content-center gallery-page">
+      <div class="col">
+        <!-- Start Page Content -->
+        <?php while (have_posts()) : the_post();
+          the_content();
+        endwhile; ?>
+      </div>
+    </div>
+
+    <!--
+        Videos Widget Area
+    -->
+    <div class="row justify-content-center row-eq-height">
+      <?php if (dynamic_sidebar('videos')): else: endif; ?>
+    </div>
+  </div>
+</div>
+
 <!-- Start Page Content -->
 <?php get_footer(); ?>

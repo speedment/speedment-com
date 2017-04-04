@@ -9,7 +9,7 @@ get_header(); ?>
 <div class="row justify-content-center" id="gallery">
   <div class="container">
     <!--
-        Products Page Content
+        Gallery Page Content
     -->
     <div class="row justify-content-center gallery-page">
       <div class="col">
@@ -21,7 +21,7 @@ get_header(); ?>
     </div>
 
     <!--
-        Products Widget Area
+        Gallery Widget Area
     -->
     <div class="row justify-content-center row-eq-height">
       <?php if (dynamic_sidebar('portraits')): else: endif; ?>
