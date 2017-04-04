@@ -3,6 +3,7 @@ require_once('wp-bootstrap-navwalker.php');
 require_once('wp-image-box-widget.php');
 require_once('wp-product-widget.php');
 require_once('wp-portrait-widget.php');
+require_once('wp-youtube-widget.php');
 require_once('wp-footer-walker.php');
 require_once('wp-dimox-breadcrumbs.php');
 
