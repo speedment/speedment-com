@@ -26,7 +26,7 @@ body{
   padding-top: 54px;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   body {
     padding-top: 97px;
   }
@@ -237,9 +237,27 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+@media screen and (max-width: 1038px) {
+  #first-view #first-view-text-wrapper > h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #first-view #first-view-text-wrapper > h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 795px) {
+  #first-view #first-view-text-wrapper > h1 {
+    font-size: 2.5rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   #first-view #first-view-text-wrapper > h1 {
-    font-size: 2.0rem;
+    font-size: 2.5rem;
   }
 }
 
