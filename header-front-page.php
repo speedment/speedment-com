@@ -7,7 +7,9 @@
     <div class="col">
       <div class="container">
         <div class="row justify-content-md-center">
-          <div class="col-md-7 pull-md-2 col-md-auto" id="first-view-text-wrapper">
+          <div class="col-lg-7 pull-lg-2
+                      col-md-8 pull-md-1
+                      col-sm-9 pull-sm-0" id="first-view-text-wrapper">
             <h1><?php echo get_bloginfo('description'); ?></h1>
             <form class="lead">
               <label class="sr-only" for="inlineFormInput">Name</label>
