@@ -66,7 +66,7 @@ get_header(); ?>
         </div>
       </div>
     <?php } else { ?>
-      <form class="row justify-content-left" action="?" method="POST">
+      <form action="?" method="POST">
         <div class="form-group">
           <label for="myName">Name</label>
           <input name="myName" type="text" class="form-control" id="myName" placeholder="Enter name" value="<?php echo $my_name; ?>">
@@ -80,7 +80,7 @@ get_header(); ?>
 
         <div class="form-group">
           <label for="myText">Message</label>
-          <textarea name="myText" class="form-control" id="myText" placeholder="Enter message here"><?php echo $my_text; ?></textarea>
+          <textarea name="myText" class="form-control" id="myText" rows="6" placeholder="Enter message here"><?php echo $my_text; ?></textarea>
         </div>
 
         <div class="form-group">
