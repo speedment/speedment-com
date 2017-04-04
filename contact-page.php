@@ -10,9 +10,9 @@ $my_text    = "";
 $my_error   = false;
 $my_success = false;
 
-if (isset($_POST['myEmail'])) $my_email = trim($_POST['myEmail']);
-if (isset($_POST['myName']))  $my_name  = trim($_POST['myName']);
-if (isset($_POST['myText']))  $my_text  = trim($_POST['myText']);
+if (isset($_POST['myEmail'])): $my_email = trim($_POST['myEmail']); endif;
+if (isset($_POST['myName'])):  $my_name  = trim($_POST['myName']);  endif;
+if (isset($_POST['myText'])):  $my_text  = trim($_POST['myText']);  endif;
 
 if ($my_email != "" && $my_name != "" && $my_text != "") {
   $subject = 'New Message From ' . esc_html($my_name);
@@ -23,7 +23,7 @@ if ($my_email != "" && $my_name != "" && $my_text != "") {
       '<p><b>Email:</b> ' . esc_html($my_email) . '</p>' .
       '<p><b>Message:</b> ' . esc_html($my_message) . '</p>' .
       '<hr />' .
-      '<small>This email was generated automatically using a form on the "www.speedment.com"-website.</small>'
+      '<small>This email was generated automatically using a form on the "www.speedment.com"-website.</small>' .
     '</body></html>',
     array(
       'Content-Type: text/html; charset=UTF-8',
@@ -57,7 +57,7 @@ get_header(); ?>
     <!--
         Contact Widget Area
     -->
-    <?php if ($my_success): ?>
+    <?php if ($my_success) { ?>
       <div class="row justify-content-center">
         <div class="col">
           <div class="alert alert-success" role="alert">
@@ -65,7 +65,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
-    <?php else: ?>
+    <?php } else { ?>
       <form class="row justify-content-left" action="?" method="POST">
         <div class="form-group">
           <label for="myName">Name</label>
@@ -75,7 +75,7 @@ get_header(); ?>
         <div class="form-group<?php if ($my_error) echo ' has-danger'; ?>">
           <label for="myEmail">Email</label>
           <input name="myEmail" type="email" class="form-control<?php if ($my_error) echo ' form-control-danger'; ?>" id="myEmail" placeholder="Enter email" value="<?php echo $my_email; ?>">
-          <?php if ($my_error): ?><div class="form-control-feedback"><?php echo $my_error; ?></div><?php endif; ?>
+          <?php if ($my_error) { ?><div class="form-control-feedback"><?php echo $my_error; ?></div><?php } ?>
         </div>
 
         <div class="form-group">
@@ -89,7 +89,7 @@ get_header(); ?>
 
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-    <?php endif; ?>
+    <?php } ?>
   </div>
 </div>
 
