@@ -209,6 +209,14 @@ h1, h2, h3, h4, h5, h6 {
     flex-grow: 1;
 }
 
+#first-view #first-view-text-wrapper > form > button {
+    cursor: pointer;
+}
+
+#first-view #first-view-text-wrapper > form > button:hover {
+    background-color: #a5dc5d;
+}
+
 @media screen and (max-width: 480px) {
     #inlineFormInput {
         width: 100%;
