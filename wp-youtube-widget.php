@@ -27,7 +27,7 @@ class YouTube_Widget extends WP_Widget {
 		echo $args['before_widget']; ?>
 		<div class="youtube col-md-4 col-sm-6 col-xs-12">
 			<h3><?php echo $args['before_title'] . $title . $args['after_title']; ?></h3>
-			<iframe src="https://www.youtube.com/embed/<?php echo $videoId; ?>" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:200px;left:0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/<?php echo $videoId; ?>" width="640" height="360" frameborder="0" style="width:100%;height:200px" allowfullscreen></iframe>
 		</div>
 		<?php echo $args['after_widget'];
 	}
