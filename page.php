@@ -8,9 +8,9 @@ get_header(); ?>
 <div class="row justify-content-center">
   <div class="container">
     <!--
-        Products Page Content
+        Default Page Content
     -->
-    <div class="row justify-content-center product-page">
+    <div class="row justify-content-center">
       <div class="col">
         <!-- Start Page Content -->
         <?php while (have_posts()) : the_post();
