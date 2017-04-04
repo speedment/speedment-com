@@ -13,8 +13,17 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <?php wp_enqueue_script("jquery"); ?>
-  <?php wp_head(); ?>
+  <?php
+    wp_enqueue_script("jquery");
+
+    if (get_page_template() == 'contact-page.php') {
+      echo '<script src="https://www.google.com/recaptcha/api.js" async defer></script>';
+    } else {
+      echo '<!-- ' . get_page_template() . '-->';
+    }
+
+    wp_head();
+  ?>
 </head>
 <body>
   <header class="container-fluid">
