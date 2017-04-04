@@ -18,8 +18,6 @@
 
     if (basename(get_page_template()) == 'contact-page.php') {
       echo '<script src="https://www.google.com/recaptcha/api.js" async defer></script>';
-    } else {
-      echo '<!-- ' . basename(get_page_template()) . '-->';
     }
 
     wp_head();
