@@ -412,3 +412,15 @@ h1, h2, h3, h4, h5, h6 {
 .portrait-image > img {
   width: 100%;
 }
+
+/*
+    Video Layout
+*/
+.youtube {
+  display: flex;
+  flex-direction: column;
+}
+
+.youtube > h3 {
+  flex-grow: 1;
+}
