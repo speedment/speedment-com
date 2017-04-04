@@ -16,7 +16,7 @@
   <?php
     wp_enqueue_script("jquery");
 
-    if (get_page_template() == 'contact-page.php') {
+    if (basename(get_page_template()) == 'contact-page.php') {
       echo '<script src="https://www.google.com/recaptcha/api.js" async defer></script>';
     } else {
       echo '<!-- ' . get_page_template() . '-->';
