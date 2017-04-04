@@ -316,6 +316,8 @@ h1, h2, h3, h4, h5, h6 {
 */
 #products {
   margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .product-page {
