@@ -432,6 +432,10 @@ h1, h2, h3, h4, h5, h6 {
 /*
   Contact Us
 */
+#contact {
+  padding-bottom: 50px;
+}
+
 .wpcf7 input {
   width: 100%;
 }
