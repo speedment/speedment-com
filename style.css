@@ -439,3 +439,7 @@ h1, h2, h3, h4, h5, h6 {
 .wpcf7 input {
   width: 100%;
 }
+
+.g-recaptcha {
+  display: inline-block;
+}
