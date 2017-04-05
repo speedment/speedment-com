@@ -40,7 +40,7 @@ if (isset($_POST['g-recaptcha-response'])) {
   $context = stream_context_create($options);
   $result  = file_get_contents($url, false, $context);
 
-  if ($result === false || !boolval(json_decode($result, true)->{'success'})) {
+  if ($result === false || !boolval(json_decode($result, true)['success'])) {
     $my_captcha_error = "Error! Failed to identify you as a human.";
 
   } else {
