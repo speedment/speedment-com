@@ -99,12 +99,12 @@ get_header(); ?>
         </div>
       </div>
       <div class="row">
-          <div class="justify-content-star col-md-6">
+          <div class="col-md-6">
             <div class="form-group">
               <div class="g-recaptcha" data-sitekey="6LdamhsUAAAAAJmGlLANew3Q4Kw-lZ3e54iTfwBa"></div>
             </div>
           </div>
-          <div class="justify-content-end col-md-6">
+          <div class="col-md-6 float-md-right">
             <button type="submit" class="btn btn-primary ">Submit</button>
           </div>
         </div>
