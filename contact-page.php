@@ -4,11 +4,12 @@
  * Description: Page template with a Contact Us form below the text
  */
 
-$my_email   = "";
-$my_name    = "";
-$my_text    = "";
-$my_error   = false;
-$my_success = false;
+$my_email         = "";
+$my_name          = "";
+$my_text          = "";
+$my_email_error   = false;
+$my_captcha_error = false;
+$my_success       = false;
 
 $secret = get_theme_mod('recaptcha_secret');
 $ip = null;
@@ -40,7 +41,7 @@ if (isset($_POST['g-recaptcha-response'])) {
   $result  = file_get_contents($url, false, $context);
 
   if ($result === false || !json_decode($result, true)->{'success'}) {
-    $my_error = "Error! Failed to identify you as a human.";
+    $my_captcha_error = "Error! Failed to identify you as a human.";
 
   } else {
     if ($my_email != "" && $my_name != "" && $my_text != "") {
@@ -60,7 +61,7 @@ if (isset($_POST['g-recaptcha-response'])) {
           "Reply-To: $my_name <$my_email>"
         )
       )) {
-        $my_error = "Error! Make sure specified address '$my_email' is correct.";
+        $my_email_error = "Error! Make sure specified address '$my_email' is correct.";
       } else {
         $my_success = true;
       }
@@ -106,10 +107,10 @@ get_header(); ?>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="form-group<?php if ($my_error) echo ' has-danger'; ?>">
+            <div class="form-group<?php if ($my_email_error) echo ' has-danger'; ?>">
               <label for="myEmail">Email</label>
-              <input name="myEmail" type="email" class="form-control<?php if ($my_error) echo ' form-control-danger'; ?>" id="myEmail" placeholder="Enter email" value="<?php echo $my_email; ?>">
-              <?php if ($my_error) { ?><div class="form-control-feedback"><?php echo $my_error; ?></div><?php } ?>
+              <input name="myEmail" type="email" class="form-control<?php if ($my_email_error) echo ' form-control-danger'; ?>" id="myEmail" placeholder="Enter email" value="<?php echo $my_email; ?>">
+              <?php if ($my_email_error) { ?><div class="form-control-feedback"><?php echo $my_email_error; ?></div><?php } ?>
             </div>
           </div>
         </div>
@@ -124,8 +125,9 @@ get_header(); ?>
 
       <div class="row">
           <div class="col-md-6">
-            <div class="form-group">
-              <div class="g-recaptcha" data-sitekey="<?php echo get_theme_mod('recaptcha_sitekey'); ?>"></div>
+            <div class="form-group<?php if ($my_captcha_error) echo ' has-danger'; ?>">
+              <div class="g-recaptcha form-control<?php if ($my_captcha_error) echo ' form-control-danger'; ?>" data-sitekey="<?php echo get_theme_mod('recaptcha_sitekey'); ?>"></div>
+              <?php if ($my_captcha_error) { ?><div class="form-control-feedback"><?php echo $my_captcha_error; ?></div><?php } ?>
             </div>
           </div>
           <div class="col-md-6">
