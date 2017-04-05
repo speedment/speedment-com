@@ -21,7 +21,7 @@
         <i class="fa fa-twitter-square" aria-hidden="true"></i> <br/>
       </div>
       <div class="d-flex justify-content-end">
-        <div id="footer-logo">© Speedment 2017</div>
+        <div id="footer-logo">Copyright ©2017 Speedment, Inc. All rights reserved. Privacy Policy | Terms</div>
       </div>
     </footer>
     <?php wp_footer(); ?>

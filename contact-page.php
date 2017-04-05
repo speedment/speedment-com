@@ -67,27 +67,39 @@ get_header(); ?>
       </div>
     <?php } else { ?>
       <form action="?" method="POST">
-        <div class="form-group">
-          <label for="myName">Name</label>
-          <input name="myName" type="text" class="form-control" id="myName" placeholder="Enter name" value="<?php echo $my_name; ?>">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="myName">Name</label>
+              <input name="myName" type="text" class="form-control" id="myName" placeholder="Enter name" value="<?php echo $my_name; ?>">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group<?php if ($my_error) echo ' has-danger'; ?>">
+              <label for="myEmail">Email</label>
+              <input name="myEmail" type="email" class="form-control<?php if ($my_error) echo ' form-control-danger'; ?>" id="myEmail" placeholder="Enter email" value="<?php echo $my_email; ?>">
+              <?php if ($my_error) { ?><div class="form-control-feedback"><?php echo $my_error; ?></div><?php } ?>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-group">
+              <label for="myText">Message</label>
+              <textarea name="myText" class="form-control" id="myText" rows="6" placeholder="Enter message here"><?php echo $my_text; ?></textarea>
+            </div>
+         </div>
+         <div class="col-12">
+           <div class="form-group">
+             <label for="myText">Message</label>
+             <textarea name="myText" class="form-control" id="myText" rows="6" placeholder="Enter message here"><?php echo $my_text; ?></textarea>
+           </div>
         </div>
-
-        <div class="form-group<?php if ($my_error) echo ' has-danger'; ?>">
-          <label for="myEmail">Email</label>
-          <input name="myEmail" type="email" class="form-control<?php if ($my_error) echo ' form-control-danger'; ?>" id="myEmail" placeholder="Enter email" value="<?php echo $my_email; ?>">
-          <?php if ($my_error) { ?><div class="form-control-feedback"><?php echo $my_error; ?></div><?php } ?>
-        </div>
-
-        <div class="form-group">
-          <label for="myText">Message</label>
-          <textarea name="myText" class="form-control" id="myText" rows="6" placeholder="Enter message here"><?php echo $my_text; ?></textarea>
-        </div>
-
-        <div class="form-group">
-          <div class="g-recaptcha" data-sitekey="6LdamhsUAAAAAJmGlLANew3Q4Kw-lZ3e54iTfwBa"></div>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="col-md-12">
+          <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6LdamhsUAAAAAJmGlLANew3Q4Kw-lZ3e54iTfwBa"></div>
+          </div>
+          <button type="submit" class="btn btn-primary justify-content-end">Submit</button>
+          </div>
+      </div>
       </form>
     <?php } ?>
   </div>
