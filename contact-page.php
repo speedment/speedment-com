@@ -94,11 +94,15 @@ get_header(); ?>
            </div>
         </div>
         <div class="col-md-12">
-          <div class="form-group">
-            <div class="g-recaptcha" data-sitekey="6LdamhsUAAAAAJmGlLANew3Q4Kw-lZ3e54iTfwBa"></div>
+          <div class="justify-content-star">
+            <div class="form-group">
+              <div class="g-recaptcha" data-sitekey="6LdamhsUAAAAAJmGlLANew3Q4Kw-lZ3e54iTfwBa"></div>
+            </div>
           </div>
-          <button type="submit" class="btn btn-primary justify-content-end">Submit</button>
+          <div class="justify-content-end">
+            <button type="submit" class="btn btn-primary ">Submit</button>
           </div>
+        </div>
       </div>
       </form>
     <?php } ?>
