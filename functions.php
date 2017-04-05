@@ -135,6 +135,22 @@ function speedment_options_init($wp_customize) {
     'priority' => 30,
   ));
 
+  $wp_customize->add_setting('contact_email', array(
+    'default'   => '',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+  	'contact_email_control',
+  	array(
+  		'label'       => __('Contact Email', 'default'),
+      'description' => __('The email adress to which contact form results should be sent.', 'default'),
+  		'section'     => 'recaptcha_section',
+  		'settings'    => 'contact_email',
+  		'type'        => 'email',
+  	)
+  );
+
   $wp_customize->add_setting('recaptcha_sitekey', array(
     'default'   => '',
     'transport' => 'refresh',
