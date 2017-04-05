@@ -40,7 +40,7 @@ if ($my_email != "" && $my_name != "" && $my_text != "") {
 get_header(); ?>
 <!-- Start Page Content -->
 
-<div class="row justify-content-center" id="contact">
+<div class="justify-content-center" id="contact">
   <div class="container">
     <!--
         Contact Page Content
@@ -90,7 +90,7 @@ get_header(); ?>
             </div>
          </div>
        </div>
-      
+
       <div class="row">
           <div class="col-md-6">
             <div class="form-group">

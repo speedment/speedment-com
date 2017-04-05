@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <div class="container-fluid" id="two-column-layout">
-  <div class="row justify-content-center">
+  <div class="justify-content-center">
     <div class="container">
       <?php while (have_posts()) : the_post(); ?>
       <div class="row justify-content-center">

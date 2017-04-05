@@ -5,7 +5,7 @@
  */
 get_header(); ?>
 
-<div class="row justify-content-center" id="products">
+<div class="justify-content-center" id="products">
   <div class="container">
     <!--
         Products Page Content

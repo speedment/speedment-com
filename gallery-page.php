@@ -6,7 +6,7 @@
 get_header(); ?>
 <!-- Start Page Content -->
 
-<div class="row justify-content-center" id="gallery">
+<div class="justify-content-center" id="gallery">
   <div class="container">
     <!--
         Gallery Page Content
