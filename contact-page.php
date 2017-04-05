@@ -10,30 +10,61 @@ $my_text    = "";
 $my_error   = false;
 $my_success = false;
 
+$secret = ""; // TODO: Connect to WordPress Options
+$ip = null;
+if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+    $ip = $_SERVER['HTTP_CLIENT_IP'];
+} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} else {
+    $ip = $_SERVER['REMOTE_ADDR'];
+}
+
 if (isset($_POST['myEmail'])): $my_email = trim($_POST['myEmail']); endif;
 if (isset($_POST['myName'])):  $my_name  = trim($_POST['myName']);  endif;
 if (isset($_POST['myText'])):  $my_text  = trim($_POST['myText']);  endif;
+if (isset($_POST['g-recaptcha-response'])) {
+  $url  = 'https://www.google.com/recaptcha/api/siteverify';
+  $data = array('secret'   => $secret,
+                'response' => $_POST['g-recaptcha-response'],
+                'remoteip' => $ip);
 
-if ($my_email != "" && $my_name != "" && $my_text != "") {
-  $subject = 'New Message From ' . esc_html($my_name);
-  if (!wp_mail('info@speedment.com', $subject,
-    '<!DOCTYPE html><html><head><title>' . $subject . '</title></head>' .
-    '<body>' .
-      '<p><b>From:</b> ' . esc_html($my_name) . '</p>' .
-      '<p><b>Email:</b> ' . esc_html($my_email) . '</p>' .
-      '<p><b>Message:</b> ' . esc_html($my_message) . '</p>' .
-      '<hr />' .
-      '<small>This email was generated automatically using a form on the "www.speedment.com"-website.</small>' .
-    '</body></html>',
-    array(
-      'Content-Type: text/html; charset=UTF-8',
-      'From: speedment.com <noreply@speedment.com>',
-      "Reply-To: $my_name <$my_email>"
-    )
-  )) {
-    $my_error = "Error! Make sure specified address '$my_email' is correct.";
+  $options = array(
+      'http' => array(
+          'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+          'method'  => 'POST',
+          'content' => http_build_query($data)
+      )
+  );
+  $context = stream_context_create($options);
+  $result  = file_get_contents($url, false, $context);
+
+  if ($result === FALSE) {
+    $my_error = "Error! Failed to identify you as a human.";
+
   } else {
-    $my_success = true;
+    if ($my_email != "" && $my_name != "" && $my_text != "") {
+      $subject = 'New Message From ' . esc_html($my_name);
+      if (!wp_mail('info@speedment.com', $subject,
+        '<!DOCTYPE html><html><head><title>' . $subject . '</title></head>' .
+        '<body>' .
+          '<p><b>From:</b> ' . esc_html($my_name) . '</p>' .
+          '<p><b>Email:</b> ' . esc_html($my_email) . '</p>' .
+          '<p><b>Message:</b> ' . esc_html($my_message) . '</p>' .
+          '<hr />' .
+          '<small>This email was generated automatically using a form on the "www.speedment.com"-website.</small>' .
+        '</body></html>',
+        array(
+          'Content-Type: text/html; charset=UTF-8',
+          'From: speedment.com <noreply@speedment.com>',
+          "Reply-To: $my_name <$my_email>"
+        )
+      )) {
+        $my_error = "Error! Make sure specified address '$my_email' is correct.";
+      } else {
+        $my_success = true;
+      }
+    }
   }
 }
 
