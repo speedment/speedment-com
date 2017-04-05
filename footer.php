@@ -20,11 +20,17 @@
         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
         <i class="fa fa-twitter-square" aria-hidden="true"></i> <br/>
       </div>
-      <div class="d-flex justify-content-end">
-        <div id="footer-logo">
+      <div class="footer-text">
+        <div class="copyright">
           Copyright © 2017 Speedment,&nbsp;Inc. All rights reserved.
         </div>
-        <a href="<?php echo get_permalink(170); ?>" alt="Read the Speedment Privacy Policy">Privacy&nbsp;Policy</a>&nbsp;|&nbsp;<a href="<?php echo get_permalink(172); ?>" alt="Read the Speedment Terms of Use">Terms</a>
+        <div class="links">
+          <a href="<?php echo get_permalink(170); ?>" alt="Read the Speedment Privacy Policy">
+            Privacy&nbsp;Policy
+          </a>&nbsp;|&nbsp;<a href="<?php echo get_permalink(172); ?>" alt="Read the Speedment Terms of Use">
+            Terms
+          </a>
+        </div>
       </div>
     </footer>
     <?php wp_footer(); ?>

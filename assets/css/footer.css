@@ -25,15 +25,18 @@
 #footer .navbar{
   padding: 0;
 }
-#footer-logo {
-  margin-right: 30px;
-  margin-bottom: 16px;
-}
+
 #sharing-icons {
-  margin-right: 30px;
   margin-bottom: 10px;
 }
+
 #sharing-icons i {
   font-size: 200%;
-  padding: 0 4px;
+  padding: 0px 4px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
