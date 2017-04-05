@@ -81,19 +81,24 @@ get_header(); ?>
               <?php if ($my_error) { ?><div class="form-control-feedback"><?php echo $my_error; ?></div><?php } ?>
             </div>
           </div>
+        </div>
+        <div class="row">
           <div class="col-12">
             <div class="form-group">
               <label for="myText">Message</label>
               <textarea name="myText" class="form-control" id="myText" rows="6" placeholder="Enter message here"><?php echo $my_text; ?></textarea>
             </div>
          </div>
+       </div>
+       <div class="row">
          <div class="col-12">
            <div class="form-group">
              <label for="myText">Message</label>
              <textarea name="myText" class="form-control" id="myText" rows="6" placeholder="Enter message here"><?php echo $my_text; ?></textarea>
            </div>
         </div>
-        <div class="col-md-12">
+      </div>
+      <div class="row">
           <div class="justify-content-star col-md-6">
             <div class="form-group">
               <div class="g-recaptcha" data-sitekey="6LdamhsUAAAAAJmGlLANew3Q4Kw-lZ3e54iTfwBa"></div>
