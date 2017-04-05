@@ -10,7 +10,7 @@ $my_text    = "";
 $my_error   = false;
 $my_success = false;
 
-$secret = ""; // TODO: Connect to WordPress Options
+$secret = get_theme_mod('recaptcha_secret');
 $ip = null;
 if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip = $_SERVER['HTTP_CLIENT_IP'];
@@ -125,7 +125,7 @@ get_header(); ?>
       <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <div class="g-recaptcha" data-sitekey="6LdamhsUAAAAAJmGlLANew3Q4Kw-lZ3e54iTfwBa"></div>
+              <div class="g-recaptcha" data-sitekey="<?php echo get_theme_mod('recaptcha_sitekey'); ?>"></div>
             </div>
           </div>
           <div class="col-md-6">

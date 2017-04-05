@@ -112,6 +112,7 @@ function speedment_widgets_init() {
 }
 
 function speedment_options_init($wp_customize) {
+  // Front Page Guides Text
   $wp_customize->add_setting('front_page_guides_text', array(
     'default'   => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non arcu a nisl hendrerit mollis sit amet a tortor. Aenean malesuada risus neque, lacinia aliquam nisi lobortis ut.',
     'transport' => 'refresh',
@@ -124,11 +125,45 @@ function speedment_options_init($wp_customize) {
       'description' => __('The text to be shown under the "Guides" section on the frontpage.', 'default'),
   		'section'     => 'static_front_page',
   		'settings'    => 'front_page_guides_text',
-  		'type'        => 'textarea',
-  		'choices'     => array(
-  			'left'  => 'left',
-  			'right' => 'right',
-  		),
+  		'type'        => 'textarea'
+  	)
+  );
+
+  // Contact Page reCaptcha code
+  $wp_customize->add_section('recaptcha_section', array(
+    'title'    => __('ReCaptcha Section', 'default'),
+    'priority' => 30,
+  ));
+
+  $wp_customize->add_setting('recaptcha_sitekey', array(
+    'default'   => '',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+  	'recaptcha_sitekey_control',
+  	array(
+  		'label'       => __('ReCaptcha SiteKey', 'default'),
+      'description' => __('The public ReCaptcha sitekey.', 'default'),
+  		'section'     => 'recaptcha_section',
+  		'settings'    => 'recaptcha_sitekey',
+  		'type'        => 'text',
+  	)
+  );
+
+  $wp_customize->add_setting('recaptcha_secret', array(
+    'default'   => '',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+  	'recaptcha_secret_control',
+  	array(
+  		'label'       => __('ReCaptcha Secret', 'default'),
+      'description' => __('The secret ReCaptcha code.', 'default'),
+  		'section'     => 'recaptcha_section',
+  		'settings'    => 'recaptcha_secret',
+  		'type'        => 'text',
   	)
   );
 }
