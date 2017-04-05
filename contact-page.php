@@ -127,7 +127,7 @@ get_header(); ?>
           <div class="col-md-6">
             <div class="form-group<?php if ($my_captcha_error) echo ' has-danger'; ?>">
               <div class="g-recaptcha form-control<?php if ($my_captcha_error) echo ' form-control-danger'; ?>" data-sitekey="<?php echo get_theme_mod('recaptcha_sitekey'); ?>"></div>
-              <?php if ($my_captcha_error) { ?><div class="form-control-feedback"><?php echo $my_captcha_error; ?><textarea readonly><?php echo $result;?></textarea></div><?php } ?>
+              <?php if ($my_captcha_error) { ?><div class="form-control-feedback"><?php echo $my_captcha_error; ?><textarea readonly><?php echo (json_decode($result, true)->{'success'});?></textarea></div><?php } ?>
             </div>
           </div>
           <div class="col-md-6">
