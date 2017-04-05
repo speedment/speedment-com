@@ -50,7 +50,7 @@ if (isset($_POST['g-recaptcha-response'])) {
         '<body>' .
           '<p><b>From:</b> ' . esc_html($my_name) . '</p>' .
           '<p><b>Email:</b> ' . esc_html($my_email) . '</p>' .
-          '<p><b>Message:</b> ' . esc_html($my_message) . '</p>' .
+          '<p><b>Message:</b> ' . esc_html($my_text) . '</p>' .
           '<hr />' .
           '<small>This email was generated automatically using a form on the "www.speedment.com"-website.</small>' .
         '</body></html>',
