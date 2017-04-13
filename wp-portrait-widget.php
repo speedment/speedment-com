@@ -22,7 +22,7 @@ class Portrait_Widget extends WP_Widget {
 	 */
 	public function widget($args, $instance) {
 		echo $args['before_widget']; ?>
-		<div class="portrait col-md-4 col-sm-6 col-xs-12">
+		<div class="portrait col-md-3 col-sm-6 col-xs-12">
 			<?php if (!empty($instance['image_uri'])) { ?>
 				<div class="portrait-image">
 					<img src="<?php echo esc_url($instance['image_uri']); ?>" alt="Portrait of <?php echo $instance['name']; ?>" />
