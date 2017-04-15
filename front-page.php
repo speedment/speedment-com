@@ -19,11 +19,6 @@
   -->
   <div class="row justify-content-center" id="why-speedment">
     <div class="container">
-       <div class="row justify-content-center">
-        <div class="col">
-          <h2 class="text-center">Why Speedment?</h2>
-        </div>
-      </div>
       <div class="row justify-content-center">
         <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
       </div>
@@ -35,6 +30,11 @@
   -->
   <div class="row justify-content-center" id="small-boxes">
     <div class="container">
+       <div class="row justify-content-center">
+        <div class="col">
+          <h2 class="text-center">Why Speedment?</h2>
+        </div>
+      </div>
       <div class="row justify-content-center">
         <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
       </div>
