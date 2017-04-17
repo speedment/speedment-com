@@ -9,29 +9,26 @@ get_header(); ?>
 
 <div class="justify-content-center" id="trial">
   <div class="container">
-    <!--
-        Products Page Content
-    -->
-    <div class="row justify-content-center config-column">
-      <div class="col">
+    <div class="row justify-content-center ">
+      <div class="col-6 config-column">
         <form method="post" action="#">
 
           <!-- Project Info -->
           <div class="form-group row">
             <label for="inputGroupId" class="col-sm-2 col-form-label">GroupId</label>
-            <div class="col-sm-10">
+            <div class="col-sm-4">
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
             <label for="inputArtifactId" class="col-sm-2 col-form-label">ArtifactId</label>
-            <div class="col-sm-10">
+            <div class="col-sm-4">
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
             <label for="inputVersion" class="col-sm-2 col-form-label">Version</label>
-            <div class="col-sm-10">
+            <div class="col-sm-4">
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
@@ -88,7 +85,7 @@ get_header(); ?>
           <!-- Select Driver Version -->
           <div class="form-group row">
             <label for="inputDriverVersion" class="col-sm-2 col-form-label">Driver Version</label>
-            <div class="col-sm-10">
+            <div class="col-sm-4">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.40">
               <small id="helpDriverVersion" class="text-muted">
                 Must be available on your development machine.
@@ -99,28 +96,23 @@ get_header(); ?>
           <!-- Email Address -->
           <div class="form-group row">
             <label for="inputEmail" class="col-sm-2 col-form-label">Send me the code to</label>
-            <div class="col-sm-10">
+            <div class="col-md-5 col-sm-10">
               <input type="email" class="form-control" id="inputEmail" placeholder="Your Email Address" value="">
             </div>
             <button type="submit" class="btn btn-primary">Generate Project</button>
           </div>
 
           <div class="form-group row" id="licenseApache2">
-            License<a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank"> Apache 2</a>
+            <span>License <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a></span>
           </div>
 
           <div class="form-group row" id="license30DaysTrial" style="display:none">
-            License<a href="/terms" rel="Terms of Service" target="_blank"> 30 Days Free Trial</a>
+            <span>License <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a></span>
           </div>
         </form>
       </div>
-    </div>
 
-    <!--
-        Products Widget Area
-    -->
-    <div class="row justify-content-center row-eq-height preview-column">
-      <div class="col">
+      <div class="col preview-column">
         <pre><code class="language-java">
 public static void main(String... args) {
   System.out.println("Hello, World!");
