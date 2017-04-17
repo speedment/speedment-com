@@ -40,7 +40,7 @@ get_header(); ?>
           <fieldset class="form-group row">
             <legend class="col-form-legend col-sm-2">Database Type</legend>
             <div class="col-sm-10">
-              <div class="form-check">
+              <div class="form-check form-check-inline">
                 <label class="form-check-label">
                   <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
                   MySQL
@@ -106,11 +106,11 @@ get_header(); ?>
           </div>
 
           <div class="form-group row" id="licenseApache2">
-            License: <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a>
+            License - <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a>
           </div>
 
           <div class="form-group row" id="license30DaysTrial" style="display:none">
-            License: <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a>
+            License - <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a>
           </div>
         </form>
       </div>
