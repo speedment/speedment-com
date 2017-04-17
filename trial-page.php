@@ -15,28 +15,28 @@ get_header(); ?>
 
           <!-- Project Info -->
           <div class="form-group row">
-            <label for="inputGroupId" class="col-sm-2 col-form-label">GroupId</label>
-            <div class="col-sm-10">
+            <label for="inputGroupId" class="col-sm-3 col-form-label">GroupId</label>
+            <div class="col-sm-9">
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputArtifactId" class="col-sm-2 col-form-label">ArtifactId</label>
-            <div class="col-sm-10">
+            <label for="inputArtifactId" class="col-sm-3 col-form-label">ArtifactId</label>
+            <div class="col-sm-9">
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputVersion" class="col-sm-2 col-form-label">Version</label>
-            <div class="col-sm-10">
+            <label for="inputVersion" class="col-sm-3 col-form-label">Version</label>
+            <div class="col-sm-9">
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
 
           <!-- Select Database Type -->
           <fieldset class="form-group row">
-            <legend class="col-form-legend col-sm-2">Database Type</legend>
-            <div class="col-sm-10">
+            <legend class="col-form-legend col-sm-3">Database Type</legend>
+            <div class="col-sm-9">
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
                   <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
@@ -84,8 +84,8 @@ get_header(); ?>
 
           <!-- Select Driver Version -->
           <div class="form-group row">
-            <label for="inputDriverVersion" class="col-sm-2 col-form-label">Driver Version</label>
-            <div class="col-sm-4">
+            <label for="inputDriverVersion" class="col-sm-3 col-form-label">Driver Version</label>
+            <div class="col-sm-9">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.40">
               <small id="helpDriverVersion" class="text-muted">
                 Must be available on your development machine.
@@ -95,8 +95,8 @@ get_header(); ?>
 
           <!-- Email Address -->
           <div class="form-group row">
-            <label for="inputEmail" class="col-sm-2 col-form-label">Send me the code to</label>
-            <div class="col-md-5 col-sm-10">
+            <label for="inputEmail" class="col-sm-3 col-form-label">Send me the code to</label>
+            <div class="col-sm-9">
               <input type="email" class="form-control" id="inputEmail" placeholder="Your Email Address" value="">
             </div>
           </div>
