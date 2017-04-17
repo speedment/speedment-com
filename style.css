@@ -450,3 +450,12 @@ h1, h2, h3, h4, h5, h6 {
 #notFound {
   padding-bottom: 50px;
 }
+
+/*
+  Trial Template
+*/
+#trial input[type="radio"] {
+  border: 0px;
+  width: 100%;
+  height: 2em;
+}
