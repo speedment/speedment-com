@@ -460,3 +460,6 @@ h1, h2, h3, h4, h5, h6 {
 /*
   Trial Template
 */
+#trial .form-check {
+  padding: 8px;
+}

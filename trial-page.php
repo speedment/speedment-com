@@ -16,19 +16,19 @@ get_header(); ?>
           <!-- Project Info -->
           <div class="form-group row">
             <label for="inputGroupId" class="col-sm-2 col-form-label">GroupId</label>
-            <div class="col-sm-4">
+            <div class="col-sm-10">
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
             <label for="inputArtifactId" class="col-sm-2 col-form-label">ArtifactId</label>
-            <div class="col-sm-4">
+            <div class="col-sm-10">
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
             <label for="inputVersion" class="col-sm-2 col-form-label">Version</label>
-            <div class="col-sm-4">
+            <div class="col-sm-10">
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
@@ -99,15 +99,13 @@ get_header(); ?>
             <div class="col-md-5 col-sm-10">
               <input type="email" class="form-control" id="inputEmail" placeholder="Your Email Address" value="">
             </div>
+          </div>
+
+          <!-- Submit -->
+          <div class="form-group row">
             <button type="submit" class="btn btn-primary">Generate Project</button>
-          </div>
-
-          <div class="form-group row" id="licenseApache2">
-            <span>License <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a></span>
-          </div>
-
-          <div class="form-group row" id="license30DaysTrial" style="display:none">
-            <span>License <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a></span>
+            <span id="licenseApache2">License <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a></span>
+            <span id="license30DaysTrial" style="display:none">License <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a></span>
           </div>
         </form>
       </div>
