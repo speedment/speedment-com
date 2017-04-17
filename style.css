@@ -473,4 +473,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #trial button {
   padding: 16px 20px;
+  width: 100%;
+}
+
+#trial .submit-group {
+  text-align: right;
 }
