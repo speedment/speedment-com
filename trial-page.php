@@ -111,11 +111,9 @@ get_header(); ?>
       </div>
 
       <div class="col preview-column">
-        <pre><code class="language-java">
-public static void main(String... args) {
+        <pre><code class="language-java">public static void main(String... args) {
   System.out.println("Hello, World!");
-}
-        </code></pre>
+}</code></pre>
       </div>
     </div>
   </div>
