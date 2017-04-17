@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary:hover {
     background-color: #97cd50;
     border-color: #97cd50;
+    cursor: pointer;
 }
 
 #mainbg_container {
