@@ -38,6 +38,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Advent Pro';
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #87bd40;
+    border-color: #87bd40;
+}
+
 #mainbg_container {
     width: 100%;
     min-width: 960px;

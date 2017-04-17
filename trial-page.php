@@ -106,11 +106,11 @@ get_header(); ?>
           </div>
 
           <div class="form-group row" id="licenseApache2">
-            License - <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a>
+            License<a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank"> Apache 2</a>
           </div>
 
           <div class="form-group row" id="license30DaysTrial" style="display:none">
-            License - <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a>
+            License<a href="/terms" rel="Terms of Service" target="_blank"> 30 Days Free Trial</a>
           </div>
         </form>
       </div>
