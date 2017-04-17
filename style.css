@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #87bd40;
 }
 
+.btn-primary:hover {
+    background-color: #97cd50;
+}
+
 #mainbg_container {
     width: 100%;
     min-width: 960px;
@@ -463,4 +467,8 @@ h1, h2, h3, h4, h5, h6 {
 #trial .form-check {
   padding: 8px;
   margin-left: 0px;
+}
+
+#trial button {
+  padding: 16px 20px;
 }

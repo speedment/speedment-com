@@ -95,7 +95,7 @@ get_header(); ?>
 
           <!-- Email Address -->
           <div class="form-group row">
-            <label for="inputEmail" class="col-sm-3 col-form-label">Send me the code to</label>
+            <label for="inputEmail" class="col-sm-3 col-form-label">Send it to</label>
             <div class="col-sm-9">
               <input type="email" class="form-control" id="inputEmail" placeholder="Your Email Address" value="">
             </div>
