@@ -34,7 +34,7 @@ get_header(); ?>
           </div>
 
           <!-- Select Database Type -->
-          <fieldset class="form-group row">
+          <div class="form-group row">
             <legend class="col-form-legend col-sm-3">Database Type</legend>
             <div class="col-sm-9">
               <div class="form-check form-check-inline">
@@ -80,7 +80,7 @@ get_header(); ?>
                 </label>
               </div>
             </div>
-          </fieldset>
+          </div>
 
           <!-- Select Driver Version -->
           <div class="form-group row">
@@ -102,10 +102,10 @@ get_header(); ?>
           </div>
 
           <!-- Submit -->
-          <div class="form-group row">
+          <div class="form-group row" style="text-align: right;">
             <button type="submit" class="btn btn-primary">Generate Project</button>
-            <span id="licenseApache2">License <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a></span>
-            <span id="license30DaysTrial" style="display:none">License <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a></span>
+            <p id="licenseApache2">License <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a></p>
+            <p id="license30DaysTrial" style="display:none">License <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a></p>
           </div>
         </form>
       </div>
