@@ -29,5 +29,5 @@ get_header(); ?>
   </div>
 </div>
 
-<!-- Start Page Content -->
+<!-- End Page Content -->
 <?php get_footer(); ?>
