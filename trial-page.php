@@ -46,37 +46,37 @@ get_header(); ?>
                   MySQL
                 </label>
               </div>
-              <div class="form-check">
+              <div class="form-check form-check-inline">
                 <label class="form-check-label">
                   <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType2" value="postgresql" checked>
                   PostgreSQL
                 </label>
               </div>
-              <div class="form-check">
+              <div class="form-check form-check-inline">
                 <label class="form-check-label">
                   <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType3" value="mariadb" checked>
                   MariaDB
                 </label>
               </div>
-              <div class="form-check">
+              <div class="form-check form-check-inline">
                 <label class="form-check-label">
                   <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle" checked>
                   Oracle
                 </label>
               </div>
-              <div class="form-check">
+              <div class="form-check form-check-inline">
                 <label class="form-check-label">
                   <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2" checked>
                   DB2
                 </label>
               </div>
-              <div class="form-check">
+              <div class="form-check form-check-inline">
                 <label class="form-check-label">
                   <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400" checked>
                   AS400
                 </label>
               </div>
-              <div class="form-check">
+              <div class="form-check form-check-inline">
                 <label class="form-check-label">
                   <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql" checked>
                   SQL Server
