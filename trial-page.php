@@ -45,37 +45,37 @@ get_header(); ?>
               </div>
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType2" value="postgresql" checked>
+                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType2" value="postgresql">
                   PostgreSQL
                 </label>
               </div>
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType3" value="mariadb" checked>
+                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType3" value="mariadb">
                   MariaDB
                 </label>
               </div>
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle" checked>
+                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle">
                   Oracle
                 </label>
               </div>
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2" checked>
+                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2">
                   DB2
                 </label>
               </div>
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400" checked>
+                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400">
                   AS400
                 </label>
               </div>
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql" checked>
+                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql">
                   SQL Server
                 </label>
               </div>
