@@ -90,3 +90,11 @@
     text-align: center;
     width: 200px;
 }
+#small-boxes h2{
+    padding-top: 12px;
+    padding-bottom: 32px;
+}
+#company-logos img{
+    width: 180px;
+    height: 72px;
+}

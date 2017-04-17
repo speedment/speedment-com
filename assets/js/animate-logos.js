@@ -1,6 +1,7 @@
 (function ($) {
   $( document ).ready(function() {
-    var showCompany = 4;
+    // test
+    var showCompany = 5;
     var $list = $('#company-logos').find('div[data-info="company-logos"]');
     var $wrapper = $('div[data-info="company-logos-wrapper"]');
     showIcons();

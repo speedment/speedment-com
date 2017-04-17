@@ -30,6 +30,11 @@
   -->
   <div class="row justify-content-center" id="small-boxes">
     <div class="container">
+       <div class="row justify-content-center">
+        <div class="col">
+          <h2 class="text-center">Why Speedment?</h2>
+        </div>
+      </div>
       <div class="row justify-content-center">
         <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
       </div>
@@ -61,7 +66,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col">
-          <h2 class="text-center">Companys using Speedment</h2>
+          <h2 class="text-center">Companies Using Speedment</h2>
         </div>
       </div>
       <div class="row align-items-center justify-content-between" data-info="company-logos-wrapper">
