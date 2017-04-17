@@ -466,6 +466,11 @@ h1, h2, h3, h4, h5, h6 {
 /*
   Trial Template
 */
+#trial {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 #trial .form-check {
   padding: 8px;
   margin-left: 0px;
