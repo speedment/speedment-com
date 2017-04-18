@@ -50,8 +50,13 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.custom-control-input:checked~.custom-control-indicator {
+.custom-control-input:checked ~ .custom-control-indicator {
   background-color: #87bd40;
+}
+
+.custom-control-input:focus ~ .custom-control-indicator {
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #87bd40;
+          box-shadow: 0 0 0 1px #fff, 0 0 0 3px #87bd40;
 }
 
 #mainbg_container {
