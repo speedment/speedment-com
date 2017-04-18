@@ -202,12 +202,15 @@ get_header(); ?>
           function updateCode() {
             var url;
             var page;
+            var lang;
             if ($('.preview-column .tab-content .tab-pane.active').attr('id') === 'fileMain') {
               page = 'Main';
               url = prepareUrl('generate/main');
+              lang = Prism.languages.java;
             } else {
               page = 'Maven';
               url = prepareUrl('generate/maven');
+              lang = Prism.languages.xml;
             }
 
             $.ajax({
@@ -217,7 +220,7 @@ get_header(); ?>
                success: function (data) {
                  console.log(data);
                  $('#preview' + page).html(
-                   Prism.highlight(data, Prism.languages.java)
+                   Prism.highlight(data, lang)
                  );
                },
                error: function (xhr, status) {
