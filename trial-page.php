@@ -134,6 +134,8 @@ get_header(); ?>
           var email         = $('#inputEmail');
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
 
+          var enterprise = false;
+
           function prepareUrl(service) {
             var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
             var url = 'http://api.speedment.com:9010/' + service;
@@ -151,6 +153,16 @@ get_header(); ?>
               'speedmentVersion'           : '3.0.6',
               'speedmentEnterpriseVersion' : '1.1.3'
             };
+
+            if (enterprise) {
+              args['pluginGroupId']    = 'com.speedment.enterprise';
+              args['pluginArtifactId'] = 'speedment-enterprise-maven-plugin';
+              args['pluginVersion']    = '${speedment.enterprise.version}';
+            } else {
+              args['pluginGroupId']    = 'com.speedment';
+              args['pluginArtifactId'] = 'speedment-maven-plugin';
+              args['pluginVersion']    = '${speedment.version}';
+            }
 
             if        (selectedDbType === 'mysql') {
               args['mysqlVersion'] = driverVersion.val();
@@ -190,38 +202,13 @@ get_header(); ?>
            });
           }
 
-          groupId.change(updateCode);
-          artifactId.change(updateCode);
-          version.change(updateCode);
-          inMemory.change(updateCode);
-
-          dbType.change(function() {
-            var enterprise;
-            if        (this.value === 'mysql') {
-                driverVersion.val('5.1.40');
-                enterprise = false;
-            } else if (this.value === 'postgresql') {
-                driverVersion.val('9.4.1212.jre7');
-                enterprise = false;
-            } else if (this.value === 'mariadb') {
-                driverVersion.val('1.5.7');
-                enterprise = false;
-            } else if (this.value == 'oracle') {
-                driverVersion.val('12.1.0.1.0');
-                enterprise = true;
-            } else if (this.value === 'db2') {
-                driverVersion.val('4.21.29');
-                enterprise = true;
-            } else if (this.value === 'as400') {
-                driverVersion.val('9.1');
-                enterprise = true;
-            } else if (this.value === 'mssql') {
-                driverVersion.val('4.0');
-                enterprise = true;
-            } else {
-              console.error('Unknown database type "' + this.value + '".');
-              return;
-            }
+          function updateEnterprise() {
+            var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
+            enterprise = inMemory.is(':checked')
+                      || selectedDbType === 'oracle'
+                      || selectedDbType === 'db2'
+                      || selectedDbType === 'as400'
+                      || selectedDbType === 'mssql';
 
             if (enterprise) {
               $('#licenseApache2').hide();
@@ -232,7 +219,37 @@ get_header(); ?>
               $('#license30DaysTrial').hide();
               $('#helpDriverVersion').hide();
             }
+          }
 
+          groupId.change(updateCode);
+          artifactId.change(updateCode);
+          version.change(updateCode);
+          inMemory.change(function() {
+            updateEnterprise();
+            updateCode();
+          });
+
+          dbType.change(function() {
+            if        (this.value === 'mysql') {
+                driverVersion.val('5.1.40');
+            } else if (this.value === 'postgresql') {
+                driverVersion.val('9.4.1212.jre7');
+            } else if (this.value === 'mariadb') {
+                driverVersion.val('1.5.7');
+            } else if (this.value == 'oracle') {
+                driverVersion.val('12.1.0.1.0');
+            } else if (this.value === 'db2') {
+                driverVersion.val('4.21.29');
+            } else if (this.value === 'as400') {
+                driverVersion.val('9.1');
+            } else if (this.value === 'mssql') {
+                driverVersion.val('4.0');
+            } else {
+              console.error('Unknown database type "' + this.value + '".');
+              return;
+            }
+
+            updateEnterprise();
             updateCode();
           });
         });
