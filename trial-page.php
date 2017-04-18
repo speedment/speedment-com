@@ -107,7 +107,7 @@ get_header(); ?>
           </div>
 
           <!-- Submit -->
-          <div class="form-group row pull-right">
+          <div class="form-group row pull-right" id="submitGroup">
             <div class="col submit-group">
               <button type="submit" class="btn btn-primary">Generate Project</button>
               <small class="text-muted" id="licenseApache2">License <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a></small>
