@@ -117,6 +117,12 @@ get_header(); ?>
   System.out.println("Hello, World!");
 }</code></pre>
       </div>
+
+      <script>
+        $(function() {
+          console.log('Started');
+        })
+      </script>
     </div>
   </div>
 </div>
