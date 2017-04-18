@@ -93,6 +93,14 @@ get_header(); ?>
             </div>
           </div>
 
+          <!-- In-memory Acceleration -->
+          <div class="form-group row">
+            <label for="inputInMemory" class="col-sm-3 col-form-label">In-memory Acceleration</label>
+            <div class="col-sm-9">
+              <input type="checkbox" class="custom-control-input" id="inputInMemory">
+            </div>
+          </div>
+
           <!-- Email Address -->
           <div class="form-group row">
             <label for="inputEmail" class="col-sm-3 col-form-label">Send it to</label>
