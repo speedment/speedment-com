@@ -135,8 +135,9 @@ get_header(); ?>
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
 
           function prepareUrl(service) {
+            var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
             var url = 'http://api.speedment.com:9010/' + service;
-            url += '/' + dbType.val();
+            url += '/' + selectedDbType;
 
             if (inMemory.is(':checked')) {
               url += ',virtual-columns,datastore';
@@ -151,19 +152,19 @@ get_header(); ?>
               'speedmentEnterpriseVersion' : '1.1.3'
             };
 
-            if        (dbType.val() === 'mysql') {
+            if        (selectedDbType === 'mysql') {
               args['mysqlVersion'] = driverVersion.val();
-            } else if (dbType.val() === 'postgresql') {
+            } else if (selectedDbType === 'postgresql') {
               args['postgresqlVersion'] = driverVersion.val();
-            } else if (dbType.val() === 'mariadb') {
+            } else if (selectedDbType === 'mariadb') {
               args['mariadbVersion'] = driverVersion.val();
-            } else if (dbType.val() === 'oracle') {
+            } else if (selectedDbType === 'oracle') {
               args['oracleVersion'] = driverVersion.val();
-            } else if (dbType.val() === 'db2') {
+            } else if (selectedDbType === 'db2') {
               args['db2Version'] = driverVersion.val();
-            } else if (dbType.val() === 'as400') {
+            } else if (selectedDbType === 'as400') {
               args['as400Version'] = driverVersion.val();
-            } else if (dbType.val() === 'mssql') {
+            } else if (selectedDbType === 'mssql') {
               args['sqlserverVersion'] = driverVersion.val();
             }
 
