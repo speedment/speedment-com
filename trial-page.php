@@ -97,7 +97,11 @@ get_header(); ?>
           <div class="form-group row">
             <label for="inputInMemory" class="col-sm-3 col-form-label">In-memory Acceleration</label>
             <div class="col-sm-9">
-              <input type="checkbox" class="custom-control-input" id="inputInMemory">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="inputInMemory">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Enabled</span>
+              </label>
             </div>
           </div>
 
