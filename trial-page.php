@@ -10,7 +10,7 @@ get_header(); ?>
 <div class="justify-content-center" id="trial">
   <div class="container">
     <div class="row justify-content-center ">
-      <div class="col-6 config-column">
+      <div class="col-md-6 col-sm-12 config-column">
         <form method="post" action="#">
 
           <!-- Project Info -->
@@ -117,7 +117,7 @@ get_header(); ?>
         </form>
       </div>
 
-      <div class="col preview-column">
+      <div class="col-md-6 col-sm-12 preview-column">
         <pre><code class="language-java">public static void main(String... args) {
   System.out.println("Hello, World!");
 }</code></pre>
