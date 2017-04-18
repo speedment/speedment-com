@@ -175,7 +175,7 @@ get_header(); ?>
             $.ajax({
                url: prepareUrl('generate/main'),
                type: "GET",
-               crossDomain: true
+               crossDomain: true,
                success: function (data) {
                  $('#preview').html(
                    Prism.highlight(data, 'java')
