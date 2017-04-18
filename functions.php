@@ -30,6 +30,11 @@ function bootstrap_with_jquery_and_tether() {
   wp_enqueue_script('bootstrap');
 }
 
+function load_prism() {
+  wp_register_script('prism', get_template_directory_uri().'/assets/js/prism.js');
+  wp_enqueue_script('prism');
+}
+
 function speedment_menues_init() {
     register_nav_menu('top-left-menu',  __( 'Top Left (Blue) Menu'  ));
     register_nav_menu('top-right-menu', __( 'Top Right (White) Menu' ));
@@ -194,6 +199,7 @@ add_filter('upload_mimes', 'cc_mime_types');
 add_action('widgets_init', 'speedment_widgets_init');
 add_action('init',         'speedment_menues_init');
 
+add_action('wp_enqueue_scripts', 'load_prism');
 add_action('wp_enqueue_scripts', 'load_tether');
 add_action('wp_enqueue_scripts', 'load_animateLogo');
 add_action('wp_enqueue_scripts', 'load_carosuelVideo');
