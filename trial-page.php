@@ -119,7 +119,7 @@ get_header(); ?>
       </div>
 
       <script>
-        $(function() {
+        jQuery(function() {
           console.log('Started');
         })
       </script>
