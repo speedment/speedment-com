@@ -177,6 +177,7 @@ get_header(); ?>
                type: "GET",
                crossDomain: true,
                success: function (data) {
+                 console.log(data);
                  $('#preview').html(
                    Prism.highlight(data, 'java')
                  );
