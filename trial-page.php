@@ -164,19 +164,25 @@ get_header(); ?>
               'groupId'    : groupId.val(),
               'artifactId' : artifactId.val(),
               'version'    : version.val(),
-              'packaging'  : 'jar',
-              'speedmentVersion'           : '3.0.6',
-              'speedmentEnterpriseVersion' : '1.1.3'
+              'packaging'  : 'jar'
             };
 
             if (enterprise) {
-              args['pluginGroupId']    = 'com.speedment.enterprise';
-              args['pluginArtifactId'] = 'speedment-enterprise-maven-plugin';
-              args['pluginVersion']    = '${speedment.enterprise.version}';
+              args['speedmentEnterpriseVersion'] = '1.1.3';
+              args['runtimeGroupId']    = 'com.speedment.enterprise';
+              args['runtimeArtifactId'] = 'runtime';
+              args['runtimeVersion']    = '${speedment.enterprise.version}';
+              args['pluginGroupId']     = 'com.speedment.enterprise';
+              args['pluginArtifactId']  = 'speedment-enterprise-maven-plugin';
+              args['pluginVersion']     = '${speedment.enterprise.version}';
             } else {
-              args['pluginGroupId']    = 'com.speedment';
-              args['pluginArtifactId'] = 'speedment-maven-plugin';
-              args['pluginVersion']    = '${speedment.version}';
+              args['speedmentVersion']  = '3.0.6';
+              args['runtimeGroupId']    = 'com.speedment';
+              args['runtimeArtifactId'] = 'runtime';
+              args['runtimeVersion']    = '${speedment.version}';
+              args['pluginGroupId']     = 'com.speedment';
+              args['pluginArtifactId']  = 'speedment-maven-plugin';
+              args['pluginVersion']     = '${speedment.version}';
             }
 
             if        (selectedDbType === 'mysql') {
