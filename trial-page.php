@@ -132,7 +132,7 @@ get_header(); ?>
   System.out.println("Hello, World!");
 }</code></pre>
           </div>
-          <div class="tab-pane active" id="fileMaven" role="tabpanel">
+          <div class="tab-pane" id="fileMaven" role="tabpanel">
             <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
         </div>
@@ -200,13 +200,23 @@ get_header(); ?>
           }
 
           function updateCode() {
+            var url;
+            var page;
+            if ($('.preview-column .tab-content .tab-pane.active').attr('id') === 'fileMain') {
+              page = 'Main';
+              url = prepareUrl('generate/main');
+            } else {
+              page = 'Maven';
+              url = prepareUrl('generate/maven');
+            }
+
             $.ajax({
-               url: prepareUrl('generate/main'),
+               url: url,
                type: "GET",
                crossDomain: true,
                success: function (data) {
                  console.log(data);
-                 $('#previewMain').html(
+                 $('#preview' + page).html(
                    Prism.highlight(data, Prism.languages.java)
                  );
                },
