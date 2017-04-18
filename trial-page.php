@@ -246,6 +246,10 @@ get_header(); ?>
             }
           }
 
+          $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+            updateCode();
+          });
+
           groupId.change(updateCode);
           artifactId.change(updateCode);
           version.change(updateCode);
