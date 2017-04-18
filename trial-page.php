@@ -252,6 +252,8 @@ get_header(); ?>
             updateEnterprise();
             updateCode();
           });
+
+          updateCode();
         });
       </script>
     </div>
