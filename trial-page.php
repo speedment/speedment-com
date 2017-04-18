@@ -172,12 +172,19 @@ get_header(); ?>
           }
 
           function updateCode() {
-            var url = prepareUrl('generate/main');
-            $.get(url, function(data) {
-              $('#preview').html(
-                Prism.highlight(data, 'java')
-              );
-            });
+            $.ajax({
+               url: prepareUrl('generate/main'),
+               type: "GET",
+               crossDomain: true
+               success: function (data) {
+                 $('#preview').html(
+                   Prism.highlight(data, 'java')
+                 );
+               },
+               error: function (xhr, status) {
+                 console.error('Error! Server responded with ' + status + '.');
+               }
+           });
           }
 
           groupId.change(updateCode);
