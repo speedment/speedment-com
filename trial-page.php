@@ -183,6 +183,7 @@ get_header(); ?>
                  );
                },
                error: function (xhr, status) {
+                 console.error(xhr);
                  console.error('Error! Server responded with ' + status + '.');
                }
            });
