@@ -136,7 +136,7 @@ get_header(); ?>
 
           function prepareUrl(service) {
             var url = 'http://api.speedment.com:9010/' + service;
-            url += dbType.val();
+            url += '/' + dbType.val();
 
             if (inMemory.is(':checked')) {
               url += ',virtual-columns,datastore';
