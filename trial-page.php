@@ -176,7 +176,6 @@ get_header(); ?>
                url: prepareUrl('generate/main'),
                type: "GET",
                crossDomain: true,
-               dataType: 'text/plain',
                success: function (data) {
                  $('#preview').html(
                    Prism.highlight(data, 'java')
