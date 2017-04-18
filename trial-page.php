@@ -137,7 +137,7 @@ get_header(); ?>
           function prepareUrl(service) {
             var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
             var url = 'http://api.speedment.com:9010/' + service;
-            url += '/' + selectedDbType;
+            url += '/' + (selectedDbType === 'as400') ? 'db2' : selectedDbType;
 
             if (inMemory.is(':checked')) {
               url += ',virtual-columns,datastore';
