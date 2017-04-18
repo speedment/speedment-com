@@ -249,7 +249,7 @@ get_header(); ?>
             }
           }
 
-          $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+          $('a[data-toggle="tab"]').on('shows.bs.tab', function (e) {
             updateCode();
           });
 
