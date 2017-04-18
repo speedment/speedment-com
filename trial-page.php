@@ -246,7 +246,7 @@ get_header(); ?>
             }
           }
 
-          $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+          $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
             updateCode();
           });
 
