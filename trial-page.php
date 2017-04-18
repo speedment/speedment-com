@@ -118,35 +118,94 @@ get_header(); ?>
       </div>
 
       <div class="col-md-6 col-sm-12 preview-column">
-        <pre><code class="language-java">public static void main(String... args) {
+        <pre><code class="language-java" id="preview">public static void main(String... args) {
   System.out.println("Hello, World!");
 }</code></pre>
       </div>
 
       <script>
         jQuery(document).ready(function($) {
-          $('input[type=radio][name=radioDatabaseType]').change(function() {
-            var driverVersion = $('#inputDriverVersion');
+
+          var groupId       = $('#inputGroupId');
+          var artifactId    = $('#inputArtifactId');
+          var version       = $('#inputVersion');
+          var driverVersion = $('#inputDriverVersion');
+          var inMemory      = $('#inputInMemory');
+          var email         = $('#inputEmail');
+          var dbType        = $('input[type=radio][name=radioDatabaseType]');
+
+          function prepareUrl(service) {
+            var url = 'http://api.speedment.com:9010/' + service;
+            url += dbType.val();
+
+            if (inMemory.is(':checked')) {
+              url += ',virtual-columns,datastore';
+            }
+
+            var args = {
+              'groupId'    : groupId.val(),
+              'artifactId' : artifactId.val(),
+              'version'    : version.val(),
+              'packaging'  : 'jar',
+              'speedmentVersion'           : '3.0.6',
+              'speedmentEnterpriseVersion' : '1.1.3'
+            };
+
+            if        (dbType.val() === 'mysql') {
+              args['mysqlVersion'] = driverVersion.val();
+            } else if (dbType.val() === 'postgresql') {
+              args['postgresqlVersion'] = driverVersion.val();
+            } else if (dbType.val() === 'mariadb') {
+              args['mariadbVersion'] = driverVersion.val();
+            } else if (dbType.val() === 'oracle') {
+              args['oracleVersion'] = driverVersion.val();
+            } else if (dbType.val() === 'db2') {
+              args['db2Version'] = driverVersion.val();
+            } else if (dbType.val() === 'as400') {
+              args['as400Version'] = driverVersion.val();
+            } else if (dbType.val() === 'mssql') {
+              args['sqlserverVersion'] = driverVersion.val();
+            }
+
+            url += '?args=' + encodeURIComponent(JSON.stringify(args));
+            return url;
+          }
+
+          function updateCode() {
+            var url = prepareUrl('generate/main');
+            $.get(url, function(data) {
+              $('#preview').html(
+                Prism.highlight(data, 'java')
+              );
+            });
+          }
+
+          groupId.change(updateCode);
+          artifactId.change(updateCode);
+          version.change(updateCode);
+          inMemory.change(updateCode);
+
+          dbType.change(function() {
             var enterprise;
             if        (this.value === 'mysql') {
                 driverVersion.val('5.1.40');
                 enterprise = false;
-            } else if (this.value == 'postgresql') {
+            } else if (this.value === 'postgresql') {
                 driverVersion.val('9.4.1212.jre7');
                 enterprise = false;
-            } else if (this.value == 'mariadb') {
+            } else if (this.value === 'mariadb') {
                 driverVersion.val('1.5.7');
                 enterprise = false;
             } else if (this.value == 'oracle') {
                 driverVersion.val('12.1.0.1.0');
                 enterprise = true;
-            } else if (this.value == 'db2') {
+            } else if (this.value === 'db2') {
                 driverVersion.val('4.21.29');
                 enterprise = true;
-            } else if (this.value == 'as400') {
+            } else if (this.value === 'as400') {
                 driverVersion.val('9.1');
                 enterprise = true;
-            } else if (this.value == 'mssql') {
+            } else if (this.value === 'mssql') {
                 driverVersion.val('4.0');
                 enterprise = true;
             } else {
@@ -163,6 +222,8 @@ get_header(); ?>
               $('#license30DaysTrial').hide();
               $('#helpDriverVersion').hide();
             }
+
+            updateCode();
           });
         });
       </script>
