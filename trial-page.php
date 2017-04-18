@@ -120,11 +120,43 @@ get_header(); ?>
 
       <script>
         jQuery(document).ready(function($) {
-          $('input[type=radio][name=bedStatus]').change(function() {
-            if (this.value == 'allot') {
-                alert("Allot Thai Gayo Bhai");
-            } else if (this.value == 'transfer') {
-                alert("Transfer Thai Gayo");
+          $('input[type=radio][name=radioDatabaseType]').change(function() {
+            var driverVersion = $('#inputDriverVersion');
+            var enterprise;
+            if        (this.value === 'mysql') {
+                driverVersion.val('5.1.40');
+                enterprise = false;
+            } else if (this.value == 'postgresql') {
+                driverVersion.val('9.4.1212.jre7');
+                enterprise = false;
+            } else if (this.value == 'mariadb') {
+                driverVersion.val('1.5.7');
+                enterprise = false;
+            } else if (this.value == 'oracle') {
+                driverVersion.val('12.1.0.1.0');
+                enterprise = true;
+            } else if (this.value == 'db2') {
+                driverVersion.val('4.21.29');
+                enterprise = true;
+            } else if (this.value == 'as400') {
+                driverVersion.val('9.1');
+                enterprise = true;
+            } else if (this.value == 'mssql') {
+                driverVersion.val('4.0');
+                enterprise = true;
+            } else {
+              console.error('Unknown database type "' + this.value + '".');
+              return;
+            }
+
+            if (enterprise) {
+              $('#licenseApache2').hide();
+              $('#license30DaysTrial').show();
+              $('#helpDriverVersion').show();
+            } else {
+              $('#licenseApache2').show();
+              $('#license30DaysTrial').hide();
+              $('#helpDriverVersion').hide();
             }
           });
         });
