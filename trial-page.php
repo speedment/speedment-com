@@ -128,40 +128,18 @@ get_header(); ?>
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="fileMain" role="tabpanel">
-            <pre><code class="language-java" class="preview" id="previewMain">public static void main(String... args) {
+            <pre class="code-toolbar"><code class="language-java" class="preview" id="previewMain">public static void main(String... args) {
   System.out.println("Hello, World!");
 }</code></pre>
           </div>
           <div class="tab-pane" id="fileMaven" role="tabpanel">
-            <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
+            <pre class="code-toolbar"><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
         </div>
       </div>
 
       <script>
         jQuery(document).ready(function($) {
-
-          Prism.plugins.toolbar.registerButton('select-code', function() {
-          	var button = document.createElement('button');
-          	button.innerHTML = 'Select Code';
-
-          	button.addEventListener('click', function () {
-          		// Source: http://stackoverflow.com/a/11128179/2757940
-          		if (document.body.createTextRange) { // ms
-          			var range = document.body.createTextRange();
-          			range.moveToElementText(env.element);
-          			range.select();
-          		} else if (window.getSelection) { // moz, opera, webkit
-          			var selection = window.getSelection();
-          			var range = document.createRange();
-          			range.selectNodeContents(env.element);
-          			selection.removeAllRanges();
-          			selection.addRange(range);
-          		}
-          	});
-
-          	return button;
-          });
 
           var groupId       = $('#inputGroupId');
           var artifactId    = $('#inputArtifactId');
