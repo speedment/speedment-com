@@ -484,3 +484,12 @@ h1, h2, h3, h4, h5, h6 {
 #trial .submit-group {
   text-align: right;
 }
+
+#trial #inputDriverVersion {
+  margin-bottom: -25px;
+}
+
+#trial .nosize {
+  display: block;
+  margin-top: -25px;
+}
