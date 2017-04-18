@@ -494,3 +494,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 25px;
   margin-top: -25px;
 }
+
+#trial #inMemoryContainer {
+  display: flex;
+
+  -ms-flex-align:      center;
+	-webkit-align-items: center;
+	-webkit-box-align:   center;
+	align-items:         center;
+}
