@@ -118,9 +118,24 @@ get_header(); ?>
       </div>
 
       <div class="col-md-6 col-sm-12 preview-column">
-        <pre><code class="language-java" id="preview">public static void main(String... args) {
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#fileMain" role="tab">Main.java</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#fileMaven" role="tab">pom.xml</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="fileMain" role="tabpanel">
+            <pre><code class="language-java" class="preview" id="previewMain">public static void main(String... args) {
   System.out.println("Hello, World!");
 }</code></pre>
+          </div>
+          <div class="tab-pane active" id="fileMaven" role="tabpanel">
+            <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
+          </div>
+        </div>
       </div>
 
       <script>
@@ -191,7 +206,7 @@ get_header(); ?>
                crossDomain: true,
                success: function (data) {
                  console.log(data);
-                 $('#preview').html(
+                 $('#previewMain').html(
                    Prism.highlight(data, Prism.languages.java)
                  );
                },
