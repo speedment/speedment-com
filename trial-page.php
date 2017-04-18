@@ -150,6 +150,7 @@ get_header(); ?>
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
 
           var enterprise = false;
+          var enterpriseDb = false;
 
           function prepareUrl(service) {
             var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
@@ -238,19 +239,25 @@ get_header(); ?>
 
           function updateEnterprise() {
             var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
+            enterpriseDb = selectedDbType === 'oracle'
+                        || selectedDbType === 'db2'
+                        || selectedDbType === 'as400'
+                        || selectedDbType === 'mssql';
+
             enterprise = inMemory.is(':checked')
-                      || selectedDbType === 'oracle'
-                      || selectedDbType === 'db2'
-                      || selectedDbType === 'as400'
-                      || selectedDbType === 'mssql';
+                      || enterpriseDb;
 
             if (enterprise) {
               $('#licenseApache2').hide();
               $('#license30DaysTrial').show();
-              $('#helpDriverVersion').show();
             } else {
               $('#licenseApache2').show();
               $('#license30DaysTrial').hide();
+            }
+
+            if (enterpriseDb) {
+              $('#helpDriverVersion').show();
+            } else {
               $('#helpDriverVersion').hide();
             }
           }
