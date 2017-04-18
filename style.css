@@ -491,5 +491,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #trial .nosize {
   display: block;
+  height: 25px;
   margin-top: -25px;
 }
