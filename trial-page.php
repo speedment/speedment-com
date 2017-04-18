@@ -38,44 +38,44 @@ get_header(); ?>
             <legend class="col-form-legend col-sm-3">Database Type</legend>
             <div class="col-sm-9">
               <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
+                <label class="custom-control custom-radio">
+                  <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
                   MySQL
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType2" value="postgresql">
+                <label class="custom-control custom-radio">
+                  <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType2" value="postgresql">
                   PostgreSQL
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType3" value="mariadb">
+                <label class="custom-control custom-radio">
+                  <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType3" value="mariadb">
                   MariaDB
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle">
+                <label class="custom-control custom-radio">
+                  <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle">
                   Oracle
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2">
+                <label class="custom-control custom-radio">
+                  <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2">
                   DB2
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400">
+                <label class="custom-control custom-radio">
+                  <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400">
                   AS400
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql">
+                <label class="custom-control custom-radio">
+                  <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql">
                   SQL Server
                 </label>
               </div>
