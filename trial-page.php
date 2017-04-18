@@ -119,9 +119,15 @@ get_header(); ?>
       </div>
 
       <script>
-        jQuery(function() {
-          console.log('Started');
-        })
+        jQuery(document).ready(function($) {
+          $('input[type=radio][name=bedStatus]').change(function() {
+            if (this.value == 'allot') {
+                alert("Allot Thai Gayo Bhai");
+            } else if (this.value == 'transfer') {
+                alert("Transfer Thai Gayo");
+            }
+          });
+        });
       </script>
     </div>
   </div>
