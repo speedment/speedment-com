@@ -179,7 +179,7 @@ get_header(); ?>
                success: function (data) {
                  console.log(data);
                  $('#preview').html(
-                   Prism.highlight(data, 'java')
+                   Prism.highlight(data, Prism.languages.java)
                  );
                },
                error: function (xhr, status) {
