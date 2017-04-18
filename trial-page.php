@@ -87,7 +87,7 @@ get_header(); ?>
             <label for="inputDriverVersion" class="col-sm-3 col-form-label">Driver Version</label>
             <div class="col-sm-9">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.40">
-              <div id="helpDriverVersion" class="text-muted" style="nosize">
+              <div id="helpDriverVersion" class="text-muted nosize">
                 Must be available on your development machine.
               </div>
             </div>
