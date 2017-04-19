@@ -187,6 +187,10 @@ a:hover, button:hover {
   color: #aaa;
 }
 
+#small-boxes a {
+  color: #87bd40;
+}
+
 #small-boxes h5 {
   margin-top: 10px;
 }
