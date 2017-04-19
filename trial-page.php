@@ -11,7 +11,7 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center ">
       <div class="col-md-6 col-sm-12 config-column">
-        <form method="post" action="#">
+        <form method="post" action="#" id="speedmentForm">
 
           <!-- Project Info -->
           <div class="form-group row">
@@ -125,8 +125,10 @@ get_header(); ?>
           <div class="form-group row pull-right" id="submitGroup">
             <div class="col submit-group">
               <button type="submit" class="btn btn-primary">Generate Project</button>
+              <!--
               <small class="text-muted" id="licenseApache2">License <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a></small>
               <small class="text-muted" id="license30DaysTrial" style="display:none">License <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a></small>
+              -->
             </div>
           </div>
         </form>
@@ -270,12 +272,12 @@ get_header(); ?>
                       || enterpriseDb;
 
             if (enterprise) {
-              $('#licenseApache2').hide();
-              $('#license30DaysTrial').show();
+              //$('#licenseApache2').hide();
+              //$('#license30DaysTrial').show();
               $('#licenseKey').show();
             } else {
-              $('#licenseApache2').show();
-              $('#license30DaysTrial').hide();
+              //$('#licenseApache2').show();
+              //$('#license30DaysTrial').hide();
               $('#licenseKey').hide();
             }
 
@@ -324,6 +326,11 @@ get_header(); ?>
           });
 
           updateCode();
+        });
+
+        $('#speedmentForm').submit(function(ev) {
+          updateCode();
+          ev.preventDefault();
         });
       </script>
     </div>
