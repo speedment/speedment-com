@@ -51,7 +51,7 @@ class Image_Box_Widget extends WP_Widget {
 	 * @param array $instance Previously saved values from database.
 	 */
 	public function form( $instance ) {
-		$title             = !empty($instance['title'])             ? $instance['title']             : esc_html__('New title', 'text_domain');
+		$title             = !empty($instance['title'])             ? $instance['title']             : esc_html__('', 'text_domain');
 		$font_icon_classes = !empty($instance['font_icon_classes']) ? $instance['font_icon_classes'] : esc_html__('fa fa-question-circle-o', 'text_domain');
 		$widget_classes    = !empty($instance['widget_classes'])    ? $instance['widget_classes']    : esc_html__('col-md-4', 'text_domain');
 		$content           = !empty($instance['content'])           ? $instance['content']           : esc_html__('', 'text_domain');
