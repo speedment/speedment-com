@@ -11,6 +11,11 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center ">
       <div class="col-md-6 col-sm-12 config-column">
+
+        <?php /////////////////////////////////////////////////////////////// ?>
+        <?php //                     Configuration Form                    // ?>
+        <?php /////////////////////////////////////////////////////////////// ?>
+
         <form method="post" id="speedmentForm">
 
           <!-- Project Info -->
@@ -116,7 +121,7 @@ get_header(); ?>
                 }
               ?></textarea>
               <small class="text-muted">
-                Not a customer? <a href="/trial" rel="Send me a trial">Send me a 30 Days Trial!</a>
+                Not a customer? <a href="/trial" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Send me a 30 Days Trial!</a>
               </small>
             </div>
           </div>
@@ -154,6 +159,10 @@ get_header(); ?>
           </div>
         </div>
       </div>
+
+      <?php ///////////////////////////////////////////////////////////////// ?>
+      <?php //                      Form logic                             // ?>
+      <?php ///////////////////////////////////////////////////////////////// ?>
 
       <script>
         jQuery(document).ready(function($) {
@@ -337,6 +346,54 @@ get_header(); ?>
           });
         });
       </script>
+
+      <?php ///////////////////////////////////////////////////////////////// ?>
+      <?php //                    Send me a trial                          // ?>
+      <?php ///////////////////////////////////////////////////////////////// ?>
+
+      <div id="trialModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="trialModalHeader" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="trialModalHeader">30 Days Free Trial</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="trial-firstname" class="form-control-label">Firstname:</label>
+                  <input type="text" class="form-control" id="trial-firstname">
+                </div>
+                <div class="form-group">
+                  <label for="trial-lastname" class="form-control-label">Lastname:</label>
+                  <input type="text" class="form-control" id="trial-lastname">
+                </div>
+                <div class="form-group">
+                  <label for="trial-company" class="form-control-label">Company:</label>
+                  <input type="text" class="form-control" id="trial-company">
+                </div>
+                <div class="form-group">
+                  <label for="trial-country" class="form-control-label">Country:</label>
+                  <input type="text" class="form-control" id="trial-country">
+                </div>
+                <div class="form-group">
+                  <label for="trial-state" class="form-control-label">State:</label>
+                  <input type="text" class="form-control" id="trial-state">
+                </div>
+                <div class="form-group">
+                  <label for="trial-email" class="form-control-label">Email:</label>
+                  <input type="email" class="form-control" id="trial-email">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Send Me a Trial</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
