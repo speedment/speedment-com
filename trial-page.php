@@ -299,6 +299,7 @@ get_header(); ?>
           artifactId.change(updateCode);
           version.change(updateCode);
           licenseKey.change(updateCode);
+          driverVersion.change(updateCode);
           inMemory.change(function() {
             updateEnterprise();
             updateCode();
