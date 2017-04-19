@@ -513,6 +513,12 @@ a:hover, button:hover {
   margin-top: -25px;
 }
 
+#licenseKey {
+  background-color: #f5f2f0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 #trial #inMemoryContainer {
   display: flex;
 

@@ -113,7 +113,7 @@ get_header(); ?>
 
           <!-- Email Address -->
           <div class="form-group row" id="licenseKey" style="display:none;">
-            <label for="inputLicenseKey" class="col-sm-3 col-form-label">License Key</label>
+            <label for="inputLicenseKey" class="col-sm-3 col-form-label">Enterprise License Key</label>
             <div class="col-sm-9">
               <textarea class="form-control" id="inputLicenseKey" placeholder="Your License Key"><?php
                 if (isset($_GET['licenseKey'])) {
