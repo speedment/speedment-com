@@ -11,7 +11,7 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center ">
       <div class="col-md-6 col-sm-12 config-column">
-        <form method="post" action="#" id="speedmentForm">
+        <form method="post" id="speedmentForm">
 
           <!-- Project Info -->
           <div class="form-group row">
