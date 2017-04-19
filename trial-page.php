@@ -107,7 +107,7 @@ get_header(); ?>
           </div>-->
 
           <!-- Email Address -->
-          <div class="form-group row" id="licenseKey">
+          <div class="form-group row" id="licenseKey" style="display:none;">
             <label for="inputLicenseKey" class="col-sm-3 col-form-label">License Key</label>
             <div class="col-sm-9">
               <textarea class="form-control" id="inputLicenseKey" placeholder="Your License Key"><?php
@@ -293,6 +293,7 @@ get_header(); ?>
           groupId.change(updateCode);
           artifactId.change(updateCode);
           version.change(updateCode);
+          licenseKey.change(updateCode);
           inMemory.change(function() {
             updateEnterprise();
             updateCode();
