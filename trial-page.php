@@ -104,14 +104,6 @@ get_header(); ?>
           </div>
 
           <!-- Email Address -->
-          <!--<div class="form-group row">
-            <label for="inputEmail" class="col-sm-3 col-form-label">Send it to</label>
-            <div class="col-sm-9">
-              <input type="email" class="form-control" id="inputEmail" placeholder="Your Email Address" value="">
-            </div>
-          </div>-->
-
-          <!-- Email Address -->
           <div class="form-group row" id="licenseKey" style="display:none;">
             <label for="inputLicenseKey" class="col-sm-3 col-form-label">Enterprise License Key</label>
             <div class="col-sm-9 row rightSide">
@@ -123,16 +115,13 @@ get_header(); ?>
               <input type="button" class="col-6 btn" rel="Contact Sales" data-toggle="modal" data-target="#salesModal" value="Contact Sales">
               <input type="button" class="col-6 btn btn-primary" rel="Send me a trial" data-toggle="modal" data-target="#trialModal" value="Send me a 30 Days Trial">
             </div>
+            <div class="cr cr-top cr-right cr-sticky cr-blue">Enterprise</div>
           </div>
 
           <!-- Submit -->
           <div class="form-group row pull-right" id="submitGroup">
             <div class="col submit-group">
               <button type="submit" class="btn btn-primary">Generate Project</button>
-              <!--
-              <small class="text-muted" id="licenseApache2">License <a href="https://www.apache.org/licenses/LICENSE-2.0.html" rel="The Apache 2 License" target="_blank">Apache 2</a></small>
-              <small class="text-muted" id="license30DaysTrial" style="display:none">License <a href="/terms" rel="Terms of Service" target="_blank">30 Days Free Trial</a></small>
-              -->
             </div>
           </div>
         </form>
