@@ -402,6 +402,7 @@ get_header(); ?>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary">Send Me a Trial</button>
+              <small class="text-muted">By continuing you agree to the <a href="/terms" rel="Terms of Service" target="_blank">Terms of Service</a>.</small>
             </div>
           </div>
         </div>
