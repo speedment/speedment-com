@@ -554,10 +554,11 @@ a:hover, button:hover {
 */
 .cr {
   width: 200px;
-  padding: 16px;
+  padding: 8px;
   position: absolute;
   text-align: center;
   color: #f0f0f0;
+  font-size: 80%;
 }
 
 .cr-sticky {
