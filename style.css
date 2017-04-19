@@ -519,9 +519,12 @@ a:hover, button:hover {
   padding-bottom: 8px;
 }
 
+#licenseKey > .rightSide {
+  margin-left: 0px;
+}
+
 #licenseKey .btn {
   margin-top: 8px;
-  width: auto;
   padding: 8px;
 }
 

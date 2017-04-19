@@ -114,14 +114,14 @@ get_header(); ?>
           <!-- Email Address -->
           <div class="form-group row" id="licenseKey" style="display:none;">
             <label for="inputLicenseKey" class="col-sm-3 col-form-label">Enterprise License Key</label>
-            <div class="col-sm-9">
-              <textarea class="form-control" id="inputLicenseKey" placeholder="Your License Key"><?php
+            <div class="col-sm-9 row rightSide">
+              <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Your License Key"><?php
                 if (isset($_GET['licenseKey'])) {
                   echo $_GET['licenseKey'];
                 }
               ?></textarea>
-              <input type="button" class="btn" rel="Contact Sales" data-toggle="modal" data-target="#salesModal" value="Contact Sales">
-              <input type="button" class="btn btn-primary" rel="Send me a trial" data-toggle="modal" data-target="#trialModal" value="Send me a 30 Days Trial">
+              <input type="button" class="col-6 btn" rel="Contact Sales" data-toggle="modal" data-target="#salesModal" value="Contact Sales">
+              <input type="button" class="col-6 btn btn-primary" rel="Send me a trial" data-toggle="modal" data-target="#trialModal" value="Send me a 30 Days Trial">
             </div>
           </div>
 
