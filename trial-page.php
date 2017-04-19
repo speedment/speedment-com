@@ -244,6 +244,9 @@ get_header(); ?>
               lang = Prism.languages.xml;
             }
 
+            var container = $('#preview' + page);
+            container.fadeOut(100);
+
             $.ajax({
                url: url,
                type: "GET",
@@ -252,7 +255,7 @@ get_header(); ?>
                  console.log(data);
                  $('#preview' + page).html(
                    Prism.highlight(data, lang)
-                 );
+                 ).fadeIn(100);
                },
                error: function (xhr, status) {
                  console.error(xhr);
