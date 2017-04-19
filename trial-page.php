@@ -120,7 +120,7 @@ get_header(); ?>
                   echo $_GET['licenseKey'];
                 }
               ?></textarea>
-              <input type="button" class="btn" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Send me a 30 Days Trial</input>
+              <input type="button" class="btn" rel="Send me a trial" data-toggle="modal" data-target="#trialModal" value="Send me a 30 Days Trial">
               <a href="/contact">Contact Sales</a>
             </div>
           </div>
