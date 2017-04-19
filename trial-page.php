@@ -105,6 +105,9 @@ get_header(); ?>
 
           <!-- Email Address -->
           <div class="form-group row" id="licenseKey" style="display:none;">
+            <div style="overflow:hidden;position:relative;width:100%;height:100px;top:-8px;margin-bottom:-100px;margin-right:-100px;right:0px;z-index:1;">
+              <div class="cr cr-top cr-right cr-blue">Enterprise</div>
+            </div>
             <label for="inputLicenseKey" class="col-sm-3 col-form-label">Enterprise License Key</label>
             <div class="col-sm-9 row rightSide">
               <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Your License Key"><?php
