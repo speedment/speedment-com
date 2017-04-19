@@ -18,26 +18,6 @@ get_header(); ?>
 
         <form method="post" id="speedmentForm">
 
-          <!-- Project Info -->
-          <div class="form-group row">
-            <label for="inputGroupId" class="col-sm-3 col-form-label">GroupId</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputArtifactId" class="col-sm-3 col-form-label">ArtifactId</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputVersion" class="col-sm-3 col-form-label">Version</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
-            </div>
-          </div>
-
           <!-- Select Database Type -->
           <div class="form-group row">
             <legend class="col-form-legend col-sm-3">Database Type</legend>
@@ -100,6 +80,26 @@ get_header(); ?>
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">Enabled</span>
               </label>
+            </div>
+          </div>
+
+          <!-- Project Info -->
+          <div class="form-group row">
+            <label for="inputGroupId" class="col-sm-3 col-form-label">GroupId</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputArtifactId" class="col-sm-3 col-form-label">ArtifactId</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputVersion" class="col-sm-3 col-form-label">Version</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
 
