@@ -490,7 +490,7 @@ a:hover, button:hover {
   margin-left: 0px;
 }
 
-#trial button {
+#trial .btn {
   padding: 16px 20px;
   width: 100%;
 }
