@@ -519,6 +519,11 @@ a:hover, button:hover {
   padding-bottom: 8px;
 }
 
+#licenseKey .btn {
+  margin-top: 8px;
+  width: auto;
+}
+
 #trial #inMemoryContainer {
   display: flex;
 
