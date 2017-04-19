@@ -107,7 +107,7 @@ get_header(); ?>
           </div>-->
 
           <!-- Email Address -->
-          <div class="form-group row">
+          <div class="form-group row" id="licenseKey">
             <label for="inputLicenseKey" class="col-sm-3 col-form-label">License Key</label>
             <div class="col-sm-9">
               <textarea class="form-control" id="inputLicenseKey" placeholder="Your License Key"><?php
@@ -116,7 +116,7 @@ get_header(); ?>
                 }
               ?></textarea>
               <small class="text-muted">
-                Do you want to try it? <a href="/trial" rel="Send me a trial">Send me a 30 Days Trial!</a>
+                Not a customer? <a href="/trial" rel="Send me a trial">Send me a 30 Days Trial!</a>
               </small>
             </div>
           </div>
@@ -272,9 +272,11 @@ get_header(); ?>
             if (enterprise) {
               $('#licenseApache2').hide();
               $('#license30DaysTrial').show();
+              $('#licenseKey').show();
             } else {
               $('#licenseApache2').show();
               $('#license30DaysTrial').hide();
+              $('#licenseKey').hide();
             }
 
             if (enterpriseDb) {
