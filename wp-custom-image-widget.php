@@ -35,7 +35,7 @@ class Custom_Image_Widget extends WP_Widget {
 			<?php } ?>
 			<?php if (!empty($instance['text'])) { ?>
 				<div class="custom-image-text">
-					<?php echo $instance['text']; ?>
+					<span><?php echo $instance['text']; ?></span>
 				</div>
 			<?php } ?>
 			<?php if (!empty($instance['link'])) { ?>
