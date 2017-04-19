@@ -7,7 +7,7 @@ class Custom_Image_Widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 			'custom_image_widget', // Base ID
-			esc_html__('Image', 'text_domain'), // Name
+			esc_html__('Frontpage Image', 'text_domain'), // Name
 			array('description' => esc_html__('Inserts an image with a link.', 'text_domain'),) // Args
 		);
 	}
