@@ -526,6 +526,7 @@ a:hover, button:hover {
 #licenseKey .btn {
   margin-top: 8px;
   padding: 8px;
+  width: auto;
 }
 
 #trial #inMemoryContainer {
