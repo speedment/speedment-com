@@ -326,11 +326,11 @@ get_header(); ?>
           });
 
           updateCode();
-        });
 
-        $('#speedmentForm').submit(function(ev) {
-          updateCode();
-          ev.preventDefault();
+          $('#speedmentForm').submit(function(ev) {
+            updateCode();
+            ev.preventDefault();
+          });
         });
       </script>
     </div>
