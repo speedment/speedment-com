@@ -567,10 +567,8 @@ a:hover, button:hover {
 
 /* Positions */
 
-.cr-top    { top: 25px; }
-.cr-bottom { bottom: 25px; }
-.cr-left   { left: -50px; }
-.cr-right  { right: -50px; }
+.cr-top    { top: 15px; }
+.cr-right  { right: -70px; }
 
 /* Rotations */
 
