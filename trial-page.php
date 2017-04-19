@@ -362,29 +362,41 @@ get_header(); ?>
             </div>
             <div class="modal-body">
               <form>
-                <div class="form-group">
-                  <label for="trial-firstname" class="form-control-label">Firstname:</label>
-                  <input type="text" class="form-control" id="trial-firstname">
+                <div class="form-group row">
+                  <label for="trial-firstname" class="col-sm-3 col-form-label">Firstname:</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="trial-firstname">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="trial-lastname" class="form-control-label">Lastname:</label>
-                  <input type="text" class="form-control" id="trial-lastname">
+                <div class="form-group row">
+                  <label for="trial-lastname" class="col-sm-3 col-form-label">Lastname:</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="trial-lastname">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="trial-company" class="form-control-label">Company:</label>
-                  <input type="text" class="form-control" id="trial-company">
+                <div class="form-group row">
+                  <label for="trial-company" class="col-sm-3 col-form-label">Company:</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="trial-company">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="trial-country" class="form-control-label">Country:</label>
-                  <input type="text" class="form-control" id="trial-country">
+                <div class="form-group row">
+                  <label for="trial-country" class="col-sm-3 col-form-label">Country:</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="trial-country">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="trial-state" class="form-control-label">State:</label>
-                  <input type="text" class="form-control" id="trial-state">
+                <div class="form-group row">
+                  <label for="trial-state" class="col-sm-3 col-form-label">State:</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="trial-state">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="trial-email" class="form-control-label">Email:</label>
-                  <input type="email" class="form-control" id="trial-email">
+                <div class="form-group row">
+                  <label for="trial-email" class="col-sm-3 col-form-label">Email:</label>
+                  <div class="col-sm-9">
+                    <input type="email" class="form-control" id="trial-email">
+                  </div>
                 </div>
               </form>
             </div>
