@@ -99,10 +99,25 @@ get_header(); ?>
           </div>
 
           <!-- Email Address -->
-          <div class="form-group row">
+          <!--<div class="form-group row">
             <label for="inputEmail" class="col-sm-3 col-form-label">Send it to</label>
             <div class="col-sm-9">
               <input type="email" class="form-control" id="inputEmail" placeholder="Your Email Address" value="">
+            </div>
+          </div>-->
+
+          <!-- Email Address -->
+          <div class="form-group row">
+            <label for="inputLicenseKey" class="col-sm-3 col-form-label">License Key</label>
+            <div class="col-sm-9">
+              <textarea class="form-control" id="inputLicenseKey" placeholder="Your License Key"><?php
+                if (isset($_GET['licenseKey'])) {
+                  echo $_GET['licenseKey'];
+                }
+              ?></textarea>
+              <small class="text-muted">
+                Do you want to try it? <a href="/trial" rel="Send me a trial">Send me a 30 Days Trial!</a>
+              </small>
             </div>
           </div>
 
@@ -147,6 +162,7 @@ get_header(); ?>
           var driverVersion = $('#inputDriverVersion');
           var inMemory      = $('#inputInMemory');
           var email         = $('#inputEmail');
+          var licenseKey    = $('#inputLicenseKey');
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
 
           var enterprise = false;
@@ -203,6 +219,12 @@ get_header(); ?>
             }
 
             url += '?args=' + encodeURIComponent(JSON.stringify(args));
+
+            var key = licenseKey.val().trim();
+            if (key) {
+              url += '&licenseKey=' + encodeURIComponent(key);
+            }
+
             return url;
           }
 
