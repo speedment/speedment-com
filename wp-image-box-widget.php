@@ -29,15 +29,15 @@ class Image_Box_Widget extends WP_Widget {
 			</div>
 		<?php } ?>
 			<?php echo $args['before_title'] . apply_filters('widget_title', $instance['title']) . $args['after_title']; ?>
-			<span><?php echo $instance['content']; ?></span>
+			<p><span><?php echo $instance['content']; ?></span></p>
 			<?php if (!empty($instance['link'])) { ?>
-				<span><a href="<?php echo esc_url($instance['link']); ?>"><?php
+				<p><span><a href="<?php echo esc_url($instance['link']); ?>"><?php
 					if (!empty($instance['link_text'])) {
 						echo $instance['link_text'];
 					} else {
 						echo 'Read More';
 					}
-				?></a></span>
+				?></a></span></p>
 			<?php } ?>
 		</div>
 		<?php echo $args['after_widget'];
