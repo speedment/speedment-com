@@ -136,6 +136,7 @@ a:hover, button:hover, input[type="button"]:hover {
     border-radius: 3px;
     color: white;
     background-color: #87bd40;
+	border:none;
 }
 
 .breadcrumb {
