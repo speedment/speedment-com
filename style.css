@@ -513,9 +513,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #trial .nosize {
-  display: block;
-  height: 25px;
-  margin-top: -25px;
+  margin-top: 8px;
 }
 
 #trial .fa-asterisk {
