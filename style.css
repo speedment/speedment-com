@@ -545,6 +545,15 @@ a:hover, button:hover, input[type="button"]:hover {
   flex: 1 0 0%;
 }
 
+#licenseKey a.btn {
+  background: rgb(221, 221, 221);
+  border: transparent;
+}
+
+#licenseKey a.btn:hover {
+  background: rgb(235, 235, 235);
+}
+
 #licenseKey .separator {
   width: 8px;
   height: 20px;
