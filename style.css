@@ -216,6 +216,10 @@ a:hover, button:hover {
   padding-bottom: 50px;
 }
 
+#company-logos h2 {
+  margin-bottom: 20px;
+}
+
 #first-view {
     margin-bottom: 0;
     background-position: 60% 20%;
