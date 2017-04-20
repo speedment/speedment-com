@@ -284,12 +284,8 @@ get_header(); ?>
                       || enterpriseDb;
 
             if (enterprise) {
-              //$('#licenseApache2').hide();
-              //$('#license30DaysTrial').show();
               $('#licenseKey').show();
             } else {
-              //$('#licenseApache2').show();
-              //$('#license30DaysTrial').hide();
               $('#licenseKey').hide();
             }
 
