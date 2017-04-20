@@ -21,7 +21,10 @@ class Image_Box_Widget extends WP_Widget {
 	 * @param array $instance Saved values from database.
 	 */
 	public function widget($args, $instance) {
-		echo $args['before_widget']; ?>
+		echo $args['before_widget'];
+		if (!empty($instance['link'])) { ?>
+			<a href="<?php echo esc_url($instance['link']); ?>" rel="<?php echo esc_url($instance['title']); ?>">
+		<?php } ?>
 		<div class="<?php echo $instance['widget_classes']; ?>">
 		<?php if (!empty($instance['font_icon_classes'])) { ?>
 			<div class="text-center">
@@ -29,18 +32,13 @@ class Image_Box_Widget extends WP_Widget {
 			</div>
 		<?php } ?>
 			<?php echo $args['before_title'] . apply_filters('widget_title', $instance['title']) . $args['after_title']; ?>
-			<p><span><?php echo $instance['content']; ?></span></p>
-			<?php if (!empty($instance['link'])) { ?>
-				<p><span><a href="<?php echo esc_url($instance['link']); ?>"><?php
-					if (!empty($instance['link_text'])) {
-						echo $instance['link_text'];
-					} else {
-						echo 'Read More';
-					}
-				?></a></span></p>
-			<?php } ?>
+			<?php if (!empty($instance['content'])) { ?><p><span><?php echo $instance['content']; ?></span></p><?php } ?>
 		</div>
-		<?php echo $args['after_widget'];
+		<?php
+		if (!empty($instance['link'])) {
+			echo '</a>';
+		}
+		echo $args['after_widget'];
 	}
 
 	/**
