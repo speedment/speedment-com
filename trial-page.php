@@ -115,7 +115,7 @@ get_header(); ?>
                   echo $_GET['licenseKey'];
                 }
               ?></textarea>
-              <a type="button" href="<?php echo get_permalink(12); ?>" class="col-6 btn" rel="Contact Sales">Contact Sales</a>
+              <a role="button" type="button" href="<?php echo get_permalink(12); ?>" class="col-6 btn" rel="Contact Sales">Contact Sales</a>
               <div class="separator"></div>
               <button type="button" class="col-6 btn btn-primary" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Send me a 30 Days Trial</button>
               <small class="text-muted nosize"><i class="fa fa-asterisk" aria-hidden="true"></i> Enterprise Features require a valid License Key.</small>
