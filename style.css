@@ -532,6 +532,12 @@ a:hover, button:hover, input[type="button"]:hover {
   margin-top: 8px;
   padding: 8px;
   width: auto;
+  flex: 1 0 0%;
+}
+
+#licenseKey .separator {
+  width: 8px;
+  height: 20px;
 }
 
 #trial #inMemoryContainer {

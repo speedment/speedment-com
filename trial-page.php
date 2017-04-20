@@ -116,6 +116,7 @@ get_header(); ?>
                 }
               ?></textarea>
               <input type="button" class="col-6 btn" rel="Contact Sales" data-toggle="modal" data-target="#salesModal" value="Contact Sales">
+              <div class="separator"></div>
               <input type="button" class="col-6 btn btn-primary" rel="Send me a trial" data-toggle="modal" data-target="#trialModal" value="Send me a 30 Days Trial">
             </div>
           </div>
