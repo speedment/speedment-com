@@ -367,7 +367,7 @@ get_header(); ?>
               </button>
             </div>
             <div class="modal-body">
-              <form id="trialModalForm">
+              <form id="trialModalForm" action="#">
                 <div class="form-group row">
                   <label for="trial-firstname" class="col-sm-3 col-form-label">Firstname:</label>
                   <div class="col-sm-9">
@@ -725,7 +725,10 @@ get_header(); ?>
               <button type="submit" class="btn btn-primary" id="trialModalSubmit">Send me a 30 Days Trial</button>
               <script>
                 jQuery(function($) {
-                  $('#trialModalForm').submit(function() {
+                  console.log('Preparing form with $ as ' + $);
+                  $('#trialModalForm').submit(function(ev) {
+                    console.log('Submitting form');
+
                     var popup = $('#popupModal');
                     var email = $('#trial-email').val();
 
@@ -769,6 +772,8 @@ get_header(); ?>
                          $('#popupModal').modal('show');
                        }
                    });
+
+                   ev.preventDefault();
                   });
                 });
               </script>
