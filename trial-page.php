@@ -157,6 +157,14 @@ get_header(); ?>
       <?php ///////////////////////////////////////////////////////////////// ?>
 
       <script>
+        jQuery.fn.extend({
+          disable: function(state) {
+            return this.each(function() {
+              this.disabled = state;
+            });
+          }
+        });
+
         jQuery(document).ready(function($) {
 
           var groupId       = $('#inputGroupId');
@@ -290,6 +298,10 @@ get_header(); ?>
             } else {
               $('#helpDriverVersion').hide();
             }
+
+            $('#submitGroup button[type="submit"]').disable(
+              !enterprise || !licenseKey.val().trim()
+            );
           }
 
           $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
