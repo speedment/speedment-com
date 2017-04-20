@@ -522,6 +522,8 @@ a:hover, button:hover, input[type="button"]:hover {
   background-color: #f5f2f0;
   padding-top: 8px;
   padding-bottom: 8px;
+  border: solid 2px #e0d7d1;
+  border-radius: 4px;
 }
 
 #licenseKey > .rightSide {
