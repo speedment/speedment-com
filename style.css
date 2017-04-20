@@ -233,6 +233,7 @@ a:hover, button:hover, input[type="button"]:hover {
 #first-view #first-view-text-wrapper {
     color: white;
     text-align: left;
+    background: rgba(0, 0, 0, 0.35);
 }
 
 #first-view #first-view-text-wrapper > form {
