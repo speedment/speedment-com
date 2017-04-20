@@ -296,7 +296,7 @@ get_header(); ?>
             }
 
             $('#submitGroup button[type="submit"]').disable(
-              !enterprise || !licenseKey.val().trim()
+              enterprise && !licenseKey.val().trim()
             );
           }
 
