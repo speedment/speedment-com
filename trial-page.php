@@ -81,7 +81,7 @@ get_header(); ?>
                 <span class="custom-control-description">Enable<i class="fa fa-asterisk" aria-hidden="true"></i></span>
               </label>
               <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryFalse" value="" checked>
+                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryFalse" value="false" checked>
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">Disable</span>
               </label>
@@ -189,7 +189,7 @@ get_header(); ?>
             var url = 'http://api.speedment.com:9010/' + service;
             url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
 
-            if ($('input[type=radio][name=inMemory]:checked').val()) {
+            if ('true' == $('input[type=radio][name=inMemory]:checked').val()) {
               url += ',virtual-columns,datastore';
             }
 
@@ -285,7 +285,7 @@ get_header(); ?>
                         || selectedDbType === 'as400'
                         || selectedDbType === 'mssql';
 
-            enterprise = $('input[type=radio][name=inMemory]:checked').val()
+            enterprise = 'true' == $('input[type=radio][name=inMemory]:checked').val()
                       || enterpriseDb;
 
             if (enterprise) {
