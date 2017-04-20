@@ -330,6 +330,7 @@ get_header(); ?>
             updateCode();
           });
 
+          updateEnterprise();
           updateCode();
 
           $('#speedmentForm').submit(function(ev) {
