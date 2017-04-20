@@ -519,9 +519,9 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #trial .fa-asterisk {
-  font-size: 200%;
+  font-size: 0.5rem;
   font-weight: bold;
-  color: #f0f0f0;
+  color: #39d;
 }
 
 #licenseKey {
