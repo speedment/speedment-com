@@ -513,7 +513,9 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #trial .nosize {
-  margin-top: 8px;
+  display: block;
+  height: 25px;
+  margin-top: -25px;
 }
 
 #trial .fa-asterisk {
@@ -545,6 +547,12 @@ a:hover, button:hover, input[type="button"]:hover {
 #licenseKey .separator {
   width: 8px;
   height: 20px;
+}
+
+#licenseKey .nosize {
+  display: inline;
+  height: auto;
+  margin-top: 8px;
 }
 
 #trial #inMemoryContainer {
