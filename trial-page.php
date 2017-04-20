@@ -307,9 +307,14 @@ get_header(); ?>
           groupId.change(updateCode);
           artifactId.change(updateCode);
           version.change(updateCode);
-          licenseKey.change(updateCode);
           driverVersion.change(updateCode);
+
           inMemory.change(function() {
+            updateEnterprise();
+            updateCode();
+          });
+
+          licenseKey.change(function() {
             updateEnterprise();
             updateCode();
           });
