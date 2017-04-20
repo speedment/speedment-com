@@ -188,7 +188,8 @@ a:hover, button:hover {
 }
 
 #small-boxes a {
-  color: #87bd40;
+  /* color: #87bd40; */
+  color: #aaa;
 }
 
 #small-boxes h5 {
