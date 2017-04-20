@@ -549,10 +549,11 @@ a:hover, button:hover, input[type="button"]:hover {
 #licenseKey a.btn {
   background: rgb(221, 221, 221);
   border: transparent;
+  color: black;
 }
 
 #licenseKey a.btn:hover {
-  background: rgb(235, 235, 235);
+  background: rgb(227, 227, 227);
 }
 
 #licenseKey .separator {
