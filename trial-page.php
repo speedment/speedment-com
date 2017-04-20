@@ -40,22 +40,22 @@ get_header(); ?>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Oracle</span>
+                <span class="custom-control-description">Oracle<i class="fa fa-asterisk" aria-hidden="true"></i></span>
               </label>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">DB2</span>
+                <span class="custom-control-description">DB2<i class="fa fa-asterisk" aria-hidden="true"></i></span>
               </label>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">AS400</span>
+                <span class="custom-control-description">AS400<i class="fa fa-asterisk" aria-hidden="true"></i></span>
               </label>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">SQL Server</span>
+                <span class="custom-control-description">SQL Server<i class="fa fa-asterisk" aria-hidden="true"></i></span>
               </label>
             </div>
           </div>
@@ -73,7 +73,7 @@ get_header(); ?>
 
           <!-- In-memory Acceleration -->
           <div class="form-group row">
-            <label class="col-sm-3 col-form-label">In-memory Acceleration</label>
+            <label class="col-sm-3 col-form-label">In-memory Acceleration<i class="fa fa-asterisk" aria-hidden="true"></i></label>
             <div class="col-sm-9" id="inMemoryContainer">
               <label class="custom-control custom-checkbox">
                 <input type="checkbox" class="custom-control-input" id="inputInMemory">
@@ -118,6 +118,7 @@ get_header(); ?>
               <input type="button" class="col-6 btn" rel="Contact Sales" data-toggle="modal" data-target="#salesModal" value="Contact Sales">
               <div class="separator"></div>
               <input type="button" class="col-6 btn btn-primary" rel="Send me a trial" data-toggle="modal" data-target="#trialModal" value="Send me a 30 Days Trial">
+              <small class="text-muted nosize"><i class="fa fa-asterisk" aria-hidden="true"></i> Enterprise Features require a valid License Key.</small>
             </div>
           </div>
 
