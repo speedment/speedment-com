@@ -360,14 +360,14 @@ get_header(); ?>
       <div id="trialModal" class="modal fade align-middle" tabindex="-1" role="dialog" aria-labelledby="trialModalHeader" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="trialModalHeader">Get a 30 Days Free Trial of Speedment Enterprise</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form id="trialModalForm" action="#">
+            <form id="trialModalForm" action="#">
+              <div class="modal-header">
+                <h5 class="modal-title" id="trialModalHeader">Get a 30 Days Free Trial of Speedment Enterprise</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
                 <div class="form-group row">
                   <label for="trial-firstname" class="col-sm-3 col-form-label">Firstname:</label>
                   <div class="col-sm-9">
@@ -718,66 +718,66 @@ get_header(); ?>
                     <input type="email" class="form-control" id="trial-email" required="required">
                   </div>
                 </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <small class="text-muted">By continuing you agree to the <a href="/terms" rel="Terms of Service" target="_blank">Terms of Service</a>.</small>
-              <button type="submit" class="btn btn-primary" id="trialModalSubmit">Send me a 30 Days Trial</button>
-              <script>
-                jQuery(document).ready(function($) {
-                  console.log('Preparing form with $ as ' + $);
-                  $('#trialModalForm').submit(function(ev) {
-                    console.log('Submitting form');
+              </div>
+              <div class="modal-footer">
+                <small class="text-muted">By continuing you agree to the <a href="/terms" rel="Terms of Service" target="_blank">Terms of Service</a>.</small>
+                <button type="submit" class="btn btn-primary" id="trialModalSubmit">Send me a 30 Days Trial</button>
+                <script>
+                  jQuery(document).ready(function($) {
+                    console.log('Preparing form with $ as ' + $);
+                    $('#trialModalForm').submit(function(ev) {
+                      console.log('Submitting form');
 
-                    var popup = $('#popupModal');
-                    var email = $('#trial-email').val();
+                      var popup = $('#popupModal');
+                      var email = $('#trial-email').val();
 
-                    $('#trialModalSubmit').disable(true);
+                      $('#trialModalSubmit').disable(true);
 
-                    $.ajax({
-                       url: 'http://api.speedment.com:9010/licenses/trial/datastore,virtual-columns,mssql,mysql,oracle,db2' +
-                        '?firstname=' + encodeURIComponent($('#trial-firstname').val()) +
-                        '&lastname=' + encodeURIComponent($('#trial-lastname').val()) +
-                        '&email=' + encodeURIComponent(email) +
-                        '&company=' + encodeURIComponent($('#trial-company').val()) +
-                        '&country=' + encodeURIComponent($('#trial-country').val()) +
-                        '&state=' + encodeURIComponent($('#trial-state').val()),
-                       type: "POST",
-                       crossDomain: true,
-                       success: function (data) {
-                         console.log(data);
-                         $('#trialModal').modal('hide');
-                         $('#trialModalSubmit').disable(false);
-                         $('#popupModal .modal-title').html('Success!');
-                         $('#popupModal .modal-body').html(
-                           'A Speedment Enterprise Trial has been sent to ' + email +
-                           '. In the email, you will find the code that you ' +
-                           'need to enter on this page to get access to the ' +
-                           'Enterprise features.'
-                         );
-                         $('#popupModal').modal('show');
-                       },
-                       error: function (xhr, status) {
-                         $('#trialModalSubmit').disable(false);
-                         console.error(xhr);
-                         console.error('Error! Server responded with ' + status + '.');
+                      $.ajax({
+                         url: 'http://api.speedment.com:9010/licenses/trial/datastore,virtual-columns,mssql,mysql,oracle,db2' +
+                          '?firstname=' + encodeURIComponent($('#trial-firstname').val()) +
+                          '&lastname=' + encodeURIComponent($('#trial-lastname').val()) +
+                          '&email=' + encodeURIComponent(email) +
+                          '&company=' + encodeURIComponent($('#trial-company').val()) +
+                          '&country=' + encodeURIComponent($('#trial-country').val()) +
+                          '&state=' + encodeURIComponent($('#trial-state').val()),
+                         type: "POST",
+                         crossDomain: true,
+                         success: function (data) {
+                           console.log(data);
+                           $('#trialModal').modal('hide');
+                           $('#trialModalSubmit').disable(false);
+                           $('#popupModal .modal-title').html('Success!');
+                           $('#popupModal .modal-body').html(
+                             'A Speedment Enterprise Trial has been sent to ' + email +
+                             '. In the email, you will find the code that you ' +
+                             'need to enter on this page to get access to the ' +
+                             'Enterprise features.'
+                           );
+                           $('#popupModal').modal('show');
+                         },
+                         error: function (xhr, status) {
+                           $('#trialModalSubmit').disable(false);
+                           console.error(xhr);
+                           console.error('Error! Server responded with ' + status + '.');
 
-                         $('#popupModal .modal-title').html('Error!');
-                         $('#popupModal .modal-body').html(
-                           'Server responded with ' + status +
-                           '. Make sure everything is filled out correctly, ' +
-                           'then try again. If the problem persists, please ' +
-                           'contact us directly at <a href="mailto:info@speedment.com">info@speedment.com</a>.'
-                         );
-                         $('#popupModal').modal('show');
-                       }
-                   });
+                           $('#popupModal .modal-title').html('Error!');
+                           $('#popupModal .modal-body').html(
+                             'Server responded with ' + status +
+                             '. Make sure everything is filled out correctly, ' +
+                             'then try again. If the problem persists, please ' +
+                             'contact us directly at <a href="mailto:info@speedment.com">info@speedment.com</a>.'
+                           );
+                           $('#popupModal').modal('show');
+                         }
+                     });
 
-                   ev.preventDefault();
+                     ev.preventDefault();
+                    });
                   });
-                });
-              </script>
-            </div>
+                </script>
+              </div>
+            </form>
           </div>
         </div>
       </div><!-- Modal Close -->
