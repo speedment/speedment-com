@@ -176,9 +176,9 @@ get_header(); ?>
           var artifactId    = $('#inputArtifactId');
           var version       = $('#inputVersion');
           var driverVersion = $('#inputDriverVersion');
-          var inMemory      = $('#inputInMemory');
           var email         = $('#inputEmail');
           var licenseKey    = $('#inputLicenseKey');
+          var inMemory      = $('input[type=radio][name=inMemory]');
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
 
           var enterprise = false;
