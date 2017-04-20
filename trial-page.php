@@ -701,7 +701,7 @@ get_header(); ?>
                   </div>
                 </div>
                 <script>
-                  jQuery(function($) {
+                  jQuery(document).ready(function($) {
                     $('select[name="country"]').change(function() {
                       var country = $(this).val();
                       if ('US' === country) {
@@ -724,7 +724,7 @@ get_header(); ?>
               <small class="text-muted">By continuing you agree to the <a href="/terms" rel="Terms of Service" target="_blank">Terms of Service</a>.</small>
               <button type="submit" class="btn btn-primary" id="trialModalSubmit">Send me a 30 Days Trial</button>
               <script>
-                jQuery(function($) {
+                jQuery(document).ready(function($) {
                   console.log('Preparing form with $ as ' + $);
                   $('#trialModalForm').submit(function(ev) {
                     console.log('Submitting form');
