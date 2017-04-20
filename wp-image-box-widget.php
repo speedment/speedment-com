@@ -21,9 +21,9 @@ class Image_Box_Widget extends WP_Widget {
 	 * @param array $instance Saved values from database.
 	 */
 	public function widget($args, $instance) {
-		echo $args['before_widget'];
+		echo $args['before_widget']; ?>
 		<div class="<?php echo $instance['widget_classes']; ?>">
-		if (!empty($instance['link'])) { ?>
+		<?php if (!empty($instance['link'])) { ?>
 			<a href="<?php echo esc_url($instance['link']); ?>" rel="<?php echo esc_url($instance['title']); ?>">
 		<?php } ?>
 			<?php if (!empty($instance['font_icon_classes'])) { ?>
