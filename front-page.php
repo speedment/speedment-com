@@ -74,6 +74,15 @@
       </div>
     </div>
   </div>
+  <!--
+    VIDEO
+  -->
+   <div class="row justify-content-center" id="company-logos">
+     <div class="col">
+         <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9OhoW4xy-kA" frameborder="0" allowfullscreen></iframe>
+     </div>
+</div>
 </div><!-- container-fluid -->
 
 <?php get_footer(); ?>
