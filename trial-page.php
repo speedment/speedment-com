@@ -73,12 +73,17 @@ get_header(); ?>
 
           <!-- In-memory Acceleration -->
           <div class="form-group row">
-            <label class="col-sm-3 col-form-label">In-memory Acceleration<i class="fa fa-asterisk" aria-hidden="true"></i></label>
+            <label class="col-sm-3 col-form-label">In-memory Acceleration</label>
             <div class="col-sm-9" id="inMemoryContainer">
-              <label class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="inputInMemory">
+              <label class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Enabled</span>
+                <span class="custom-control-description">Enable<i class="fa fa-asterisk" aria-hidden="true"></i></span>
+              </label>
+              <label class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryFalse" value="false">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Disable</span>
               </label>
             </div>
           </div>
@@ -184,7 +189,7 @@ get_header(); ?>
             var url = 'http://api.speedment.com:9010/' + service;
             url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
 
-            if (inMemory.is(':checked')) {
+            if ($('input[type=radio][name=inMemory]:checked').val()) {
               url += ',virtual-columns,datastore';
             }
 
@@ -280,7 +285,7 @@ get_header(); ?>
                         || selectedDbType === 'as400'
                         || selectedDbType === 'mssql';
 
-            enterprise = inMemory.is(':checked')
+            enterprise = $('input[type=radio][name=inMemory]:checked').val()
                       || enterpriseDb;
 
             if (enterprise) {
@@ -782,7 +787,7 @@ get_header(); ?>
         </div>
       </div><!-- Modal Close -->
 
-      <div id="popupModal" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="popupTitle" aria-hidden="true">
+      <div id="popupModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="popupTitle" aria-hidden="true">
         <div class="modal-dialog modal-sm">
           <div class="modal-content">
             <div class="modal-header">
