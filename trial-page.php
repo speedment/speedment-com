@@ -367,7 +367,7 @@ get_header(); ?>
               </button>
             </div>
             <div class="modal-body">
-              <form>
+              <form id="trialModalForm">
                 <div class="form-group row">
                   <label for="trial-firstname" class="col-sm-3 col-form-label">Firstname:</label>
                   <div class="col-sm-9">
@@ -722,7 +722,75 @@ get_header(); ?>
             </div>
             <div class="modal-footer">
               <small class="text-muted">By continuing you agree to the <a href="/terms" rel="Terms of Service" target="_blank">Terms of Service</a>.</small>
-              <button type="button" class="btn btn-primary">Send me a 30 Days Trial</button>
+              <button type="submit" class="btn btn-primary" id="trialModalSubmit">Send me a 30 Days Trial</button>
+              <script>
+                jQuery(function($) {
+                  $('#trialModalForm').submit(function() {
+                    var popup = $('#popupModal');
+                    var email = $('#trial-email').val();
+
+                    $('#trialModalSubmit').disable(true);
+
+                    $.ajax({
+                       url: 'http://api.speedment.com:9010/licenses/trial/datastore,virtual-columns,mssql,mysql,oracle,db2' +
+                        '?firstname=' + encodeURIComponent($('#trial-firstname').val()) +
+                        '&lastname=' + encodeURIComponent($('#trial-lastname').val()) +
+                        '&email=' + encodeURIComponent(email) +
+                        '&company=' + encodeURIComponent($('#trial-company').val()) +
+                        '&country=' + encodeURIComponent($('#trial-country').val()) +
+                        '&state=' + encodeURIComponent($('#trial-state').val()),
+                       type: "POST",
+                       crossDomain: true,
+                       success: function (data) {
+                         console.log(data);
+                         $('#trialModal').modal('hide');
+                         $('#trialModalSubmit').disable(false);
+                         $('#popupModal .modal-title').html('Success!');
+                         $('#popupModal .modal-body').html(
+                           'A Speedment Enterprise Trial has been sent to ' + email +
+                           '. In the email, you will find the code that you ' +
+                           'need to enter on this page to get access to the ' +
+                           'Enterprise features.'
+                         );
+                         $('#popupModal').modal('show');
+                       },
+                       error: function (xhr, status) {
+                         $('#trialModalSubmit').disable(false);
+                         console.error(xhr);
+                         console.error('Error! Server responded with ' + status + '.');
+
+                         $('#popupModal .modal-title').html('Error!');
+                         $('#popupModal .modal-body').html(
+                           'Server responded with ' + status +
+                           '. Make sure everything is filled out correctly, ' +
+                           'then try again. If the problem persists, please ' +
+                           'contact us directly at <a href="mailto:info@speedment.com">info@speedment.com</a>.'
+                         );
+                         $('#popupModal').modal('show');
+                       }
+                   });
+                  });
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div><!-- Modal Close -->
+
+      <div id="popupModal" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="popupTitle" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Success!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Message here
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>

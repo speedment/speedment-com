@@ -589,8 +589,7 @@ a:hover, button:hover, input[type="button"]:hover {
 #trial .btn-primary.disabled:hover,
 #trial .btn-primary:disabled:hover {
   background: rgb(221, 221, 221);
-  border: transparent;
-  color: black;
+  border: rgb(221, 221, 221);
 }
 
 /*
