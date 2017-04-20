@@ -80,7 +80,7 @@
   <div id="company-video">
     <div class="row justify-content-center">
           <div class="col">
-            <h2 class="text-center">Java One</h2>
+            <h2 class="text-center">Speedment At Java One</h2>
           </div>
     </div>
    <div class="row justify-content-center">
