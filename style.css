@@ -577,7 +577,7 @@ a:hover, button:hover, input[type="button"]:hover {
 */
 .cr {
   width: 200px;
-  padding: 8px 0px 0px 0px;
+  padding: 8px 0px 4px 0px;
   position: absolute;
   text-align: center;
   color: #f0f0f0;
