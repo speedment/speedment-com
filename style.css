@@ -584,6 +584,15 @@ a:hover, button:hover, input[type="button"]:hover {
   margin: 0px;
 }
 
+#trial .btn-primary.disabled,
+#trial .btn-primary:disabled,
+#trial .btn-primary.disabled:hover,
+#trial .btn-primary:disabled:hover {
+  background: rgb(221, 221, 221);
+  border: transparent;
+  color: black;
+}
+
 /*
   Ribbon
 */
