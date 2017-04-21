@@ -53,7 +53,7 @@
           <a href="<?php echo get_permalink(22); ?>" rel="Initializer">Start the Initializer <i class="fa fa-arrow-right"></i></a>
         </div>
         <div class="col-md-auto hidden-sm-down">
-          <i class="fa fa-book" style="font-size:1000%; opacity: 0.5;"></i>
+          <i class="fa fa-gamepad" style="font-size:1000%; opacity: 0.5;"></i>
         </div>
       </div>
     </div>
