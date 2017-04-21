@@ -13,8 +13,28 @@
             <h1><?php echo get_bloginfo('description'); ?></h1>
             <form class="lead" id="leadForm" action="#">
               <label class="sr-only" for="inlineFormInput">Name</label>
-              <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Enter your work email" required="required">
-              <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#leadModal">Try For Free</button>
+              <input type="email" name="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Enter your work email" required="required">
+              <button type="submit" class="btn btn-success" onclick="submitLead();">Try For Free</button>
+              <script>
+              jQuery(document).ready(function($) {
+                function submitLead() {
+                  $('#leadForm').validate({
+                    rules: {
+                      email: {
+                        required: true,
+                        email: true
+                      }
+                    },
+                    highlight: function (element) {
+                      $(element).closest('.control-group').removeClass('success').addClass('error');
+                    },
+                    success: function (element) {
+                      $('#leadModal').modal('show');
+                    }
+                  });
+                }
+              });
+              </script>
             </form>
           </div>
         </div>
