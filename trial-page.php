@@ -66,7 +66,7 @@ get_header(); ?>
             <div class="col-sm-9">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.40">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
-                Must be available on your development machine.
+                Make sure this driver is available on your development machine.
               </small>
             </div>
           </div>
@@ -108,7 +108,7 @@ get_header(); ?>
             </div>
           </div>
 
-          <!-- Email Address -->
+          <!-- License Key -->
           <div class="form-group row" id="licenseKey" style="display:none;">
             <div style="overflow:hidden;position:relative;width:100%;height:100px;top:-10px;margin-bottom:-100px;margin-right:-100px;right:-2px;z-index:1;pointer-events:none;">
               <div class="cr cr-top cr-right cr-blue">Enterprise</div>
