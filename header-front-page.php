@@ -16,29 +16,13 @@
               <input type="email" name="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Enter your work email" required="required">
               <button type="submit" class="btn btn-success">Try For Free</button>
               <script>
-              jQuery(document).ready(function($) {
-                $('#leadForm').submit(function(ev) {
-                  console.log("Submit form");
-                  $('#leadForm').validate({
-                    rules: {
-                      email: {
-                        required: true,
-                        email: true
-                      }
-                    },
-                    highlight: function (element) {
-                      console.log("Failure!");
-                      $(element).closest('.control-group').removeClass('success').addClass('error');
-                    },
-                    success: function (element) {
-                      console.log("Success!");
-                      $('#leadModal').modal('show');
-                    }
+                jQuery(document).ready(function($) {
+                  $('#leadForm').submit(function(ev) {
+                    console.log("Submit form");
+                    $('#leadModal').modal('show');
+                    ev.preventDefault();
                   });
-
-                  ev.preventDefault();
                 });
-              });
               </script>
             </form>
           </div>
