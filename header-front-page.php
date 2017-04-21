@@ -17,7 +17,7 @@
               <button type="submit" class="btn btn-success">Try For Free</button>
               <script>
               jQuery(document).ready(function($) {
-                $('#leadForm button[type="submit"]').submit(function(ev) {
+                $('#leadForm').submit(function(ev) {
                   console.log("Submit form");
                   $('#leadForm').validate({
                     rules: {
