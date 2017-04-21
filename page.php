@@ -5,7 +5,7 @@
  */
 get_header(); ?>
 
-<div class="row justify-content-center">
+<div class="row justify-content-center" id="defaultPage">
   <div class="container">
     <!--
         Default Page Content
