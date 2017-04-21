@@ -169,6 +169,10 @@ a:hover, button:hover, input[type="button"]:hover {
   color: white;
 }
 
+#why-speedment img {
+  height: 88px;
+}
+
 #why-speedment .big_boxes_title {
   font-family: 'Advent Pro';
 }
