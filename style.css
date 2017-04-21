@@ -211,6 +211,13 @@ a:hover, button:hover, input[type="button"]:hover {
   font-family: 'Advent Pro';
 }
 
+#guides .fa-gamepad {
+  font-size: 1500%;
+  opacity: 0.2;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
 #guides a {
   color: #87bd40;
   font-size: 110%;
