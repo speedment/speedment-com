@@ -267,9 +267,8 @@ get_header(); ?>
                crossDomain: true,
                success: function (data) {
                  console.log(data);
-                 $('#preview' + page).html(
-                   Prism.highlight(data, lang)
-                 ).fadeIn(100);
+                 $('#preview' + page).html(data).fadeIn(100);
+                 Prism.highlightAll();
                },
                error: function (xhr, status) {
                  console.error(xhr);
@@ -358,9 +357,8 @@ get_header(); ?>
               crossDomain: true,
               success: function (data) {
                 console.log(data);
-                $('#finalCode').html(
-                  Prism.highlight(data, Prism.languages.xml)
-                );
+                $('#finalCode').html(data);
+                Prism.highlightAll();
                 $('#generationComplete').modal('show');
               },
               error: function (xhr, status) {
