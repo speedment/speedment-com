@@ -127,11 +127,11 @@ get_header(); ?>
           </div>
 
           <!-- Submit -->
-          <div class="form-group row pull-right" id="submitGroup">
-            <div class="col" style="flex-grow:1">
-              <small class="text-muted nosize"><i class="fa fa-asterisk" aria-hidden="true"></i> Enterprise Features require a valid License Key.</small>
+          <div class="form-group row" id="submitGroup">
+            <div class="col align-middle">
+              <small class="text-muted"><i class="fa fa-asterisk" aria-hidden="true"></i> Enterprise Features require a valid License Key.</small>
             </div>
-            <div class="col submit-group" style="flex-grow:0">
+            <div class="col-md col-md-auto submit-group">
               <button type="submit" class="btn btn-primary">Generate Project</button>
             </div>
           </div>

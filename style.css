@@ -584,8 +584,8 @@ a:hover, button:hover, input[type="button"]:hover {
 	align-items:         center;
 }
 
-#trial #submitGroup {
-  width: 240px;
+#trial #submitGroup .text-muted {
+  display: inline-flex;
 }
 
 #trial pre[class*="language-"] {
