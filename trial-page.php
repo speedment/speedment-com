@@ -303,11 +303,6 @@ get_header(); ?>
             } else {
               $('#helpDriverVersion').hide();
             }
-            licenseKey.change(function() {
-              $('#submitGroup button[type="submit"]').disable(
-                enterprise && !licenseKey.val().trim()
-              );
-            });
             $('#submitGroup button[type="submit"]').disable(
               enterprise && !licenseKey.val().trim()
             );
@@ -358,8 +353,14 @@ get_header(); ?>
 
           updateEnterprise();
           updateCode();
-
+          licenseKey.change(function() {
+            console.log("change")
+            $('#submitGroup button[type="submit"]').disable(
+              !licenseKey.val().trim()
+            );
+          });
           $('#speedmentForm').submit(function(ev) {
+            ev.preventDefault();
             $.ajax({
               url: prepareUrl('generate/maven'),
               type: "GET",
@@ -375,8 +376,6 @@ get_header(); ?>
                 console.error('Error! Server responded with ' + status + '.');
               }
             });
-
-            ev.preventDefault();
           });
         });
       </script>
