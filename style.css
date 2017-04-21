@@ -505,6 +505,10 @@ a:hover, button:hover, input[type="button"]:hover {
   margin-left: 0px;
 }
 
+#trial .custom-radio:last-child {
+  margin-right: 0px;
+}
+
 #trial .btn {
   padding: 16px 20px;
   width: 100%;
