@@ -28,15 +28,18 @@
       $attributes .= ! empty( $item->url ) ? ' href="' . esc_attr($item->url) . '"' : '';
 
       //$item_output = $args->before;
-      $item_output .= '<a' . $attributes . '>';
       if ($depth == 0) {
         $item_output .= '<h3>';
+      } else {
+        $item_output .= '<a' . $attributes . '>';
       }
       $item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
       if ($depth == 0) {
         $item_output .= '</h3>';
+      } else {
+        $item_output .= '</a>';
       }
-      $item_output .= '</a>';
+
       //$item_output .= $args->after;
 
       $output .= ($depth > 0) ? '<li>' : '';
