@@ -85,7 +85,10 @@
         </div>
     </div>
    </div>
-  </div>  
+  </div>
+
 </div><!-- container-fluid -->
+
+<?php include('trial-modal.php'); ?>
 
 <?php get_footer(); ?>

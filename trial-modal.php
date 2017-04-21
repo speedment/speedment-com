@@ -1,7 +1,3 @@
-<?php ///////////////////////////////////////////////////////////////// ?>
-<?php //                    Send me a trial                          // ?>
-<?php ///////////////////////////////////////////////////////////////// ?>
-
 <div id="trialModal" class="modal fade align-middle" tabindex="-1" role="dialog" aria-labelledby="trialModalHeader" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -369,9 +365,7 @@
           <button type="submit" class="btn btn-primary" id="trialModalSubmit">Send me a 30 Days Trial</button>
           <script>
             jQuery(document).ready(function($) {
-              console.log('Preparing form with $ as ' + $);
               $('#trialModalForm').submit(function(ev) {
-                console.log('Submitting form');
 
                 var popup = $('#popupModal');
                 var email = $('#trial-email').val();
@@ -389,20 +383,19 @@
                    type: "POST",
                    crossDomain: true,
                    success: function (data) {
-                     console.log(data);
                      $('#trialModal').modal('hide');
                      $('#trialModalSubmit').disable(false);
                      $('#popupModal .modal-title').html('Success!');
                      $('#popupModal .modal-body').html(
-                       'A Speedment Enterprise Trial has been sent to ' + email +
-                       '. In the email, you will find the code that you ' +
-                       'need to enter on this page to get access to the ' +
-                       'Enterprise features.'
+                       'A 30 Days Speedment Enterprise Trial has been sent to <i>' + email +
+                       '</i>. In the email, you will find the code that you ' +
+                       'need to enter to get access to the enterprise features!'
                      );
                      $('#popupModal').modal('show');
                    },
                    error: function (xhr, status) {
                      $('#trialModalSubmit').disable(false);
+
                      console.error(xhr);
                      console.error('Error! Server responded with ' + status + '.');
 
@@ -411,7 +404,7 @@
                        'Server responded with ' + status +
                        '. Make sure everything is filled out correctly, ' +
                        'then try again. If the problem persists, please ' +
-                       'contact us directly at <a href="mailto:info@speedment.com">info@speedment.com</a>.'
+                       '<a href="<?php echo get_permalink(12); ?>" rel="Contact Us">contact us directly</a>.'
                      );
                      $('#popupModal').modal('show');
                    }
@@ -426,3 +419,22 @@
     </div>
   </div>
 </div><!-- Modal Close -->
+
+<div id="popupModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="popupTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Success!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Message here
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
