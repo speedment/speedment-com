@@ -303,7 +303,11 @@ get_header(); ?>
             } else {
               $('#helpDriverVersion').hide();
             }
-
+            licenseKey.change(function() {
+              $('#submitGroup button[type="submit"]').disable(
+                enterprise && !licenseKey.val().trim()
+              );
+            });
             $('#submitGroup button[type="submit"]').disable(
               enterprise && !licenseKey.val().trim()
             );
