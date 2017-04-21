@@ -1,95 +1,4 @@
-#front-page-video-carousel {
-    height: auto;
-    width: 100%;
-}
 
-#front-page-video-carousel .carousel-caption {
-    width: 50%;
-    height: 50%;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-#front-page-video-carousel .carousel-caption a {
-    width: 50%;
-    height: 50%;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-#front-page-video-carousel .carousel-caption i {
-    height: 50%;
-    overflow: auto;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    font-size: 60px;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-#front-page-video-carousel .carousel-caption i:hover {
-    color: rgba(255, 255, 255, 0.75);
-    cursor: pointer;
-}
-
-#front-page-video-carousel img {
-    margin: -100%;
-}
-
-#front-page-video-carousel .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-#front-page-video-carousel .carousel-item {
-    background-color: #f4f4f8!important;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 720px;
-}
-
-#front-page-video-modal .modal-content {
-    background-color: transparent;
-    border: 0;
-    position: relative;
-}
-
-#front-page-video-modal button {
-    position: absolute;
-    font-size: 14px;
-    color: white;
-    top: -10px;
-    right: 5px;
-    opacity: 0;
-}
-
-#front-page-video-modal .modal-header {
-    background-color: transparent;
-    border: 0;
-}
-
-#front-page-video-modal .image-wraper {
-    height: 200px;
-    line-height: 200px;
-    overflow: hidden;
-    text-align: center;
-    width: 200px;
-}
 #small-boxes h2{
     padding-top: 12px;
     padding-bottom: 32px;
@@ -98,11 +7,6 @@
     width: 180px;
     height: 72px;
 }
-#company-video {
-   background-color: #d4e8c6;
-   padding-top: 50px;
-   padding-bottom: 50px;
-}
-#company-video h2 {
-        margin-bottom: 27px;
+#front-page-video {
+   padding-top: 70px;
 }
