@@ -58,6 +58,7 @@
       </div>
     </div>
   </div>
+
   <!--
     VIDEO
   -->
@@ -89,6 +90,23 @@
 
 </div><!-- container-fluid -->
 
-<?php include('trial-modal.php'); ?>
+<div id="leadModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="leadTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="leadTitle">Success!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Thank You for signing up! We have created an online initializer to help you get started.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Start the Initializer</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php get_footer(); ?>
