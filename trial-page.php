@@ -147,12 +147,12 @@ get_header(); ?>
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="fileMain" role="tabpanel">
-            <pre class="code-toolbar"><code class="language-java" class="preview" id="previewMain">public static void main(String... args) {
+            <pre><code class="language-java" class="preview" id="previewMain">public static void main(String... args) {
   System.out.println("Hello, World!");
 }</code></pre>
           </div>
           <div class="tab-pane" id="fileMaven" role="tabpanel">
-            <pre class="code-toolbar"><code class="language-xml" class="preview" id="previewMaven"></code></pre>
+            <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
         </div>
       </div>
