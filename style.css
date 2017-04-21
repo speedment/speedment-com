@@ -363,6 +363,7 @@ a:hover, button:hover, input[type="button"]:hover {
     Product Widget
 */
 #products {
+  margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 0px;
   margin-left: 0px;
