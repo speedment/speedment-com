@@ -50,7 +50,7 @@
         <div class="col">
           <h3>Initializer</h3>
           <p><?php echo get_theme_mod('front_page_guides_text'); ?></p>
-          <a href="<?php echo get_permalink(22); ?>">Start the Initializer <i class="fa fa-arrow-right"></i></a>
+          <a href="<?php echo get_permalink(22); ?>" rel="Initializer">Start the Initializer <i class="fa fa-arrow-right"></i></a>
         </div>
         <div class="col-md-auto hidden-sm-down">
           <i class="fa fa-book" style="font-size:1000%; opacity: 0.5;"></i>
@@ -103,7 +103,7 @@
         Thank You for signing up! We have created an online initializer to help you get started.
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Start the Initializer</button>
+        <a type="button" class="btn btn-primary" href="<?php echo get_permalink(22); ?>" rel="Initializer">Start the Initializer</a>
       </div>
     </div>
   </div>
