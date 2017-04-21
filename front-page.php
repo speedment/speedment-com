@@ -54,7 +54,7 @@
         </div>
         <div class="col-md-auto hidden-sm-down">
           <a href="<?php echo get_permalink(22); ?>" rel="Initializer">
-            <i class="fa fa-gamepad" style="font-size:1000%; opacity: 0.5;"></i>
+            <i class="fa fa-gamepad"></i>
           </a>
         </div>
       </div>
