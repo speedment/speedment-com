@@ -353,7 +353,7 @@ get_header(); ?>
 
           updateEnterprise();
           updateCode();
-          licenseKey.change(function() {
+          licenseKey.on('change keyup paste', {
             console.log("change")
             $('#submitGroup button[type="submit"]').disable(
               !licenseKey.val().trim()
