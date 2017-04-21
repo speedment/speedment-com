@@ -272,7 +272,7 @@ get_header(); ?>
                crossDomain: true,
                success: function (data) {
                  console.log(data);
-                 $('#preview' + page).html(data).fadeIn(100);
+                 $('#preview' + page).text(data).fadeIn(100);
                  Prism.highlightAll();
                },
                error: function (xhr, status) {
@@ -362,7 +362,7 @@ get_header(); ?>
               crossDomain: true,
               success: function (data) {
                 console.log(data);
-                $('#finalCode').html(data);
+                $('#finalCode').text(data);
                 Prism.highlightAll();
                 $('#generationComplete').modal('show');
               },
