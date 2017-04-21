@@ -15,15 +15,19 @@
   font-weight: bold;
 }
 #footer a {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: white;
   cursor: pointer;
 }
 #footer li {
   list-style-type: none;
 }
-#footer .navbar{
+#footer .navbar {
   padding: 0;
+}
+
+#footer .copyright {
+  font-size: 0.8rem;
 }
 
 #sharing-icons {
