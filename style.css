@@ -584,6 +584,12 @@ a:hover, button:hover, input[type="button"]:hover {
 	align-items:         center;
 }
 
+#trial .asteriskDescription .fa-asterisk {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
 #trial #submitGroup .text-muted {
   display: inline-flex;
 }
