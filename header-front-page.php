@@ -23,15 +23,18 @@
                     $.ajax({
                       type: 'POST',
                       url: 'https://us12.api.mailchimp.com/3.0/lists/8b4824028c/members/',
-                      dataType: 'json',
-                      headers: {
-                        'Authorization': 'Basic ' + btoa('speedment:ba6d0463678b4fb804e9ed05049aea2c-us12')
+                      dataType: 'jsonp',
+                      contentType: 'application/json; charset=utf-8',
+                      beforeSend: function(xhr) {
+                        xhr.setRequestHeader(
+                          'Authorization', 'Basic ' + btoa('api:ba6d0463678b4fb804e9ed05049aea2c-us12')
+                        );
                       },
                       async: false,
-                      data: {
+                      data: JSON.stringify({
                         email: $('#leadForm input[name="email"]').val(),
                         status: 'subscribed'
-                      }
+                      })
                     });
 
                     $('#leadModal').modal('show');
