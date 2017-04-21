@@ -32,7 +32,9 @@ function bootstrap_with_jquery_and_tether() {
 }
 
 function load_prism() {
-  wp_register_script('prism', get_template_directory_uri().'/assets/js/prism.js');
+  wp_register_script('clipboard', get_template_directory_uri().'/assets/js/clipboard.min.js');
+  wp_register_script('prism', get_template_directory_uri().'/assets/js/prism.js', array('clipboard'));
+  wp_enqueue_script('clipboard');
   wp_enqueue_script('prism');
 }
 
