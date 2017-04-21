@@ -816,23 +816,11 @@ get_header(); ?>
               <p>Your project has been generated! To build it, create a file
               somewhere on your computer called <span class="code">pom.xml</span>
               and insert the following text:</p>
-              <pre>
-                <code class="language-xml" id="finalCode">
-                  Code here
-                </code>
-              </pre>
+              <pre style="max-height:320px;"><code class="language-xml" id="finalCode"></code></pre>
               <p>To launch the Speedment Tool, run the following command in your terminal:</p>
-              <pre>
-                <code class="language-shell">
-                  mvn speedment:tool
-                </code>
-              </pre>
+              <pre><code class="language-shell">mvn speedment:tool</code></pre>
               <p>To compile the Maven project, run:</p>
-              <pre>
-                <code class="language-shell">
-                  mvn clean install
-                </code>
-              </pre>
+              <pre><code class="language-shell">mvn clean install</code></pre>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
