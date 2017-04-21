@@ -14,10 +14,10 @@
             <form class="lead" id="leadForm" action="#">
               <label class="sr-only" for="inlineFormInput">Name</label>
               <input type="email" name="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Enter your work email" required="required">
-              <button type="submit" class="btn btn-success" onclick="submitLead();">Try For Free</button>
+              <button type="submit" class="btn btn-success">Try For Free</button>
               <script>
               jQuery(document).ready(function($) {
-                function submitLead() {
+                $('#leadForm button[type="submit"]').submit(function(ev) {
                   $('#leadForm').validate({
                     rules: {
                       email: {
@@ -32,7 +32,9 @@
                       $('#leadModal').modal('show');
                     }
                   });
-                }
+
+                  ev.preventDefault();
+                });
               });
               </script>
             </form>
