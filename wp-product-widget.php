@@ -41,9 +41,11 @@ class Product_Widget extends WP_Widget {
 				<?php } ?>
 
 				<?php if (!empty($instance['link_text'])) { ?>
-					<button type="button" href="<?php echo $instance['link_href']; ?>" rel="Link to <?php echo $title; ?>" role="button" class="btn">
+					<a href="<?php echo $instance['link_href']; ?>">
+						<button type="button" rel="Link to <?php echo $title; ?>" role="button" class="btn">
 						<?php echo $instance['link_text']; ?>
-					</button>
+						</button>
+					</a>	
 				<?php } ?>
 			</div>
 		</div>
