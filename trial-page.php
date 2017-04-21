@@ -352,7 +352,23 @@ get_header(); ?>
           updateCode();
 
           $('#speedmentForm').submit(function(ev) {
-            updateCode();
+            $.ajax({
+              url: prepareUrl('generate/maven'),
+              type: "GET",
+              crossDomain: true,
+              success: function (data) {
+                console.log(data);
+                $('#finalCode').html(
+                  Prism.highlight(data, Prism.languages.xml)
+                );
+                $('#generationComplete').modal('show');
+              },
+              error: function (xhr, status) {
+                console.error(xhr);
+                console.error('Error! Server responded with ' + status + '.');
+              }
+            });
+
             ev.preventDefault();
           });
         });
@@ -787,8 +803,46 @@ get_header(); ?>
         </div>
       </div><!-- Modal Close -->
 
+      <div id="generationComplete" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="popupTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Success!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Your project has been generated! To build it, create a file
+              somewhere on your computer called <span class="code">pom.xml</span>
+              and insert the following text:</p>
+              <pre>
+                <code class="language-xml" id="finalCode">
+                  Code here
+                </code>
+              </pre>
+              <p>To launch the Speedment Tool, run the following command in your terminal:</p>
+              <pre>
+                <code class="language-shell">
+                  mvn speedment:tool
+                </code>
+              </pre>
+              <p>To compile the Maven project, run:</p>
+              <pre>
+                <code class="language-shell">
+                  mvn clean install
+                </code>
+              </pre>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div id="popupModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="popupTitle" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">Success!</h5>
