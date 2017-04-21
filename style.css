@@ -369,6 +369,12 @@ a:hover, button:hover, input[type="button"]:hover {
   margin-left: 0px;
 }
 
+#products h1,
+#products h2,
+#products h3 {
+  margin-top: 32px;
+}
+
 .product-page {
   margin-top: 20px;
   margin-bottom: 20px;
