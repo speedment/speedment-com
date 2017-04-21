@@ -486,6 +486,14 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 /*
+  Page
+*/
+#defaultPage {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*
   Not Found
 */
 #notFound {
