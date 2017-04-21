@@ -213,7 +213,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #guides .fa-gamepad {
   font-size: 1500%;
-  opacity: 0.2;
+  opacity: 0.5;
   margin-top: -50px;
   margin-bottom: -50px;
 }
