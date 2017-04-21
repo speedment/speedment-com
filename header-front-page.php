@@ -18,6 +18,7 @@
               <script>
               jQuery(document).ready(function($) {
                 $('#leadForm button[type="submit"]').submit(function(ev) {
+                  console.log("Submit form");
                   $('#leadForm').validate({
                     rules: {
                       email: {
@@ -26,9 +27,11 @@
                       }
                     },
                     highlight: function (element) {
+                      console.log("Failure!");
                       $(element).closest('.control-group').removeClass('success').addClass('error');
                     },
                     success: function (element) {
+                      console.log("Success!");
                       $('#leadModal').modal('show');
                     }
                   });
