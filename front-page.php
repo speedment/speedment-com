@@ -42,15 +42,15 @@
   </div>
 
   <!--
-      Guides (Text Area with link and picture on light green background)
+      Initializer (Text Area with link and picture on light green background)
   -->
   <div class="row justify-content-center" id="guides">
     <div class="container">
       <div class="row align-items-center">
         <div class="col">
-          <h3>Guides</h3>
+          <h3>Initializer</h3>
           <p><?php echo get_theme_mod('front_page_guides_text'); ?></p>
-          <a href="<?php echo get_permalink(26); ?>">Browse the Guides <i class="fa fa-arrow-right"></i></a>
+          <a href="<?php echo get_permalink(22); ?>">Start the Initializer <i class="fa fa-arrow-right"></i></a>
         </div>
         <div class="col-md-auto hidden-sm-down">
           <i class="fa fa-book" style="font-size:1000%; opacity: 0.5;"></i>
