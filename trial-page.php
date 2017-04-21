@@ -113,9 +113,9 @@ get_header(); ?>
             <div style="overflow:hidden;position:relative;width:100%;height:100px;top:-10px;margin-bottom:-100px;margin-right:-100px;right:-2px;z-index:1;pointer-events:none;">
               <div class="cr cr-top cr-right cr-blue">Enterprise</div>
             </div>
-            <label for="inputLicenseKey" class="col-sm-3 col-form-label">Enterprise License Key</label>
-            <div class="col-sm-9 row rightSide">
-              <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Enter Your Enterprise License Key Here"><?php
+            <label for="inputLicenseKey" class="col-sm-12 col-form-label" style="margin-bottom:8px;">You have selected an Enterprise Feature<i class="fa fa-asterisk" aria-hidden="true"></i></label>
+            <div class="col-sm-12 row rightSide">
+              <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Enter Your License Key Here"><?php
                 if (isset($_GET['licenseKey'])) {
                   echo $_GET['licenseKey'];
                 }
