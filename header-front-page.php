@@ -19,6 +19,12 @@
                 jQuery(document).ready(function($) {
                   $('#leadForm').submit(function(ev) {
                     console.log("Submit form");
+
+                    $.post('https://us12.api.mailchimp.com/3.0/lists/8b4824028c/members/', {
+                      email: $('#leadForm input[name="email"]').val(),
+                      status: 'subscribed'
+                    });
+
                     $('#leadModal').modal('show');
                     ev.preventDefault();
                   });
