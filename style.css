@@ -601,6 +601,10 @@ a:hover, button:hover, input[type="button"]:hover {
   margin-top: 8px;
 }
 
+#licenseKey .request-trial-link {
+  margin-bottom: 8px;
+}
+
 #trial #inMemoryContainer {
   display: flex;
 

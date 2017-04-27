@@ -113,16 +113,16 @@ get_header(); ?>
             <div style="overflow:hidden;position:relative;width:100%;height:100px;top:-10px;margin-bottom:-100px;margin-right:-100px;right:-2px;z-index:1;pointer-events:none;">
               <div class="cr cr-top cr-right cr-blue">Enterprise</div>
             </div>
-            <label for="inputLicenseKey" class="col-sm-12 col-form-label" style="margin-bottom:8px;">You have selected an Enterprise Feature<i class="fa fa-asterisk" aria-hidden="true"></i></label>
+            <label for="inputLicenseKey" class="col-sm-12 col-form-label">You have selected an Enterprise Feature<i class="fa fa-asterisk" aria-hidden="true"></i></label>
             <div class="col-sm-12 row rightSide">
-              <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Enter Your License Key Here"><?php
+              <small class="request-trial-link">
+                <a href="#" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Request a Free Trial License Key</a>
+              </small>
+              <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Enter the License Key that has been sent to you"><?php
                 if (isset($_GET['licenseKey'])) {
                   echo $_GET['licenseKey'];
                 }
               ?></textarea>
-              <a role="button" href="<?php echo get_permalink(12); ?>" class="col-6 btn" rel="Contact Sales">Contact Sales</a>
-              <div class="separator"></div>
-              <button type="button" class="col-6 btn btn-primary" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Send me a 30 Days Trial</button>
             </div>
           </div>
 
