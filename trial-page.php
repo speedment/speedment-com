@@ -191,7 +191,7 @@ get_header(); ?>
 
           function prepareUrl(service) {
             var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
-            var url = 'http://api.speedment.com:9010/' + service;
+            var url = 'https://api.speedment.com:9010/' + service;
             url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
 
             if ('true' == $('input[type=radio][name=inMemory]:checked').val()) {
