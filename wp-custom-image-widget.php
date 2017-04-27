@@ -22,7 +22,7 @@ class Custom_Image_Widget extends WP_Widget {
 	 */
 	public function widget($args, $instance) {
 		echo $args['before_widget']; ?>
-		<div class="custom-image-widget col">
+		<div class="custom-image-widget col-md">
 			<?php if (!empty($instance['image_uri'])) { ?>
 				<div class="custom-image">
 					<img src="<?php echo esc_url($instance['image_uri']); ?>" alt="<?php echo $instance['title']; ?>" />
