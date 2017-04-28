@@ -373,7 +373,7 @@
                 $('#trialModalSubmit').disable(true);
 
                 $.ajax({
-                   url: 'https://api.speedment.com:9010/licenses/trial/datastore,virtual-columns,mssql,mysql,oracle,db2' +
+                   url: 'https://api.speedment.com:9010/licenses/trial/datastore,virtual-columns,mssql,oracle,db2' +
                     '?firstname=' + encodeURIComponent($('#trial-firstname').val()) +
                     '&lastname=' + encodeURIComponent($('#trial-lastname').val()) +
                     '&email=' + encodeURIComponent(email) +
