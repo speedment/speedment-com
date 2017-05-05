@@ -519,6 +519,9 @@ a:hover, button:hover, input[type="button"]:hover {
 */
 #trial {
   margin-top: 100px;
+}
+
+#trial > .container > .row {
   margin-bottom: 50px;
 }
 
