@@ -573,6 +573,9 @@ a:hover, button:hover, input[type="button"]:hover {
   padding-bottom: 8px;
   border: solid 2px #e0d7d1;
   border-radius: 4px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 15px;
 }
 
 #licenseKey > .rightSide {
