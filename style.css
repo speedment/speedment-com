@@ -525,6 +525,13 @@ a:hover, button:hover, input[type="button"]:hover {
   margin-bottom: 50px;
 }
 
+#trial > .container > .row.gray-area {
+  background: #f5f2f0;
+  padding-top: 20px;
+  border-radius: 2px;
+  border: solid 1px #ddd;
+}
+
 #trial .form-check {
   padding: 8px;
   margin-left: 0px;
@@ -558,10 +565,6 @@ a:hover, button:hover, input[type="button"]:hover {
   font-weight: bold;
   color: #39d;
   vertical-align: text-top;
-}
-
-#trial p {
-  margin-top: 1rem;
 }
 
 #licenseKey {
@@ -628,6 +631,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #trial pre[class*="language-"] {
+  background: white;
   margin: 0px;
 }
 
@@ -637,6 +641,12 @@ a:hover, button:hover, input[type="button"]:hover {
 #trial .btn-primary:disabled:hover {
   background: rgb(221, 221, 221);
   border: rgb(221, 221, 221);
+}
+
+#trial .preview-column .tab-content {
+  border-left: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  border-right: solid 1px #ddd;
 }
 
 /*
