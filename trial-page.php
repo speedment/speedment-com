@@ -211,7 +211,7 @@ get_header(); ?>
             };
 
             if (enterprise) {
-              args['speedmentEnterpriseVersion'] = '1.1.3';
+              args['speedmentEnterpriseVersion'] = '1.1.4';
               args['runtimeGroupId']    = 'com.speedment.enterprise';
               args['runtimeArtifactId'] = 'runtime';
               args['runtimeVersion']    = '${speedment.enterprise.version}';
@@ -219,7 +219,7 @@ get_header(); ?>
               args['pluginArtifactId']  = 'speedment-enterprise-maven-plugin';
               args['pluginVersion']     = '${speedment.enterprise.version}';
             } else {
-              args['speedmentVersion']  = '3.0.6';
+              args['speedmentVersion']  = '3.0.8';
               args['runtimeGroupId']    = 'com.speedment';
               args['runtimeArtifactId'] = 'runtime';
               args['runtimeVersion']    = '${speedment.version}';
