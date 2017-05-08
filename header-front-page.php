@@ -24,10 +24,8 @@
                       type: 'POST',
                       url: 'https://us12.api.mailchimp.com/3.0/lists/8b4824028c/members/',
                       dataType: 'json',
-                      beforeSend: function(xhr) {
-                        xhr.setRequestHeader(
-                        'Authorization', 'Basic ' + btoa('api:ba6d0463678b4fb804e9ed05049aea2c-us12')
-                      )},
+                      username: 'api',
+                      password: 'ba6d0463678b4fb804e9ed05049aea2c-us12',
                       async: false,
                       data: {
                         email: $('#leadForm input[name="email"]').val(),
