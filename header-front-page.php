@@ -24,9 +24,10 @@
                       type: 'POST',
                       url: 'https://us12.api.mailchimp.com/3.0/lists/8b4824028c/members/',
                       dataType: 'json',
-                      username: 'api',
-                      password: 'ba6d0463678b4fb804e9ed05049aea2c-us12',
                       async: false,
+                      headers: {
+                        "Authorization": "Basic " + btoa('api:ba6d0463678b4fb804e9ed05049aea2c-us12')
+                      },
                       data: {
                         email: $('#leadForm input[name="email"]').val(),
                         status: 'subscribed'
