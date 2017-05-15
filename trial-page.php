@@ -211,7 +211,7 @@ get_header(); ?>
             };
 
             if (enterprise) {
-              args['speedmentEnterpriseVersion'] = '1.1.4';
+              args['speedmentEnterpriseVersion'] = '1.1.6';
               args['runtimeGroupId']    = 'com.speedment.enterprise';
               args['runtimeArtifactId'] = 'runtime';
               args['runtimeVersion']    = '${speedment.enterprise.version}';
