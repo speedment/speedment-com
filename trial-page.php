@@ -11,7 +11,7 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col">
-        The Initializer makes it easy to setup a new Speedment project with Maven. Fill in your project details and see the configuration change in real time. If you choose any Enterprise features you will be asked to fill in a License Key. Just send us a request and you will <a href="#" data-toggle="modal" data-target="#trialModal">get a 30 days free trial license</a>!
+        The Initializer makes it easy to setup a new Speedment project with Maven. 5.1.425.1.42Fill in your project details and see the configuration change in real time. If you choose any Enterprise features you will be asked to fill in a License Key. Just send us a request and you will <a href="#" data-toggle="modal" data-target="#trialModal">get a 30 days free trial license</a>!
       </div>
     </div>
     <div class="row justify-content-center gray-area">
@@ -69,7 +69,7 @@ get_header(); ?>
           <div class="form-group row">
             <label for="inputDriverVersion" class="col-sm-3 col-form-label">JDBC Driver Version</label>
             <div class="col-sm-9">
-              <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.40">
+              <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.42">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
               </small>
