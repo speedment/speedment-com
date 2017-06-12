@@ -219,7 +219,7 @@ get_header(); ?>
               args['pluginArtifactId']  = 'speedment-enterprise-maven-plugin';
               args['pluginVersion']     = '${speedment.enterprise.version}';
             } else {
-              args['speedmentVersion']  = '3.0.10';
+              args['speedmentVersion']  = '3.0.11';
               args['runtimeGroupId']    = 'com.speedment';
               args['runtimeArtifactId'] = 'runtime';
               args['runtimeVersion']    = '${speedment.version}';
