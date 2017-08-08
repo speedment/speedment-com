@@ -62,7 +62,7 @@
   </div>
 
   <!--
-    VIDEO
+    Video
   -->
   <div id="front-page-video">
    <div class="row justify-content-center">
@@ -76,6 +76,19 @@
         </div>
      </div>
    </div>
+  </div>
+  
+  <!--
+    Java One Promo
+  -->
+  <div class="row justify-content-center" id="javaone-promo">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/728x90-j1-promo.jpg" alt="Java One 2017 Banner" />
+        </div>
+      </div>
+    </div>
   </div>
 
   <!--
