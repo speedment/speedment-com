@@ -1,12 +1,19 @@
 
-#small-boxes h2{
+#small-boxes h2 {
     padding-top: 12px;
     padding-bottom: 32px;
 }
-#company-logos img{
+
+#company-logos img {
     width: 180px;
     height: 72px;
 }
+
 #front-page-video {
    padding-top: 70px;
+}
+
+#javaone-promo .col {
+    text-align: center;
+    margin-top: 5rem;
 }
