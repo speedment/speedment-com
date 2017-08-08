@@ -85,7 +85,9 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/728x90-j1-promo.jpg" alt="Java One 2017 Banner" />
+          <a href="https://www.oracle.com/javaone/index.html" target="_blank" rel="external">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/728x90-j1-promo.jpg" alt="Java One 2017 Banner" />
+          </a>
         </div>
       </div>
     </div>
