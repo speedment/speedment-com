@@ -211,7 +211,7 @@ get_header(); ?>
             };
 
             if (enterprise) {
-              args['speedmentEnterpriseVersion'] = '1.1.9';
+              args['speedmentEnterpriseVersion'] = '1.1.10';
               args['runtimeGroupId']    = 'com.speedment.enterprise';
               args['runtimeArtifactId'] = 'runtime';
               args['runtimeVersion']    = '${speedment.enterprise.version}';
@@ -219,7 +219,7 @@ get_header(); ?>
               args['pluginArtifactId']  = 'speedment-enterprise-maven-plugin';
               args['pluginVersion']     = '${speedment.enterprise.version}';
             } else {
-              args['speedmentVersion']  = '3.0.12';
+              args['speedmentVersion']  = '3.0.13';
               args['runtimeGroupId']    = 'com.speedment';
               args['runtimeArtifactId'] = 'runtime';
               args['runtimeVersion']    = '${speedment.version}';
@@ -338,7 +338,7 @@ get_header(); ?>
             } else if (this.value === 'postgresql') {
                 driverVersion.val('42.0.0');
             } else if (this.value === 'mariadb') {
-                driverVersion.val('2.0.1');
+                driverVersion.val('2.1.1');
             } else if (this.value == 'oracle') {
                 driverVersion.val('12.1.0.1.0');
             } else if (this.value === 'db2') {
