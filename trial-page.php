@@ -211,7 +211,7 @@ get_header(); ?>
             };
 
             if (enterprise) {
-              args['speedmentEnterpriseVersion'] = '1.1.10';
+              args['speedmentEnterpriseVersion'] = '1.1.11';
               args['runtimeGroupId']    = 'com.speedment.enterprise';
               args['runtimeArtifactId'] = 'runtime';
               args['runtimeVersion']    = '${speedment.enterprise.version}';
@@ -338,7 +338,7 @@ get_header(); ?>
             } else if (this.value === 'postgresql') {
                 driverVersion.val('42.0.0');
             } else if (this.value === 'mariadb') {
-                driverVersion.val('2.1.1');
+                driverVersion.val('2.1.2');
             } else if (this.value == 'oracle') {
                 driverVersion.val('12.1.0.1.0');
             } else if (this.value === 'db2') {
