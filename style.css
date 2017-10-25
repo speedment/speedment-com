@@ -693,3 +693,11 @@ a:hover, button:hover, input[type="button"]:hover {
   background-color: #39d;
   border-bottom: 4px solid #2e8ac7;
 }
+
+/* Add some padding on really small screens */
+@media (max-width: 575px) {
+  #defaultPage > .container > .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
