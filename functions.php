@@ -7,6 +7,7 @@ require_once('wp-portrait-widget.php');
 require_once('wp-youtube-widget.php');
 require_once('wp-footer-walker.php');
 require_once('wp-dimox-breadcrumbs.php');
+require_once('stripe-php/init.php');
 
 add_theme_support('custom-header');
 add_theme_support('post-thumbnails', array('page'));
