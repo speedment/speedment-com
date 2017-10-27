@@ -43,21 +43,27 @@ class Subscription_Widget extends WP_Widget {
 					</ul>
 				<?php } ?>
 
-				<?php if (!empty($instance['link_text'])) { ?>
-					<a href="<?php echo $instance['link_href']; ?>">
-						<button type="button" rel="Link to <?php echo $instance['link_text']; ?>" role="button" class="btn">
-						<?php echo $instance['link_text']; ?>
-						</button>
-					</a>	
-				<?php } ?>
+                <div class="row">
+				    <?php if (!empty($instance['link_text'])) { ?>
+				        <div class="col" style="text-align:center">
+					        <a href="<?php echo $instance['link_href']; ?>">
+						        <button type="button" rel="Link to <?php echo $instance['link_text']; ?>" role="button" class="btn">
+						        <?php echo $instance['link_text']; ?>
+						        </button>
+					        </a>	
+					    </div>
+				    <?php } ?>
 				
-				<?php if (!empty($instance['link2_text'])) { ?>
-					<a href="<?php echo $instance['link2_href']; ?>">
-						<button type="button" rel="Link to <?php echo $instance['link2_text']; ?>" role="button" class="btn">
-						<?php echo $instance['link2_text']; ?>
-						</button>
-					</a>	
-				<?php } ?>
+				    <?php if (!empty($instance['link2_text'])) { ?>
+				        <div class="col" style="text-align:center">
+					        <a href="<?php echo $instance['link2_href']; ?>">
+						        <button type="button" rel="Link to <?php echo $instance['link2_text']; ?>" role="button" class="btn">
+						        <?php echo $instance['link2_text']; ?>
+						        </button>
+					        </a>	
+					    </div>
+				    <?php } ?>
+				</div>
 			</div>
 		</div>
 		<?php echo $args['after_widget'];
