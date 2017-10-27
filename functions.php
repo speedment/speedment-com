@@ -281,6 +281,56 @@ function speedment_options_init($wp_customize) {
   		'type'        => 'text',
   	)
   );
+  
+  // Stripe Costs
+  $wp_customize->add_setting('stripe_monthlyPlan', array('default' => ''));
+  $wp_customize->add_setting('stripe_yearlyPlan', array('default' => ''));
+  $wp_customize->add_setting('stripe_addonCost', array('default' => ''));
+  $wp_customize->add_setting('stripe_addonText', array('default' => ''));
+
+  $wp_customize->add_control(
+  	'stripe_monthlyPlan_control',
+  	array(
+  		'label'       => __('Subscription Plan (Pay Monthly)', 'default'),
+        'description' => __('The Stripe Subscription Plan to use if customer wants to pay monthly.', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_monthlyPlan',
+  		'type'        => 'text',
+  	)
+  );
+  
+  $wp_customize->add_control(
+  	'stripe_yearlyPlan_control',
+  	array(
+  		'label'       => __('Subscription Plan (Pay Yearly)', 'default'),
+        'description' => __('The Stripe Subscription Plan to use if customer wants to pay yearly.', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_yearlyPlan',
+  		'type'        => 'text',
+  	)
+  );
+  
+  $wp_customize->add_control(
+  	'stripe_addonCost_control',
+  	array(
+  		'label'       => __('Subscription Addon Cost (One Time)', 'default'),
+        'description' => __('The cost of the addon option to apply to the first invoice.', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_addonCost',
+  		'type'        => 'number',
+  	)
+  );
+  
+  $wp_customize->add_control(
+  	'stripe_addonText_control',
+  	array(
+  		'label'       => __('Subscription Addon Text', 'default'),
+        'description' => __('Text to show on the customer invoice if addon is selected', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_addonText',
+  		'type'        => 'text',
+  	)
+  );
 }
 
 function cc_mime_types($mimes) {
