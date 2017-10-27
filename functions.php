@@ -195,6 +195,11 @@ function speedment_options_init($wp_customize) {
   );
   
   // Stripe payment API
+  $wp_customize->add_section('stripe_section', array(
+    'title'    => __('Stripe Payment Settings', 'default'),
+    'priority' => 31,
+  ));
+  
   $wp_customize->add_setting('stripe_sandbox', array(
     'default'   => '',
     'transport' => 'refresh',
