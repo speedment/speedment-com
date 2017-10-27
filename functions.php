@@ -7,6 +7,7 @@ require_once('wp-custom-image-widget.php');
 require_once('wp-product-widget.php');
 require_once('wp-portrait-widget.php');
 require_once('wp-youtube-widget.php');
+require_once('wp-subscription-widget.php');
 require_once('wp-footer-walker.php');
 require_once('wp-dimox-breadcrumbs.php');
 require_once('wp-stripe-subscription.php');
