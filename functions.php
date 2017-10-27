@@ -1,4 +1,6 @@
 <?php
+require_once('stripe-php/init.php');
+
 require_once('wp-bootstrap-navwalker.php');
 require_once('wp-image-box-widget.php');
 require_once('wp-custom-image-widget.php');
@@ -7,7 +9,7 @@ require_once('wp-portrait-widget.php');
 require_once('wp-youtube-widget.php');
 require_once('wp-footer-walker.php');
 require_once('wp-dimox-breadcrumbs.php');
-require_once('stripe-php/init.php');
+require_once('wp-stripe-subscription.php');
 
 add_theme_support('custom-header');
 add_theme_support('post-thumbnails', array('page'));
@@ -131,7 +133,7 @@ function speedment_options_init($wp_customize) {
   	'front_page_guides_text_control',
   	array(
   		'label'       => __('Guides Text', 'default'),
-      'description' => __('The text to be shown under the "Guides" section on the frontpage.', 'default'),
+        'description' => __('The text to be shown under the "Guides" section on the frontpage.', 'default'),
   		'section'     => 'static_front_page',
   		'settings'    => 'front_page_guides_text',
   		'type'        => 'textarea'
@@ -153,7 +155,7 @@ function speedment_options_init($wp_customize) {
   	'contact_email_control',
   	array(
   		'label'       => __('Contact Email', 'default'),
-      'description' => __('The email adress to which contact form results should be sent.', 'default'),
+        'description' => __('The email adress to which contact form results should be sent.', 'default'),
   		'section'     => 'recaptcha_section',
   		'settings'    => 'contact_email',
   		'type'        => 'email',
@@ -169,10 +171,10 @@ function speedment_options_init($wp_customize) {
   	'recaptcha_sitekey_control',
   	array(
   		'label'       => __('ReCaptcha SiteKey', 'default'),
-      'description' => __('The public ReCaptcha sitekey.', 'default'),
-  		'section'     => 'recaptcha_section',
-  		'settings'    => 'recaptcha_sitekey',
-  		'type'        => 'text',
+        'description' => __('The public ReCaptcha sitekey.', 'default'),
+  	    'section'     => 'recaptcha_section',
+  	    'settings'    => 'recaptcha_sitekey',
+  	    'type'        => 'text',
   	)
   );
 
@@ -185,9 +187,92 @@ function speedment_options_init($wp_customize) {
   	'recaptcha_secret_control',
   	array(
   		'label'       => __('ReCaptcha Secret', 'default'),
-      'description' => __('The secret ReCaptcha code.', 'default'),
-  		'section'     => 'recaptcha_section',
+        'description' => __('The secret ReCaptcha code.', 'default'),
+  	    'section'     => 'recaptcha_section',
   		'settings'    => 'recaptcha_secret',
+  		'type'        => 'text',
+  	)
+  );
+  
+  // Stripe payment API
+  $wp_customize->add_setting('stripe_sandbox', array(
+    'default'   => '',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+  	'stripe_sandbox_control',
+  	array(
+  		'label'       => __('Enable Sandbox', 'default'),
+        'description' => __('In sandbox mode, no real money or credit cards will be used.', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_sandbox',
+  		'type'        => 'checkbox',
+  	)
+  );
+  
+  // Stripe Test
+  $wp_customize->add_setting('stripe_testSecretKey', array(
+    'default'   => '',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+  	'stripe_testSecretKey_control',
+  	array(
+  		'label'       => __('Stripe Test Secret Key', 'default'),
+        'description' => __('The test secret stripe key.', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_testSecretKey',
+  		'type'        => 'text',
+  	)
+  );
+  
+  $wp_customize->add_setting('stripe_testPublicKey', array(
+    'default'   => '',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+  	'stripe_testPublicKey_control',
+  	array(
+  		'label'       => __('Stripe Test Public key', 'default'),
+        'description' => __('The test public stripe key.', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_testPublicKey',
+  		'type'        => 'text',
+  	)
+  );
+  
+  // Stripe Live
+  $wp_customize->add_setting('stripe_secretKey', array(
+    'default'   => '',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+  	'stripe_secretKey_control',
+  	array(
+  		'label'       => __('Stripe Live Secret Key', 'default'),
+        'description' => __('The live secret stripe Key.', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_secretKey',
+  		'type'        => 'text',
+  	)
+  );
+  
+  $wp_customize->add_setting('stripe_publicKey', array(
+    'default'   => '',
+    'transport' => 'refresh',
+  ));
+
+  $wp_customize->add_control(
+  	'stripe_publicKey_control',
+  	array(
+  		'label'       => __('Stripe Live Public key', 'default'),
+        'description' => __('The live public stripe key.', 'default'),
+  		'section'     => 'stripe_section',
+  		'settings'    => 'stripe_publicKey',
   		'type'        => 'text',
   	)
   );
@@ -202,6 +287,7 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 add_action('widgets_init', 'speedment_widgets_init');
 add_action('init',         'speedment_menues_init');
+add_action('init',         'stripe_subscription_init');
 
 add_action('wp_enqueue_scripts', 'load_prism');
 add_action('wp_enqueue_scripts', 'load_tether');
