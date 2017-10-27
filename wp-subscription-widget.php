@@ -43,9 +43,9 @@ class Subscription_Widget extends WP_Widget {
 					</ul>
 				<?php } ?>
 
-                <div class="row">
+                <div class="row justify-content-center">
 				    <?php if (!empty($instance['link_text'])) { ?>
-				        <div class="col" style="text-align:center">
+				        <div class="col-5" style="text-align:center">
 					        <a href="<?php echo $instance['link_href']; ?>">
 						        <button type="button" rel="Link to <?php echo $instance['link_text']; ?>" role="button" class="btn">
 						        <?php echo $instance['link_text']; ?>
@@ -55,7 +55,7 @@ class Subscription_Widget extends WP_Widget {
 				    <?php } ?>
 				
 				    <?php if (!empty($instance['link2_text'])) { ?>
-				        <div class="col" style="text-align:center">
+				        <div class="col-5" style="text-align:center">
 					        <a href="<?php echo $instance['link2_href']; ?>">
 						        <button type="button" rel="Link to <?php echo $instance['link2_text']; ?>" role="button" class="btn">
 						        <?php echo $instance['link2_text']; ?>
