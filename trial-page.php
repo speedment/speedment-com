@@ -230,15 +230,15 @@ get_header(); ?>
             }
             
             if (useEnums.is(':checked')) {
-                url += 'enums';
+                url += ',enums';
             }
             
             if (useSpring.is(':checked')) {
-                url += 'spring';
+                url += ',spring';
             }
             
             if (useJson.is(':checked')) {
-                url += 'json';
+                url += ',json';
             }
 
             var args = {
