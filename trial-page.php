@@ -75,6 +75,28 @@ get_header(); ?>
               </small>
             </div>
           </div>
+          
+          <!-- Plugins -->
+          <div class="form-group row">
+            <legend class="col-form-legend col-sm-3">Plugins</legend>
+            <div class="col-sm-9">
+              <label class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" id="checkPluginEnums">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Enums</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" id="checkPluginSpring">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Spring</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" id="checkPluginJson">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">JSON</span>
+              </label>
+            </div>
+          </div>
 
           <!-- In-memory Acceleration -->
           <div class="form-group row">
@@ -190,6 +212,10 @@ get_header(); ?>
           var licenseKey    = $('#inputLicenseKey');
           var inMemory      = $('input[type=radio][name=inMemory]');
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
+          
+          var useEnums  = $('#checkPluginEnums');
+          var useSpring = $('#checkPluginSpring');
+          var useJson   = $('#checkPluginJson');
 
           var enterprise = false;
           var enterpriseDb = false;
@@ -201,6 +227,18 @@ get_header(); ?>
 
             if ('true' == $('input[type=radio][name=inMemory]:checked').val()) {
               url += ',virtual-columns,datastore';
+            }
+            
+            if (useEnums.is(':checked')) {
+                url += 'enums';
+            }
+            
+            if (useSpring.is(':checked')) {
+                url += 'spring';
+            }
+            
+            if (useJson.is(':checked')) {
+                url += 'json';
             }
 
             var args = {
