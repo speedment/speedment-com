@@ -393,6 +393,10 @@ get_header(); ?>
             updateEnterprise();
             updateCode();
           });
+          
+          useEnums.click(updateCode);
+          useSpring.click(updateCode);
+          useJson.click(updateCode);
 
           updateEnterprise();
           updateCode();
