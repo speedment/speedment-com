@@ -373,20 +373,23 @@
                 $('#trialModalSubmit').disable(true);
 
                 $.ajax({
-                   url: 'https://api.speedment.com:9010/licenses/trial/datastore,virtual-columns,mssql,oracle,db2' +
-                    '?firstname=' + encodeURIComponent($('#trial-firstname').val()) +
-                    '&lastname=' + encodeURIComponent($('#trial-lastname').val()) +
-                    '&email=' + encodeURIComponent(email) +
-                    '&company=' + encodeURIComponent($('#trial-company').val()) +
-                    '&country=' + encodeURIComponent($('#trial-country').val()) +
-                    '&state=' + encodeURIComponent($('#trial-state').val()),
-                   type: "POST",
+                   url: 'https://api.speedment.com:9010/licenses/trial/datastore,virtual-columns,mssql,oracle,db2/json',
+                   data: JSON.stringify({
+                     'firstname' : $('#trial-firstname').val(),
+                     'lastname'  : $('#trial-lastname').val(),
+                     'email'     : email,
+                     'company'   : $('#trial-company').val(),
+                     'country'   : $('#trial-country').val(),
+                     'state'     : $('#trial-state').val()
+                   }),
+                   type: 'POST',
                    jsonp: false,
                    crossDomain: true,
-                   contentType: 'application/x-www-form-urlencoded',
+                   dataType: 'json',
+                   contentType: 'application/json',
                    beforeSend: function(xhr) {
-                     xhr.setRequestHeader('Accept', 'text/plain');
-                     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                     xhr.setRequestHeader('Accept', 'application/json');
+                     xhr.setRequestHeader('Content-Type', 'application/json');
                    },
                    success: function (data) {
                      $('#trialModal').modal('hide');
