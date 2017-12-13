@@ -386,6 +386,9 @@
                    beforeSend: function(xhr) {
                      xhr.setRequestHeader('Accept', 'text/plain');
                    },
+                   xhrFields: {
+                     withCredentials: true // allow passing cookies
+                   },
                    success: function (data) {
                      $('#trialModal').modal('hide');
                      $('#trialModalSubmit').disable(false);
