@@ -383,11 +383,10 @@
                    type: "POST",
                    jsonp: false,
                    crossDomain: true,
+                   contentType: 'application/x-www-form-urlencoded',
                    beforeSend: function(xhr) {
                      xhr.setRequestHeader('Accept', 'text/plain');
-                   },
-                   xhrFields: {
-                     withCredentials: true // allow passing cookies
+                     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
                    },
                    success: function (data) {
                      $('#trialModal').modal('hide');
