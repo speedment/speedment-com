@@ -381,7 +381,11 @@
                     '&country=' + encodeURIComponent($('#trial-country').val()) +
                     '&state=' + encodeURIComponent($('#trial-state').val()),
                    type: "POST",
+                   jsonp: false,
                    crossDomain: true,
+                   beforeSend: function(xhr) {
+                     xhr.setRequestHeader('Accept', 'text/plain');
+                   },
                    success: function (data) {
                      $('#trialModal').modal('hide');
                      $('#trialModalSubmit').disable(false);
