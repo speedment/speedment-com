@@ -112,11 +112,11 @@ class Subscription_Widget extends WP_Widget {
 		</p>
 		<p>
 		<label for="<?php echo esc_attr($this->get_field_id('link2_text')); ?>"><?php esc_attr_e('Button 2 Text:', 'text_domain'); ?></label>
-		<input class="widefat" id="<?php echo esc_attr($this->get_field_id('link2_text')); ?>" name="<?php echo esc_attr($this->get_field_name('link2_text')); ?>" type="text" value="<?php echo esc_attr($link_text); ?>" />
+		<input class="widefat" id="<?php echo esc_attr($this->get_field_id('link2_text')); ?>" name="<?php echo esc_attr($this->get_field_name('link2_text')); ?>" type="text" value="<?php echo esc_attr($link2_text); ?>" />
 		</p>
 		<p>
 		<label for="<?php echo esc_attr($this->get_field_id('link2_href')); ?>"><?php esc_attr_e('Button 2 Target (url):', 'text_domain'); ?></label>
-		<input class="widefat" id="<?php echo esc_attr($this->get_field_id('link2_href')); ?>" name="<?php echo esc_attr($this->get_field_name('link2_href')); ?>" type="text" value="<?php echo esc_attr($link_href); ?>" />
+		<input class="widefat" id="<?php echo esc_attr($this->get_field_id('link2_href')); ?>" name="<?php echo esc_attr($this->get_field_name('link2_href')); ?>" type="text" value="<?php echo esc_attr($link2_href); ?>" />
 		</p>
 		<?php
 	}
