@@ -727,3 +727,9 @@ a:hover, button:hover, input[type="button"]:hover {
 .StripeElement--webkit-autofill {
   background-color: #fefde5 !important;
 }
+
+.StripeElement .ElementsApp, 
+.StripeElement .ElementsApp 
+.StripeElement .InputElement {
+  color: #464a4c;
+}
