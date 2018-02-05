@@ -376,7 +376,7 @@ get_header(); ?>
             } else if (this.value === 'postgresql') {
                 driverVersion.val('42.0.0');
             } else if (this.value === 'mariadb') {
-                driverVersion.val('2.1.2');
+                driverVersion.val('2.2.1');
             } else if (this.value == 'oracle') {
                 driverVersion.val('12.1.0.1.0');
             } else if (this.value === 'db2') {
