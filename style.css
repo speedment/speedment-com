@@ -22,7 +22,6 @@ A nice theme.
 @import url('assets/css/front-page.css');
 @import url('assets/css/prism.css');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 body{
   padding-top: 54px;
@@ -41,10 +40,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h2 {
     font-family: 'Advent Pro';
-}
-
-p {
-	font-family: 'Source Sans Pro'; 
 }
 
 a:hover, button:hover, input[type="button"]:hover {
