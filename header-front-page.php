@@ -22,20 +22,17 @@
 
                     $.ajax({
                       type: 'POST',
-                      url: 'https://us12.api.mailchimp.com/3.0/lists/8b4824028c/members/',
-                      dataType: 'json',
-                      async: false,
-                      headers: {
-                        "Authorization": "Basic " + btoa('api:ba6d0463678b4fb804e9ed05049aea2c-us12')
+                      url: 'https://api.speedment.com:9010/lead/curious/' + encodeURIComponent($('#leadForm input[name="email"]').val()),
+                      success: function() {
+                        $('#leadModal').modal('show');
                       },
-                      data: {
-                        email: $('#leadForm input[name="email"]').val(),
-                        status: 'subscribed'
+                      error: function(msg) {
+                       console.err('Error sending lead to server.', msg); 
                       }
                     });
 
-                    $('#leadModal').modal('show');
                     ev.preventDefault();
+                    return false;
                   });
                 });
               </script>
