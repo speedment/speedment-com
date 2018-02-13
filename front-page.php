@@ -49,8 +49,8 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col">
-          <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/15/0#&pageSet=34&page=34" target="_blank" rel="external">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/JavaMagazine_img.png" alt="Oracle Java Magazine Article" />
+          <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" rel="external">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/JavaMagazine_small.png" alt="Oracle Java Magazine Article" />
           </a>
         </div>
       </div>
