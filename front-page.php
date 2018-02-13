@@ -81,7 +81,7 @@
   <!--
     Java One Promo
   -->
-  <?php if (new DateTime() < new DateTime("2017-10-06 00:00:00")) { ?>
+  <?php if (new DateTime() < new DateTime("2018-10-06 00:00:00")) { ?>
   <div class="row justify-content-center" id="javaone-promo">
     <div class="container">
       <div class="row justify-content-center">
