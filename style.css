@@ -340,7 +340,7 @@ a:hover, button:hover, input[type="button"]:hover {
 .information h3 {
     font-size: 30px;
     line-height: 30px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 20px;
     color: #34302d;
 }
