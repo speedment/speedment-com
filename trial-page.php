@@ -103,12 +103,12 @@ get_header(); ?>
             <label class="col-sm-3 col-form-label">In-memory Acceleration</label>
             <div class="col-sm-9" id="inMemoryContainer">
               <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true">
+                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">Enable<i class="fa fa-asterisk" aria-hidden="true"></i></span>
               </label>
               <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryFalse" value="false" checked>
+                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryFalse" value="false">
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">Disable</span>
               </label>
