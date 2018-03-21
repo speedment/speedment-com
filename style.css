@@ -22,6 +22,7 @@ A nice theme.
 @import url('assets/css/front-page.css');
 @import url('assets/css/prism.css');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro'); 
 
 body{
   padding-top: 54px;
@@ -32,6 +33,10 @@ body{
     padding-top: 97px;
   }
 }
+
+p {
+    font-family: 'Source Sans Pro'; 
+} 
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5rem;
@@ -340,7 +345,7 @@ a:hover, button:hover, input[type="button"]:hover {
 .information h3 {
     font-size: 30px;
     line-height: 30px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 20px;
     color: #34302d;
 }

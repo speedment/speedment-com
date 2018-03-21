@@ -41,6 +41,23 @@
     </div>
   </div>
 
+      <!--
+    Oracle Article Link
+  -->
+  <?php if (new DateTime() < new DateTime("2018-10-06 00:00:00")) { ?>
+  <div class="row justify-content-center" id="javaone-promo">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" rel="external">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/JavaMagazine_900px_Margin.png" alt="Oracle Java Magazine Article" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <?php } ?>
+  
   <!--
       Initializer (Text Area with link and picture on light green background)
   -->
@@ -70,30 +87,13 @@
        <div class="row">
          <div class="col-12">
            <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/89lVMmIr8MQ" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-R7C18LZa8o" frameborder="0" allowfullscreen></iframe>
           </div>
          </div>  
         </div>
      </div>
    </div>
   </div>
-  
-  <!--
-    Java One Promo
-  -->
-  <?php if (new DateTime() < new DateTime("2017-10-06 00:00:00")) { ?>
-  <div class="row justify-content-center" id="javaone-promo">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col">
-          <a href="https://www.oracle.com/javaone/index.html" target="_blank" rel="external">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/728x90-j1-promo.jpg" alt="Java One 2017 Banner" />
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <?php } ?>
 
   <!--
       Company Logos
