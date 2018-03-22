@@ -178,10 +178,10 @@ get_header(); ?>
           </li>
         </ul>
         <div class="tab-content">
-          <div class="tab-pane active" id="fileMain" role="tabpanel">
+          <div class="tab-pane" id="fileMain" role="tabpanel">
             <pre><code class="language-java" class="preview" id="previewMain"></code></pre>
           </div>
-          <div class="tab-pane" id="fileMaven" role="tabpanel">
+          <div class="tab-pane active" id="fileMaven" role="tabpanel">
             <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
         </div>
