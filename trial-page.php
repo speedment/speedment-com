@@ -76,6 +76,28 @@ get_header(); ?>
             </div>
           </div>
           
+          <!-- Select Java Version -->
+          <div class="form-group row">
+            <legend class="col-form-legend col-sm-3">Java Version</legend>
+            <div class="col-sm-9">
+              <label class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava8" value="1.8" checked>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Java 8</span>
+              </label>
+              <label class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava9" value="9">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Java 9</span>
+              </label>
+              <label class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava10" value="10">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Java 10</span>
+              </label>
+            </div>
+          </div>
+          
           <!-- Plugins -->
           <div class="form-group row">
             <legend class="col-form-legend col-sm-3">Plugins</legend>
@@ -240,11 +262,15 @@ get_header(); ?>
             }
 
             var args = {
-              'groupId'    : groupId.val(),
-              'artifactId' : artifactId.val(),
-              'version'    : version.val(),
-              'packaging'  : 'jar'
+              'groupId'     : groupId.val(),
+              'artifactId'  : artifactId.val(),
+              'version'     : version.val(),
+              'packaging'   : 'jar'
             };
+            
+            if ($('input[type=radio][name=javaVersion]:checked').val()) {
+              args.javaVersion = $('input[type=radio][name=javaVersion]:checked').val();
+            }
 
             if (enterprise) {
               args['speedmentEnterpriseVersion'] = '1.1.17';
