@@ -230,6 +230,7 @@ get_header(); ?>
           var driverVersion = $('#inputDriverVersion');
           var email         = $('#inputEmail');
           var licenseKey    = $('#inputLicenseKey');
+          var javaVersion   = $('input[type=radio][name=javaVersion]');
           var inMemory      = $('input[type=radio][name=inMemory]');
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
           
@@ -383,6 +384,10 @@ get_header(); ?>
           artifactId.change(updateCode);
           version.change(updateCode);
           driverVersion.change(updateCode);
+          
+          javaVersion.change(function() {
+            updateCode();
+          });
 
           inMemory.change(function() {
             updateEnterprise();
