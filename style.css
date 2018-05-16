@@ -158,9 +158,10 @@ a:hover, button:hover, input[type="button"]:hover {
     padding: 20px 5px 60px 5px;
 }
 #speedment-description {
-  font-size: 200%;
-  font-family: 'Advent Pro';
-  text-align: center;
+  	font-size: 200%;
+ 	font-family: 'Titillium Web';
+  	text-align: center;
+	font-weight: 600; 
 }
 
 #speedment-description .textwidget {
@@ -184,7 +185,8 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #why-speedment .big_boxes_title {
-  font-family: 'Advent Pro';
+  	font-family: 'Titillium Web';
+	font-weight: 600; 
 }
 
 #why-speedment span {
@@ -218,7 +220,8 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #guides h3 {
-  font-family: 'Advent Pro';
+  font-family: 'Titillium Web';
+	font-weight: 600; 
 }
 
 #guides .fa-gamepad {
@@ -292,7 +295,8 @@ a:hover, button:hover, input[type="button"]:hover {
 #first-view-text-wrapper > h1,
 #first-view-text-wrapper > h2 {
   font-size: 3.0rem;
-  font-family: 'Advent Pro';
+  font-family: 'Titillium Web';
+	font-weight: 600; 
   margin-top: 0;
   margin-bottom: 24px;
   line-height: 3.5rem;
