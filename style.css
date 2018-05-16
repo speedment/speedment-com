@@ -161,7 +161,8 @@ a:hover, button:hover, input[type="button"]:hover {
   	font-size: 200%;
  	font-family: 'Titillium Web';
   	text-align: center;
-	font-weight: 600; 
+	font-weight: 300; 
+	font-style: italic; 
 }
 
 #speedment-description .textwidget {
