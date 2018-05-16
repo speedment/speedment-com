@@ -282,7 +282,7 @@ get_header(); ?>
               args['pluginArtifactId']  = 'speedment-enterprise-maven-plugin';
               args['pluginVersion']     = '${speedment.enterprise.version}';
             } else {
-              args['speedmentVersion']  = '3.1.0';
+              args['speedmentVersion']  = '3.1.1';
               args['runtimeGroupId']    = 'com.speedment';
               args['runtimeArtifactId'] = 'runtime';
               args['runtimeVersion']    = '${speedment.version}';
@@ -403,7 +403,7 @@ get_header(); ?>
             if        (this.value === 'mysql') {
                 driverVersion.val('5.1.46');
             } else if (this.value === 'postgresql') {
-                driverVersion.val('42.0.0');
+                driverVersion.val('42.2.2');
             } else if (this.value === 'mariadb') {
                 driverVersion.val('2.2.3');
             } else if (this.value == 'oracle') {
