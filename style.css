@@ -23,6 +23,7 @@ A nice theme.
 @import url('assets/css/prism.css');
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro'); 
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300i,400,600');
 
 body{
   padding-top: 54px;
@@ -44,7 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-    font-family: 'Advent Pro';
+    font-family: 'Titillium Web';
+	font-weight: 600; 
 }
 
 a:hover, button:hover, input[type="button"]:hover {
