@@ -191,7 +191,9 @@ a:hover, button:hover, input[type="button"]:hover {
     border-radius: 3px;
     color: white;
     background-color: #3a9b79;
-	border:none;
+    border:none;
+    font-family: "Titillium Web"; 
+    text-transform: uppercase; 
 }
 
 .breadcrumb {
