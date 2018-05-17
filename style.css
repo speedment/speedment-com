@@ -427,13 +427,14 @@ a:hover, button:hover, input[type="button"]:hover {
 
 .product .product-icon {
   font-size: 400%;
-  color: #095377;
+  color: #155d89;
 }
 
 .product h3 {
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
+  font-family: "Titillium Web"; 
 }
 
 .product ul {
@@ -453,14 +454,15 @@ a:hover, button:hover, input[type="button"]:hover {
 .product ul li::before {
   vertical-align: middle;
   font-size: 200%;
+  font-family: "Source Sans Pro"; 
   content: "• ";
-  color: #87bd40;
+  color: #3a9b79;
 }
 
 .product button {
   border-radius: 3px;
   color: white;
-  background-color: #87bd40;
+  background-color: #3a9b79;
 }
 
 /*
