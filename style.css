@@ -59,6 +59,7 @@ body{
     padding-bottom: calc(.5rem - 1px * 2);
     margin-bottom: 0;
     font-family: "Titillium Web";
+    font-weight: 600; 
     text-transform: uppercase; 
 }
 
@@ -67,6 +68,7 @@ body{
     margin-bottom: 0;
     font-size: 1rem;
     font-family: "Titillium Web";
+    font-weight: 600; 
     text-transform: uppercase; 
 }
 
