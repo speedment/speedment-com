@@ -422,6 +422,10 @@ a:hover, button:hover, input[type="button"]:hover {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+  #first-view-text-wrapper > h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .information {
