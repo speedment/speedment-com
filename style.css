@@ -88,7 +88,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
 }
 
-h1, h2 {
+h1  {
+    font-family: 'Titillium Web';
+    font-weight: 600; 
+}
+
+h2 {
     font-family: 'Titillium Web';
 	font-weight: 600; 
 	text-transform: uppercase;
