@@ -454,10 +454,10 @@ a:hover, button:hover, input[type="button"]:hover {
   display: none;
 }
 ::selection {
-  background: #dddddd36; /* WebKit/Blink Browsers blue color is #095377 */
+  background: #93c0e4; /* WebKit/Blink Browsers blue color is #095377 */
 }
 ::-moz-selection {
-  background: #dddddd36; /* Gecko Browsers #095377 */
+  background: #93c0e4; /* Gecko Browsers #095377 */
 }
 
 /*
