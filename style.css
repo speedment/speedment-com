@@ -611,6 +611,8 @@ a:hover, button:hover, input[type="button"]:hover {
 #trial .btn {
   padding: 16px 20px;
   width: 100%;
+  font-family: "Titillium Web"; 
+  text-transform: uppercase; 
 }
 
 #trial .submit-group {
