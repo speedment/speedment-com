@@ -568,6 +568,12 @@ a:hover, button:hover, input[type="button"]:hover {
   text-align: center;
 }
 
+.portrait-name {
+  font-family: "Titillium Web"; 
+  font-weight: 600;
+  text-transform: uppercase;  
+}
+
 .portrait-image {
   padding-bottom: 20px;
 }
