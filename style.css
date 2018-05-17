@@ -68,13 +68,13 @@ a:hover, button:hover, input[type="button"]:hover {
 
 .btn-primary {
     color: #fff;
-    background-color: #87bd40;
-    border-color: #87bd40;
+    background-color: #3a9b79;
+    border-color: #3a9b79;
 }
 
 .btn-primary:hover {
-    background-color: #97cd50;
-    border-color: #97cd50;
+    background-color: #5abf95;
+    border-color: #5abf95;
     cursor: pointer;
 }
 
