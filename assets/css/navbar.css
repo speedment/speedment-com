@@ -4,6 +4,7 @@
   z-index: 600;
   top: 0;
   margin-left: -15px;
+  font-family: "Titillium Web"; 
 }
 
 #nav-bar-wrapper.logged-in {
@@ -69,9 +70,4 @@
 
 .navbar-brand > img {
     margin-right: -2px;
-}
-
-element.style {
-    font-family: "Titillium Web";
-    text-transform: uppercase;
 }
