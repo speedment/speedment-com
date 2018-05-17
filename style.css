@@ -216,12 +216,13 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #small-boxes .widget-icon {
   font-size: 400%;
-  color: #aaa;
+  color: #5a6b72;
+  font-family: "Titillium Web"; 
 }
 
 #small-boxes a {
   /* color: #87bd40; */
-  color: #aaa;
+  color: #5a6b72;
 }
 
 #small-boxes h5 {
@@ -351,7 +352,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .offset-feature--link {
-    color: #5fa134;
+    color: #155d89;
     font-size: 18px;
     line-height: 18px;
 }
