@@ -64,3 +64,8 @@
 .navbar-brand > img {
     margin-right: -2px;
 }
+
+element.style {
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+}
