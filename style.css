@@ -72,6 +72,16 @@ body{
     text-transform: uppercase; 
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #cdd5dc;
+    font-family: "Source Sans Pro";
+}
+	
 /* Text paragraphs */ 
 
 p {
