@@ -230,6 +230,11 @@ a:hover, button:hover, input[type="button"]:hover {
 
 .breadcrumb {
   padding: 0px;
+    margin-bottom: 1rem;
+    list-style: none;
+    font-family: "Titillium Web";
+    font-style: italic;
+    font-size: 1.2rem;
 }
 
 #info-one {
