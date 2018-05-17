@@ -435,6 +435,7 @@ a:hover, button:hover, input[type="button"]:hover {
   margin-top: 20px;
   text-align: center;
   font-family: "Titillium Web"; 
+  font-weight: 600; 
 }
 
 .product ul {
