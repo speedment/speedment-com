@@ -436,7 +436,6 @@ a:hover, button:hover, input[type="button"]:hover {
   text-align: center;
   font-family: "Titillium Web"; 
   font-weight: 600; 
-  text-transform: uppercase;
 }
 
 .product ul {
@@ -466,7 +465,7 @@ a:hover, button:hover, input[type="button"]:hover {
   color: white;
   background-color: #3a9b79;
   font-family: "Titillium Web"; 
-  
+  text-transform: uppercase;
 }
 
 /*
