@@ -41,6 +41,12 @@ body{
   }
 }
 
+@media (min-width: 992px)
+.container {
+    width: 850px;
+    max-width: 100%;
+}
+
 p {
     font-family: 'Source Sans Pro'; 
 } 
