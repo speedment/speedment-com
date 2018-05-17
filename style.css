@@ -27,6 +27,7 @@ A nice theme.
 
 body{
   padding-top: 54px;
+  font-family: "Source Sans Pro"; 
 }
 
 @media (min-width: 992px) {
