@@ -79,12 +79,12 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .custom-control-input:checked ~ .custom-control-indicator {
-  background-color: #87bd40;
+  background-color: #3a9b79;
 }
 
 .custom-control-input:focus ~ .custom-control-indicator {
-  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #87bd40;
-          box-shadow: 0 0 0 1px #fff, 0 0 0 3px #87bd40;
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #3a9b79;
+          box-shadow: 0 0 0 1px #fff, 0 0 0 3px #3a9b79;
 }
 
 #mainbg_container {
@@ -158,7 +158,7 @@ a:hover, button:hover, input[type="button"]:hover {
     height: 52px;
     border-radius: 3px;
     color: white;
-    background-color: #87bd40;
+    background-color: #3a9b79;
 	border:none;
 }
 
@@ -184,9 +184,10 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #why-speedment {
     text-align: center;
-    background-color: #87bd40;
+    background-color: #3a9b79;
     color: white;
     padding: 30px 0 50px;
+    font-family: "Source Sans Pro"
 }
 
 #why-speedment .widget-icon {
@@ -246,7 +247,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #guides a {
-  color: #87bd40;
+  color: #3a9b79;
   font-size: 110%;
 }
 
