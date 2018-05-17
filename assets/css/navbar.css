@@ -38,17 +38,21 @@
   background-color: none;
   border: 0;
   text-align: center;
+  font-family: "Titillium Web"; 
 }
 
 @media (min-width: 576px) {
   #mobile-navbar {
     text-align: left;
+    font-family: "Titillium Web"; 
+
   }
 
   #mobile-navbar .dropdown-menu {
     background-color: none;
     border: 0;
     text-align: left;
+    font-family: "Titillium Web"; 
   }
 }
 
