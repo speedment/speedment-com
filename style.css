@@ -48,10 +48,29 @@ body{
     max-width: 100%;
 }
 
+/* Initializer */ 
 .nav-tabs {
     border-bottom: 1px solid #ddd;
     font-family: "Titillium Web";
 }
+
+.col-form-label {
+    padding-top: 0px;
+    padding-bottom: calc(.5rem - 1px * 2);
+    margin-bottom: 0;
+    font-family: "Titillium Web";
+    text-transform: uppercase; 
+}
+
+.col-form-legend {
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-family: "Titillium Web";
+    text-transform: uppercase; 
+}
+
+/* Text paragraphs */ 
 
 p {
     font-family: 'Source Sans Pro'; 
