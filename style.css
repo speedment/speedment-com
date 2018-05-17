@@ -94,6 +94,12 @@ h1, h2 {
 	text-transform: uppercase;
 }
 
+.h4, h4 {
+    font-size: 1.5rem;
+    font-family: "Titillium Web";
+    font-weight: 600;
+}
+
 a:hover, button:hover, input[type="button"]:hover {
   cursor: pointer;
 }
