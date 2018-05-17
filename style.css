@@ -211,7 +211,8 @@ a:hover, button:hover, input[type="button"]:hover {
 #small-boxes {
   padding-top: 50px;
   padding-bottom: 50px;
-  text-align: center;
+  text-align: center;  
+  font-family: "Titillium Web"; 
 }
 
 #small-boxes .widget-icon {
@@ -220,7 +221,6 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #small-boxes a {
-  /* color: #87bd40; */
   color: #5a6b72;
   font-family: "Titillium Web"; 
 }
