@@ -632,7 +632,7 @@ a:hover, button:hover, input[type="button"]:hover {
 #trial .fa-asterisk {
   font-size: 0.4rem;
   font-weight: bold;
-  color: #39d;
+  color: #2171ad;
   vertical-align: text-top;
 }
 
@@ -756,8 +756,9 @@ a:hover, button:hover, input[type="button"]:hover {
 
 /* Colors */
 .cr-blue      {
-  background-color: #39d;
-  border-bottom: 4px solid #2e8ac7;
+  background-color: #2171ad;
+  border-bottom: 4px solid #155d89;
+;
 }
 
 /* Add some padding on really small screens */
