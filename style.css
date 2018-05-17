@@ -35,6 +35,12 @@ body{
   }
 }
 
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 0rem 0rem;
+  }
+}
+
 p {
     font-family: 'Source Sans Pro'; 
 } 
