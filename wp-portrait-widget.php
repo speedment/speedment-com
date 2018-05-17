@@ -38,7 +38,7 @@ class Portrait_Widget extends WP_Widget {
 			<?php } ?>
 			<?php if (!empty($instance['title'])) { ?>
 				<div class="portrait-title">
-					<a href="<?php echo esc_url($instance['link']); ?>"><?php echo $instance['title']; ?></a>
+					<?php echo $instance['title']; ?></a>
 				</div>
 			<?php } ?>
 		</div>
