@@ -120,6 +120,8 @@ a:hover, button:hover, input[type="button"]:hover {
     color: #fff;
     background-color: #3a9b79;
     border-color: #3a9b79;
+    font-family: "Titillium Web"; 
+    text-transform: uppercase; 
 }
 
 .btn-primary:hover {
