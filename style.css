@@ -48,6 +48,11 @@ body{
     max-width: 100%;
 }
 
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    font-family: "Titillium Web";
+}
+
 p {
     font-family: 'Source Sans Pro'; 
 } 
