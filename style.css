@@ -398,25 +398,29 @@ a:hover, button:hover, input[type="button"]:hover {
 
 @media screen and (max-width: 1038px) {
   #first-view #first-view-text-wrapper > h1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 }
 
 @media screen and (max-width: 992px) {
   #first-view #first-view-text-wrapper > h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 }
 
 @media screen and (max-width: 795px) {
   #first-view #first-view-text-wrapper > h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   #first-view #first-view-text-wrapper > h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 }
 
