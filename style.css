@@ -272,12 +272,13 @@ a:hover, button:hover, input[type="button"]:hover {
 #guides {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #d4e8c6;
+  background-color: #cce7ff;
 }
 
 #guides h3 {
   font-family: 'Titillium Web';
 	font-weight: 600; 
+  text-transform: uppercase; 
 }
 
 #guides .fa-gamepad {
