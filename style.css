@@ -419,8 +419,8 @@ a:hover, button:hover, input[type="button"]:hover {
 
 @media screen and (max-width: 480px) {
   #first-view #first-view-text-wrapper > h1 {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
