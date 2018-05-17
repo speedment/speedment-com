@@ -21,7 +21,9 @@
 }
 
 #developer-navbar a {
-  color: white;
+  color: white; 
+  font-family: "Titillium Web"; 
+  text-transform: uppercase; 
 }
 
 #developer-navbar ul > li:last-child {
