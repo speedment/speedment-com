@@ -64,7 +64,7 @@ body{
 }
 
 .col-form-legend {
-    padding: 0; 
+    padding-left: .5em; 
     margin-bottom: 0;
     font-size: 1rem;
     font-family: "Titillium Web";
@@ -78,7 +78,7 @@ body{
     padding: .5rem .75rem;
     font-size: 1rem;
     line-height: 1.25;
-    color: #cdd5dc;
+    color: #464a4c;
     font-family: "Source Sans Pro";
 }
 	
