@@ -17,6 +17,7 @@ pre[class*="language-"] {
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
+	font-size: 0.9em; 
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -88,7 +89,7 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-	color: #905;
+	color: #bf4545;
 }
 
 .token.selector,
@@ -97,7 +98,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-	color: #690;
+	color: #5abf95;
 }
 
 .token.operator,
@@ -112,17 +113,17 @@ pre[class*="language-"] {
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-	color: #07a;
+	color: #2171ad;
 }
 
 .token.function {
-	color: #DD4A68;
+	color: #bf4545;
 }
 
 .token.regex,
 .token.important,
 .token.variable {
-	color: #e90;
+	color: #ffcf38;
 }
 
 .token.important,
@@ -165,7 +166,7 @@ pre.code-toolbar > .toolbar button {
 	background: none;
 	border: 0;
 	color: inherit;
-	font: inherit;
+	font-family: "Titillium Web";
 	line-height: normal;
 	overflow: visible;
 	padding: 0;
