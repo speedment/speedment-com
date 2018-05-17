@@ -217,12 +217,12 @@ a:hover, button:hover, input[type="button"]:hover {
 #small-boxes .widget-icon {
   font-size: 400%;
   color: #5a6b72;
-  font-family: "Titillium Web"; 
 }
 
 #small-boxes a {
   /* color: #87bd40; */
   color: #5a6b72;
+  font-family: "Titillium Web"; 
 }
 
 #small-boxes h5 {
