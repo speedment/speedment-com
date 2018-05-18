@@ -32,7 +32,6 @@
     <div class="container">
        <div class="row justify-content-center">
         <div class="col">
-          <h2 class="text-center">Why Speedment?</h2>
         </div>
       </div>
       <div class="row justify-content-center">
