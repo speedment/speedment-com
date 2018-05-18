@@ -362,7 +362,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #first-view #first-view-text-wrapper > form > button:hover {
-    background-color: #a5dc5d;
+    background-color: #5abf95;
 }
 
 @media screen and (max-width: 480px) {
