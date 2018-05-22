@@ -36,9 +36,9 @@ body{
   }
 }
 
-@media (min-width: 992px)
+@media (min-width: 1038px)
 .container {
-    width: 800px;
+    width: 900px;
     max-width: 100%;
 }
 
