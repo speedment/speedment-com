@@ -39,7 +39,7 @@ body{
 @media (min-width: 1038px)
 .container {
     width: 900px;
-    max-width: 100%;
+    max-width: 90%;
 }
 
 @media (min-width: 576px) {
