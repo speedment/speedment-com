@@ -36,6 +36,12 @@ body{
   }
 }
 
+@media (min-width: 992px)
+.container {
+    width: 900px;
+    max-width: 100%;
+}
+
 @media (min-width: 576px) {
   .jumbotron {
     padding: 0.5rem 0rem;
