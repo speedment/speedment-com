@@ -36,10 +36,18 @@ body{
   }
 }
 
-@media (min-width: 1038px)
-.container {
+@media (min-width: 992px) {
+  .container {
     width: 900px;
-    max-width: 90%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 900px;
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 576px) {
