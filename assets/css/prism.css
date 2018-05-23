@@ -71,7 +71,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: slategray;
+	color: #a7b2b9; 
 }
 
 .token.punctuation {
@@ -106,7 +106,7 @@ pre[class*="language-"] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-	color: #a67f59;
+	color: #5a98c8; /*Speedment blue*/ 
 	/*background: hsla(0, 0%, 100%, .5);*/
 }
 
