@@ -131,6 +131,13 @@ h2 {
     font-weight: 600;
 }
 
+.h6, h6 {
+    font-size: 1rem;
+    font-family: "Titillium Web";
+    font-weight: 300;
+    text-transform: uppercase; 
+}
+
 a:hover, button:hover, input[type="button"]:hover {
   cursor: pointer;
 }
