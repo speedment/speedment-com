@@ -50,7 +50,7 @@
       <div class="row justify-content-center">
         <div class="col">
           <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" rel="external">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/JavaMagazine_900px_Margin.png" alt="Oracle Java Magazine Article" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/JavaMagazine_900px_Margin.png" alt="Oracle Java Magazine Article" width="70%"/>
           </a>
         </div>
       </div>
