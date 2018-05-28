@@ -92,6 +92,10 @@ body{
     color: #464a4c;
     font-family: "Source Sans Pro";
 }
+
+.text-centered {
+    text-align: centered; 
+}
 	
 /* Text paragraphs */ 
 
