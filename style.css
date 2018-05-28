@@ -70,6 +70,12 @@ body{
     font-family: "Titillium Web";
 }
 
+.nav-tabs .nav-link.active {
+    background: #282E30; 
+    color: #white;
+    border-color: #ddd #ddd #282E30;
+}
+
 .col-form-label {
     padding-top: 0px;
     padding-bottom: calc(.5rem - 1px * 2);
