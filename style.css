@@ -58,7 +58,7 @@ body{
 
 /* Gray background on example rows - developer page */ 
 @media (min-width: 992px)
-.col-lg-4 {
+.col-lg-4-bg {
     background: #f8f8f8;
     padding-bottom: 1em;
 }
