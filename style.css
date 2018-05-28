@@ -57,10 +57,11 @@ body{
 }
 
 /* Gray background on example rows - developer page */ 
-@media (min-width: 992px)
-.col-lg-4 {
+@media (min-width: 992px) {
+  .col-lg-4 {
     background: #f8f8f8;
     padding-bottom: 1em;
+  }
 }
 
 /* Initializer */ 
