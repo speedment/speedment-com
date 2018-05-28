@@ -247,7 +247,7 @@ a:hover, button:hover, input[type="button"]:hover {
     min-width: 140px;
     height: 52px;
     border-radius: 3px;
-    color: white;
+    color: ';
     background-color: #3a9b79;
     border:none;
     font-family: "Titillium Web"; 
@@ -792,8 +792,9 @@ label {
   display: inline-flex;
 }
 
+//Background in code part of Initializer
 #trial pre[class*="language-"] {
-  background: white;
+  background: #282E30;
   margin: 0px;
 }
 
