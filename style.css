@@ -454,9 +454,10 @@ a:hover, button:hover, input[type="button"]:hover {
     font-size: 2rem;
     line-height: 2.5rem;
   }
+/*	
    #pricelist {
    display: none; 
-  }
+  }*/
 }
 
 @media screen and (max-width: 480px) {
