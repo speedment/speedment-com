@@ -7,13 +7,7 @@
     line-height: 1.3em;
     font-weight: 400;
     margin: 0.3em 0em;
-}
-
-#pricelist .h4i {
-    line-height: 1.3em;
-    font-weight: 400;
-    margin: 0.3em 0em;
-    font-style: italic;
+    font-size: 1em; 
 }
 
 #pricelist p {
