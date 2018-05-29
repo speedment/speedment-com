@@ -1,9 +1,9 @@
-.price-list > .h5 {
+#price-list .h5 {
 	line-height: 2.5em; 
 	margin: 0px; 
 }
 	
-.price-list > .fa-lg {
+#price-list .fa-lg {
 	vertical-align: 0%; 
 	line-height: 1.9em; 
 }
