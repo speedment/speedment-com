@@ -1,4 +1,4 @@
-#pricelist .h5 {
+#pricelist h5 {
 	line-height: 2.5em; 
 	margin: 0px; 
 }
@@ -8,11 +8,11 @@
 	line-height: 1.9em; 
 }
 
-#pricelist .a {
+#pricelist a {
 	color: #93c0e4; 
 }
 
-.col-4 > .a {
+.col-4 > a {
 	color: #93c0e4; 
 }
 
