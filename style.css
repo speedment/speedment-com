@@ -71,9 +71,9 @@ body{
 }
 
 .nav-tabs .nav-link.active {
-    background: #282E30; 
-    border-color: #ddd #ddd #282E30;
-    color: white; 
+    background: #3a9b79;
+    border: solid 2px #3a9b79;
+    color: white;
 }
 
 .col-form-label {
@@ -813,9 +813,9 @@ label {
 }
 
 #trial .preview-column .tab-content {
-  border-left: solid 1px #ddd;
-  border-bottom: solid 1px #ddd;
-  border-right: solid 1px #ddd;
+  border: solid 3px #3a9b79;
+  max-height: 450px; 
+  overflow: auto; 
 }
 
 /*
