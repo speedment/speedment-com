@@ -42,10 +42,6 @@ body{
     width: 900px;
     max-width: 100%;
   }
-	
-   #pricelist {
-   display: none; 
-  }
 }
 
 @media (min-width: 1200px) {
@@ -457,6 +453,9 @@ a:hover, button:hover, input[type="button"]:hover {
   #first-view #first-view-text-wrapper > h1 {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+   #pricelist {
+   display: none; 
   }
 }
 
