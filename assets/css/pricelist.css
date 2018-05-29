@@ -1,10 +1,20 @@
 #pricelist h5 {
-	line-height: 2.5em; 
+	line-height: 3em; 
 	margin: 0px; 
 }
 
+#pricelist h4, h4i {
+    line-height: 1.3em;
+    font-weight: 400;
+    margin: 0.3em 0em;
+}
+
+#pricelist h4i {
+    font-style: italic;
+}
+
 #pricelist p {
-	line-height: 2.5em; 
+	line-height: 3em; 
 	margin: 0px; 
 }
 
@@ -14,7 +24,7 @@
 
 #pricelist .fa-lg {
  	vertical-align: 0%; 
- 	line-height: 1.9em; 
+ 	line-height: 2.3em; 
 }
 
 /* To decorate rows */
