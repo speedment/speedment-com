@@ -20,6 +20,11 @@ function load_tether() {
   wp_enqueue_script('tether');
 }
 
+function load_popper() {
+  wp_register_script('popper', get_template_directory_uri().'/assets/js/popper.min.js');
+  wp_enqueue_script('popper');
+}
+
 function load_animateLogo() {
   wp_register_script('animate-logos', get_template_directory_uri().'/assets/js/animate-logos.js');
   wp_enqueue_script('animate-logos');
@@ -347,6 +352,7 @@ add_action('init',         'stripe_subscription_init');
 
 add_action('wp_enqueue_scripts', 'load_prism');
 add_action('wp_enqueue_scripts', 'load_tether');
+add_action('wp_enqueue_scripts', 'load_popper');
 add_action('wp_enqueue_scripts', 'load_animateLogo');
 add_action('wp_enqueue_scripts', 'load_carosuelVideo');
 add_action('wp_enqueue_scripts', 'bootstrap_with_jquery_and_tether');
