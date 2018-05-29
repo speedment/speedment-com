@@ -8,9 +8,14 @@
 	line-height: 1.9em; 
 }
 
+// To decorate rows
 .gray {
 	background: #2D3639; 
 	color: white; 
+}
+
+.light-gray {
+	background: #4B595F; 
 }
 
 /* Popovers Styling */
