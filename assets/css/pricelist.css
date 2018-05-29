@@ -1,11 +1,15 @@
-#price-list .h5 {
+#pricelist .h5 {
 	line-height: 2.5em; 
 	margin: 0px; 
 }
 	
-#price-list .fa-lg {
+#pricelist .fa-lg {
 	vertical-align: 0%; 
 	line-height: 1.9em; 
+}
+
+#pricelist .a {
+	color: #93c0e4; 
 }
 
 /* To decorate rows */
