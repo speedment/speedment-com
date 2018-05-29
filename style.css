@@ -814,7 +814,7 @@ label {
 
 #trial .preview-column .tab-content {
   border: solid 3px #3a9b79;
-  max-height: 450px; 
+  max-height: 400px; 
   overflow: auto; 
 }
 
