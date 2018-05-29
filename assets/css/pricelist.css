@@ -50,6 +50,13 @@
  	line-height: 2.3em; 
 }
 
+#pricelist .btn-primary {
+	color: #black;
+	background-color: #fce390;
+    	border-color: #fce390;
+        margin: 2em 0em;
+}
+
 /* To decorate rows */
 .gray {
 	background: #2D3639; 
