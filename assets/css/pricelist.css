@@ -11,7 +11,7 @@
 #pricelist h2 {
 	font-size: 1.6em; 
 	font-weight: 400; 
-	text-transform: lowercase; 
+	text-transform: none; 
 	margin:0em; 
 }
 
