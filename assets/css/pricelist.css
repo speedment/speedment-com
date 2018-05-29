@@ -3,13 +3,18 @@
 }
 
 #pricelist h1 {
-	font-size: 2em; 
+	font-size: 1.8em; 
 	text-transform: uppercase; 
+	margin-top: 1.3em; 
+	margin-botton: 0em; 
 }
 
 #pricelist h2 {
-	font-size: 1.7em; 
+	font-size: 1.6em; 
 	font-weight: 400; 
+	text-transform: lowercase; 
+	margin-top: 0.5em; 
+	margin-bottom: 0em; 
 }
 
 #pricelist h4 {
