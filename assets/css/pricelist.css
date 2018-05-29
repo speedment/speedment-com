@@ -2,17 +2,26 @@
 	   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 8px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
+#pricelist h1 {
+	font-size: 2em; 
+	text-transform: uppercase; 
+}
 
-#pricelist h5 {
-	line-height: 3em; 
-	margin: 0px; 
+#pricelist h2 {
+	font-size: 1.7em; 
+	font-weight: 400; 
 }
 
 #pricelist h4 {
     line-height: 1.3em;
     font-weight: 400;
-    margin: 0.3em 0em;
+    margin-bottom: 1em; 
     font-size: 1em; 
+}
+
+#pricelist h5 {
+	line-height: 3em; 
+	margin: 0px; 
 }
 
 #pricelist p {
