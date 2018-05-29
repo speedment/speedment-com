@@ -5,23 +5,30 @@
 #pricelist h1 {
 	font-size: 1.8em; 
 	text-transform: uppercase; 
-	margin-top: 1.3em; 
-	margin-bottom: 0em; 
+	margin: 0em; 
 }
 
 #pricelist h2 {
 	font-size: 1.6em; 
 	font-weight: 400; 
 	text-transform: lowercase; 
-	margin-top: 0.5em; 
-	margin-bottom: 0em; 
+	margin:0em; 
+}
+
+#pricelist h3 {
+    line-height: 1.3em;
+    font-weight: 400;
+    margin: 0em; 
+    font-size: 1em;
+    font-style: italic; 
 }
 
 #pricelist h4 {
     line-height: 1.3em;
     font-weight: 400;
-    margin-bottom: 1em; 
+    margin: 0em; 
     font-size: 1em; 
+    font-style: italic; 
 }
 
 #pricelist h5 {
