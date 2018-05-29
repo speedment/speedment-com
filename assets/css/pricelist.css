@@ -3,8 +3,18 @@
 	margin: 0px; 
 }
 
+#pricelist p {
+	line-height: 2.5em; 
+	margin: 0px; 
+}
+
 #pricelist a {
 	color: #93c0e4; 
+}
+
+#pricelist .fa-lg {
+ 	vertical-align: 0%; 
+ 	line-height: 1.9em; 
 }
 
 /* To decorate rows */
