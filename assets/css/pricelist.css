@@ -59,6 +59,11 @@
 
 @media screen and (max-width: 480px) {
   #pricelist h5 {
-	font-size: 0.6em;   
+	font-size: 0.8em;   
+  }
+
+  #pricelist .fa-lg {
+  	font-size: 1em; 
+  	line-height: 2.3em; 
   }
 }
