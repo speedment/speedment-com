@@ -48,3 +48,17 @@
     color: red;
     font-size: 10px;
 }
+
+/* Control appearence for smaller devices */ 
+@media screen and (max-width: 795px) {
+/*	
+   #pricelist {
+   display: none; 
+  }*/
+}
+
+@media screen and (max-width: 480px) {
+  #pricelist h5 {
+	font-size: 0.6em;   
+  }
+}
