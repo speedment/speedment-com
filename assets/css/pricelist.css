@@ -12,3 +12,18 @@
 	background: #2D3639; 
 	color: white; 
 }
+
+/* Popovers Styling */
+.pop-div {
+    font-size: 1em;
+}
+.pop-title {
+    display: none;
+    color: blue;
+    font-size: 15px;
+}
+.pop-content {
+    display: none;
+    color: red;
+    font-size: 10px;
+}
