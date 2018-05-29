@@ -12,6 +12,10 @@
 	color: #93c0e4; 
 }
 
+.col-4 > .a {
+	color: #93c0e4; 
+}
+
 /* To decorate rows */
 .gray {
 	background: #2D3639; 
