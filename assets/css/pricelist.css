@@ -74,6 +74,7 @@
   border: 1px solid #CDD5DC;
   border: 1px solid #CDD5DC;
   border-radius: 0px;
+  font-family: "Titillium Web"; 
 }
 .popover-content {
   padding: 9px 14px;
@@ -89,25 +90,15 @@
 .popover > .arrow:after {
   content: "";
   border-width: 10px;
+  border-color: #CDD5DC;
 }
 .popover.right > .arrow {
-  border-right-color: #CDD5DC;
-  border-right-color: rgba(0, 0, 0, .25);
-  border-left-width: 0;
 }
 .popover.right > .arrow:after {
-  border-right-color: #CDD5DC;
-  border-left-width: 0;
 }
 .popover.bottom > .arrow {
-
-  border-top-width: 0;
-  border-bottom-color: #CDD5DC;
-  border-bottom-color: rgba(0, 0, 0, .25);
 }
 .popover.bottom > .arrow:after {
-  border-top-width: 0;
-  border-bottom-color: #CDD5DC;
 }
 
 /* Control appearence for smaller devices */ 
