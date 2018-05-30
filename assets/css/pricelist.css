@@ -71,19 +71,6 @@
 .popover {
 	font-style: "Titillium Web"; 
 }
-.popover-header {
-    color: blue;
-    font-size: 15px;
-}
-.popover-body {
-    background: blue; 
-    color: red;
-    font-size: 10px;
-}
-.popover-title {
-    color: blue;
-    font-size: 15px;
-}
 .popover-content {
     background: blue; 
     color: red;
