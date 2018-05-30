@@ -68,15 +68,23 @@
 }
 
 /* Popovers Styling */
-.popover .pop-div {
-    font-size: 1em;
-    font-family: "Source Sans Pro"; 
+.popover {
+	font-style: "Titillium Web"; 
 }
-.popover .pop-header {
+.popover-header {
     color: blue;
     font-size: 15px;
 }
-.popover .pop-body {
+.popover-body {
+    background: blue; 
+    color: red;
+    font-size: 10px;
+}
+.popover-title {
+    color: blue;
+    font-size: 15px;
+}
+.popover-content {
     background: blue; 
     color: red;
     font-size: 10px;
