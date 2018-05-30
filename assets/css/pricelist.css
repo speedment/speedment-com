@@ -68,16 +68,16 @@
 }
 
 /* Popovers Styling */
-.pop-div {
+.popover .pop-div {
     font-size: 1em;
+    font-family: "Source Sans Pro"; 
 }
-.pop-header {
-    display: none;
+.popover .pop-header {
     color: blue;
     font-size: 15px;
 }
-.pop-body {
-    display: none;
+.popover .pop-body {
+    background: blue; 
     color: red;
     font-size: 10px;
 }
