@@ -91,23 +91,23 @@
   border-width: 10px;
 }
 .popover.right > .arrow {
-  border-right-color: #999;
+  border-right-color: #CDD5DC;
   border-right-color: rgba(0, 0, 0, .25);
   border-left-width: 0;
 }
 .popover.right > .arrow:after {
-  border-right-color: #fff;
+  border-right-color: #CDD5DC;
   border-left-width: 0;
 }
 .popover.bottom > .arrow {
 
   border-top-width: 0;
-  border-bottom-color: #999;
+  border-bottom-color: #CDD5DC;
   border-bottom-color: rgba(0, 0, 0, .25);
 }
 .popover.bottom > .arrow:after {
   border-top-width: 0;
-  border-bottom-color: #fff;
+  border-bottom-color: #CDD5DC;
 }
 
 /* Control appearence for smaller devices */ 
