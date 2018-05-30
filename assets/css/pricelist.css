@@ -71,12 +71,12 @@
 .pop-div {
     font-size: 1em;
 }
-.pop-title {
+.pop-header {
     display: none;
     color: blue;
     font-size: 15px;
 }
-.pop-content {
+.pop-body {
     display: none;
     color: red;
     font-size: 10px;
