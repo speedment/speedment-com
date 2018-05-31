@@ -61,6 +61,11 @@ body{
 /* Remove table header border */
 .table th {
 	border-top: none; 
+	padding: 0.6em 0.3em; 
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: 4B595F; 
 }
 
 /* Gray background on example rows - developer page */ 
@@ -431,6 +436,10 @@ a:hover, button:hover, input[type="button"]:hover {
     .container {
 	    width: 100%;
             margin: 0 1em; 
+    }
+    
+    c {
+	    font-size: 0.8em; 
     }
 }
 
@@ -824,7 +833,7 @@ label {
 
 //Background in code part of Initializer
 #trial pre[class*="language-"] {
-  background: #282E30;
+  background: #3c474ci;
   margin: 0px;
 }
 
