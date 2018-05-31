@@ -55,12 +55,25 @@
 }
 
 #pricelist .btn-primary {
-	color: black;
-	background-color: #fce390;
-    	border-color: #fce390;
-        margin: 2em 0em;
+	color: white;
+        margin: -1.2em 0em;
+	vertical-align: top;
+	box-shadow: 0 0 8px #4c4c4c;
 }
 
+#pricelist .btn-green {
+	background: #5ABF95;
+	font-weight: 600; 
+}
+
+#pricelist .btn-gray {
+	background: #5A6B72;
+}
+	
+#pricelist .btn-blue {
+	background: #92C0E3;
+}
+	
 /* To decorate rows */
 .gray {
 	background: #3C474C; 
@@ -70,7 +83,6 @@
 
 .lightgray {
 	background: #A7B2B9; 
-        box-shadow: 0px 0px 10px #000; 
 }
 
 /* FULL POPOVER CSS FOR ALL POPOVERS */
