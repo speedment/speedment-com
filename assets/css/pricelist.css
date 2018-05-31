@@ -141,23 +141,27 @@
 @media (min-width: 1200px) {
   .row.padding {
     padding: 0.5em;
+  }
 }
 @media (min-width: 992px) {
   .row.padding {
     padding: 0.5em;
+  }
 }
-@media (min-width: 768px)
-.row.padding {
+@media (min-width: 768px) {
+  .row.padding {
     padding: 0.5em;
+  }
 }
-@media (min-width: 576px)
-.row.padding {
+@media (min-width: 576px) {
+  .row.padding {
     padding: 0.5em;
+  }
 }
 	
 @media screen and (max-width: 795px) {	
-   #pricelist .lightgray {
-      display: none; 
+   #pricelist {
+        display: none; 
    }
 }
 
