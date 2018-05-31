@@ -57,8 +57,8 @@
         margin: 2em 0em;
 }
 
-#pricelist .margin {
-	margin:0.5em; 
+#pricelist .padding {
+	padding:0.2em; 
 }
 
 /* To decorate rows */
