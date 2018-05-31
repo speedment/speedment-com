@@ -75,6 +75,7 @@
 	background: #5A6B72;
 	border-color: #5A6B72;
 	font-weight: 600; 
+	margin: -11.2em; 
 }
 	
 #pricelist .btn-blue {
@@ -96,6 +97,7 @@
 
 .lightgray {
 	background: #A7B2B9; 
+	max-height: 310px;
 }
 
 /* FULL POPOVER CSS FOR ALL POPOVERS */
