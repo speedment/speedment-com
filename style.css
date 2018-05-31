@@ -614,6 +614,16 @@ a:hover, button:hover, input[type="button"]:hover {
   font-family: "Titillium Web"; 
   text-transform: uppercase;
 }
+/* Full width container */
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
 
 /*
     Two Column Layout
