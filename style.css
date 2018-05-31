@@ -25,6 +25,7 @@ A nice theme.
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro'); 
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:300i,400,600');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body{
   padding-top: 54px;
@@ -137,6 +138,7 @@ h2 {
 	text-transform: uppercase;
 }
 
+
 .h5, h5 {
     font-size: 1rem;
     font-family: "Titillium Web";
@@ -160,6 +162,13 @@ h2 {
     font-family: "Titillium Web";
     font-weight: 300;
     text-transform: uppercase; 
+}
+
+/* Styling for code in text*/ 
+c {
+    font-size: 1em;
+    font-family: "Source Code Pro"; 
+    font-weight: 400; 
 }
 
 a:hover, button:hover, input[type="button"]:hover {
