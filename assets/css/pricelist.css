@@ -57,10 +57,6 @@
         margin: 2em 0em;
 }
 
-#pricelist .padding {
-	padding:0.2em; 
-}
-
 /* To decorate rows */
 .gray {
 	background: #2D3639; 
@@ -106,6 +102,25 @@
 }
 
 /* Control appearence for smaller devices */ 
+
+/* Padding on rows in pricelist*/ 
+@media (min-width: 1200px) {
+  .row.padding {
+    padding: 0.5em;
+}
+@media (min-width: 992px) {
+  .row.padding {
+    padding: 0.5em;
+}
+@media (min-width: 768px)
+.row.padding {
+    padding: 0.5em;
+}
+@media (min-width: 576px)
+.row.padding {
+    padding: 0.5em;
+}
+	
 @media screen and (max-width: 795px) {
 /*	
    #pricelist {
