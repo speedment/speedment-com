@@ -33,11 +33,11 @@
 }
 
 #pricelist h6 {
-	font-size: 0.8em;
+	font-size: 0.75em;
 	font-weight: 600; 
 	line-height: 0em; 
 	text-transform: none; 
-	margin-top: 1.6em;
+	margin-top: 1.5em;
 }
 
 #pricelist p {
@@ -55,6 +55,7 @@
 }
 
 #pricelist .btn-primary {
+	border: none;
 	color: white;
         margin: -1.2em 0em;
 	vertical-align: top;
@@ -73,7 +74,11 @@
 #pricelist .btn-blue {
 	background: #92C0E3;
 }
-	
+
+#pricelist .last-row {
+	height: 1em; 
+}
+
 /* To decorate rows */
 .gray {
 	background: #3C474C; 
