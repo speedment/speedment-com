@@ -57,6 +57,11 @@ body{
   }
 }
 
+/* Remove table header border */
+.table th {
+	border-top: none; 
+}
+
 /* Gray background on example rows - developer page */ 
 @media (min-width: 992px) {
   .col-lg-4 {
