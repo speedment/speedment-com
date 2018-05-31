@@ -39,6 +39,7 @@
 	line-height: 1em; 
 	font-weight: 400; 
 	line-height: 0em; 
+	text-transform: none; 
 }
 
 #pricelist p {
