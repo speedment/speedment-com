@@ -57,6 +57,10 @@
         margin: 2em 0em;
 }
 
+#pricelist .margin {
+	margin:0.5em; 
+}
+
 /* To decorate rows */
 .gray {
 	background: #2D3639; 
