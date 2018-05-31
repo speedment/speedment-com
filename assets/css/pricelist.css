@@ -38,6 +38,7 @@
 	line-height: 0em; 
 	text-transform: none; 
 	margin-top: 1.5em;
+	font-family: "Source Sans Pro"; 
 }
 
 #pricelist p {
@@ -75,7 +76,7 @@
 	background: #5A6B72;
 	border-color: #5A6B72;
 	font-weight: 600; 
-	margin: -11.2em; 
+	margin: -11.9em; 
 }
 	
 #pricelist .btn-blue {
@@ -85,7 +86,7 @@
 }
 
 #pricelist .last-row {
-	height: 1.3em; 
+	height: 1.7em; 
 }
 
 /* To decorate rows */
@@ -97,7 +98,7 @@
 
 .lightgray {
 	background: #A7B2B9; 
-	max-height: 310px;
+	max-height: 315px;
 }
 
 /* FULL POPOVER CSS FOR ALL POPOVERS */
