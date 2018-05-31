@@ -427,6 +427,11 @@ a:hover, button:hover, input[type="button"]:hover {
     #first-view #first-view-text-wrapper > form {
         flex-direction: column;
     }
+	
+    .container {
+	    width: 100%
+            margin: 0 1em; 
+    }
 }
 
 #first-view-text-wrapper {
