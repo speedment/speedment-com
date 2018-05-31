@@ -33,8 +33,8 @@
 }
 
 #pricelist h6 {
-	font-size: 0.75em;
-	font-weight: 600; 
+	font-size: 1em;
+	font-weight: 400; 
 	line-height: 0em; 
 	text-transform: none; 
 	margin-top: 1.5em;
@@ -55,35 +55,43 @@
 }
 
 #pricelist .btn-primary {
-	border: none;
+	border-width: 5px 10px; 
+	border-radius: 10px;
+	font-weight: 600;
+	font-size: 1.2em; 
 	color: white;
         margin: -1.2em 0em;
 	vertical-align: top;
 	box-shadow: 0 0 8px #4c4c4c;
+	text-shadow: 0px 1px 6px #9c9c9c; 
 }
 
 #pricelist .btn-green {
 	background: #5ABF95;
-	font-weight: 600; 
+	border-color: #5ABF95;
 }
 
 #pricelist .btn-gray {
 	background: #5A6B72;
+	border-color: #5A6B72;
+	font-weight: 600; 
 }
 	
 #pricelist .btn-blue {
 	background: #92C0E3;
+        border-color: #92C0E3;
+	font-weight: 600; 
 }
 
 #pricelist .last-row {
-	height: 1em; 
+	height: 1.3em; 
 }
 
 /* To decorate rows */
 .gray {
 	background: #3C474C; 
 	color: white; 
-	box-shadow: 0px 0px 10px #000; 
+	box-shadow: 0px 2px 6px #000; 
 }
 
 .lightgray {
