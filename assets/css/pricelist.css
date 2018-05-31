@@ -5,6 +5,7 @@
 #pricelist h1 {
 	font-size: 1em; 
 	text-transform: uppercase; 
+	font-weight: 400; 
 	margin: 0em 0em 0.5em 0em; 
 }
 
