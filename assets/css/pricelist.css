@@ -156,7 +156,7 @@
 }
 	
 @media screen and (max-width: 795px) {	
-   #github .col {
+   #pricelist .lightgray {
       display: none; 
    }
 }
