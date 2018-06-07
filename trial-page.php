@@ -69,7 +69,7 @@ get_header(); ?>
           <div class="form-group row">
             <label for="inputDriverVersion" class="col-sm-3 col-form-label">JDBC Driver Version</label>
             <div class="col-sm-9">
-              <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.42">
+              <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.46">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
               </small>
