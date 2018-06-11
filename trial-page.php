@@ -178,7 +178,7 @@ get_header(); ?>
             <div style="overflow:hidden;position:relative;width:100%;height:100px;top:-10px;margin-bottom:-100px;margin-right:-100px;right:-2px;z-index:1;pointer-events:none;">
               <div class="cr cr-top cr-right cr-blue">Enterprise</div>
             </div>
-            <label for="inputLicenseKey" class="col-sm-12 col-form-label">You have selected an Enterprise Feature<i class="fa fa-asterisk" aria-hidden="true"></i></label>
+         <!--   <label for="inputLicenseKey" class="col-sm-12 col-form-label">You have selected an Enterprise Feature<i class="fa fa-asterisk" aria-hidden="true"></i></label> -->
             <div class="col-sm-12 row rightSide">
               <small class="request-trial-link">
                 <a href="#" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Request a Free Trial License Key</a>
