@@ -408,7 +408,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #first-view #first-view-text-wrapper > form {
-    display: flex;
+    display: none;
     flex-direction: row;
 }
 
