@@ -1,6 +1,5 @@
 #usecase {
 	border-bottom: solid 0.5px #808F95; 
-  padding-bottom: 2em;
   margin: 2em; 
 }
 
@@ -12,6 +11,7 @@
 #usecase h3 {
   font-weight: 400; 
   font-style: italic; 
+  margin-bottom: 2em; 	 
 }
 
 #usecase h5 {
@@ -28,5 +28,6 @@
 #usecase img {
   width: 70%;
   margin-bottom: 1em; 
+  max-width: 250px; 
 }
   
