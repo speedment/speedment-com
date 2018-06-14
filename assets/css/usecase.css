@@ -1,31 +1,31 @@
-#use-case {
+#usecase {
 	border-bottom: solid 0.5px #808F95; 
   padding-bottom: 2em;
   margin: 2em; 
 }
 
-#use-case h1 {
+#usecase h1 {
 	text-transform: uppercase; 
 	margin-top: 0.2em; 
 }
 
-#use-case h3 {
+#usecase h3 {
   font-weight: 400; 
   font-style: italic; 
 }
 
-#use-case h5 {
+#usecase h5 {
   font-weight: 400;
   text-transform: uppercase; 
   margin: 0; 
 }
 
-#use-case p {
+#usecase p {
   font-size: 1.1em; 
   margin: 0.3em 0em; 
 }
   
-#use-case .img {
+#usecase .img {
   width: 70%;
   margin-bottom: 1em; 
 }
