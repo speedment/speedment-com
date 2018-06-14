@@ -12,7 +12,7 @@
                       col-sm-9 pull-sm-0" id="first-view-text-wrapper">
             <h1><?php echo get_bloginfo('description'); ?></h1>
               <div class="row">
-                <div class="col style="text-align:center">
+                <div class="col" id="first-view-button-area">
                   <a href="http://speedment.com/initializer" class="btn btn-primary btn-green">Try For Free</a>
                 </div>
               </div>
