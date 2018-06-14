@@ -11,7 +11,7 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col">
-        The Initializer makes it easy to setup a new Speedment project with Maven. Fill in your project details and see the configuration change in real time. If you choose any Enterprise features you will be asked to fill in a License Key. Just send us a request and you will <a href="#" data-toggle="modal" data-target="#trialModal">get a 30 days free trial license</a>!
+        <p>The Initializer makes it easy to setup a new Speedment project with Maven. Fill in your project details and see the configuration change in real time. If you choose any Enterprise features you will be asked to fill in a License Key. Just send us a request and you will <a href="#" data-toggle="modal" data-target="#trialModal">get a 30 days free trial license</a>!</p>
       </div>
     </div>
     <div class="row justify-content-center gray-area">
