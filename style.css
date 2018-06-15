@@ -245,7 +245,7 @@ a:hover, button:hover, input[type="button"]:hover {
     text-align: center; 
 }
 
-#try-for-free #sql-java .btn {
+#try-for-free .btn {
 	color: white; 
 	font-size: 1.2em; 
 	padding: 0.7em 1.5em; 
@@ -345,6 +345,13 @@ a:hover, button:hover, input[type="button"]:hover {
 #sql-java-table h5 {
 	margin-top: 0.6em;
         font-weight: 400; 
+}
+
+#sql-java .btn {
+	color: white; 
+	font-size: 1.2em; 
+	padding: 0.7em 1.5em; 
+	margin: 0em 1em 0em 0em;
 }
 
 .breadcrumb {
