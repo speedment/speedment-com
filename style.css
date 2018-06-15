@@ -245,11 +245,11 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #try-for-free {
     margin: 2em 0em; 
-	
-    .btn {
+}
+
+#try-for-free .btn {
 	font-size: 1.2em; 
 	padding: 0.7em 1.5em; 
-    }	
 }
 
 .sr-only {
