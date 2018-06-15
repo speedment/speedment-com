@@ -38,9 +38,9 @@ body{
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   margin-right {
-    margin-right: 1.5em;
+    margin-right: 2.5em;
   }
 }
 
