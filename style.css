@@ -244,14 +244,13 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #try-for-free {
-	margin: 2em 0em; 
+    margin: 2em 0em; 
 	
-	.btn {
-		font-size: 1.2em; 
-		padding: 0.7em 1.5em; 
-	}	
+    .btn {
+	font-size: 1.2em; 
+	padding: 0.7em 1.5em; 
+    }	
 }
-
 
 .sr-only {
     position: absolute;
