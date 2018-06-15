@@ -447,3 +447,8 @@
     </div>
   </div>
 </div>
+
+<?php if (isset($_GET['tryForFree'])) { ?> 
+  <!-- Show the trial on page load -->
+  <script>jQuery(function($) { $('#popupModal').modal('show'); });</script>
+<?php } ?>
