@@ -316,7 +316,17 @@ a:hover, button:hover, input[type="button"]:hover {
     background-color: #5abf95;
 }
 
+#sql-java-table c {
+	font-size: 0.8em; 
+}
 
+#sql-java-table p {
+	font-size: 0.8em; 
+}
+
+#sql-java-table .table td {
+	padding: 0.4em;
+}
 
 .breadcrumb {
   padding: 0px;
