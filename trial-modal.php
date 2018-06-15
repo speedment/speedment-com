@@ -450,5 +450,5 @@
 
 <?php if (isset($_GET['tryForFree'])) { ?> 
   <!-- Show the trial on page load -->
-  <script>jQuery(function($) { $('#popupModal').modal('show'); });</script>
+  <script>jQuery(function($) { $('#trialModal').modal('show'); });</script>
 <?php } ?>
