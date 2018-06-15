@@ -269,6 +269,12 @@ a:hover, button:hover, input[type="button"]:hover {
     color: #3A9B79;
 }
 
+#type-safe h5 { 
+	margin-top: 0em;
+	font-weight: 400;
+}
+	
+
 .sr-only {
     position: absolute;
     width: 1px;
