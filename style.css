@@ -251,18 +251,18 @@ a:hover, button:hover, input[type="button"]:hover {
 #try-for-free .btn {
 	font-size: 1.2em; 
 	padding: 0.7em 1.5em; 
-	margin: 0 1em 0 0;
+	margin: 0em 1em 0em 0em;
 }
 
-#try-for-free .a {
-	color: #3a9b79;
-	text-transform: uppercase; 
-	font-size: 1.2em;
-	font-family: "Titillium Web"; 
+#try-for-free a {
+    color: #3A9B79;
+    text-transform: uppercase; 
+    font-size: 1.2em;
+    font-family: "Titillium Web"; 
 }
 
-#try-for-free .a:hover {
-        color: #3a9b79;
+#try-for-free a:hover {
+    color: #3A9B79;
 }
 
 .sr-only {
