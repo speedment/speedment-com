@@ -204,6 +204,17 @@ a:hover, button:hover, input[type="button"]:hover {
           box-shadow: 0 0 0 1px #fff, 0 0 0 3px #3a9b79;
 }
 
+#developer a {
+	color: #3a9b79;
+	text-transform: uppercase; 
+	font-size: 1.2em;
+	font-family: "Titillium Web"; 
+}
+
+#developer a:hover {
+        color: #3a9b79;
+}
+
 #mainbg_container {
     width: 100%;
     min-width: 850px;
@@ -251,6 +262,7 @@ a:hover, button:hover, input[type="button"]:hover {
 #try-for-free .btn {
 	font-size: 1.2em; 
 	padding: 0.7em 1.5em; 
+	margin: 0 1em 0 0;
 }
 
 .sr-only {
