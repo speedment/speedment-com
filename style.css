@@ -245,6 +245,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #try-for-free {
     margin: 2em 0em; 
+    text-align: center; 
 }
 
 #try-for-free .btn {
