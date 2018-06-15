@@ -249,9 +249,14 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #try-for-free .btn {
+	color: white; 
 	font-size: 1.2em; 
 	padding: 0.7em 1.5em; 
 	margin: 0em 1em 0em 0em;
+}
+
+#try-for-free .btn:hover {
+	color: white; 
 }
 
 #try-for-free a {
