@@ -39,6 +39,12 @@ body{
 }
 
 @media (min-width: 992px) {
+  margin-right {
+    margin-right: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
   .container {
     width: 900px;
     max-width: 100%;
