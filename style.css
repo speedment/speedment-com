@@ -11,7 +11,6 @@ Tags: speedment, awesome, hashtag
 A nice theme.
 */
 
-@import url('assets/css/tether.min.css');
 @import url('assets/css/bootstrap.min.css');
 @import url('assets/css/bootstrap-grid.min.css');
 @import url('assets/css/bootstrap-reboot.min.css');
@@ -244,7 +243,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #try-for-free {
-    margin: 3em 0em; 
+    margin-top: 3em; 
     text-align: center; 
 }
 
