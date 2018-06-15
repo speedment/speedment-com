@@ -328,6 +328,17 @@ a:hover, button:hover, input[type="button"]:hover {
 	padding: 0.4em;
 }
 
+#sql-java h1 {
+	margin-top: 0em;
+	line-height: 1.2em; 
+	font-size: 2.5em;
+}
+
+#sql-java-table h5 {
+	margin-top: 0.6em;
+        font-weight: 400; 
+}
+
 .breadcrumb {
   padding: 0px;
     margin-bottom: 1rem;
