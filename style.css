@@ -283,6 +283,38 @@ a:hover, button:hover, input[type="button"]:hover {
 	font-weight: 400; 
 }
 
+#example 
+/* FULL POPOVER CSS FOR ALL POPOVERS */
+#example .popover {
+  border-radius: 0px;
+  font-family: "Source Code Pro"; 
+  width: 100%; 
+}
+#example .popover-content {
+  padding: 9px 14px;
+}
+#example .popover > .arrow,
+#example .popover > .arrow:after {
+  border-color: transparent;
+  border-style: solid;
+}
+#example .popover > .arrow {
+  border-width: 11px;
+}
+#example .popover > .arrow:after {
+  content: "";
+  border-width: 10px;
+  border-color: #CDD5DC;
+}
+#example .popover.right > .arrow {
+}
+#example .popover.right > .arrow:after {
+}
+#example .popover.bottom > .arrow {
+}
+#example .popover.bottom > .arrow:after {
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
