@@ -283,36 +283,35 @@ a:hover, button:hover, input[type="button"]:hover {
 	font-weight: 400; 
 }
 
-#example 
 /* FULL POPOVER CSS FOR ALL POPOVERS */
-#example .popover {
+#type-safe .popover {
   border-radius: 0px;
   font-family: "Source Code Pro"; 
   width: 100%; 
 }
-#example .popover-content {
+#type-safe .popover-content {
   padding: 9px 14px;
 }
-#example .popover > .arrow,
-#example .popover > .arrow:after {
+#type-safe .popover > .arrow,
+#type-safe .popover > .arrow:after {
   border-color: transparent;
   border-style: solid;
 }
-#example .popover > .arrow {
+#type-safe .popover > .arrow {
   border-width: 11px;
 }
-#example .popover > .arrow:after {
+#type-safe .popover > .arrow:after {
   content: "";
   border-width: 10px;
   border-color: #CDD5DC;
 }
-#example .popover.right > .arrow {
+#type-safe .popover.right > .arrow {
 }
-#example .popover.right > .arrow:after {
+#type-safe .popover.right > .arrow:after {
 }
-#example .popover.bottom > .arrow {
+#type-safe .popover.bottom > .arrow {
 }
-#example .popover.bottom > .arrow:after {
+#type-safe .popover.bottom > .arrow:after {
 }
 
 .sr-only {
