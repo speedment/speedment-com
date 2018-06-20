@@ -267,6 +267,14 @@ a:hover, button:hover, input[type="button"]:hover {
     color: #3A9B79;
 }
 
+#webinar h3, h5 {
+    margin-top: 0em; 
+}
+
+#webinar .row {
+    margin: 0.5em 0em; 
+}
+
 #type-safe h5 { 
 	margin-top: 0em;
 	font-weight: 400;
