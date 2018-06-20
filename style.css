@@ -121,8 +121,12 @@ p {
 
 /* Links */ 
 a {
-    color: #2171ad;
+    color: #155d89;
     text-decoration: none;
+}
+
+a:hover {
+    color: #2171ad;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -602,6 +606,10 @@ a:hover, button:hover, input[type="button"]:hover {
   #first-view #first-view-text-wrapper > h1 {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+
+  #webinar .fa-3x {
+    font-size: 1em;
   }
 /*	
    #pricelist {
