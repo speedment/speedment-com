@@ -238,7 +238,7 @@ get_header(); ?>
           var useSpring = $('#checkPluginSpring');
           var useJson   = $('#checkPluginJson');
 
-          var enterprise = false;
+          var enterprise   = false;
           var enterpriseDb = false;
 
           function prepareUrl(service) {
@@ -263,32 +263,14 @@ get_header(); ?>
             }
 
             var args = {
-              'groupId'     : groupId.val(),
-              'artifactId'  : artifactId.val(),
-              'version'     : version.val(),
-              'packaging'   : 'jar'
+              'groupId'    : groupId.val(),
+              'artifactId' : artifactId.val(),
+              'version'    : version.val(),
+              'packaging'  : 'jar'
             };
             
             if ($('input[type=radio][name=javaVersion]:checked').val()) {
               args.javaVersion = $('input[type=radio][name=javaVersion]:checked').val();
-            }
-
-            if (enterprise) {
-              args['speedmentEnterpriseVersion'] = '3.1.3';
-              args['runtimeGroupId']    = 'com.speedment.enterprise';
-              args['runtimeArtifactId'] = 'runtime';
-              args['runtimeVersion']    = '${speedment.enterprise.version}';
-              args['pluginGroupId']     = 'com.speedment.enterprise';
-              args['pluginArtifactId']  = 'speedment-enterprise-maven-plugin';
-              args['pluginVersion']     = '${speedment.enterprise.version}';
-            } else {
-              args['speedmentVersion']  = '3.1.3';
-              args['runtimeGroupId']    = 'com.speedment';
-              args['runtimeArtifactId'] = 'runtime';
-              args['runtimeVersion']    = '${speedment.version}';
-              args['pluginGroupId']     = 'com.speedment';
-              args['pluginArtifactId']  = 'speedment-maven-plugin';
-              args['pluginVersion']     = '${speedment.version}';
             }
 
             if        (selectedDbType === 'mysql') {
