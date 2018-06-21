@@ -90,12 +90,12 @@ get_header(); ?>
         Contact Widget Area
     -->
     <div class="row justify-content-center product-page">
-      <div class="col-lg-4 mx-2">
+      <div class="col-lg-4">
         <h3>Technical Questions</h3>
            <p>If you have a technical question, one of our developers will be happy to assist you.
            You can get in direct contact with them in the <a href="https://gitter.im/speedment/speedment" target="_blank">Gitter Chatroom</a>.</p>
       </div>  
-      <div class="col-lg mx-2">
+      <div class="col-lg contact-form">
          <h3>Contact Form</h3>
     <?php if ($my_success) { ?>
       <div class="row justify-content-center">
