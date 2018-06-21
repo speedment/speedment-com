@@ -275,6 +275,11 @@ a:hover, button:hover, input[type="button"]:hover {
     margin-top: 0em; 
 }
 
+#webinar h4 {
+    font-weight: 400;
+    margin-top: 0em; 
+}
+
 #webinar h5 {
     margin-top: 0em; 
 }
