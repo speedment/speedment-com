@@ -36,6 +36,11 @@ body{
   body {
     padding-top: 97px;
   }
+	
+  .product-page .contact-form {
+    border-left: solid 0.5px lightgray; 
+    padding-left: 2em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -605,11 +610,6 @@ a:hover, button:hover, input[type="button"]:hover {
     font-size: 2rem;
     line-height: 2.5rem;
   }
-	
-	.product-page .contact-form {
-	border-left: none;
-	padding-left: 0em;
-  } 
 }
 
 @media screen and (max-width: 795px) {
@@ -699,11 +699,6 @@ a:hover, button:hover, input[type="button"]:hover {
 
 .product-page h3 {
 	margin-top: 2px; 
-}
-
-.product-page .contact-form {
-	border-left: solid 0.5px lightgray; 
-	padding-left: 2em;
 }
 
 .product-padding {
