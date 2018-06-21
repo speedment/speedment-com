@@ -96,6 +96,7 @@ get_header(); ?>
            You can get in direct contact with them in the <a href="https://gitter.im/speedment/speedment" target="_blank">Gitter Chatroom</a>.</p>
       </div>  
       <div class="col-lg" px-4 mx-2">
+         <h3>Contact Form</h3>
     <?php if ($my_success) { ?>
       <div class="row justify-content-center">
         <div class="col">
