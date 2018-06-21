@@ -701,7 +701,12 @@ a:hover, button:hover, input[type="button"]:hover {
 	margin-top: 2px; 
 }
 
-.product-page .contact-form h5 {
+.product-page h5 {
+  padding-left: 1em;
+	display: inline-block; 
+	font-size: 1.1em;
+	margin-top: 0em; 
+}
 
 .product-padding {
   padding: 10px;
