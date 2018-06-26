@@ -70,6 +70,7 @@
 #pricelist .btn-green {
 	background: #5ABF95;
 	border-color: #5ABF95;
+	vertical-align: -3.4em; 
 }
 
 #pricelist .btn-dev {
@@ -91,7 +92,6 @@
 	background: #92C0E3;
         border-color: #92C0E3;
 	font-weight: 600; 
-	vertical-align: -3.4em; 
 }
 
 #pricelist .last-row {
