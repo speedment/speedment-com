@@ -190,7 +190,9 @@
   	font-size: 1em; 
   	line-height: 2.3em; 
   }
-	
+}
+
+@media screen and (max-width: 576px) {
   #pricelist .btn-green {
 	 vertical-align: -1.5em; 
   }
