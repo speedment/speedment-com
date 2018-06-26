@@ -158,12 +158,6 @@
     padding: 0.5em;
   }
 }
-	
-@media screen and (max-width: 992px) {	
-   #pricelist .lightgray {
-        display: none; 
-   }
-}
 
 @media screen and (max-width: 480px) {
   #pricelist h5 {
