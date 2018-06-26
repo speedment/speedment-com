@@ -98,7 +98,6 @@
 
 .lightgray {
 	background: #A7B2B9; 
-	max-height: 315px;
 }
 
 /* FULL POPOVER CSS FOR ALL POPOVERS */
@@ -146,6 +145,10 @@
 @media (min-width: 992px) {
   .row.padding {
     padding: 0.5em;
+  }
+
+  #pricelist .lightgray {
+	  max-height: 315px; 
   }
 }
 @media (min-width: 768px) {
