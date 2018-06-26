@@ -76,7 +76,7 @@
 	background: #5A6B72;
 	border-color: #5A6B72;
 	font-weight: 600; 
-	margin: 1em; 
+	vertical-align: -2em; 
 }
 	
 #pricelist .btn-blue {
