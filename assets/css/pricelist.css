@@ -171,6 +171,16 @@
   }
 }
 
+@media screen and (max-width: 992px) {	
+	#pricelist .btn-dev {
+	  vertical-align: -2em; 
+        }
+
+        #pricelist .btn-gray {
+	  vertical-align: -3.6em; 
+        }  
+}
+
 @media screen and (max-width: 480px) {
   #pricelist h5 {
 	font-size: 0.8em;   
@@ -180,4 +190,12 @@
   	font-size: 1em; 
   	line-height: 2.3em; 
   }
+	
+  #pricelist .btn-green {
+	 vertical-align: -1.5em; 
+  }
+
+  #pricelist .btn-gray {
+	 vertical-align: -1.5em; 
+  }  
 }
