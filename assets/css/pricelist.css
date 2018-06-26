@@ -190,6 +190,10 @@
   	font-size: 1em; 
   	line-height: 2.3em; 
   }
+	
+  #pricelist {
+	 margin: 1.2em;  
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -200,4 +204,8 @@
   #pricelist .btn-gray {
 	 vertical-align: -1.5em; 
   }  
+	
+  #pricelist {
+	 margin: 2em;  
+  }
 }
