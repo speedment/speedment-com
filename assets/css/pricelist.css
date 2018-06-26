@@ -72,6 +72,14 @@
 	border-color: #5ABF95;
 }
 
+#pricelist .btn-dev {
+	vertical-align: -10em; 
+}
+
+#pricelist .btn-ent {
+	vertical-align: -1.7em; 
+}
+
 #pricelist .btn-gray {
 	background: #5A6B72;
 	border-color: #5A6B72;
@@ -83,6 +91,7 @@
 	background: #92C0E3;
         border-color: #92C0E3;
 	font-weight: 600; 
+	vertical-align: -3.4em; 
 }
 
 #pricelist .last-row {
