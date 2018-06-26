@@ -169,6 +169,16 @@
   .row.padding {
     padding: 0.5em;
   }
+	
+  #pricelist {
+	 margin: 0em;  
+  }
+}
+
+@media (min-width: 480px) {
+  #pricelist {
+	 margin: 2em;  
+  }
 }
 
 @media screen and (max-width: 992px) {	
@@ -204,8 +214,4 @@
   #pricelist .btn-gray {
 	 vertical-align: -1.5em; 
   }  
-	
-  #pricelist {
-	 margin: 2em;  
-  }
 }
