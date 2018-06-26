@@ -204,8 +204,10 @@
   #pricelist .btn-gray {
 	 vertical-align: -1.5em; 
   } 
-	
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) { 
   #pricelist {
-	 margin: 2em;  
+     margin: 2em;  
   }
 }
