@@ -322,6 +322,7 @@ get_header(); ?>
                url: url,
                type: "GET",
                crossDomain: true,
+               dataType: 'text',
                success: function (data) {
                  console.log(data);
                  $('#preview' + page).text(data).fadeIn(100);
