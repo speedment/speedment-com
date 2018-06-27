@@ -424,6 +424,7 @@ get_header(); ?>
               url: prepareUrl('generate/maven'),
               type: "GET",
               crossDomain: true,
+              dataType: 'text',
               success: function (data) {
                 console.log(data);
                 $('#finalCode').text(data);
