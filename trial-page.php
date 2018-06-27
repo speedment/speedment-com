@@ -243,7 +243,7 @@ get_header(); ?>
 
           function prepareUrl(service) {
             var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
-            var url = 'https://api.speedment.com:9010/' + service;
+            var url = 'https://service.speedment.com/' + service;
             url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
 
             if ('true' == $('input[type=radio][name=inMemory]:checked').val()) {
@@ -289,7 +289,9 @@ get_header(); ?>
               args['sqlserverVersion'] = driverVersion.val();
             }
 
-            url += '?args=' + encodeURIComponent(JSON.stringify(args));
+            url += '?groupId=' + encodeURIComponent(groupId.val());
+            url += '&artifactId=' + encodeURIComponent(artifactId.val());
+            url += '&version=' + encodeURIComponent(version.val());
 
             var key = licenseKey.val().trim();
             if (key) {
