@@ -359,6 +359,7 @@ add_action('wp_enqueue_scripts', 'bootstrap_with_jquery_and_tether');
 add_action('customize_register', 'speedment_options_init');
 
 // Make sure html on pages are not destroyed by WordPress
+remove_filter('the_content', 'wptexturize');
 remove_filter('the_content', 'wpautop');
 remove_filter('the_excerpt', 'wpautop');
 ?>
