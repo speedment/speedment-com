@@ -219,12 +219,12 @@
 	font-weight: normal; 	
 }
 
-#compare-plans .table th {
+#compare-plans .table td {
 	text-align: center; 
-} 
+}
 
-#compare-plans #title .table th {
-	text-align: left; 
+#compare-plans thead th {
+	padding: 0.75rem; 
 }
 
 
