@@ -223,7 +223,7 @@
 	text-align: center; 
 }
 
-#compare-plans thead th {
+#compare-plans .table th {
 	padding: 0.75rem; 
 }
 
