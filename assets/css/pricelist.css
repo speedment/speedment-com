@@ -225,6 +225,8 @@
 
 #compare-plans .table th {
 	padding: 0.75rem; 
+	font-family: "Titillium Web"; 
+	font-weight: 600; 
 }
 
 
