@@ -230,6 +230,12 @@
 	font-weight: 600; 
 }
 
+#compare-plans .btn-small {
+	line-height: 1em; 
+	font-size: 0.9em; 
+	padding: 0.5em 0.5em; 
+}
+
 
 
 	
