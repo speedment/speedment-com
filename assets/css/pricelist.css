@@ -212,6 +212,13 @@
   }
 }
 
+#compare-plans {
+	font-family: "Source Sans Pro"; 
+	font-size: 1em;
+	line-height: 1em; 
+	font-weight: normal; 	
+}
+
 #compare-plans .table th {
 	text-align: center; 
 } 
@@ -219,5 +226,7 @@
 #compare-plans .title {
 	text-align: left; 
 }
+
+
 
 	
