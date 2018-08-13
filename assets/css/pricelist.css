@@ -211,3 +211,13 @@
      margin: 2em;  
   }
 }
+
+#compare-plans th {
+	text-align: center; 
+} 
+
+#compare-plans .title {
+	text-align: left; 
+}
+
+	
