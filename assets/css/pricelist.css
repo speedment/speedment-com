@@ -217,6 +217,7 @@
 	font-size: 1em;
 	line-height: 1em; 
 	font-weight: normal; 	
+	white-space: nowrap; 
 }
 
 #compare-plans .table td {
