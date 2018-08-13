@@ -223,7 +223,7 @@
 	text-align: center; 
 } 
 
-#compare-plans .table th .title {
+#compare-plans #title .table th {
 	text-align: left; 
 }
 
