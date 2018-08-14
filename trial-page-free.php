@@ -44,22 +44,22 @@ get_header(); ?>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Oracle<i class="fa fa-asterisk" aria-hidden="true"></i></span>
+                <span class="custom-control-description">Oracle</span>
               </label>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">DB2<i class="fa fa-asterisk" aria-hidden="true"></i></span>
+                <span class="custom-control-description">DB2</span>
               </label>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">AS400<i class="fa fa-asterisk" aria-hidden="true"></i></span>
+                <span class="custom-control-description">AS400</span>
               </label>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql">
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">SQL Server<i class="fa fa-asterisk" aria-hidden="true"></i></span>
+                <span class="custom-control-description">SQL Server</span>
               </label>
             </div>
           </div>
@@ -126,7 +126,7 @@ get_header(); ?>
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
                 <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Enable<i class="fa fa-asterisk" aria-hidden="true"></i></span>
+                <span class="custom-control-description">Enable</span>
               </label>
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryFalse" value="false">
@@ -160,42 +160,22 @@ get_header(); ?>
           <div class="form-group row" id="submitGroup">
             <div class="col align-middle">
               <div class="asteriskDescription">
-               <!-- <i class="fa fa-asterisk" aria-hidden="true"></i>
-                <small class="text-muted">Enterprise Features require a valid License Key.</small> -->
               </div>
             </div>
             <div class="col-md col-md-auto submit-group">
-              <button type="submit" class="btn btn-primary">Generate Project</button>
+              <button type="submit" class="btn btn-primary">Download</button>
             </div>
           </div>
         </form>
       </div>
 
-      <div class="col-md-6 col-sm-12 preview-column">
-         <!-- License Key -->
-          <div class="form-group row" id="licenseKey" style="display:none;">
-            <div style="overflow:hidden;position:relative;width:100%;height:100px;top:-10px;margin-bottom:-100px;margin-right:-100px;right:-2px;z-index:1;pointer-events:none;">
-              <div class="cr cr-top cr-right cr-blue">Enterprise</div>
-            </div>
-              <label for="inputLicenseKey" class="col-sm-12 col-form-label">You have selected an Enterprise Feature<i class="fa fa-asterisk" aria-hidden="true"></i></label> 
-            <div class="col-sm-12 row rightSide">
-              <small class="request-trial-link">
-                <a href="#" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Request a Free Trial License Key</a>
-              </small>
-              <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Enter the License Key that has been sent to you"><?php
-                if (isset($_GET['licenseKey'])) {
-                  echo $_GET['licenseKey'];
-                }
-              ?></textarea>
-            </div>
-          </div>
+      
+      <div class="col-md-6 col-sm-12 preview-column">  
+         <pre><code class="language-java" class="preview" id="previewMain"></code></pre>
         
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" data-toggle="tab" href="#fileMaven" role="tab">pom.xml</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#fileMain" role="tab">Main.java</a>
           </li>
         </ul>
         <div class="tab-content">
