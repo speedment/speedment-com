@@ -136,26 +136,26 @@
 	border: none; 
 } 
 
-.popover > .arrow,
-.popover > .arrow:after {
+.popover .arrow,
+.popover .arrow:after {
   display: none; 
   border-color: transparent;
   border-style: solid;
 }
-.popover > .arrow {
+.popover .arrow {
   display:none
   border-width: 11px;
 }
-.popover > .arrow:after {
+.popover .arrow:after {
   display: none; 
   content: "";
   border-width: 10px;
   border-color: #CDD5DC;
 }
-.popover.bottom > .arrow {
+.popover.bottom .arrow {
 	display: none; 
 }
-.popover.bottom > .arrow:after {
+.popover.bottom .arrow:after {
 	display: none; 
 }
 
