@@ -127,7 +127,7 @@
  
 }
 .popover-content {
-  padding: 0.5em;
+  padding: 0.7em;
 }
 
 .arrow {
@@ -138,25 +138,25 @@
 
 .popover > .arrow,
 .popover > .arrow:after {
+  display: none; 
   border-color: transparent;
   border-style: solid;
 }
 .popover > .arrow {
-  visibility: hidden; 
+  display:none
   border-width: 11px;
 }
 .popover > .arrow:after {
+  display: none; 
   content: "";
   border-width: 10px;
   border-color: #CDD5DC;
 }
-.popover.right > .arrow {
-}
-.popover.right > .arrow:after {
-}
 .popover.bottom > .arrow {
+	display: none; 
 }
 .popover.bottom > .arrow:after {
+	display: none; 
 }
 
 /* Control appearence for smaller devices */ 
