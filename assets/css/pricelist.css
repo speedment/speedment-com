@@ -150,20 +150,12 @@
   border-width: 10px;
   border-color: #CDD5DC;
 }
-.popover.bottom > .arrow {
-  top: -11px;
-  left: 50%;
-  margin-left: -11px;
-  border-top-width: 0;
-  border-bottom-color: green;
-  border-bottom-color: rgba(0, 0, 0, .25);
+.popover.bs-tether-element-attached-top::before, .popover.popover-bottom::before {
+  display: none; 
 }
-.popover.bottom > .arrow:after {
-  top: 1px;
-  margin-left: -10px;
-  content: " ";
-  border-top-width: 0;
-  border-bottom-color: green;
+
+.popover.bs-tether-element-attached-top::after, .popover.popover-bottom::after {
+  display: none; 
 }
 
 /* Control appearence for smaller devices */ 
