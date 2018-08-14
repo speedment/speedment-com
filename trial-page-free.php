@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Trial Page
+ * Template Name: Trial Page Free
  * Description: Page template that shows a trial license configurator form
  */
 get_header(); ?>
