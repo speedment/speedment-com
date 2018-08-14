@@ -223,7 +223,7 @@ get_header(); ?>
           var version       = $('#inputVersion');
           var driverVersion = $('#inputDriverVersion');
           var email         = $('#inputEmail');
-          var licenseKey    = $('#inputLicenseKey');
+       // var licenseKey    = $('#inputLicenseKey');
           var javaVersion   = $('input[type=radio][name=javaVersion]');
           var inMemory      = $('input[type=radio][name=inMemory]');
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
@@ -280,10 +280,10 @@ get_header(); ?>
             url += '?groupId=' + encodeURIComponent(groupId.val());
             url += '&artifactId=' + encodeURIComponent(artifactId.val());
             url += '&version=' + encodeURIComponent(version.val());
-            var key = licenseKey.val().trim();
-            if (key) {
-              url += '&licenseKey=' + encodeURIComponent(key);
-            }
+            //var key = licenseKey.val().trim();
+            //if (key) {
+            //  url += '&licenseKey=' + encodeURIComponent(key);
+            //}
             return url;
           }
           function updateCode() {
@@ -325,19 +325,19 @@ get_header(); ?>
                         || selectedDbType === 'mssql';
             enterprise = 'true' == $('input[type=radio][name=inMemory]:checked').val()
                       || enterpriseDb;
-            if (enterprise) {
-              $('#licenseKey').show();
-            } else {
-              $('#licenseKey').hide();
-            }
+            //if (enterprise) {
+            //  $('#licenseKey').show();
+            //} else {
+            //  $('#licenseKey').hide();
+            //}
             if (enterpriseDb) {
               $('#helpDriverVersion').show();
             } else {
               $('#helpDriverVersion').hide();
             }
-            $('#submitGroup button[type="submit"]').disable(
-              enterprise && !licenseKey.val().trim()
-            );
+            //$('#submitGroup button[type="submit"]').disable(
+            // enterprise && !licenseKey.val().trim()
+            //);
           }
           $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
             updateCode();
@@ -354,10 +354,10 @@ get_header(); ?>
             updateEnterprise();
             updateCode();
           });
-          licenseKey.change(function() {
-            updateEnterprise();
-            updateCode();
-          });
+          //licenseKey.change(function() {
+          //  updateEnterprise();
+          // updateCode();
+          //});
           dbType.change(function() {
             if        (this.value === 'mysql') {
                 driverVersion.val('5.1.46');
@@ -386,11 +386,11 @@ get_header(); ?>
           useJson.click(updateCode);
           updateEnterprise();
           updateCode();
-          licenseKey.keyup(function () {
-            $('#submitGroup button[type="submit"]').disable(
-              !licenseKey.val().trim()
-            );
-          });
+          //licenseKey.keyup(function () {
+          //  $('#submitGroup button[type="submit"]').disable(
+          //    !licenseKey.val().trim()
+          //  );
+          //});
           $('#speedmentForm').submit(function(ev) {
             ev.preventDefault();
             $.ajax({
