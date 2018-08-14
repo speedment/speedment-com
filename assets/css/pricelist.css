@@ -118,16 +118,21 @@
 /* FULL POPOVER CSS FOR ALL POPOVERS */
 .popover {
   text-align: center;
-  background-color: #A7B2B9; 
+  background-color: #3a9b79; 
   border: none; 
   border-radius: 0px;
   font-family: "Source Sans Pro";  
   font-size: 1em; 
-  color: black; 
+  color: white; 
+	
 }
 
 .popover-content {
   padding: 0.7em;
+}
+
+.popover.bs-tether-element-attached-top {
+	margin-top: 3px; 
 }
 
 .popover.bs-tether-element-attached-top::before, .popover.popover-bottom::before {
