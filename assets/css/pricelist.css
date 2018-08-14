@@ -116,6 +116,7 @@
 }
 
 /* FULL POPOVER CSS FOR ALL POPOVERS */
+/*
 #pricelist .popover {
   text-align: center;
   background-color: black;
@@ -146,7 +147,7 @@
 #pricelist .popover.bottom > .arrow {
 }
 #pricelist .popover.bottom > .arrow:after {
-}
+}*/
 
 /* Control appearence for smaller devices */ 
 
