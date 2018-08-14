@@ -169,13 +169,13 @@ get_header(); ?>
         </form>
       </div>
 
-      
-      <div class="col-md-6 col-sm-12 preview-column">  
-         <pre><code class="language-java" class="preview" id="previewMain"></code></pre>
-        
+      <div class="col-md-6 col-sm-12 preview-column">          
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" data-toggle="tab" href="#fileMaven" role="tab">pom.xml</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" data-toggle="tab" href="#fileMain" role="tab">Main.java</a>
           </li>
         </ul>
         <div class="tab-content">
