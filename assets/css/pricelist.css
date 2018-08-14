@@ -144,6 +144,7 @@
 .popover.right > .arrow:after {
 }
 .popover.bottom > .arrow {
+	visibility: hidden; 
 }
 .popover.bottom > .arrow:after {
 }
