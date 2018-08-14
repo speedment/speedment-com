@@ -116,38 +116,37 @@
 }
 
 /* FULL POPOVER CSS FOR ALL POPOVERS */
-/*
-#pricelist .popover {
+.popover {
   text-align: center;
   background-color: black;
   border-radius: 0px;
   font-family: "Source Sans Pro";  
   color: white; 
 }
-#pricelist .popover-content {
+.popover-content {
   padding: 9px 14px;
 }
-#pricelist .popover > .arrow,
-#pricelist .popover > .arrow:after {
+.popover > .arrow,
+.popover > .arrow:after {
   border-color: transparent;
   border-style: solid;
 }
-#pricelist .popover > .arrow {
+.popover > .arrow {
   border-width: 11px;
 }
-#pricelist .popover > .arrow:after {
+.popover > .arrow:after {
   content: "";
   border-width: 10px;
   border-color: #CDD5DC;
 }
-#pricelist .popover.right > .arrow {
+.popover.right > .arrow {
 }
-#pricelist .popover.right > .arrow:after {
+.popover.right > .arrow:after {
 }
-#pricelist .popover.bottom > .arrow {
+.popover.bottom > .arrow {
 }
-#pricelist .popover.bottom > .arrow:after {
-}*/
+.popover.bottom > .arrow:after {
+}
 
 /* Control appearence for smaller devices */ 
 
