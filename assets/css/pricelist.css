@@ -112,11 +112,10 @@
 /* FULL POPOVER CSS FOR ALL POPOVERS */
 #pricelist .popover {
   text-align: center;
-  background-color: #CDD5DC;
-  border: 1px solid #CDD5DC;
-  border: 1px solid #CDD5DC;
+  background-color: black;
   border-radius: 0px;
-  font-family: "Titillium Web"; 
+  font-family: "Source Sans Pro";  
+  color: white; 
 }
 #pricelist .popover-content {
   padding: 9px 14px;
