@@ -266,7 +266,7 @@
                 <option value="UA">Ukraine</option>
                 <option value="AE">United Arab Emirates</option>
                 <option value="GB">United Kingdom</option>
-                <option selected="selected" value="US">United States</option>
+                <option value="US">United States</option>
                 <option value="UM">United States Minor Outlying Islands</option>
                 <option value="UY">Uruguay</option>
                 <option value="UZ">Uzbekistan</option>
@@ -361,7 +361,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <small class="text-muted">By continuing you agree to the <a href="/terms" rel="Terms of Service" target="_blank">Terms of Service</a>.</small>
+          <small class="text-muted">By continuing you agree to the <a href="https://www.speedment.com/wp-content/uploads/2018/08/Speedment-EULA-2018.1-3.pdf" rel="Terms of Service" target="_blank">Terms of Service</a>.</small>
           <button type="submit" class="btn btn-primary" id="trialModalSubmit">Send me a 30 Days Trial</button>
           <script>
             jQuery(document).ready(function($) {
