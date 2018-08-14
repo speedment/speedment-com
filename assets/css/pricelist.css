@@ -94,6 +94,12 @@
 	font-weight: 600; 
 }
 
+#pricelist .btn-yellow {
+	background: #fce390; 
+	border-color: #fce390; 
+	font-weight: 600; 
+} 
+
 #pricelist .last-row {
 	height: 1.7em; 
 }
