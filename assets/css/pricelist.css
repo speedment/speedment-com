@@ -241,6 +241,7 @@
 	padding: 0.5em 0.5em; 
 }
 
-
-
-	
+#compare-plans .fa-question-circle {
+	color: #A7B2B9; 
+	margin-left: 5px; 
+}
