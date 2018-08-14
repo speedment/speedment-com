@@ -124,39 +124,46 @@
   font-family: "Source Sans Pro";  
   font-size: 1em; 
   color: white; 
- 
 }
+
 .popover-content {
   padding: 0.7em;
 }
 
 .arrow {
-	display: none; 
-	visibility: hidden; 
-	border: none; 
+  border: none; 
 } 
 
 .popover .arrow,
 .popover .arrow:after {
-  display: none; 
+  visibility: hidden; 
   border-color: transparent;
   border-style: solid;
 }
 .popover .arrow {
-  display:none
+  visibility: hidden; 
   border-width: 11px;
 }
 .popover .arrow:after {
-  display: none; 
+  visibility: hidden; 
   content: "";
   border-width: 10px;
   border-color: #CDD5DC;
 }
-.popover.bottom .arrow {
-	display: none; 
+.popover.bottom > .arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: green;
+  border-bottom-color: rgba(0, 0, 0, .25);
 }
-.popover.bottom .arrow:after {
-	display: none; 
+.popover.bottom > .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: green;
 }
 
 /* Control appearence for smaller devices */ 
