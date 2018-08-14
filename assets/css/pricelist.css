@@ -127,8 +127,15 @@
  
 }
 .popover-content {
-  padding: 0.75em;
+  padding: 0.5em;
 }
+
+.arrow {
+	display: none; 
+	visibility: hidden; 
+	border: none; 
+} 
+
 .popover > .arrow,
 .popover > .arrow:after {
   border-color: transparent;
