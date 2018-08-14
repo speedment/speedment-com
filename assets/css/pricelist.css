@@ -118,18 +118,19 @@
 /* FULL POPOVER CSS FOR ALL POPOVERS */
 .popover {
   text-align: center;
-  background-color: #2D3639;
+  background-color: #2D3639; 
+  border: none; 
   border-radius: 0px;
   font-family: "Source Sans Pro";  
   font-size: 1em; 
   color: white; 
+ 
 }
 .popover-content {
-  padding: 9px 14px;
+  padding: 0.75em;
 }
 .popover > .arrow,
 .popover > .arrow:after {
-  border: none; 
   border-color: transparent;
   border-style: solid;
 }
