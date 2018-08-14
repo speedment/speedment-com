@@ -159,6 +159,10 @@
   #pricelist .lightgray {
 	  max-height: 368px; 
   }
+	
+  .quote { 
+	height: 7em; 
+  }
 }
 @media (min-width: 768px) {
   .row.padding {
@@ -240,3 +244,4 @@
 	color: #A7B2B9; 
 	margin-left: 5px; 
 }
+
