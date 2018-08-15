@@ -421,9 +421,9 @@ get_header(); ?>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col">
-        <h4>Documentation</h4>
-        <p>Get familiar with the features of Speedment by reading the <a href="https://speedment.github.io/speedment-doc/introduction.htmlUser" target="_blank">User Guide</a>.</p>
+      <div class="col os-init-info">
+        <h4>Looking for Speedment Open Source?</h4>
+        <p>Please visit the <a href="https://speedment.com/initializer" target="_blank">Open Source Download page</a>.</p>
       </div>
     </div>
   </div>
