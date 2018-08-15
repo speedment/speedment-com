@@ -246,7 +246,7 @@ a:hover, button:hover, input[type="button"]:hover {
     margin: 0px;
 }
 
-#trial #submitGroup .form-group {
+.form-group-submit {
     margin: 0px; 
 }
 
