@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Trial Page Free
+ * Template Name: Download Speedment
  * Description: Page template that shows a trial license configurator form
  */
 get_header(); ?>
@@ -10,7 +10,9 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col">
-        <p>The Initializer makes it easy to setup a new Speedment project with Maven. Fill in your project details and see the configuration change in real time. If you choose any Enterprise features you will be asked to fill in a License Key. Just send us a request and you will <a href="#" data-toggle="modal" data-target="#trialModal">get a 30 days free trial license</a>!</p>
+        <p>The Initializer makes it easy to setup a new Speedment project with Maven. Fill in your project details and see the configuration change in real time. 
+          
+          Just send us a request and you will <a href="#" data-toggle="modal" data-target="#trialModal">get a 30 days free trial license</a>!</p>
       </div>
     </div>
     <div class="row justify-content-center gray-area">
@@ -416,6 +418,12 @@ get_header(); ?>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col">
+        <h4>Documentation</h4>
+        <p>Get familiar with the features of Speedment by reading the <a href="https://speedment.github.io/speedment-doc/introduction.htmlUser" target="_blank">User Guide</a>.</p>
       </div>
     </div>
   </div>
