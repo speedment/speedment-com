@@ -898,6 +898,11 @@ label {
 /*
   Trial Template
 */
+
+.download-btn-area {
+   text-align: right; 
+}
+
 #trial {
   margin-top: 50px;
 }
