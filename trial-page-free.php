@@ -177,7 +177,7 @@ get_header(); ?>
             <pre class="preview"><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
           <!-- Submit -->
-          <div class="form-group row" id="submitGroup">
+          <div class="form-group-submit row" id="submitGroup">
             <button type="submit" class="btn btn-primary">Download</button>
           </div>
       </div>
