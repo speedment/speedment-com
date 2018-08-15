@@ -7,7 +7,7 @@
     <div class="col">
       <div class="container">
         <div class="row justify-content-md-left">
-          <div class="col-md-7 col-md-auto">
+          <div class="col col-sm-auto">
             <div class="col-md-auto" id="first-view-text-wrapper">
               <h2><?php if (is_404()) {echo '404 Page Not found';} else {single_post_title();} ?></h2>
            </div>
