@@ -605,12 +605,20 @@ a:hover, button:hover, input[type="button"]:hover {
     font-size: 2rem;
     line-height: 2.5rem;
   }
+	
+  .preview {
+    max-height: 515px; 
+  }
 }
 
 @media screen and (max-width: 992px) {
   #first-view #first-view-text-wrapper > h1 {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+	
+  .preview {
+    max-height: 680px; 
   }
 }
 
@@ -622,6 +630,10 @@ a:hover, button:hover, input[type="button"]:hover {
 
   #webinar .fa-3x {
     font-size: 1em;
+  } 
+  
+  .preview {
+    max-height: 450px; 
   }
 /*	
    #pricelist {
@@ -1044,7 +1056,7 @@ No longer in use
 }
 
 .preview {
-    max-height: 680px; 
+    max-height: 492px; 
 }
 
 #speedmentForm {
