@@ -155,17 +155,6 @@ get_header(); ?>
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
-
-          <!-- Submit -->
-          <div class="form-group row" id="submitGroup">
-            <div class="col align-middle">
-              <div class="asteriskDescription">
-              </div>
-            </div>
-            <div class="col-md col-md-auto submit-group">
-              <button type="submit" class="btn btn-primary">Download</button>
-            </div>
-          </div>
         </form>
       </div>
 
@@ -173,37 +162,11 @@ get_header(); ?>
           <div class="tab-pane active" id="fileMaven" role="tabpanel">
             <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
-         <!-- License Key -->
-       <!--<div class="form-group row" id="licenseKey" style="display:none;">
-             <div style="overflow:hidden;position:relative;width:100%;height:100px;top:-10px;margin-bottom:-100px;margin-right:-100px;right:-2px;z-index:1;pointer-events:none;">
-               <div class="cr cr-top cr-right cr-blue">Enterprise</div>
-             </div>
-               <label for="inputLicenseKey" class="col-sm-12 col-form-label">You have selected an Enterprise Feature<i class="fa fa-asterisk" aria-hidden="true"></i></label> 
-             <div class="col-sm-12 row rightSide">
-               <small class="request-trial-link">
-                 <a href="#" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Request a Free Trial License Key</a>
-               </small>
-               <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Enter the License Key that has been sent to you"><?php
-                 //if (isset($_GET['licenseKey'])) {
-                 //  echo $_GET['licenseKey'];
-                 //}
-               //?></textarea>
-             </div>
-           </div>
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" data-toggle="tab" href="#fileMaven" role="tab">pom.xml</a>
-          </li>
-          <li class="nav-item">
-             <a class="nav-link" data-toggle="tab" href="#fileMain" role="tab">Main.java</a>
-          </li>
-        </ul>
-        <div class="tab-content">
-          <div class="tab-pane" id="fileMain" role="tabpanel">
-            <pre><code class="language-java" class="preview" id="previewMain"></code></pre>
+          <!-- Submit -->
+          <div class="form-group row" id="submitGroup">
+              <button type="submit" class="btn btn-primary">Download</button>
           </div>
-        </div>
-      </div>-->
+      </div>
 
       <?php ///////////////////////////////////////////////////////////////// ?>
       <?php //                      Form logic                             // ?>
