@@ -907,6 +907,10 @@ label {
   margin-bottom: 25px;
 }
 
+#trial .config-column {
+  padding: 0px; 
+}
+
 #trial .nosize {
   display: block;
   height: 25px;
