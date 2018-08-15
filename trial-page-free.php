@@ -425,7 +425,7 @@ get_header(); ?>
     <div class="row justify-content-center">
       <div class="col os-init-info">
         <h4>Looking for Speedment Open Source?</h4>
-        <p>Please visit the <a href="https://speedment.com/initializer" target="_blank">Open Source Download page</a>.</p>
+        <p>Please visit the <a href="https://speedment.com/os-download" target="_blank">Open Source Download page</a>.</p>
       </div>
     </div>
   </div>
