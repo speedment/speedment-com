@@ -246,6 +246,10 @@ a:hover, button:hover, input[type="button"]:hover {
     margin: 0;
 }
 
+#submitGroup .form-group {
+	margin-bottom: 0; 
+}
+
 #try-for-free {
     margin-top: 3em; 
     text-align: center; 
@@ -894,9 +898,10 @@ label {
 
 #trial .btn {
   padding: 16px 20px;
-  width: 100%;
   font-family: "Titillium Web"; 
   text-transform: uppercase; 
+  margin: 0em 0.95em; 
+  border-radius: 0;
 }
 
 #trial .submit-group {
@@ -1036,6 +1041,10 @@ No longer in use
     font-family: "Titillium Web";
     font-size: 1.2em; 
     text-transform: uppercase;
+}
+
+.pom-preview {
+    max-height: 680px; 
 }
 
 #speedmentForm {
