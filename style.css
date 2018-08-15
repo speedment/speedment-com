@@ -1011,6 +1011,16 @@ No longer in use
   overflow: auto; 
 }
 
+.titel-area {
+    background: #2D3639;
+    color: white;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    font-family: "Titillium Web";
+    font-size: 1.2em; 
+    text-transform: uppercase;
+}
+
 /*
   Ribbon
 */
