@@ -900,7 +900,8 @@ label {
 */
 
 .download-btn-area {
-   text-align: right; 
+   text-align: right;  
+   padding-right: 1.5em; 
 }
 
 #trial {
