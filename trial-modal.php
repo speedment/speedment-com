@@ -1,5 +1,5 @@
 <div id="trialModal" class="modal fade align-middle" tabindex="-1" role="dialog" aria-labelledby="trialModalHeader" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog modal-md">
     <div class="modal-content">
       <form id="trialModalForm" action="#">
         <div class="modal-header">
