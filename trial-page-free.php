@@ -176,10 +176,6 @@ get_header(); ?>
           <div class="tab-pane active" id="fileMaven" role="tabpanel">
             <pre class="preview"><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
-          <!-- Submit -->
-          <div class="form-group row" id="submitGroup">
-              <button type="submit" class="btn btn-primary">Download</button>
-          </div>
       </div>
 
       <?php ///////////////////////////////////////////////////////////////// ?>
@@ -416,6 +412,14 @@ get_header(); ?>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row justify-content-center download-footer">
+      <div class="col">
+         <!-- Submit -->
+         <div class="form-group row" id="submitGroup">
+            <button type="submit" class="btn btn-primary">Download</button>
+         </div>
       </div>
     </div>
   </div>
