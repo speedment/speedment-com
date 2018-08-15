@@ -242,7 +242,7 @@ a:hover, button:hover, input[type="button"]:hover {
     margin-bottom: 50px;
 }
 
-.form-group {
+#signup-form .form-group {
     margin: 0;
 }
 
