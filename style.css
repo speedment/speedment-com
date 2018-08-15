@@ -600,6 +600,12 @@ a:hover, button:hover, input[type="button"]:hover {
   color: #fff;
 }
 
+@media screen and (min-width: 1039px) {
+  .preview {
+    max-height: 492px; 
+  }
+}
+
 @media screen and (max-width: 1038px) {
   #first-view #first-view-text-wrapper > h1 {
     font-size: 2rem;
@@ -618,7 +624,13 @@ a:hover, button:hover, input[type="button"]:hover {
   }
 	
   .preview {
-    max-height: 680px; 
+    max-height: 630px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .preview {
+    max-height: 450px; 
   }
 }
 
@@ -631,14 +643,6 @@ a:hover, button:hover, input[type="button"]:hover {
   #webinar .fa-3x {
     font-size: 1em;
   } 
-  
-  .preview {
-    max-height: 450px; 
-  }
-/*	
-   #pricelist {
-   display: none; 
-  }*/
 }
 
 @media screen and (max-width: 480px) {
@@ -1053,10 +1057,6 @@ No longer in use
     font-family: "Titillium Web";
     font-size: 1.2em; 
     text-transform: uppercase;
-}
-
-.preview {
-    max-height: 492px; 
 }
 
 #speedmentForm {
