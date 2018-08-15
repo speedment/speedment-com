@@ -162,7 +162,11 @@ get_header(); ?>
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
-        </form>
+        </form> 
+        <!-- Submit -->
+        <div class="form-group-submit row" id="submitGroup">
+            <button type="submit" class="btn btn-primary">Download</button>
+        </div>
       </div>
      
       <?php ///////////////////////////////////////////////////////////////// ?>
@@ -177,10 +181,6 @@ get_header(); ?>
         </div>
           <div class="tab-pane active" id="fileMaven" role="tabpanel">
             <pre class="preview"><code class="language-xml" class="preview" id="previewMaven"></code></pre>
-          </div>
-          <!-- Submit -->
-          <div class="form-group-submit row" id="submitGroup">
-            <button type="submit" class="btn btn-primary">Download</button>
           </div>
       </div>
 
