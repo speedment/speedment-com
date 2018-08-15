@@ -882,10 +882,9 @@ label {
 }
 
 #trial > .container > .row.gray-area {
-  background: #f5f2f0;
-  padding-top: 20px;
+  background: white;
   border-radius: 2px;
-  border: solid 1px #ddd;
+  border: none; 
 }
 
 #trial .form-check {
@@ -918,12 +917,13 @@ label {
   margin-top: -25px;
 }
 
+No longer in use 
 #trial .fa-asterisk {
   font-size: 0.4rem;
   font-weight: bold;
   color: #2171ad;
   vertical-align: text-top;
-}
+} 
 
 #licenseKey {
   background-color: #f5f2f0;
@@ -970,7 +970,7 @@ label {
 
 #licenseKey .request-trial-link {
   margin-bottom: 8px;
-}
+} 
 
 #trial #inMemoryContainer {
   display: flex;
