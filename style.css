@@ -878,7 +878,7 @@ label {
 }
 
 #trial > .container > .row.gray-area {
-  background: white;
+  background: #f5f5f5;
   border-radius: 2px;
   border: none; 
 }
@@ -907,7 +907,8 @@ label {
   margin-bottom: 25px;
 }
 
-#trial .config-column {
+#trial .config-column, 
+#trial .preview-column {
   padding: 0px; 
 }
 
@@ -1006,11 +1007,25 @@ No longer in use
 }
 
 #trial .preview-column .tab-content {
-  padding: 0px; 
   border: solid 3px #3a9b79;
   max-height: 400px; 
   overflow: auto; 
 }
+
+#trial .tab-row {
+    height: 3em;
+    background: #1E2426;
+    color: white;
+}
+
+#trial .pom-tab {
+    background: #2D3639;
+    text-align: center;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    font-family: "Titillium Web";
+    margin-left: 3em;
+} 
 
 #trial .title-area {
     background: #2D3639;
