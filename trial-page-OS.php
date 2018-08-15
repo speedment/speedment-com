@@ -145,7 +145,7 @@ get_header(); ?>
           </div>          
         </div>
           <div class="tab-pane active" id="fileMaven" role="tabpanel">
-            <pre class="preview"><code class="language-xml" class="preview" id="previewMaven"></code></pre>
+            <pre class="preview-os"><code class="language-xml" class="preview-os" id="previewMaven"></code></pre>
           </div>
       </div>
 
