@@ -31,8 +31,8 @@ get_header(); ?>
 
           <!-- Select Database Type -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-3">Database Type</legend>
-            <div class="col-sm-9">
+            <legend class="col-form-legend col-sm-5">Database Type</legend>
+            <div class="col-sm-7">
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
                 <span class="custom-control-indicator"></span>
@@ -73,8 +73,8 @@ get_header(); ?>
 
           <!-- Select Driver Version -->
           <div class="form-group row">
-            <label for="inputDriverVersion" class="col-sm-3 col-form-label">JDBC Driver Version</label>
-            <div class="col-sm-9">
+            <label for="inputDriverVersion" class="col-sm-5 col-form-label">JDBC Driver Version</label>
+            <div class="col-sm-7">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.46">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
@@ -84,8 +84,8 @@ get_header(); ?>
           
           <!-- Select Java Version -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-3">Java Version</legend>
-            <div class="col-sm-9">
+            <legend class="col-form-legend col-sm-5">Java Version</legend>
+            <div class="col-sm-7">
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava8" value="1.8" checked>
                 <span class="custom-control-indicator"></span>
@@ -106,8 +106,8 @@ get_header(); ?>
           
           <!-- Plugins -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-3">Plugins</legend>
-            <div class="col-sm-9">
+            <legend class="col-form-legend col-sm-5">Plugins</legend>
+            <div class="col-sm-7">
               <label class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="checkPluginEnums">
                 <span class="custom-control-indicator"></span>
@@ -128,8 +128,8 @@ get_header(); ?>
 
           <!-- In-memory Acceleration -->
           <div class="form-group row">
-            <label class="col-sm-3 col-form-label">In-memory Acceleration</label>
-            <div class="col-sm-9" id="inMemoryContainer">
+            <label class="col-sm-5 col-form-label">In-memory Acceleration</label>
+            <div class="col-sm-7" id="inMemoryContainer">
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
                 <span class="custom-control-indicator"></span>
@@ -145,8 +145,8 @@ get_header(); ?>
 
           <!-- Project Info -->
           <div class="form-group row">
-            <label for="inputGroupId" class="col-sm-3 col-form-label">GroupId</label>
-            <div class="col-sm-9">
+            <label for="inputGroupId" class="col-sm-5 col-form-label">GroupId</label>
+            <div class="col-sm-7">
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
