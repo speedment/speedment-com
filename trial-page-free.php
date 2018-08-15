@@ -162,11 +162,13 @@ get_header(); ?>
           </div>
         </form>
       </div>
+     
+      <?php ///////////////////////////////////////////////////////////////// ?>
+      <?php //                      Preview Column                         // ?>
+      <?php ///////////////////////////////////////////////////////////////// ?>
 
       <div class="col-md-6 col-sm-12 preview-column"> 
-        <div class="row tab-row">
-          <div class="col-1">
-          </div>
+        <div class="row tab-row d-none d-md-block">
           <div class="col-5 pom-tab">
              pom.xml
           </div>          
