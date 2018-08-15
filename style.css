@@ -250,8 +250,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .form-group-submit {
-    margin: 0px; 
-    background: #1E2426; 
+    margin: 0 0 1em 0; 
 }
 
 #try-for-free {
@@ -923,10 +922,9 @@ label {
 }
 
 #trial .btn {
-  padding: 16px 20px;
+  padding: 0.7em 1em;
   font-family: "Titillium Web"; 
   text-transform: uppercase; 
-  border-radius: 0;
 }
 
 #trial .submit-group {
@@ -1053,9 +1051,9 @@ No longer in use
 
 #trial .pom-tab {
     background: #2D3639;
-    text-align: center;
-    padding: 0.5em 1em;
-    font-size: 1.2em;
+    text-align: left;
+    padding: 0.72em 1em;
+    font-size: 1em;
     font-family: "Titillium Web";
     margin-left: 3em;
     color: white; 
