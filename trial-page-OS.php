@@ -19,7 +19,7 @@ get_header(); ?>
       <div class="col-md-6 col-sm-12 config-column">
         <div class="row">
           <div class="col title-area">
-            Speedment Initalizer
+            Speedment Open Source Initalizer
           </div>
         </div>
         
@@ -31,8 +31,8 @@ get_header(); ?>
 
           <!-- Select Database Type -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-3">Database Type</legend>
-            <div class="col-sm-9">
+            <legend class="col-form-legend col-sm-4">Database Type</legend>
+            <div class="col-sm-8">
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
                 <span class="custom-control-indicator"></span>
@@ -53,8 +53,8 @@ get_header(); ?>
 
           <!-- Select Driver Version -->
           <div class="form-group row">
-            <label for="inputDriverVersion" class="col-sm-3 col-form-label">JDBC Driver Version</label>
-            <div class="col-sm-9">
+            <label for="inputDriverVersion" class="col-sm-4 col-form-label">JDBC Driver Version</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="5.1.46">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
@@ -64,8 +64,8 @@ get_header(); ?>
           
           <!-- Select Java Version -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-3">Java Version</legend>
-            <div class="col-sm-9">
+            <legend class="col-form-legend col-sm-4">Java Version</legend>
+            <div class="col-sm-8">
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava8" value="1.8" checked>
                 <span class="custom-control-indicator"></span>
@@ -86,8 +86,8 @@ get_header(); ?>
           
           <!-- Plugins -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-3">Plugins</legend>
-            <div class="col-sm-9">
+            <legend class="col-form-legend col-sm-4">Plugins</legend>
+            <div class="col-sm-8">
               <label class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="checkPluginEnums">
                 <span class="custom-control-indicator"></span>
@@ -108,20 +108,20 @@ get_header(); ?>
 
           <!-- Project Info -->
           <div class="form-group row">
-            <label for="inputGroupId" class="col-sm-3 col-form-label">GroupId</label>
-            <div class="col-sm-9">
+            <label for="inputGroupId" class="col-sm-4 col-form-label">GroupId</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputArtifactId" class="col-sm-3 col-form-label">ArtifactId</label>
-            <div class="col-sm-9">
+            <label for="inputArtifactId" class="col-sm-4 col-form-label">ArtifactId</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputVersion" class="col-sm-3 col-form-label">Version</label>
-            <div class="col-sm-9">
+            <label for="inputVersion" class="col-sm-4 col-form-label">Version</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
