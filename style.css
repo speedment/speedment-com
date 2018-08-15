@@ -602,15 +602,15 @@ a:hover, button:hover, input[type="button"]:hover {
   color: #fff;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
   .preview {
-    max-height: 492px; 
+    max-height: 600px; 
   }
 }
 
-@media screen and (min-width: 1039px) {
+@media screen and (max-width: 1200px) {
   .preview {
-    max-height: 515px; 
+    max-height: 620px; 
   }
 }
 
@@ -621,7 +621,7 @@ a:hover, button:hover, input[type="button"]:hover {
   }
 	
   .preview {
-    max-height: 515px; 
+    max-height: 620px; 
   }
 }
 
@@ -632,7 +632,7 @@ a:hover, button:hover, input[type="button"]:hover {
   }
 	
   .preview {
-    max-height: 630px; 
+    max-height: 735px; 
   }
 }
 
@@ -1071,7 +1071,7 @@ No longer in use
 }
 
 #speedmentForm {
-	padding: 0em 1.5em 0.5em 1.5em; 
+	padding: 0em 1.5em; 
 }
 
 .os-init-info {
