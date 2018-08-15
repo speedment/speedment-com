@@ -1013,6 +1013,7 @@ No longer in use
 }
 
 #trial .tab-row {
+    margin: 0px; 
     height: 3em;
     background: #1E2426;
 }
@@ -1024,10 +1025,11 @@ No longer in use
     font-size: 1.2em;
     font-family: "Titillium Web";
     margin-left: 3em;
-    color: white; 	
+    color: white; 
 } 
 
 #trial .title-area {
+    margin: 0px 15px; 
     background: #2D3639;
     color: white;
     padding: 0.5em 1em;
