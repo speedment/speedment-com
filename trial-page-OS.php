@@ -247,7 +247,6 @@ get_header(); ?>
                }
            });
           }
-          function updateEnterprise() {
             
           groupId.change(updateCode);
           artifactId.change(updateCode);
@@ -269,14 +268,12 @@ get_header(); ?>
               console.error('Unknown database type "' + this.value + '".');
               return;
             }
-            updateEnterprise();
             updateCode();
           });
           
           useEnums.click(updateCode);
           useSpring.click(updateCode);
           useJson.click(updateCode);
-          updateEnterprise();
           updateCode();
           
           $('#speedmentForm').submit(function(ev) {
