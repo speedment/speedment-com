@@ -603,9 +603,15 @@ a:hover, button:hover, input[type="button"]:hover {
   color: #fff;
 }
 
-@media screen and (min-width: 1039px) {
+@media screen and (min-width: 1200px) {
   .preview {
     max-height: 492px; 
+  }
+}
+
+@media screen and (min-width: 1039px) {
+  .preview {
+    max-height: 515px; 
   }
 }
 
