@@ -248,6 +248,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 .form-group-submit {
     margin: 0px; 
+    background: #1E2426; 
 }
 
 #try-for-free {
