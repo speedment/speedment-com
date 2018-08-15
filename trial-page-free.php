@@ -15,8 +15,8 @@ get_header(); ?>
     </div>
     <div class="row justify-content-center gray-area">
       <div class="col-md-6 col-sm-12 config-column">
-        <div class"row title-area">
-          <div class="col">
+        <div class"row">
+          <div class="col title-area">
             Speedment Initalizer
           </div>
         </div>
@@ -164,6 +164,13 @@ get_header(); ?>
       </div>
 
       <div class="col-md-6 col-sm-12 preview-column"> 
+        <div class"row tab-row">
+          <div class="col-1">
+          </div>
+          <div class="col-5 pom-tab">
+             pom.xml
+          </div>          
+        </div>
           <div class="tab-pane active" id="fileMaven" role="tabpanel">
             <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
