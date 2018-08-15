@@ -50,6 +50,9 @@ body{
   .preview { 
      max-height: 492px; 
   }
+  .preview-os { 
+     max-height: 460px; 
+  }
 }
 
 @media (min-width: 992px) {
@@ -606,11 +609,19 @@ a:hover, button:hover, input[type="button"]:hover {
   .preview {
     max-height: 600px; 
   }
+
+  .preview-os { 
+     max-height: 460px; 
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .preview {
     max-height: 620px; 
+  }
+ 
+  .preview-os { 
+     max-height: 497px; 
   }
 }
 
@@ -623,6 +634,10 @@ a:hover, button:hover, input[type="button"]:hover {
   .preview {
     max-height: 620px; 
   }
+	
+  .preview-os { 
+     max-height: 497px; 
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -634,11 +649,19 @@ a:hover, button:hover, input[type="button"]:hover {
   .preview {
     max-height: 735px; 
   }
+	
+  .preview-os { 
+     max-height: 593px; 
+  }
 }
 
 @media screen and (max-width: 768px) {
   .preview {
     max-height: 450px; 
+  }
+	
+  .preview-os { 
+     max-height: 450px; 
   }
 }
 
