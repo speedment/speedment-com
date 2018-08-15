@@ -1022,6 +1022,10 @@ No longer in use
     text-transform: uppercase;
 }
 
+#speedmentForm {
+	padding: 1em; 
+}
+
 /*
   Ribbon
 */
