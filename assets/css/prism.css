@@ -98,7 +98,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-	color: #5abf95;
+	color: #5abf95; /* Speedment green */ 
 }
 
 .token.operator,
@@ -113,7 +113,7 @@ pre[class*="language-"] {
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-	color: #5a98c8; /*speedment blue*/ 
+	color: #fce390; /*speedment yellow*/ 
 }
 
 .token.function {
