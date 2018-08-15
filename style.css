@@ -242,12 +242,12 @@ a:hover, button:hover, input[type="button"]:hover {
     margin-bottom: 50px;
 }
 
-#signup_form .form-group {
+.form-group {
     margin: 0;
 }
 
 #submitGroup .form-group {
-	margin-bottom: 0; 
+	margin: 0; 
 }
 
 #try-for-free {
@@ -900,7 +900,6 @@ label {
   padding: 16px 20px;
   font-family: "Titillium Web"; 
   text-transform: uppercase; 
-  margin: 0em 0.95em; 
   border-radius: 0;
 }
 
