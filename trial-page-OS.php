@@ -48,26 +48,6 @@ get_header(); ?>
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">MariaDB</span>
               </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Oracle</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">DB2</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">AS400</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">SQL Server</span>
-              </label>
             </div>
           </div>
 
@@ -122,23 +102,6 @@ get_header(); ?>
                 <input class="custom-control-input" type="checkbox" id="checkPluginJson">
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">JSON</span>
-              </label>
-            </div>
-          </div>
-
-          <!-- In-memory Acceleration -->
-          <div class="form-group row">
-            <label class="col-sm-3 col-form-label">In-memory Acceleration</label>
-            <div class="col-sm-9" id="inMemoryContainer">
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Enable</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryFalse" value="false">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Disable</span>
               </label>
             </div>
           </div>
@@ -206,7 +169,7 @@ get_header(); ?>
           var email         = $('#inputEmail');
        // var licenseKey    = $('#inputLicenseKey');
           var javaVersion   = $('input[type=radio][name=javaVersion]');
-          var inMemory      = $('input[type=radio][name=inMemory]');
+       // var inMemory      = $('input[type=radio][name=inMemory]');
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
           
           var useEnums  = $('#checkPluginEnums');
@@ -217,10 +180,7 @@ get_header(); ?>
           function prepareUrl(service) {
             var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
             var url = 'https://service.speedment.com/' + service;
-            url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
-            if ('true' == $('input[type=radio][name=inMemory]:checked').val()) {
-              url += ',virtual-columns,datastore';
-            }
+            url += '/' + selectedDbType;
             
             if (useEnums.is(':checked')) {
                 url += ',enums';
@@ -249,22 +209,11 @@ get_header(); ?>
               args['postgresqlVersion'] = driverVersion.val();
             } else if (selectedDbType === 'mariadb') {
               args['mariadbVersion'] = driverVersion.val();
-            } else if (selectedDbType === 'oracle') {
-              args['oracleVersion'] = driverVersion.val();
-            } else if (selectedDbType === 'db2') {
-              args['db2Version'] = driverVersion.val();
-            } else if (selectedDbType === 'as400') {
-              args['as400Version'] = driverVersion.val();
-            } else if (selectedDbType === 'mssql') {
-              args['sqlserverVersion'] = driverVersion.val();
-            }
+            } 
             url += '?groupId=' + encodeURIComponent(groupId.val());
             url += '&artifactId=' + encodeURIComponent(artifactId.val());
             url += '&version=' + encodeURIComponent(version.val());
-            //var key = licenseKey.val().trim();
-            //if (key) {
-            //  url += '&licenseKey=' + encodeURIComponent(key);
-            //}
+            
             return url;
           }
           function updateCode() {
@@ -299,30 +248,7 @@ get_header(); ?>
            });
           }
           function updateEnterprise() {
-            var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
-            enterpriseDb = selectedDbType === 'oracle'
-                        || selectedDbType === 'db2'
-                        || selectedDbType === 'as400'
-                        || selectedDbType === 'mssql';
-            enterprise = 'true' == $('input[type=radio][name=inMemory]:checked').val()
-                      || enterpriseDb;
-            //if (enterprise) {
-            //  $('#licenseKey').show();
-            //} else {
-            //  $('#licenseKey').hide();
-            //}
-            if (enterpriseDb) {
-              $('#helpDriverVersion').show();
-            } else {
-              $('#helpDriverVersion').hide();
-            }
-            //$('#submitGroup button[type="submit"]').disable(
-            // enterprise && !licenseKey.val().trim()
-            //);
-          }
-          $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-            updateCode();
-          });
+            
           groupId.change(updateCode);
           artifactId.change(updateCode);
           version.change(updateCode);
@@ -331,14 +257,7 @@ get_header(); ?>
           javaVersion.change(function() {
             updateCode();
           });
-          inMemory.change(function() {
-            updateEnterprise();
-            updateCode();
-          });
-          //licenseKey.change(function() {
-          //  updateEnterprise();
-          // updateCode();
-          //});
+
           dbType.change(function() {
             if        (this.value === 'mysql') {
                 driverVersion.val('5.1.46');
@@ -346,15 +265,7 @@ get_header(); ?>
                 driverVersion.val('42.2.2');
             } else if (this.value === 'mariadb') {
                 driverVersion.val('2.2.3');
-            } else if (this.value == 'oracle') {
-                driverVersion.val('12.1.0.1.0');
-            } else if (this.value === 'db2') {
-                driverVersion.val('4.21.29');
-            } else if (this.value === 'as400') {
-                driverVersion.val('9.1');
-            } else if (this.value === 'mssql') {
-                driverVersion.val('6.1.0.jre8');
-            } else {
+            } 
               console.error('Unknown database type "' + this.value + '".');
               return;
             }
@@ -367,11 +278,7 @@ get_header(); ?>
           useJson.click(updateCode);
           updateEnterprise();
           updateCode();
-          //licenseKey.keyup(function () {
-          //  $('#submitGroup button[type="submit"]').disable(
-          //    !licenseKey.val().trim()
-          //  );
-          //});
+          
           $('#speedmentForm').submit(function(ev) {
             ev.preventDefault();
             $.ajax({
@@ -425,7 +332,10 @@ get_header(); ?>
     <div class="row justify-content-center">
       <div class="col os-init-info">
         <h4>Contribute</h4>
-        <p>The Speedment Open Source project is available under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>. </br>We gladly welcome, and encourage contributions from the community. If you have something to add, need to file an issue or simply want to browse the source code, pay the project a visit on <a href="http://www.github.com/speedment/speedment" target="_blank">GitHub</a>.</p>
+        <p>The Speedment Open Source project is available under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>. 
+           We gladly welcome, and encourage contributions from the community. 
+           If you have something to add, need to file an issue or simply want to browse the source code,
+           pay the project a visit on <a href="http://www.github.com/speedment/speedment" target="_blank">GitHub</a>.</p>
       </div>
     </div>
   </div>
