@@ -586,7 +586,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #first-view-text-wrapper {
-  padding: 20px;
+  padding: 2em 0em;
 }
 
 #first-view-text-wrapper > h1,
