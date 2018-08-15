@@ -264,7 +264,7 @@ get_header(); ?>
                 driverVersion.val('42.2.2');
             } else if (this.value === 'mariadb') {
                 driverVersion.val('2.2.3');
-            } 
+            } else {
               console.error('Unknown database type "' + this.value + '".');
               return;
             }
