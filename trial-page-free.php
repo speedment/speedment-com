@@ -15,7 +15,12 @@ get_header(); ?>
     </div>
     <div class="row justify-content-center gray-area">
       <div class="col-md-6 col-sm-12 config-column">
-
+        <div class"row title-area">
+          <div class="col">
+            Speedment Initalizer
+          </div>
+        </div>
+        
         <?php /////////////////////////////////////////////////////////////// ?>
         <?php //                     Configuration Form                    // ?>
         <?php /////////////////////////////////////////////////////////////// ?>
