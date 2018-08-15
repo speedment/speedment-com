@@ -327,7 +327,7 @@ get_header(); ?>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div id="contribute" style="margin-top: 3em">
+      <div id="contribute-init">
         <div class="row">
           <div class="col lightgray">
             <h4>Contribute</h4>
