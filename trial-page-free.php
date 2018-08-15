@@ -165,7 +165,9 @@ get_header(); ?>
         </form> 
         <!-- Submit -->
         <div class="form-group-submit row" id="submitGroup">
+          <div class="col download-btn-area">
             <button type="submit" class="btn btn-primary">Download</button>
+          </div>
         </div>
       </div>
      
