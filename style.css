@@ -8,7 +8,7 @@ Version: 1.0
 License: Copyright (c) Speedment, Inc. 2018
 Tags: speedment, awesome, hashtag
 
-A nice theme.
+A nice theme
 */
 
 @import url('assets/css/bootstrap.min.css');
@@ -1031,7 +1031,7 @@ No longer in use
     margin: 0px 15px; 
     background: #2D3639;
     color: white;
-    padding: 0.5em 1em;
+    padding: 0.5em 1.5em;
     margin-bottom: 1em;
     font-family: "Titillium Web";
     font-size: 1.2em; 
@@ -1039,7 +1039,7 @@ No longer in use
 }
 
 #speedmentForm {
-	padding: 0em 1em; 
+	padding: 0em 1.5em 0.5em 1.5em; 
 }
 
 /*
