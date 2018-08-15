@@ -174,7 +174,7 @@ get_header(); ?>
           </div>          
         </div>
           <div class="tab-pane active" id="fileMaven" role="tabpanel">
-            <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
+            <pre><code class="language-xml pom-preview" class="preview" id="previewMaven"></code></pre>
           </div>
           <!-- Submit -->
           <div class="form-group row" id="submitGroup">
