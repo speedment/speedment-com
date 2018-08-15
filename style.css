@@ -1006,12 +1006,13 @@ No longer in use
 }
 
 #trial .preview-column .tab-content {
+  padding: 0px; 
   border: solid 3px #3a9b79;
   max-height: 400px; 
   overflow: auto; 
 }
 
-.title-area {
+#trial .title-area {
     background: #2D3639;
     color: white;
     padding: 0.5em 1em;
