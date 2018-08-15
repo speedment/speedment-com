@@ -170,8 +170,11 @@ get_header(); ?>
       </div>
 
       <div class="col-md-6 col-sm-12 preview-column"> 
+          <div class="tab-pane active" id="fileMaven" role="tabpanel">
+            <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
+          </div>
          <!-- License Key -->
-           <div class="form-group row" id="licenseKey" style="display:none;">
+       <!--<div class="form-group row" id="licenseKey" style="display:none;">
              <div style="overflow:hidden;position:relative;width:100%;height:100px;top:-10px;margin-bottom:-100px;margin-right:-100px;right:-2px;z-index:1;pointer-events:none;">
                <div class="cr cr-top cr-right cr-blue">Enterprise</div>
              </div>
@@ -181,10 +184,10 @@ get_header(); ?>
                  <a href="#" rel="Send me a trial" data-toggle="modal" data-target="#trialModal">Request a Free Trial License Key</a>
                </small>
                <textarea class="form-control col-12" id="inputLicenseKey" placeholder="Enter the License Key that has been sent to you"><?php
-                 if (isset($_GET['licenseKey'])) {
-                   echo $_GET['licenseKey'];
-                 }
-               ?></textarea>
+                 //if (isset($_GET['licenseKey'])) {
+                 //  echo $_GET['licenseKey'];
+                 //}
+               //?></textarea>
              </div>
            </div>
         <ul class="nav nav-tabs" role="tablist">
@@ -196,14 +199,11 @@ get_header(); ?>
           </li>
         </ul>
         <div class="tab-content">
-          <div class="tab-pane active" id="fileMaven" role="tabpanel">
-            <pre><code class="language-xml" class="preview" id="previewMaven"></code></pre>
-          </div>
           <div class="tab-pane" id="fileMain" role="tabpanel">
             <pre><code class="language-java" class="preview" id="previewMain"></code></pre>
           </div>
         </div>
-      </div>
+      </div>-->
 
       <?php ///////////////////////////////////////////////////////////////// ?>
       <?php //                      Form logic                             // ?>
