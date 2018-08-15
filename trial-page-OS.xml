@@ -424,8 +424,8 @@ get_header(); ?>
     </div>
     <div class="row justify-content-center">
       <div class="col os-init-info">
-        <h4>Looking for Speedment Open Source?</h4>
-        <p>Please visit the <a href="https://speedment.com/initializer" target="_blank">Open Source Download page</a>.</p>
+        <h4>Contribute</h4>
+        <p>The Speedment Open Source project is available under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>. </br>We gladly welcome, and encourage contributions from the community. If you have something to add, need to file an issue or simply want to browse the source code, pay the project a visit on <a href="http://www.github.com/speedment/speedment" target="_blank">GitHub</a>.</p>
       </div>
     </div>
   </div>
