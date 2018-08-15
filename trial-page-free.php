@@ -15,7 +15,7 @@ get_header(); ?>
     </div>
     <div class="row justify-content-center gray-area">
       <div class="col-md-6 col-sm-12 config-column">
-        <div class"row">
+        <div class="row">
           <div class="col title-area">
             Speedment Initalizer
           </div>
@@ -164,7 +164,7 @@ get_header(); ?>
       </div>
 
       <div class="col-md-6 col-sm-12 preview-column"> 
-        <div class"row tab-row">
+        <div class="row tab-row">
           <div class="col-1">
           </div>
           <div class="col-5 pom-tab">
