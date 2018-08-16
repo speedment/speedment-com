@@ -165,6 +165,7 @@ get_header(); ?>
         </form> 
         <!-- Submit -->
         <div class="form-group-submit row" id="submitGroup">
+          <iframe id="downloadFrame" style="display:none;"></iframe>
           <div class="col download-btn-area">
             <button type="submit" class="btn btn-primary">Download</button>
           </div>
@@ -374,6 +375,10 @@ get_header(); ?>
                 console.error('Error! Server responded with ' + status + '.');
               }
             });
+          });
+          
+          $('.download-btn-area button[type="submit"]').click(function(ev) {
+            $('#downloadFrame').attr({target: '_blank', href: prepareUrl('generate/zip')});
           });
         });
       </script>
