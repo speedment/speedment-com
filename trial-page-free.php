@@ -388,6 +388,7 @@ get_header(); ?>
             ev.preventDefault();
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'));
+            location.href = '/quick-start';
           });
         });
       </script>
