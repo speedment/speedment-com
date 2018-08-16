@@ -193,26 +193,21 @@ get_header(); ?>
             if (useJson.is(':checked')) {
                 url += ',json';
             }
-            var args = {
-              'groupId'    : groupId.val(),
-              'artifactId' : artifactId.val(),
-              'version'    : version.val(),
-              'packaging'  : 'jar'
-            };
             
-            if ($('input[type=radio][name=javaVersion]:checked').val()) {
-              args.javaVersion = $('input[type=radio][name=javaVersion]:checked').val();
-            }
-            if        (selectedDbType === 'mysql') {
-              args['mysqlVersion'] = driverVersion.val();
-            } else if (selectedDbType === 'postgresql') {
-              args['postgresqlVersion'] = driverVersion.val();
-            } else if (selectedDbType === 'mariadb') {
-              args['mariadbVersion'] = driverVersion.val();
-            } 
             url += '?groupId=' + encodeURIComponent(groupId.val());
             url += '&artifactId=' + encodeURIComponent(artifactId.val());
             url += '&version=' + encodeURIComponent(version.val());
+            
+            if ($('input[type=radio][name=javaVersion]:checked').val()) {
+              url += '&javaVersion=' + encodeURIComponent($('input[type=radio][name=javaVersion]:checked').val());
+            }
+            
+            url += '&jdbcVersion=' + encodeURIComponent(driverVersion.val());
+            
+            var key = licenseKey.val().trim();
+            if (key) {
+              url += '&licenseKey=' + encodeURIComponent(key);
+            }
             
             return url;
           }
