@@ -390,7 +390,7 @@ get_header(); ?>
             downloadURI(prepareUrl('generate/zip'));
             setTimeout(function() {
               location.href = '/quick-start';
-            }, 3000);
+            }, 1000);
           });
         });
       </script>
