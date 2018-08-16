@@ -377,10 +377,17 @@ get_header(); ?>
             });
           });
           
+          function downloadURI(uri, name) {
+            var link = document.createElement("a");
+            link.download = name;
+            link.href = uri;
+            link.click();
+          }
+          
           $('#downloadBtn').click(function(ev) {
-            console.log('Downloading .zip-file.');
-            $('#downloadFrame').attr({target: '_blank', href: prepareUrl('generate/zip')});
             ev.preventDefault();
+            console.log('Downloading .zip-file.');
+            downloadURI(prepareUrl('generate/zip'));
           });
         });
       </script>
