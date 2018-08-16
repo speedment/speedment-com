@@ -129,7 +129,7 @@ get_header(); ?>
         <!-- Submit -->
         <div class="form-group-submit row" id="submitGroup">
           <div class="col download-btn-area">
-            <button type="submit" class="btn btn-primary">Download</button>
+            <button type="submit" class="btn btn-primary" id="downloadBtn">Download</button>
           </div>
         </div>
       </div>
@@ -289,6 +289,22 @@ get_header(); ?>
                 console.error('Error! Server responded with ' + status + '.');
               }
             });
+          });
+          
+          function downloadURI(uri, name) {
+            var link = document.createElement("a");
+            link.download = name;
+            link.href = uri;
+            link.click();
+          }
+          
+          $('#downloadBtn').click(function(ev) {
+            ev.preventDefault();
+            console.log('Downloading .zip-file.');
+            downloadURI(prepareUrl('generate/zip'));
+            setTimeout(function() {
+              location.href = '/quick-start';
+            }, 1000);
           });
         });
       </script>
