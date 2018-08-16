@@ -167,7 +167,7 @@ get_header(); ?>
         <div class="form-group-submit row" id="submitGroup">
           <iframe id="downloadFrame" style="display:none;"></iframe>
           <div class="col download-btn-area">
-            <button type="submit" class="btn btn-primary">Download</button>
+            <button type="submit" class="btn btn-primary" id="downloadBtn">Download</button>
           </div>
         </div>
       </div>
@@ -377,7 +377,8 @@ get_header(); ?>
             });
           });
           
-          $('.download-btn-area button[type="submit"]').click(function(ev) {
+          $('#downloadBtn').click(function(ev) {
+            console.log('Downloading .zip-file.');
             $('#downloadFrame').attr({target: '_blank', href: prepareUrl('generate/zip')});
             ev.preventDefault();
           });
