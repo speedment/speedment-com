@@ -379,6 +379,7 @@ get_header(); ?>
           
           $('.download-btn-area button[type="submit"]').click(function(ev) {
             $('#downloadFrame').attr({target: '_blank', href: prepareUrl('generate/zip')});
+            ev.preventDefault();
           });
         });
       </script>
