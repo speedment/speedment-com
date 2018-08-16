@@ -7,7 +7,7 @@
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-7 p-3 pl-5 pull-lg-2
+          <div class="col-lg-7 px-5 pull-lg-2
                       col-md-8 pull-md-1
                       col-sm-9 pull-sm-0" id="first-view-text-wrapper">
             <h1><?php echo get_bloginfo('description'); ?></h1>
