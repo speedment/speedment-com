@@ -956,6 +956,13 @@ label {
   border: none; 
 }
 
+#trial > .container > .row.gray-area-oss {
+  background: #f5f5f5;
+  border-radius: 5px;
+  border: none; 
+  padding: 1em 1em 1em 0em;
+}
+
 #trial .form-check {
   padding: 8px;
   margin-left: 0px;
