@@ -219,7 +219,7 @@ get_header(); ?>
             var url = 'https://service.speedment.com/' + service;
             url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
             if ('true' == $('input[type=radio][name=inMemory]:checked').val()) {
-              url += ',virtual-columns,datastore';
+              url += ',datastore';
             }
             
             if (useEnums.is(':checked')) {
