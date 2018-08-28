@@ -244,10 +244,7 @@ get_header(); ?>
             
             url += '&jdbcVersion=' + encodeURIComponent(driverVersion.val());
             
-            //var key = licenseKey.val().trim();
-            //if (key) {
-            //  url += '&licenseKey=' + encodeURIComponent(key);
-            //}
+            url += '&enterprise=true'; 
             
             return url;
           }
