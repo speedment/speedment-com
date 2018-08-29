@@ -94,11 +94,6 @@ get_header(); ?>
                 <span class="custom-control-description">Enums</span>
               </label>
               <label class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="checkPluginSpring">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Spring</span>
-              </label>
-              <label class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="checkPluginJson">
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">JSON</span>
@@ -173,7 +168,6 @@ get_header(); ?>
           var dbType        = $('input[type=radio][name=radioDatabaseType]');
           
           var useEnums  = $('#checkPluginEnums');
-          var useSpring = $('#checkPluginSpring');
           var useJson   = $('#checkPluginJson');
           var enterprise   = false;
           var enterpriseDb = false;
@@ -184,10 +178,6 @@ get_header(); ?>
             
             if (useEnums.is(':checked')) {
                 url += ',enums';
-            }
-            
-            if (useSpring.is(':checked')) {
-                url += ',spring';
             }
             
             if (useJson.is(':checked')) {
@@ -267,7 +257,6 @@ get_header(); ?>
           });
           
           useEnums.click(updateCode);
-          useSpring.click(updateCode);
           useJson.click(updateCode);
           updateCode();
           
