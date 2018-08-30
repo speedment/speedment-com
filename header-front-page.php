@@ -13,7 +13,7 @@
             <h1><?php echo get_bloginfo('description'); ?></h1>
               <div class="row">
                 <div class="col" id="first-view-button-area">
-                  <a href="http://speedment.com/initializer?tryForFree" class="btn btn-primary">Try For Free</a>
+                  <a href="http://speedment.com/initializer" class="btn btn-primary">Try For Free</a>
                 </div>
               </div>
             <form class="lead" id="leadForm" action="#">
