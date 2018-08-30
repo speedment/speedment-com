@@ -70,15 +70,15 @@
 #pricelist .btn-green {
 	background: #5ABF95;
 	border-color: #5ABF95;
-	vertical-align: -6.6em; 
+	vertical-align: -5.4em; 
 }
 
 #pricelist .btn-dev {
-	vertical-align: -10em; 
+	vertical-align: -8.8em; 
 }
 
 #pricelist .btn-ent {
-	vertical-align: -3.3em; 
+	vertical-align: -0.8em; 
 }
 
 #pricelist .btn-gray {
@@ -157,7 +157,7 @@
   }
 
   #pricelist .lightgray {
-	  max-height: 368px; 
+     max-height: 368px; 
   }
 	
   .quote { 
@@ -181,8 +181,26 @@
         }
 
         #pricelist .btn-gray {
+	  vertical-align: -5em; 
+        }  
+	
+	#pricelist .btn-green {
+		vertical-align: -5.4em; 
+	}
+	
+	#pricelist .btn-ent {
+		vertical-align: -0.8em; 
+	}
+}
+
+@media screen and (max-width: 768px) {	
+        #pricelist .btn-gray {
 	  vertical-align: -3.6em; 
         }  
+	
+	#pricelist .btn-green {
+		vertical-align: -6.7em; 
+	}
 }
 
 @media screen and (max-width: 480px) {
