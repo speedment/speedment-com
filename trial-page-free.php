@@ -9,7 +9,7 @@ get_header(); ?>
 <div class="justify-content-center" id="trial">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col" style="text-align: center; font-size: 1.5em">
+      <div class="col" style="text-align: left; font-size: 1.5em">
          Fill in your project details to get started.
       </div>
     </div>
