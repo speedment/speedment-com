@@ -9,10 +9,8 @@ get_header(); ?>
 <div class="justify-content-center" id="trial">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col">
-        <p>The Initializer makes it easy to setup a new Speedment project with Maven. Fill in your project details and see the configuration change in real time. 
-          
-          Just send us a request and you will <a href="#" data-toggle="modal" data-target="#trialModal">get a 30 days free trial license</a>!</p>
+      <div class="col" style="text-align: center; font-size: 1.5em; margin-bottom: 1em">
+         Fill in your project details to get started.
       </div>
     </div>
     <div class="row justify-content-center gray-area">
