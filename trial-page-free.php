@@ -418,9 +418,10 @@ get_header(); ?>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col os-init-info">
-        <h4>Looking for Speedment Open Source?</h4>
-        <p>Please visit the <a href="https://speedment.com/oss-download" target="_blank">Open Source Download page</a>.</p>
+      <div class="col os-init-info" style="text-align: left">
+        <p>The initializer above can be used to initiate your commercial or trial projects. 
+          If you want to start an open source project, which only works for open source databases and has <a href="https://speedment.com/pricing" target="_blank">limited functionality</a>, 
+          please visit the <a href="https://speedment.com/oss-download" target="_blank">Open Source Download page</a>.</p>
       </div>
     </div>
   </div>
