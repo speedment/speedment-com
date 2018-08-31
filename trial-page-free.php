@@ -10,7 +10,7 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col" style="text-align: left; font-size: 1.5em">
-         Fill in your project details to get started.
+         Fill in your project details to get start your free, commercial or trial project.
       </div>
     </div>
     <div class="row justify-content-center gray-area">
@@ -419,7 +419,7 @@ get_header(); ?>
     </div>
     <div class="row justify-content-center">
       <div class="col os-init-info" style="text-align: left">
-        <p>The initializer above can be used to initiate your commercial or trial projects. 
+        <p>The initializer above can be used to initiate your free, commercial or trial projects. 
           If you want to start an open source project, which only works for open source databases and has <a href="https://speedment.com/pricing#compare-plans" target="_blank">limited functionality</a>, 
           please visit the <a href="https://speedment.com/oss-download" target="_blank">Open Source Download page</a>.</p>
       </div>
