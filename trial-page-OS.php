@@ -9,17 +9,15 @@ get_header(); ?>
 <div class="justify-content-center" id="trial">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col">
-        <p>The Initializer makes it easy to setup a new Speedment project with Maven. Fill in your project details and see the configuration change in real time. 
-          
-          Just send us a request and you will <a href="#" data-toggle="modal" data-target="#trialModal">get a 30 days free trial license</a>!</p>
+      <div class="col" style="font-size: 1.5em">
+         Fill in your project details to start your open source project.
       </div>
     </div>
     <div class="row justify-content-center gray-area">
       <div class="col-md-6 col-sm-12 config-column">
         <div class="row">
           <div class="col title-area">
-            Speedment OS Initalizer
+            Speedment OSS Initalizer
           </div>
         </div>
         
