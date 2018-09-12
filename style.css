@@ -1168,8 +1168,8 @@ label {
 
 /* common */
 .ribbon {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   overflow: hidden;
   position: absolute;
 }
@@ -1179,19 +1179,19 @@ label {
   z-index: -1;
   content: '';
   display: block;
-  border: 5px solid #2980b9;
+  border: 5px solid #3a9b79;
 }
 .ribbon span {
   position: absolute;
   display: block;
   width: 225px;
-  padding: 15px 0;
-  background-color: #3498db;
+  padding: 10px 0;
+  background-color: #59bf95;
   box-shadow: 0 5px 10px rgba(0,0,0,.1);
   color: #fff;
-  font: 700 18px/1 'Lato', sans-serif;
+  font: 700 15px/1 "Titillium Web", sans-serif;
   text-shadow: 0 1px 1px rgba(0,0,0,.2);
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
 }
 
@@ -1214,7 +1214,7 @@ label {
   right: 0;
 }
 .ribbon-top-right span {
-  left: -25px;
+  left: -40px;
   top: 30px;
   transform: rotate(45deg);
 }
