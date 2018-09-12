@@ -1129,15 +1129,16 @@ label {
 }
 
 /*
-  Ribbon
+  Ribbon in Pricelist
 */
 .cr {
   width: 200px;
   padding: 8px 0px 4px 0px;
   position: absolute;
   text-align: center;
-  color: #f0f0f0;
+  color: white;
   font-size: 80%;
+  font-family: "Titillium Web"; 
 }
 
 .cr-sticky {
@@ -1146,8 +1147,8 @@ label {
 
 /* Positions */
 
-.cr-top    { top: 15px; }
-.cr-right  { right: -70px; }
+.cr-top    { top: 30px; }
+.cr-right  { right: -55px; }
 
 /* Rotations */
 
@@ -1160,6 +1161,10 @@ label {
 .cr-bottom.cr-left {
   transform: rotate(45deg);
 }
+
+#trial-ribbon a {
+	font-color: white; 
+} 
 
 /* Colors */
 .cr-blue      {
