@@ -1173,6 +1173,10 @@ label {
   overflow: hidden;
   position: absolute;
 }
+.ribbon a {
+	color: white;
+} 
+
 .ribbon::before,
 .ribbon::after {
   position: absolute;
