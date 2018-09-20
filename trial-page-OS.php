@@ -287,11 +287,12 @@ get_header(); ?>
           
           $('#downloadBtn').click(function(ev) {
             ev.preventDefault();
+            $('#downloadBtn').prop('disabled', true);
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'));
             setTimeout(function() {
               location.href = '/quick-start#oss';
-            }, 1000);
+            }, 2000);
           });
         });
       </script>
