@@ -388,12 +388,19 @@ get_header(); ?>
               $.ajax({
                 url: '/quick-start',
                 success: function(data) {
-                  console.log(data);
-                  var doc = $(data);
-                  console.log(doc.find('#first-view-text-wrapper'));
-                  console.log(doc.find('#requirements'));
-                  $("#first-view-text-wrapper").html(doc.find('#first-view-text-wrapper').html());
-                  $("#trial").html(doc.find('#requirements').html());
+                  var starts = content.indexOf("<body");
+                  starts = content.indexOf(">", starts) + 1;    
+                  var ends = content.lastIndexOf("</body>"); 
+                  var body = content.slice(starts, ends);
+                  
+                  $('body').html(body);
+                  
+                  //console.log(data);
+                  //var doc = $(data);
+                  //console.log(doc.find('#first-view-text-wrapper'));
+                  //console.log(doc.find('#requirements'));
+                  //$("#first-view-text-wrapper").html(doc.find('#first-view-text-wrapper').html());
+                  //$("#trial").html(doc.find('#requirements').html());
                 }
               });
             //}, 2000);
