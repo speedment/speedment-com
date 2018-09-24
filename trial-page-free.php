@@ -384,7 +384,13 @@ get_header(); ?>
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'));
             setTimeout(function() {
-              location.href = '/quick-start';
+              //location.href = '/quick-start';
+              $.ajax({
+                url: '/quick-start',
+                success: function(data) {
+                  $("#trial").html(data);
+                }
+              });
             }, 2000);
           });
         });
