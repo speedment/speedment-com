@@ -383,27 +383,16 @@ get_header(); ?>
             $('#downloadBtn').prop('disabled', true);
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'));
-            //setTimeout(function() {
-              //location.href = '/quick-start';
-              $.ajax({
-                url: '/quick-start',
-                success: function(data) {
-                  var starts = data.indexOf("<body");
-                  starts = data.indexOf(">", starts) + 1;    
-                  var ends = data.lastIndexOf("</body>"); 
-                  var body = data.slice(starts, ends);
-                  
-                  $('body').html(body);
-                  
-                  //console.log(data);
-                  //var doc = $(data);
-                  //console.log(doc.find('#first-view-text-wrapper'));
-                  //console.log(doc.find('#requirements'));
-                  //$("#first-view-text-wrapper").html(doc.find('#first-view-text-wrapper').html());
-                  //$("#trial").html(doc.find('#requirements').html());
-                }
-              });
-            //}, 2000);
+            $.ajax({
+              url: '/quick-start',
+              success: function(data) {
+                var starts = data.indexOf("<body");
+                starts = data.indexOf(">", starts) + 1;    
+                var ends = data.lastIndexOf("</body>"); 
+                var body = data.slice(starts, ends);
+                $('body').html(body);
+              }
+            });
           });
         });
       </script>
