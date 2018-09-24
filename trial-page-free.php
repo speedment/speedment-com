@@ -392,8 +392,8 @@ get_header(); ?>
                   console.log(doc);
                   console.log(doc.find('#first-view-text-wrapper'));
                   console.log(doc.find('#defaultPage'));
-                  $("#first-view-text-wrapper").html(doc.find('#first-view-text-wrapper'));
-                  $("#defaultPage").html(doc.find('#defaultPage'));
+                  $("#first-view-text-wrapper").html(doc.find('#first-view-text-wrapper').html());
+                  $("#trial").html(doc.find('#defaultPage').html());
                 }
               });
             //}, 2000);
