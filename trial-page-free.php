@@ -388,10 +388,10 @@ get_header(); ?>
               $.ajax({
                 url: '/quick-start',
                 success: function(data) {
-                  var starts = content.indexOf("<body");
-                  starts = content.indexOf(">", starts) + 1;    
-                  var ends = content.lastIndexOf("</body>"); 
-                  var body = content.slice(starts, ends);
+                  var starts = data.indexOf("<body");
+                  starts = data.indexOf(">", starts) + 1;    
+                  var ends = data.lastIndexOf("</body>"); 
+                  var body = data.slice(starts, ends);
                   
                   $('body').html(body);
                   
