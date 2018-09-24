@@ -391,9 +391,9 @@ get_header(); ?>
                   console.log(data);
                   var doc = $(data);
                   console.log(doc.find('#first-view-text-wrapper'));
-                  console.log(doc.find('#defaultPage'));
+                  console.log(doc.find('#requirements'));
                   $("#first-view-text-wrapper").html(doc.find('#first-view-text-wrapper').html());
-                  $("#trial").html(doc.find('#defaultPage').html());
+                  $("#trial").html(doc.find('#requirements').html());
                 }
               });
             //}, 2000);
