@@ -383,15 +383,17 @@ get_header(); ?>
             $('#downloadBtn').prop('disabled', true);
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'));
-            setTimeout(function() {
+            //setTimeout(function() {
               //location.href = '/quick-start';
               $.ajax({
                 url: '/quick-start',
                 success: function(data) {
-                  $("#trial").html(data);
+                  var doc = $(data);
+                  $("#first-view-text-wrapper").html(doc.find('#first-view-text-wrapper'));
+                  $("#defaultPage").html(doc.find('#defaultPage'));
                 }
               });
-            }, 2000);
+            //}, 2000);
           });
         });
       </script>
