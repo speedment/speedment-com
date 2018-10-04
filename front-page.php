@@ -67,10 +67,10 @@
         <div class="col">
           <h3>Initializer</h3>
           <p><?php echo get_theme_mod('front_page_guides_text'); ?></p>
-          <a href="<?php echo get_permalink(22); ?>" rel="Initializer">Start the Initializer <i class="fa fa-arrow-right"></i></a>
+          <a href="https://www.speedment.com/initializer/" rel="Initializer">Start the Initializer <i class="fa fa-arrow-right"></i></a>
         </div>
         <div class="col-md-auto hidden-sm-down">
-          <a href="<?php echo get_permalink(22); ?>" rel="Initializer">
+          <a href="https://www.speedment.com/initializer/" rel="Initializer">
             <i class="fa fa-gamepad"></i>
           </a>
         </div>
@@ -126,7 +126,7 @@
         Thank You for signing up! We have created an online initializer to help you get started.
       </div>
       <div class="modal-footer">
-        <a type="button" class="btn btn-primary" href="<?php echo get_permalink(22); ?>" rel="Initializer">Start the Initializer</a>
+        <a type="button" class="btn btn-primary" href="https://www.speedment.com/initializer/" rel="Initializer">Start the Initializer</a>
       </div>
     </div>
   </div>
