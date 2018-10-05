@@ -375,7 +375,7 @@ get_header(); ?>
             var link = $('<a href="' + uri + '" download="' + name + '"/>');
             $('body').append(link);
             link.click();
-            $('body').remove(link);
+            link.remove();
           }
           
           $('#downloadBtn').click(function(ev) {
