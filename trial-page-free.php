@@ -372,10 +372,21 @@ get_header(); ?>
           });
           
           function downloadURI(uri, name) {
-            var link = $('<a href="' + uri + '" download="' + name + '"/>');
-            $('body').append(link);
-            link.click();
-            link.remove();
+            $.ajax({
+              url: uri,
+              method: 'GET',
+              xhrFields: {
+                responseType: 'blob'
+              },
+              success: function (data) {
+                var a = document.createElement('a');
+                var url = window.URL.createObjectURL(data);
+                a.href = url;
+                a.download = name;
+                a.click();
+                window.URL.revokeObjectURL(url);
+              }
+            });
           }
           
           $('#downloadBtn').click(function(ev) {
