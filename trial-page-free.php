@@ -372,10 +372,7 @@ get_header(); ?>
           });
           
           function downloadURI(uri, name) {
-            var link = document.createElement("a");
-            link.download = name;
-            link.href = uri;
-            link.click();
+            $('<a href="' + uri + '" download="' + name + '"/>').click();
           }
           
           $('#downloadBtn').click(function(ev) {
