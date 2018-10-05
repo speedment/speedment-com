@@ -373,7 +373,7 @@ get_header(); ?>
           
           function downloadURI(uri, name) {
             var link = document.createElement("a");
-            document.getElementById('#speedmentForm').append(link);
+            document.getElementById('speedmentForm').append(link);
             link.download = name;
             link.href = uri;
             link.click();
