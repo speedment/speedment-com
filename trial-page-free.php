@@ -372,21 +372,10 @@ get_header(); ?>
           });
           
           function downloadURI(uri, name) {
-            $.ajax({
-              url: uri,
-              method: 'GET',
-              xhrFields: {
-                responseType: 'blob'
-              },
-              success: function (data) {
-                var a = document.createElement('a');
-                var url = window.URL.createObjectURL(data);
-                a.href = url;
-                a.download = name;
-                a.click();
-                window.URL.revokeObjectURL(url);
-              }
-            });
+            var link = document.createElement("a");
+            link.download = name;
+            link.href = uri;
+            link.click();
           }
           
           $('#downloadBtn').click(function(ev) {
