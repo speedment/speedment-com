@@ -373,9 +373,11 @@ get_header(); ?>
           
           function downloadURI(uri, name) {
             var link = document.createElement("a");
+            document.getElementById('#speedmentForm').append(link);
             link.download = name;
             link.href = uri;
             link.click();
+            link.remove();
           }
           
           $('#downloadBtn').click(function(ev) {
