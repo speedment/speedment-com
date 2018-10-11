@@ -384,7 +384,7 @@ get_header(); ?>
             ev.preventDefault();
             $('#downloadBtn').prop('disabled', true);
             console.log('Downloading .zip-file.');
-            downloadURI(prepareUrl('generate/zip'));
+            downloadURI(prepareUrl('generate/zip'), artifactId.val() + '.zip');
             $.ajax({
               url: '/quick-start',
               success: function(data) {
