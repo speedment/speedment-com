@@ -389,6 +389,7 @@ get_header(); ?>
               url: '/quick-start/',
               xhrFields: { withCredentials: true },
               success: function(data) {
+                console.log('Show quick-start');
                 var starts = data.indexOf("<body");
                 starts = data.indexOf(">", starts) + 1;    
                 var ends = data.lastIndexOf("</body>"); 
