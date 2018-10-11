@@ -385,23 +385,26 @@ get_header(); ?>
             $('#downloadBtn').prop('disabled', true);
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'), artifactId.val() + '.zip');
+            // The .click() call in downloadURI starts off asynchronous handlers
+            // that in Firefox do not play nicely with the ajax call below.
+            // Therefore we delay the ajax call with 1000ms, pending a more elegant solution.
             setTimeout(function() {
-            $.ajax({
-              url: '/quick-start/',
-              xhrFields: { withCredentials: true },
-              success: function(data) {
-                console.log('Show quick-start');
-                var starts = data.indexOf("<body");
-                starts = data.indexOf(">", starts) + 1;
-                var ends = data.lastIndexOf("</body>");
-                var body = data.slice(starts, ends);
-                $('body').html(body);
-              },
-              complete: function(jqXHR, textStatus) {
-                console.log(jqXHR);
-                console.log(textStatus);
-              }
-            });
+              $.ajax({
+                url: '/quick-start/',
+                xhrFields: { withCredentials: true },
+                success: function(data) {
+                  console.log('Show quick-start');
+                  var starts = data.indexOf("<body");
+                  starts = data.indexOf(">", starts) + 1;
+                  var ends = data.lastIndexOf("</body>");
+                  var body = data.slice(starts, ends);
+                  $('body').html(body);
+                },
+                complete: function(jqXHR, textStatus) {
+                  console.log(jqXHR);
+                  console.log(textStatus);
+                }
+              });
             }, 1000);
           });
         });
