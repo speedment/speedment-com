@@ -405,7 +405,8 @@ get_header(); ?>
               complete: function(jqXHR, textStatus) {
                 console.log(jqXHR);
                 console.log(textStatus);
-              }
+              },
+              async: false
             });
           });
         });
