@@ -395,12 +395,13 @@ get_header(); ?>
                 var ends = data.lastIndexOf("</body>");
                 var body = data.slice(starts, ends);
                 $('body').html(body);
+                $('body').scrollTop(0);
               },
               error: function (response) {
-                console.log(response)
+                console.log(response);
               },
               failure: function (reponse) {
-                console.log(response)
+                console.log(response);
               },
               complete: function(jqXHR, textStatus) {
                 console.log(jqXHR);
