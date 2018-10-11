@@ -377,7 +377,7 @@ get_header(); ?>
             link.download = name;
             link.href = uri;
             link.click();
-            link.remove();
+            //link.remove();
           }
           
           $('#downloadBtn').click(function(ev) {
@@ -396,17 +396,10 @@ get_header(); ?>
                 var body = data.slice(starts, ends);
                 $('body').html(body);
               },
-              error: function (response) {
-                console.log(response);
-              },
-              failure: function (reponse) {
-                console.log(response);
-              },
               complete: function(jqXHR, textStatus) {
                 console.log(jqXHR);
                 console.log(textStatus);
-              },
-              async: false
+              }
             });
           });
         });
