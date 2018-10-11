@@ -387,7 +387,7 @@ get_header(); ?>
             downloadURI(prepareUrl('generate/zip'), artifactId.val() + '.zip');
             // The .click() call in downloadURI starts off asynchronous handlers
             // that in Firefox do not play nicely with the ajax call below.
-            // Therefore we delay the ajax call with 1000ms, pending a more elegant solution.
+            // Therefore we delay the ajax call with 2000ms, pending a more elegant solution.
             setTimeout(function() {
               $.ajax({
                 url: '/quick-start/',
@@ -405,7 +405,7 @@ get_header(); ?>
                   console.log(textStatus);
                 }
               });
-            }, 1000);
+            }, 2000);
           });
         });
       </script>
