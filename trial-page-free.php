@@ -386,7 +386,7 @@ get_header(); ?>
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'), artifactId.val() + '.zip');
             $.ajax({
-              url: '/quick-start',
+              url: '/quick-start/',
               success: function(data) {
                 var starts = data.indexOf("<body");
                 starts = data.indexOf(">", starts) + 1;    
