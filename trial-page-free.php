@@ -385,6 +385,7 @@ get_header(); ?>
             $('#downloadBtn').prop('disabled', true);
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'), artifactId.val() + '.zip');
+            $.delay(2000)
             $.ajax({
               url: '/quick-start/',
               xhrFields: { withCredentials: true },
