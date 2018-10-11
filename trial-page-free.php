@@ -390,7 +390,11 @@ get_header(); ?>
               xhrFields: { withCredentials: true },
               success: function(data) {
                 console.log('Show quick-start');
-                $('body').html($("body", data));
+                var starts = data.indexOf("<body");
+                starts = data.indexOf(">", starts) + 1;
+                var ends = data.lastIndexOf("</body>");
+                var body = data.slice(starts, ends);
+                $('body').html(body);
               },
               error: function (response) {
                 console.log(response)
