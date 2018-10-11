@@ -396,6 +396,12 @@ get_header(); ?>
                 var body = data.slice(starts, ends);
                 $('body').html(body);
               },
+              error: function (response) {
+                console.log(response)
+              },
+              failure: function (reponse) {
+                console.log(response)
+              },
               complete: function(jqXHR, textStatus) {
                 console.log(jqXHR);
                 console.log(textStatus);
