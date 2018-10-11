@@ -387,6 +387,7 @@ get_header(); ?>
             downloadURI(prepareUrl('generate/zip'), artifactId.val() + '.zip');
             $.ajax({
               url: 'https://www.speedment.com/quick-start/',
+              xhrFields: { withCredentials: true },
               success: function(data) {
                 var starts = data.indexOf("<body");
                 starts = data.indexOf(">", starts) + 1;    
