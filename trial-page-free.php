@@ -377,7 +377,7 @@ get_header(); ?>
             link.download = name;
             link.href = uri;
             link.click();
-            //link.remove();
+            link.remove();
           }
           
           $('#downloadBtn').click(function(ev) {
@@ -385,6 +385,7 @@ get_header(); ?>
             $('#downloadBtn').prop('disabled', true);
             console.log('Downloading .zip-file.');
             downloadURI(prepareUrl('generate/zip'), artifactId.val() + '.zip');
+            setTimeout(function() {
             $.ajax({
               url: '/quick-start/',
               xhrFields: { withCredentials: true },
@@ -401,6 +402,7 @@ get_header(); ?>
                 console.log(textStatus);
               }
             });
+            }, 1000);
           });
         });
       </script>
