@@ -395,6 +395,10 @@ get_header(); ?>
                 var ends = data.lastIndexOf("</body>"); 
                 var body = data.slice(starts, ends);
                 $('body').html(body);
+              },
+              complete: function(jqXHR, textStatus) {
+                console.log(jqXHR);
+                console.log(textStatus);
               }
             });
           });
