@@ -389,6 +389,7 @@ get_header(); ?>
             // that in Firefox do not play nicely with the ajax call below.
             // Therefore we delay the ajax call with 2000ms, pending a more elegant solution.
             setTimeout(function() {
+              // Needed to get proper statistics, this rewrites the url without triggering reload
               history.pushState('Speedment Download', 'download', '/quick-start/');
               $.ajax({
                 url: '/quick-start/',
