@@ -215,7 +215,8 @@ get_header(); ?>
           function prepareUrl(service) {
             var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
             var url = 'https://service.speedment.com/' + service;
-            url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
+            // url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
+            url += '/' + selectedDbType;
             if ('true' == $('input[type=radio][name=inMemory]:checked').val()) {
               url += ',datastore';
             }
