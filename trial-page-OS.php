@@ -291,18 +291,31 @@ get_header(); ?>
             ev.preventDefault();
             $('#downloadBtn').prop('disabled', true);
             console.log('Downloading .zip-file.');
-            downloadURI(prepareUrl('generate/zip'));
-
-            $.ajax({
-              url: '/quick-start#oss',
-              success: function(data) {
-                var starts = data.indexOf("<body");
-                starts = data.indexOf(">", starts) + 1;    
-                var ends = data.lastIndexOf("</body>"); 
-                var body = data.slice(starts, ends);
-                $('body').html(body);
-              }
-            });
+            downloadURI(prepareUrl('generate/zip'), artifactId.val() + '.zip');
+            // The .click() call in downloadURI starts off asynchronous handlers
+            // that in Firefox do not play nicely with the ajax call below.
+            // Therefore we delay the ajax call with 2000ms, pending a more elegant solution.
+            setTimeout(function() {
+              $(document).scrollTop(0);
+              // Needed to get proper statistics, this rewrites the url without triggering reload
+              history.pushState('Speedment Download', 'download', '/quick-start#oss');
+              $.ajax({
+                url: '/quick-start/',
+                xhrFields: { withCredentials: true },
+                success: function(data) {
+                  console.log('Show quick-start');
+                  var starts = data.indexOf("<body");
+                  starts = data.indexOf(">", starts) + 1;
+                  var ends = data.lastIndexOf("</body>");
+                  var body = data.slice(starts, ends);
+                  $('body').html(body);
+                },
+                complete: function(jqXHR, textStatus) {
+                  console.log(jqXHR);
+                  console.log(textStatus);
+                }
+              });
+            }, 2000);
           });
         });
       </script>
