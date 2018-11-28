@@ -79,6 +79,11 @@ get_header(); ?>
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">Java 10</span>
               </label>
+              <label class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava11" value="11">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Java 11</span>
+              </label>
             </div>
           </div>
           
