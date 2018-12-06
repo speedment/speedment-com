@@ -10,7 +10,7 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col" style="text-align: left; font-size: 1.5em">
-         Use the Initializer to configure your project. Once the tool is launched you will be able to choose between free, commercial or trial project. 
+         Use the Initializer to configure your project. Once launching the tool you can choose between a free, commercial or trial license. 
       </div>
     </div>
     <div class="row justify-content-center gray-area">
