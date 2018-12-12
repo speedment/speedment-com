@@ -326,11 +326,11 @@ get_header(); ?>
           //});
           dbType.change(function() {
             if        (this.value === 'mysql') {
-                driverVersion.val('5.1.46');
+                driverVersion.val('8.0.13');
             } else if (this.value === 'postgresql') {
-                driverVersion.val('42.2.2');
+                driverVersion.val('42.2.5');
             } else if (this.value === 'mariadb') {
-                driverVersion.val('2.2.3');
+                driverVersion.val('2.3.0');
             } else if (this.value == 'oracle') {
                 driverVersion.val('12.1.0.1.0');
             } else if (this.value === 'db2') {
@@ -338,7 +338,7 @@ get_header(); ?>
             } else if (this.value === 'as400') {
                 driverVersion.val('9.1');
             } else if (this.value === 'mssql') {
-                driverVersion.val('6.1.0.jre8');
+                driverVersion.val('7.0.0.jre8');
             } else {
               console.error('Unknown database type "' + this.value + '".');
               return;
