@@ -247,11 +247,11 @@ get_header(); ?>
 
           dbType.change(function() {
             if        (this.value === 'mysql') {
-                driverVersion.val('5.1.46');
+                driverVersion.val('8.0.13');
             } else if (this.value === 'postgresql') {
-                driverVersion.val('42.2.2');
+                driverVersion.val('42.2.5');
             } else if (this.value === 'mariadb') {
-                driverVersion.val('2.2.3');
+                driverVersion.val('2.3.0');
             } else {
               console.error('Unknown database type "' + this.value + '".');
               return;
