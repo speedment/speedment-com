@@ -296,7 +296,7 @@ get_header(); ?>
             //} else {
             //  $('#licenseKey').hide();
             //}
-            if (enterpriseDb && !selectedDbType === 'mssql') {
+            if (enterpriseDb && !(selectedDbType === 'mssql')) {
               $('#helpDriverVersion').show();
             } else {
               $('#helpDriverVersion').hide();
