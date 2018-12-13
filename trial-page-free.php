@@ -450,8 +450,8 @@ get_header(); ?>
     <div class="row justify-content-center">
       <div class="col os-init-info" style="text-align: left">
         <p>The initializer above can be used to initiate your free, commercial or trial projects. 
-          If you want to start an open source project, which only works for open source databases and has <a href="https://speedment.com/pricing#compare-plans" target="_blank">limited functionality</a>, 
-          please visit the <a href="https://speedment.com/oss-download" target="_blank">Open Source Download page</a>.</p>
+          If you want to start an open source project, which works for open source databases and has complete ORM-functionality but does not include the In-JVM-Memory DataStore.
+          please visit the <a href="https://speedment.com/oss-download" target="_blank">Open Source Download page</a>.</p> Compare license plans <a href="https://speedment.com/pricing#compare-plans" target="_blank">here</a>, 
       </div>
     </div>
   </div>
