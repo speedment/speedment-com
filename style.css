@@ -1291,6 +1291,7 @@ label {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
+    text-color: white; 
     cursor: pointer;
     cursor: hand;
     transition: all .3s ease;
