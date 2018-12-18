@@ -1275,7 +1275,7 @@ label {
 	z-index: 1000;
 }
 
-.gitter-open-chat-button {
+.js-gitter-toggle-chat-button {
     z-index: 100;
     position: fixed;
     bottom: 0;
