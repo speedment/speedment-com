@@ -1274,3 +1274,24 @@ label {
 .gitter-chat-embed {
 	z-index: 1000;
 }
+
+.gitter-open-chat-button {
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    right: 2em;
+    padding: 0.7em 1.5em;
+    background-color: #3a9b79;
+    border: 0;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    font-family: 'Titillium Web';
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    cursor: hand;
+    transition: all .3s ease;
+}
