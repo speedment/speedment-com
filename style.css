@@ -1268,3 +1268,9 @@ label {
 .StripeElement .InputElement {
   color: #464a4c;
 }
+
+/*Gitter Chat*/ 
+
+.gitter-chat-embed {
+	z-index: 1000;
+}
