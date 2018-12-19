@@ -22,6 +22,14 @@
 
     wp_head();
   ?>
+  
+  <script src="snowstorm.js"></script>
+<script>
+snowStorm.autoStart = 'true';   // blue-ish snow!?
+snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
+snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
+</script>
+
 </head>
 <body>
   <header class="container-fluid">
