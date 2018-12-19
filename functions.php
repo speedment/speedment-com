@@ -63,6 +63,10 @@ function speedment_widgets_init() {
 		'before_title'  => '',
 		'after_title'   => '',
 	));
+	
+function wpb_snow_script() {
+	wp_enqueue_script( 'snowstorm', get_stylesheet_directory_uri() . '/js/snowstorm.js', array(), '1.4.4', false );
+}
 
   register_sidebar(array(
 		'name'          => 'Big Boxes',
@@ -345,7 +349,6 @@ function cc_mime_types($mimes) {
 }
 
 add_filter('upload_mimes', 'cc_mime_types');
-
 add_action('widgets_init', 'speedment_widgets_init');
 add_action('init',         'speedment_menues_init');
 add_action('init',         'stripe_subscription_init');
@@ -356,6 +359,7 @@ add_action('wp_enqueue_scripts', 'load_popper');
 add_action('wp_enqueue_scripts', 'load_animateLogo');
 add_action('wp_enqueue_scripts', 'load_carosuelVideo');
 add_action('wp_enqueue_scripts', 'bootstrap_with_jquery_and_tether');
+add_action( 'wp_enqueue_scripts', 'wpb_snow_script' );
 add_action('customize_register', 'speedment_options_init');
 
 // Make sure html on pages are not destroyed by WordPress
