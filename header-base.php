@@ -6,6 +6,14 @@
   <meta name="description" content="<?php bloginfo('description'); ?>">
   <meta name="keywords" content="Java,Database,Stream,Pure,ORM">
   <meta name="author" content="Speedment, Inc.">
+  
+  <script src="snowstorm.js"></script>
+  <script>
+     snowStorm.autoStart = 'true';   // blue-ish snow!?
+     snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
+     snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
+  </script>
+
 
   <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 
@@ -22,14 +30,6 @@
 
     wp_head();
   ?>
-  
-  <script src="snowstorm.js"></script>
-<script>
-snowStorm.autoStart = 'true';   // blue-ish snow!?
-snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
-snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
-</script>
-
 </head>
 <body>
   <header class="container-fluid">
