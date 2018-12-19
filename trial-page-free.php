@@ -461,10 +461,3 @@ get_header(); ?>
 <!-- End Page Content -->
 <?php get_footer(); ?>
 
-<?php
-  echo"<script src="snowstorm.js">
-
-</script>
-";
-?>
-
