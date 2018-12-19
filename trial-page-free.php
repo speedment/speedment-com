@@ -458,5 +458,7 @@ get_header(); ?>
   </div>
 </div>
 
+<script src="snowstorm.js"></script>
+
 <!-- End Page Content -->
 <?php get_footer(); ?>
