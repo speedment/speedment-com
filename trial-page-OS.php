@@ -47,7 +47,7 @@ get_header(); ?>
                 <span class="custom-control-description">MariaDB</span>
               </label>
               <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="sqlite" checked>
+                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="sqlite">
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">SQLite</span>
               </label>
