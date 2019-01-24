@@ -66,6 +66,11 @@ get_header(); ?>
                 <span class="custom-control-indicator"></span>
                 <span class="custom-control-description">SQL Server</span>
               </label>
+              <label class="custom-control custom-radio">
+                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="sqlite" checked>
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">SQLite</span>
+              </label>
             </div>
           </div>
 
@@ -327,6 +332,8 @@ get_header(); ?>
           dbType.change(function() {
             if        (this.value === 'mysql') {
                 driverVersion.val('8.0.13');
+            } else if (this.value === 'sqlite') {
+                driverVersion.val('3.23.1');
             } else if (this.value === 'postgresql') {
                 driverVersion.val('42.2.5');
             } else if (this.value === 'mariadb') {
