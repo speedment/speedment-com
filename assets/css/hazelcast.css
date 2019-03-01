@@ -66,6 +66,14 @@
     margin-top: 10px;
 }
 
+.hazelcast-logo {
+    align: right;
+    margin-top: 2px;
+    position: absolute;
+    height: 1.3em;
+    right: 1em;
+}
+
 .hazel-cast-title-area {
     font-family: "Ubuntu";
     font-size: 1.5em; 
