@@ -17,7 +17,14 @@ get_header(); ?>
       <div class="col-md-6 col-sm-12 config-column">
         <div class="row">
           <div class="col hazel-cast-title-area">
-             Project Initializer  <img class=hazelcast-logo" src="https://www.speedment.com/wp-content/uploads/2019/03/1_4rPMiBrysNV1at1Zdevq3Q.png">
+            <div class="row">
+              <div class="col-6">
+               Project Initializer 
+              </div>
+              <div class="col-6">
+                <img class=hazelcast-logo" src="https://www.speedment.com/wp-content/uploads/2019/03/1_4rPMiBrysNV1at1Zdevq3Q.png">
+              </div>
+            </div>                                                                                                                     
           </div>
         </div>
         
