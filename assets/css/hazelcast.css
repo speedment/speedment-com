@@ -16,3 +16,20 @@
 #hazelcastForm .custom-control-input:checked ~ .custom-control-indicator {
     background-color: #2e7de1;
 }
+
+/* Radio button description */
+#hazelcastForm .custom-control-description {
+	font-family: "Open Sans"; 
+}
+
+#hazelcastForm .col-form-legend {
+    font-family: "Open Sans";
+}
+
+#hazelcastForm .col-form-label {
+    font-family: "Open Sans";
+}
+
+#hazelcastForm .form-control {
+	font-family: "Open Sans"; 
+}
