@@ -57,8 +57,8 @@ get_header(); ?>
           
           <!-- Select Java Version -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-4">Java Version</legend>
-            <div class="col-sm-8">
+            <div class="col-sm">
+               <legend class="col-form-legend">Java Version</legend>
                <select name="JavaVersion" id="javaVersion">
                   <option value="1.8" selected="selected">Java 8</option>
                   <option value="9">Java 9</option>
@@ -110,20 +110,20 @@ get_header(); ?>
 
           <!-- Project Info -->
           <div class="form-group row">
-            <label for="inputGroupId" class="col-sm-4 col-form-label">GroupId</label>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <label for="inputGroupId" class="col-form-label">GroupId</label>
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputArtifactId" class="col-sm-4 col-form-label">ArtifactId</label>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <label for="inputArtifactId" class="col-form-label">ArtifactId</label>
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputVersion" class="col-sm-4 col-form-label">Version</label>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <label for="inputVersion" class="col-form-label">Version</label>
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
