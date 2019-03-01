@@ -996,7 +996,8 @@ label {
 #trial .nosize {
   display: block;
   height: 25px;
-  margin-top: -25px;
+  margin-top: -20px;
+  margin-left: 0.2em; 
 }
 
 .fa-asterisk {
