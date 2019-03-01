@@ -225,7 +225,7 @@ get_header(); ?>
        // var licenseKey    = $('#inputLicenseKey');
           var javaVersion   = $('input[type=radio][name=javaVersion]');
           var inMemory      = $('input[type=radio][name=inMemory]');
-          var dbType        = $('#databaseType').val();                                                                     
+          var dbType        = $('#databaseType');                                                                 
        //   var dbType        = $('input[type=radio][name=radioDatabaseType]');
           
           var useEnums  = $('#checkPluginEnums');
