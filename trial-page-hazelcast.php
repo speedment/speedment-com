@@ -29,8 +29,8 @@ get_header(); ?>
 
           <!-- Select Database Type -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-4">Database Type</legend>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <legend class="col-form-legend">Database Type</legend>
               <select name="DatabaseType" id="databaseType">
                   <option value="oracle" selected="selected">Oracle</option>
                   <option value="db2">DB2</option>
@@ -47,7 +47,7 @@ get_header(); ?>
           <!-- Select Driver Version -->
           <div class="form-group row">
             <div class="col-sm">
-              <label for="inputDriverVersion" class="col-sm col-form-label">JDBC Driver Version</label>
+              <label for="inputDriverVersion" class="col-form-label">JDBC Driver Version</label>
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="8.0.13">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
