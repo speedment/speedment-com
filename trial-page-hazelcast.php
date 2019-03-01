@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Download Speedment
+ * Template Name: Hazelcast Initializer
  * Description: Page template that shows a trial license configurator form
  */
 get_header(); ?>
