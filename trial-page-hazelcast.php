@@ -31,6 +31,16 @@ get_header(); ?>
           <div class="form-group row">
             <legend class="col-form-legend col-sm-4">Database Type</legend>
             <div class="col-sm-8">
+              <select name="cars">
+                  <option value="mysql">MySQL</option>
+                  <option value="postgresql">PostgreSQL</option>
+                  <option value="mariadb">Maria DB</option>
+                  <option value="oracle">Oracle</option>
+                  <option value="db2">DB2</option>
+                  <option value="as400">AS400</option>
+                  <option value="mssql">SQL Server</option>
+                  <option value="sqlite">Audi</option>
+              </select>
               <label class="custom-control custom-radio">
                 <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
                 <span class="custom-control-indicator"></span>
