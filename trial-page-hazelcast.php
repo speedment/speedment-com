@@ -25,7 +25,7 @@ get_header(); ?>
         <?php //                     Configuration Form                    // ?>
         <?php /////////////////////////////////////////////////////////////// ?>
 
-        <form method="post" id="speedmentForm">
+        <form method="post" id="hazelcastForm">
 
           <!-- Select Database Type -->
           <div class="form-group row">
