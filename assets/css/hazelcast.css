@@ -8,6 +8,15 @@
   text-transform: none; 
 }
 
+#submitGroup .btn-hazelcast:hover {
+  color: #FFFFFF;
+  background-color: black; 
+  border-color: black; 
+  font-family: "Ubuntu"; 
+  padding: 0.7em 2.5em; 
+  text-transform: none; 
+}
+
 #hazelcastForm {
 	padding: 0em 1.5em; 
 }
