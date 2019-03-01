@@ -31,7 +31,7 @@ get_header(); ?>
           <div class="form-group row">
             <legend class="col-form-legend col-sm-4">Database Type</legend>
             <div class="col-sm-8">
-              <select name="DatabaseType" id="DatabaseType">
+              <select name="DatabaseType" id="databaseType">
                   <option value="mysql">MySQL</option>
                   <option value="postgresql">PostgreSQL</option>
                   <option value="mariadb">Maria DB</option>
