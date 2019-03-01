@@ -7,6 +7,8 @@
   border-width: 3px; 
   padding: 0.7em 2.5em; 
   text-transform: none; 
+  font-weight: 500;
+  font-size: 1.1em;
 }
 
 #submitGroup .btn-hazelcast:hover {
@@ -65,8 +67,9 @@
 }
 
 .poweredBySpeedment {
-    width: 8em; 
-    padding-left: 15px; 
+    width: 9em;
+    padding-left: 15px;
+    margin-top: 10px;
 }
 
 .hazel-cast-title-area {
