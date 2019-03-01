@@ -1,3 +1,4 @@
+/* Download button styling */
 .btn-hazelcast {
   color: #FFFFFF;
   background-color: #2e7de1; 
@@ -5,4 +6,9 @@
   font-family: "Open Sans"; 
   border-radius: 0em; 
   text-transform: none; 
+}
+
+/* Radio button background color */ 
+.custom-control-input:checked ~ .custom-control-indicator {
+    background-color: #2e7de1;
 }
