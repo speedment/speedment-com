@@ -92,11 +92,33 @@
     color: white; 
 } 
 
-.hazelcast-code. :not(pre) > code[class*="language-"], pre[class*="language-"] {
+.hazelcast-code. pre[class*="language-"] {
     background: #0b2a35;
 }
 
 .hazelcast-code .token.attr-value {
-	color: black; 
+	color: #ff5f00; 
 }
+
+.hazelcast-code 
+.token.property, 
+.token.tag, 
+.token.boolean, 
+.token.number, 
+.token.constant, 
+.token.symbol, 
+.token.deleted {
+	color: #2e7de1; 
+}
+
+.hazelcast-code
+.token.selector, 
+.token.attr-name, 
+.token.string, 
+.token.char, 
+.token.builtin, 
+.token.inserted {
+	color: white; 
+}
+
 
