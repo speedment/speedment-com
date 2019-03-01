@@ -8,7 +8,11 @@
   text-transform: none; 
 }
 
+#hazelcastForm {
+	padding: 0em 1.5em; 
+}
+
 /* Radio button background color */ 
-.custom-control-input:checked ~ .custom-control-indicator {
+#hazelcastForm .custom-control-input:checked ~ .custom-control-indicator {
     background-color: #2e7de1;
 }
