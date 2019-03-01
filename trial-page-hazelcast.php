@@ -10,7 +10,7 @@ get_header(); ?>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col" style="text-align: left; font-size: 1.5em">
-         Use the Initializer to configure your project. Once launching the tool you can choose between a free, commercial or trial license. 
+         Use the Initializer to configure your project. Once launching the tool you can choose between a commercial or trial license. 
       </div>
     </div>
     <div class="row justify-content-center gray-area">
@@ -456,7 +456,7 @@ get_header(); ?>
     </div>
     <div class="row justify-content-center">
       <div class="col os-init-info" style="text-align: left">
-        <p>The initializer above can be used to initiate your free, commercial or trial projects. 
+        <p>The initializer above can be used to initiate your commercial or trial projects. 
           If you want to use Speedment in an Open Source project, please visit the <a href="https://speedment.com/oss-download" target="_blank">Open Source Download page</a>. 
           Speedment Open Source has complete ORM-functionality but does not include the In-JVM-Memory DataStore or commercial database connectors.
           Compare license plans <a href="https://speedment.com/pricing#compare-plans" target="_blank">here.</a></p>
