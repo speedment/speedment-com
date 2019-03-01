@@ -68,7 +68,7 @@ get_header(); ?>
             </div>
           </div>
           
-          <!-- Plugins -->
+          <!-- Plugins 
           <div class="form-group row">
             <legend class="col-form-legend col-sm-4">Plugins</legend>
             <div class="col-sm-8">
@@ -88,9 +88,10 @@ get_header(); ?>
                 <span class="custom-control-description">JSON</span>
               </label>
             </div>
-          </div>
+          </div> -->
 
-          <!-- In-memory Acceleration -->
+ 
+          <!-- In-memory Acceleration 
           <div class="form-group row">
             <label class="col-sm-4 col-form-label">In-memory Acceleration</label>
             <div class="col-sm-8" id="inMemoryContainer">
@@ -105,7 +106,7 @@ get_header(); ?>
                 <span class="custom-control-description">Disable</span>
               </label>
             </div>
-          </div>
+          </div> -->
 
           <!-- Project Info -->
           <div class="form-group row">
