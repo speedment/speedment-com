@@ -16,7 +16,7 @@ get_header(); ?>
     <div class="row justify-content-center gray-area">
       <div class="col-md-6 col-sm-12 config-column">
         <div class="row">
-          <div class="col-sm-3 hazel-cast-title-area">
+          <div class="col hazel-cast-title-area">
              Project Initializer  <img class=hazelcast-logo" src="https://www.speedment.com/wp-content/uploads/2019/03/1_4rPMiBrysNV1at1Zdevq3Q.png">
           </div>
         </div>
