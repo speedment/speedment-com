@@ -96,3 +96,7 @@
     background: #0b2a35;
 }
 
+.hazelcast-tab-pane .token.attr-value {
+	color: black; 
+}
+
