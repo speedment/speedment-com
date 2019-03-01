@@ -92,11 +92,11 @@
     color: white; 
 } 
 
-.hazelcast-tab-pane. :not(pre) > code[class*="language-"], pre[class*="language-"] {
+.hazelcast-code. :not(pre) > code[class*="language-"], pre[class*="language-"] {
     background: #0b2a35;
 }
 
-.hazelcast-tab-pane .token.attr-value {
+.hazelcast-code .token.attr-value {
 	color: black; 
 }
 
