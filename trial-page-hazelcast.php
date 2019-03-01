@@ -32,55 +32,15 @@ get_header(); ?>
             <legend class="col-form-legend col-sm-4">Database Type</legend>
             <div class="col-sm-8">
               <select name="DatabaseType" id="databaseType">
-                  <option value="mysql">MySQL</option>
-                  <option value="postgresql">PostgreSQL</option>
-                  <option value="mariadb">Maria DB</option>
                   <option value="oracle" selected="selected">Oracle</option>
                   <option value="db2">DB2</option>
                   <option value="as400">AS400</option>
                   <option value="mssql">SQL Server</option>
-                  <option value="sqlite">Audi</option>
+                  <option value="sqlite">SQLite</option>
+                  <option value="mysql">MySQL</option>
+                  <option value="postgresql">PostgreSQL</option>
+                  <option value="mariadb">Maria DB</option>
               </select>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">MySQL</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType2" value="postgresql">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">PostgreSQL</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType3" value="mariadb">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">MariaDB</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Oracle</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">DB2</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">AS400</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">SQL Server</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="sqlite">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">SQLite</span>
-              </label>
             </div>
           </div>
 
@@ -99,26 +59,12 @@ get_header(); ?>
           <div class="form-group row">
             <legend class="col-form-legend col-sm-4">Java Version</legend>
             <div class="col-sm-8">
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava8" value="1.8" checked>
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 8</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava9" value="9">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 9</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava10" value="10">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 10</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava11" value="11">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 11</span>
-              </label>
+               <select name="JavaVersion" id="javaVersion">
+                  <option value="1.8" selected="selected">Java 8</option>
+                  <option value="9">Java 9</option>
+                  <option value="10">Java 10</option>
+                  <option value="11">Java 11</option>
+              </select>
             </div>
           </div>
           
@@ -223,10 +169,9 @@ get_header(); ?>
           var driverVersion = $('#inputDriverVersion');
           var email         = $('#inputEmail');
        // var licenseKey    = $('#inputLicenseKey');
-          var javaVersion   = $('input[type=radio][name=javaVersion]');
+          var javaVersion   = $('#javaVersion');    
           var inMemory      = $('input[type=radio][name=inMemory]');
           var dbType        = $('#databaseType');                                                                 
-       //   var dbType        = $('input[type=radio][name=radioDatabaseType]');
           
           var useEnums  = $('#checkPluginEnums');
           var useSpring = $('#checkPluginSpring');
@@ -258,8 +203,8 @@ get_header(); ?>
             url += '&artifactId=' + encodeURIComponent(artifactId.val());
             url += '&version=' + encodeURIComponent(version.val());
             
-            if ($('input[type=radio][name=javaVersion]:checked').val()) {
-              url += '&javaVersion=' + encodeURIComponent($('input[type=radio][name=javaVersion]:checked').val());
+            if ($('#javaVersion').val()) {
+              url += '&javaVersion=' + encodeURIComponent($('#javaVersion').val());
             }
             
             url += '&jdbcVersion=' + encodeURIComponent(driverVersion.val());
