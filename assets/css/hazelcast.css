@@ -3,15 +3,17 @@
   color: #FFFFFF;
   background-color: #2e7de1; 
   border-color: #2e7de1; 
-  font-family: "Ubuntu"; 
+  font-family: "Ubuntu";
+  border-width: 3px; 
   padding: 0.7em 2.5em; 
   text-transform: none; 
 }
 
 #submitGroup .btn-hazelcast:hover {
-  color: #FFFFFF;
-  background-color: black; 
-  border-color: black; 
+  color: #2e7de1;
+  background-color: transparent; 
+  border-color: #2e7de1; 
+  border-width: 3px; 
   font-family: "Ubuntu"; 
   padding: 0.7em 2.5em; 
   text-transform: none; 
