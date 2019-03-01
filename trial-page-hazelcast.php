@@ -16,7 +16,7 @@ get_header(); ?>
     <div class="row justify-content-center gray-area">
       <div class="col-md-6 col-sm-12 config-column">
         <div class="row">
-          <div class="col title-area">
+          <div class="col hazel-cast-title-area">
             Project Initializer
           </div>
         </div>
