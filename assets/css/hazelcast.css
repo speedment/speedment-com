@@ -4,7 +4,6 @@
   background-color: #2e7de1; 
   border-color: #2e7de1; 
   font-family: "Open Sans"; 
-  border-radius: 0em; 
   text-transform: none; 
 }
 
@@ -19,37 +18,37 @@
 
 /* Radio button description */
 #hazelcastForm .custom-control-description {
-	font-family: "Open Sans"; 
+	font-family: "Ubuntu"; 
 }
 
 #hazelcastForm .col-form-legend {
-    font-family: "Open Sans";
+    font-family: "Ubuntu";
     font-weight: 600;
     margin-bottom: 0.1em;
     padding-left: 0.3em;
 }
 
 #hazelcastForm .col-form-label {
-    font-family: "Open Sans";
+    font-family: "Ubuntu";
     font-weight: 600;
     margin-bottom: 0.1em;
     padding-left: 0.3em;
 }
 
 #hazelcastForm .form-control {
-	font-family: "Open Sans"; 
+	font-family: "Ubuntu"; 
 }
 
 #hazelcastForm select {
     width: 100%;
     height: 2.3em;
-    font-family: "Open Sans";
+    font-family: "Ubuntu";
     font-size: 1em;
 }
 
 #hazelcastForm small {
     font-size: 0.7em; 
-    font-family: "Open Sans";
+    font-family: "Ubuntu";
     margin-top: -20px; 
 }
 
