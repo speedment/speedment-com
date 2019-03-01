@@ -974,7 +974,7 @@ label {
   margin-right: 0px;
 }
 
-#trial .btn {
+#trial .btn-primary {
   padding: 0.7em 1em;
   font-family: "Titillium Web"; 
   text-transform: uppercase; 
