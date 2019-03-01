@@ -31,11 +31,11 @@ get_header(); ?>
           <div class="form-group row">
             <legend class="col-form-legend col-sm-4">Database Type</legend>
             <div class="col-sm-8">
-              <select name="cars">
+              <select name="DatabaseType" id="DatabaseType>
                   <option value="mysql">MySQL</option>
                   <option value="postgresql">PostgreSQL</option>
                   <option value="mariadb">Maria DB</option>
-                  <option value="oracle">Oracle</option>
+                  <option value="oracle" selected="selected">Oracle</option>
                   <option value="db2">DB2</option>
                   <option value="as400">AS400</option>
                   <option value="mssql">SQL Server</option>
@@ -225,15 +225,16 @@ get_header(); ?>
        // var licenseKey    = $('#inputLicenseKey');
           var javaVersion   = $('input[type=radio][name=javaVersion]');
           var inMemory      = $('input[type=radio][name=inMemory]');
-          var dbType        = $('input[type=radio][name=radioDatabaseType]');
+          var dbType        = $("#DatabaseType").val();                                                                        
+       //   var dbType        = $('input[type=radio][name=radioDatabaseType]');
           
           var useEnums  = $('#checkPluginEnums');
           var useSpring = $('#checkPluginSpring');
           var useJson   = $('#checkPluginJson');
           var enterprise   = false;
           var enterpriseDb = false;
-          function prepareUrl(service) {
-            var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
+          function prepareUrl(service) {                                                                           
+            var selectedDbType = $("#DatabaseType").val();       
             var url = 'https://service.speedment.com/' + service;
             // url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
             url += '/' + selectedDbType;
@@ -299,7 +300,7 @@ get_header(); ?>
            });
           }
           function updateEnterprise() {
-            var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
+            var selectedDbType = $("#DatabaseType").val();       
             enterpriseDb = selectedDbType === 'oracle'
                         || selectedDbType === 'db2'
                         || selectedDbType === 'as400'
