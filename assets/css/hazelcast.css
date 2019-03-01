@@ -92,4 +92,8 @@
     color: white; 
 } 
 
+.hazelcast-tab-pane pre[class*="language-"] {
+    background: #0b2a35;
+}
+}
 
