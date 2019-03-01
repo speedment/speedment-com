@@ -174,7 +174,7 @@ get_header(); ?>
         <!-- Submit -->
         <div class="form-group-submit row" id="submitGroup">
           <div class="col download-btn-area">
-            <button type="submit" class="btn btn-primary btn-hazelcast" id="downloadBtn">Download</button>
+            <button type="submit" class="btn btn-hazelcast" id="downloadBtn">Download</button>
           </div>
         </div>
       </div>
