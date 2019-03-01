@@ -225,7 +225,7 @@ get_header(); ?>
        // var licenseKey    = $('#inputLicenseKey');
           var javaVersion   = $('input[type=radio][name=javaVersion]');
           var inMemory      = $('input[type=radio][name=inMemory]');
-          var dbType        = $("#DatabaseType:selected").val();                                                                        
+          var dbType        = $("select#databaseType option:checked").val();                                                                     
        //   var dbType        = $('input[type=radio][name=radioDatabaseType]');
           
           var useEnums  = $('#checkPluginEnums');
@@ -234,7 +234,7 @@ get_header(); ?>
           var enterprise   = false;
           var enterpriseDb = false;
           function prepareUrl(service) {                                                                           
-            var selectedDbType = $("#DatabaseType:selected").val();       
+            var selectedDbType = $("select#databaseType option:checked").val();        
             var url = 'https://service.speedment.com/' + service;
             // url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
             url += '/' + selectedDbType;
@@ -300,7 +300,7 @@ get_header(); ?>
            });
           }
           function updateEnterprise() {
-            var selectedDbType = $("#DatabaseType:selected").val();       
+            var selectedDbType = $("select#databaseType option:checked").val();        
             enterpriseDb = selectedDbType === 'oracle'
                         || selectedDbType === 'db2'
                         || selectedDbType === 'as400'
