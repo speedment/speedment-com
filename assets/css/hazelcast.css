@@ -50,10 +50,11 @@
 #hazelcastForm small {
     font-size: 0.7em; 
     font-family: "Open Sans";
+    margin-top: -20px; 
 }
 
 #hazelcastForm .img {
-	width: 8em; 
-	padding-left: 15px; 
+    width: 8em; 
+    padding-left: 15px; 
 }
 
