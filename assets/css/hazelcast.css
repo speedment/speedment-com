@@ -1,5 +1,5 @@
 /* Download button styling */
-.btn-hazelcast {
+#hazelcastForm .btn-hazelcast {
   color: #FFFFFF;
   background-color: #2e7de1; 
   border-color: #2e7de1; 
@@ -23,14 +23,14 @@
 
 #hazelcastForm .col-form-legend {
     font-family: "Ubuntu";
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0.1em;
     padding-left: 0.3em;
 }
 
 #hazelcastForm .col-form-label {
     font-family: "Ubuntu";
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0.1em;
     padding-left: 0.3em;
 }
