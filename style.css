@@ -622,21 +622,21 @@ a:hover, button:hover, input[type="button"]:hover {
 
 @media screen and (min-width: 1201px) {
   .preview {
-    max-height: 600px; 
+    max-height: 640px; 
   }
 
   .preview-os { 
-     max-height: 465px; 
+     max-height: 523px; 
   }
 }
 
 @media screen and (max-width: 1200px) {
   .preview {
-    max-height: 620px; 
+    max-height: 660px; 
   }
  
   .preview-os { 
-     max-height: 497px; 
+     max-height: 523px; 
   }
 }
 
@@ -651,7 +651,7 @@ a:hover, button:hover, input[type="button"]:hover {
   }
 	
   .preview-os { 
-     max-height: 497px; 
+     max-height: 523px; 
   }
 }
 
