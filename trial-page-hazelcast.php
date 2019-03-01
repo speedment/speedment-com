@@ -31,7 +31,7 @@ get_header(); ?>
           <div class="form-group row">
             <div class="col-sm">
               <legend class="col-form-legend">Database Type</legend>
-              <select name="DatabaseType" class="formSelect" id="databaseType">
+              <select name="DatabaseType" class="form-select" id="databaseType">
                   <option value="oracle" selected="selected">Oracle</option>
                   <option value="db2">DB2</option>
                   <option value="as400">AS400</option>
@@ -59,7 +59,7 @@ get_header(); ?>
           <div class="form-group row">
             <div class="col-sm">
                <legend class="col-form-legend">Java Version</legend>
-               <select name="JavaVersion" class="formSelect" id="javaVersion">
+               <select name="JavaVersion" class="form-select" id="javaVersion">
                   <option value="1.8" selected="selected">Java 8</option>
                   <option value="9">Java 9</option>
                   <option value="10">Java 10</option>
