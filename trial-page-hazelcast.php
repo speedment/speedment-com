@@ -144,7 +144,7 @@ get_header(); ?>
 
       <div class="col-md-6 col-sm-12 preview-column"> 
         <div class="row tab-row d-none d-md-block">
-          <div class="col-5 pom-tab">
+          <div class="col-5 hazelcast-pom-tab">
              pom.xml
           </div>          
         </div>
