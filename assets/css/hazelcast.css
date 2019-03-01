@@ -41,3 +41,7 @@
     font-size: 1em;
 }
 
+#hazelcastForm small {
+    font-family: "Open Sans";
+}
+
