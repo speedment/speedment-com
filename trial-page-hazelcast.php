@@ -131,7 +131,7 @@ get_header(); ?>
         <!-- Submit -->
         <div class="form-group-submit row" id="submitGroup">
           <div class="col-6">
-             <img id="poweredBySpeedment" src="https://www.speedment.com/wp-content/uploads/2019/03/Powered-by-Speedment-black.png" alt="Powered by Speedment">
+             <img class="poweredBySpeedment" src="https://www.speedment.com/wp-content/uploads/2019/03/Powered-by-Speedment-black.png" alt="Powered by Speedment">
           </div><div class="col-6 download-btn-area">
             <button type="submit" class="btn btn-hazelcast" id="downloadBtn">Download</button>
           </div>
