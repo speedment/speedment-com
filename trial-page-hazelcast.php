@@ -17,7 +17,7 @@ get_header(); ?>
       <div class="col-md-6 col-sm-12 config-column">
         <div class="row">
           <div class="col title-area">
-            Speedment Initalizer
+            Project Initializer
           </div>
         </div>
         
