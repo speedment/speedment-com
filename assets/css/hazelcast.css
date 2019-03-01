@@ -33,3 +33,11 @@
 #hazelcastForm .form-control {
 	font-family: "Open Sans"; 
 }
+
+#hazelcastForm select {
+    width: 100%;
+    height: 2.3em;
+    font-family: "Open Sans";
+    font-size: 1em;
+}
+
