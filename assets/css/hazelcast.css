@@ -92,8 +92,7 @@
     color: white; 
 } 
 
-.hazelcast-tab-pane pre[class*="language-"] {
+.hazelcast-tab-pane. :not(pre) > code[class*="language-"], pre[class*="language-"] {
     background: #0b2a35;
-}
 }
 
