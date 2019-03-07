@@ -373,7 +373,7 @@
                 $('#trialModalSubmit').disable(true);
 
                 $.ajax({
-                   url: 'https://service.speedment.com/licenses/trial/datastore,virtual-columns,mssql,oracle,db2/json',
+                   url: 'https://service.speedment.com/licenses/trial/hazelcast,datastore,virtual-columns,mssql,oracle,db2/json',
                    data: JSON.stringify({
                      'firstname' : $('#trial-firstname').val(),
                      'lastname'  : $('#trial-lastname').val(),
