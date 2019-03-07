@@ -193,6 +193,7 @@ get_header(); ?>
             var url = 'https://service.speedment.com/' + service;
             // url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
             url += '/' + selectedDbType;
+            url += ',hazelcast'
             if ('true' == $('input[type=radio][name=inMemory]:checked').val()) {
               url += ',datastore';
             }
