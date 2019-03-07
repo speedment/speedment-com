@@ -156,7 +156,7 @@ get_header(); ?>
           </div>          
         </div>
           <div class="tab-pane active hazelcast-code" id="fileMaven" role="tabpanel">
-            <pre class="preview"><code class="language-xml" class="preview" id="previewMaven"></code></pre>
+            <pre class="preview"><code class="language-xml" class="preview" id="previewHazelcastPom"></code></pre>
           </div>
       </div>
 
