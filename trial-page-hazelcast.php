@@ -371,7 +371,7 @@ get_header(); ?>
             setTimeout(function() {
               $(document).scrollTop(0);
               // Needed to get proper statistics, this rewrites the url without triggering reload
-              history.pushState('Speedment Download', 'download', '/hazelcast-quick-start/');
+              history.pushState('Speedment Download', 'download', '/quick-start/');
               $.ajax({
                 url: '/quick-start/',
                 xhrFields: { withCredentials: true },
