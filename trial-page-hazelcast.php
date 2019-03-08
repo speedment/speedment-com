@@ -373,7 +373,7 @@ get_header(); ?>
               // Needed to get proper statistics, this rewrites the url without triggering reload
               history.pushState('Speedment Download', 'download', '/hazelcast-quick-start/');
               $.ajax({
-                url: '/quick-start/',
+                url: '/hazelcast-quick-start/',
                 xhrFields: { withCredentials: true },
                 success: function(data) {
                   console.log('Show quick-start');
