@@ -331,7 +331,7 @@ get_header(); ?>
           //    !licenseKey.val().trim()
           //  );
           //});
-          $('#speedmentForm').submit(function(ev) {
+          $('#hazelcastForm').submit(function(ev) {
             ev.preventDefault();
             $.ajax({
               url: prepareUrl('generate/maven'),
@@ -353,7 +353,7 @@ get_header(); ?>
           
           function downloadURI(uri, name) {
             var link = document.createElement("a");
-            document.getElementById('speedmentForm').append(link);
+            document.getElementById('hazelcastForm').append(link);
             link.download = name;
             link.href = uri;
             link.click();
