@@ -383,6 +383,10 @@ get_header(); ?>
             }, 2000);
           });
         });
+        
+        jQuery(function($) {
+        $('[data-toggle="popover"]').popover()
+        })
       </script>
 
       <?php include('trial-modal.php'); ?>
