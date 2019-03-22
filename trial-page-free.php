@@ -29,55 +29,25 @@ get_header(); ?>
 
           <!-- Select Database Type -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-4">Database Type</legend>
-            <div class="col-sm-8">
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">MySQL</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType2" value="postgresql">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">PostgreSQL</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType3" value="mariadb">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">MariaDB</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType4" value="oracle">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Oracle</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType5" value="db2">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">DB2</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType6" value="as400">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">AS400</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType7" value="mssql">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">SQL Server</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="sqlite">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">SQLite</span>
-              </label>
+            <div class="col-sm">
+              <legend class="col-form-legend">Database Type</legend>
+              <select name="DatabaseType" class="form-select" id="databaseType">
+                  <option value="oracle" selected="selected">Oracle</option>
+                  <option value="db2">DB2</option>
+                  <option value="as400">AS400</option>
+                  <option value="mssql">SQL Server</option>
+                  <option value="sqlite">SQLite</option>
+                  <option value="mysql">MySQL</option>
+                  <option value="postgresql">PostgreSQL</option>
+                  <option value="mariadb">Maria DB</option>
+              </select>
             </div>
           </div>
-
+          
           <!-- Select Driver Version -->
           <div class="form-group row">
-            <label for="inputDriverVersion" class="col-sm-4 col-form-label">JDBC Driver Version</label>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <label for="inputDriverVersion" class="col-form-label">JDBC Driver Version</label>
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="8.0.13">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
@@ -87,35 +57,19 @@ get_header(); ?>
           
           <!-- Select Java Version -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-4">Java Version</legend>
-            <div class="col-sm-8">
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava8" value="1.8" checked>
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 8</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava9" value="9">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 9</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava10" value="10">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 10</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava11" value="11">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 11</span>
-              </label>
+            <div class="col-sm">
+               <legend class="col-form-legend">Java Version</legend>
+               <select name="JavaVersion" class="form-select" id="javaVersion">
+                  <option value="1.8" selected="selected">Java 8</option>
+                  <option value="11">Java 11</option>
+              </select>
             </div>
           </div>
           
           <!-- Plugins -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-4">Plugins</legend>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <legend class="col-form-legend">Plugins</legend>
               <label class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="checkPluginEnums">
                 <span class="custom-control-indicator"></span>
@@ -136,8 +90,8 @@ get_header(); ?>
 
           <!-- In-memory Acceleration -->
           <div class="form-group row">
-            <label class="col-sm-4 col-form-label">In-memory Acceleration</label>
-            <div class="col-sm-8" id="inMemoryContainer">
+            <div class="col-sm" id="inMemoryContainer">
+              <label class="col-form-label">In-memory Acceleration</label>
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
                 <span class="custom-control-indicator"></span>
@@ -151,26 +105,27 @@ get_header(); ?>
             </div>
           </div>
 
-          <!-- Project Info -->
+           <!-- Project Info -->
           <div class="form-group row">
-            <label for="inputGroupId" class="col-sm-4 col-form-label">GroupId</label>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <label for="inputGroupId" class="col-form-label">GroupId</label>
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputArtifactId" class="col-sm-4 col-form-label">ArtifactId</label>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <label for="inputArtifactId" class="col-form-label">ArtifactId</label>
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
-            <label for="inputVersion" class="col-sm-4 col-form-label">Version</label>
-            <div class="col-sm-8">
+            <div class="col-sm">
+              <label for="inputVersion" class="col-form-label">Version</label>
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
         </form> 
+        
         <!-- Submit -->
         <div class="form-group-submit row" id="submitGroup">
           <div class="col download-btn-area">
@@ -213,9 +168,9 @@ get_header(); ?>
           var driverVersion = $('#inputDriverVersion');
           var email         = $('#inputEmail');
        // var licenseKey    = $('#inputLicenseKey');
-          var javaVersion   = $('input[type=radio][name=javaVersion]');
+          var javaVersion   = $('#javaVersion');  
           var inMemory      = $('input[type=radio][name=inMemory]');
-          var dbType        = $('input[type=radio][name=radioDatabaseType]');
+          var dbType        = $('#databaseType');  
           
           var useEnums  = $('#checkPluginEnums');
           var useSpring = $('#checkPluginSpring');
@@ -223,7 +178,7 @@ get_header(); ?>
           var enterprise   = false;
           var enterpriseDb = false;
           function prepareUrl(service) {
-            var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
+            var selectedDbType = $('#databaseType').val();    
             var url = 'https://service.speedment.com/' + service;
             // url += '/' + (selectedDbType === 'as400' ? 'db2' : selectedDbType);
             url += '/' + selectedDbType;
@@ -247,8 +202,8 @@ get_header(); ?>
             url += '&artifactId=' + encodeURIComponent(artifactId.val());
             url += '&version=' + encodeURIComponent(version.val());
             
-            if ($('input[type=radio][name=javaVersion]:checked').val()) {
-              url += '&javaVersion=' + encodeURIComponent($('input[type=radio][name=javaVersion]:checked').val());
+            if ($('#javaVersion').val()) {
+              url += '&javaVersion=' + encodeURIComponent($('#javaVersion').val());
             }
             
             url += '&jdbcVersion=' + encodeURIComponent(driverVersion.val());
@@ -289,7 +244,7 @@ get_header(); ?>
            });
           }
           function updateEnterprise() {
-            var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
+            var selectedDbType = $('#databaseType').val(); 
             enterpriseDb = selectedDbType === 'oracle'
                         || selectedDbType === 'db2'
                         || selectedDbType === 'as400'
