@@ -1127,6 +1127,14 @@ label {
 	padding: 0em 1.5em; 
 }
 
+#speedmentForm .select {
+    width: 100%;
+    height: 2.3em;
+    font-family: "Souce Sans Pro";
+    font-size: 1em;
+}
+
+
 .os-init-info {
 	text-align: center; 
 }
