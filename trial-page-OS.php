@@ -31,7 +31,6 @@ get_header(); ?>
           <div class="form-group row">
            <legend class="col-form-legend col-sm-4">Database Type</legend>
             <div class="col-sm-8">
-              <legend class="col-form-legend">Database Type</legend>
               <select name="DatabaseType" class="form-select" id="databaseType">
                   <option value="sqlite">SQLite</option>
                   <option value="mysql" selected="selected">MySQL</option>
