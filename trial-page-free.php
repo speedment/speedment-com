@@ -46,7 +46,7 @@ get_header(); ?>
           
           <!-- Select Driver Version -->
           <div class="form-group row">
-           <label for="inputDriverVersion" class="col-form-label col-sm-4">JDBC Driver Version</label>
+           <label for="inputDriverVersion" class="col-form-label col-sm-4">JDBC Driver</label>
             <div class="col-sm-8">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="8.0.13">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
@@ -90,7 +90,7 @@ get_header(); ?>
 
           <!-- In-memory Acceleration -->
           <div class="form-group row">
-           <legend class="col-form-legend col-sm-4">In-Memory Acceleration</legend>
+           <legend class="col-form-legend col-sm-4">DataStore</legend>
             <div class="col-sm-8" id="inMemoryContainer">
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
