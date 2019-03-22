@@ -90,7 +90,11 @@ get_header(); ?>
 
           <!-- In-memory Acceleration -->
           <div class="form-group row">
-           <legend class="col-form-legend col-sm-4">DataStore</legend>
+           <legend class="col-form-legend col-sm-4">DataStore
+                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                data-placement="bottom" data-content="Access a private chat with one of our developers.">
+                <i class="fa fa-question-circle"></i>
+            </a></legend>
             <div class="col-sm-8" id="inMemoryContainer">
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
