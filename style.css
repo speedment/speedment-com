@@ -45,6 +45,8 @@ body{
   }
 }
 
+
+
 @media (min-width: 1200px) {
   .margin-right {
     margin-right: 2.5em;
@@ -627,7 +629,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 @media screen and (min-width: 1201px) {
   .preview {
-    max-height: 640px; 
+    max-height: 530px; 
   }
 
   .preview-os { 
@@ -637,7 +639,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 @media screen and (max-width: 1200px) {
   .preview {
-    max-height: 660px; 
+    max-height: 530px; 
   }
  
   .preview-os { 
@@ -652,7 +654,7 @@ a:hover, button:hover, input[type="button"]:hover {
   }
 	
   .preview {
-    max-height: 655px; 
+    max-height: 530px; 
   }
 	
   .preview-os { 
@@ -667,7 +669,7 @@ a:hover, button:hover, input[type="button"]:hover {
   }
 	
   .preview {
-    max-height: 735px; 
+    max-height: 603px;; 
   }
 	
   .preview-os { 
