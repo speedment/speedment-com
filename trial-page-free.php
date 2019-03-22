@@ -91,7 +91,7 @@ get_header(); ?>
           <!-- In-memory Acceleration -->
           <div class="form-group row">
             <div class="col-sm" id="inMemoryContainer">
-              <label class="col-form-label">In-memory Acceleration</label>
+              <legend class="col-form-legend">In-memory Acceleration</legend>
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
                 <span class="custom-control-indicator"></span>
