@@ -103,7 +103,8 @@ body{
     padding-top: 0px;
     padding-bottom: calc(.5rem - 1px * 2);
     margin-bottom: 0;
-    font-family: "Titillium Web";
+    font-family: "Source Sans Pro";
+    font-weight: 600;
 }
 
 .col-form-legend {
@@ -111,7 +112,8 @@ body{
     padding-bottom: calc(.5rem - 1px * 2);
     margin-bottom: 0;
     font-size: 1rem;
-    font-family: "Titillium Web";
+    font-family: "Source Sans Pro";
+    font-weight: 600;
 }
 
 .form-control {
@@ -1059,8 +1061,6 @@ label {
 } 
 
 #trial #inMemoryContainer {
-  display: flex;
-
   -ms-flex-align:      center;
 	-webkit-align-items: center;
 	-webkit-box-align:   center;
