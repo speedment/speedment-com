@@ -29,8 +29,8 @@ get_header(); ?>
 
           <!-- Select Database Type -->
           <div class="form-group row">
-            <div class="col-sm">
-              <legend class="col-form-legend">Database Type</legend>
+            <legend class="col-form-legend col-sm-4">Database Type</legend>
+            <div class="col-sm-8">
               <select name="DatabaseType" class="form-select" id="databaseType">
                   <option value="oracle" selected="selected">Oracle</option>
                   <option value="db2">DB2</option>
@@ -46,8 +46,8 @@ get_header(); ?>
           
           <!-- Select Driver Version -->
           <div class="form-group row">
-            <div class="col-sm">
-              <label for="inputDriverVersion" class="col-form-label">JDBC Driver Version</label>
+           <label for="inputDriverVersion" class="col-form-label col-sm-4">JDBC Driver Version</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="8.0.13">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
@@ -57,8 +57,8 @@ get_header(); ?>
           
           <!-- Select Java Version -->
           <div class="form-group row">
-            <div class="col-sm">
-               <legend class="col-form-legend">Java Version</legend>
+           <legend class="col-form-legend col-sm-4">Java Version</legend>
+            <div class="col-sm-8">
                <select name="JavaVersion" class="form-select" id="javaVersion">
                   <option value="1.8" selected="selected">Java 8</option>
                   <option value="11">Java 11</option>
@@ -68,8 +68,8 @@ get_header(); ?>
           
           <!-- Plugins -->
           <div class="form-group row">
-            <div class="col-sm">
-              <legend class="col-form-legend">Plugins</legend>
+           <legend class="col-form-legend col-sm-4">Plugins</legend>
+            <div class="col-sm-8">
               <label class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="checkPluginEnums">
                 <span class="custom-control-indicator"></span>
@@ -90,8 +90,8 @@ get_header(); ?>
 
           <!-- In-memory Acceleration -->
           <div class="form-group row">
-            <div class="col-sm" id="inMemoryContainer">
-              <legend class="col-form-legend">In-memory Acceleration</legend>
+           <legend class="col-form-legend col-sm-4">In-Memory Acceleration</legend>
+            <div class="col-sm-8" id="inMemoryContainer">
               <label class="custom-control custom-radio">
                 <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
                 <span class="custom-control-indicator"></span>
@@ -107,20 +107,20 @@ get_header(); ?>
 
            <!-- Project Info -->
           <div class="form-group row">
-            <div class="col-sm">
-              <label for="inputGroupId" class="col-form-label">GroupId</label>
+           <label for="inputGroupId" class="col-form-label col-sm-4">GroupId</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-sm">
-              <label for="inputArtifactId" class="col-form-label">ArtifactId</label>
+           <label for="inputArtifactId" class="col-form-label col-sm-4">ArtifactId</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-sm">
-              <label for="inputVersion" class="col-form-label">Version</label>
+           <label for="inputVersion" class="col-form-label col-sm-4">Version</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
