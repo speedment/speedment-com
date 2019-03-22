@@ -29,34 +29,21 @@ get_header(); ?>
 
           <!-- Select Database Type -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-4">Database Type</legend>
+           <legend class="col-form-legend col-sm-4">Database Type</legend>
             <div class="col-sm-8">
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="mysql" checked>
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">MySQL</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType2" value="postgresql">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">PostgreSQL</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType3" value="mariadb">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">MariaDB</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioDatabaseType" id="radioDatabaseType1" value="sqlite">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">SQLite</span>
-              </label>
+              <legend class="col-form-legend">Database Type</legend>
+              <select name="DatabaseType" class="form-select" id="databaseType">
+                  <option value="sqlite">SQLite</option>
+                  <option value="mysql" selected="selected">MySQL</option>
+                  <option value="postgresql">PostgreSQL</option>
+                  <option value="mariadb">Maria DB</option>
+              </select>
             </div>
           </div>
 
           <!-- Select Driver Version -->
           <div class="form-group row">
-            <label for="inputDriverVersion" class="col-sm-4 col-form-label">JDBC Driver Version</label>
+            <label for="inputDriverVersion" class="col-sm-4 col-form-label">JDBC Driver</label>
             <div class="col-sm-8">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="8.0.13">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
@@ -67,28 +54,12 @@ get_header(); ?>
           
           <!-- Select Java Version -->
           <div class="form-group row">
-            <legend class="col-form-legend col-sm-4">Java Version</legend>
+           <legend class="col-form-legend col-sm-4">Java Version</legend>
             <div class="col-sm-8">
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava8" value="1.8" checked>
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 8</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava9" value="9">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 9</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava10" value="10">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 10</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="javaVersion" id="inputJava11" value="11">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Java 11</span>
-              </label>
+               <select name="JavaVersion" class="form-select" id="javaVersion">
+                  <option value="1.8" selected="selected">Java 8</option>
+                  <option value="11">Java 11</option>
+              </select>
             </div>
           </div>
           
@@ -170,17 +141,15 @@ get_header(); ?>
           var version       = $('#inputVersion');
           var driverVersion = $('#inputDriverVersion');
           var email         = $('#inputEmail');
-       // var licenseKey    = $('#inputLicenseKey');
-          var javaVersion   = $('input[type=radio][name=javaVersion]');
-       // var inMemory      = $('input[type=radio][name=inMemory]');
-          var dbType        = $('input[type=radio][name=radioDatabaseType]');
+          var javaVersion   = $('#javaVersion');  
+          var dbType        = $('#databaseType');    
           
           var useEnums  = $('#checkPluginEnums');
           var useJson   = $('#checkPluginJson');
           var enterprise   = false;
           var enterpriseDb = false;
           function prepareUrl(service) {
-            var selectedDbType = $('input[type=radio][name=radioDatabaseType]:checked').val();
+            var selectedDbType = $('#databaseType').val(); 
             var url = 'https://service.speedment.com/' + service;
             url += '/' + selectedDbType;
             
@@ -197,15 +166,10 @@ get_header(); ?>
             url += '&version=' + encodeURIComponent(version.val());
             
             if ($('input[type=radio][name=javaVersion]:checked').val()) {
-              url += '&javaVersion=' + encodeURIComponent($('input[type=radio][name=javaVersion]:checked').val());
+              url += '&javaVersion=' + encodeURIComponent($('#javaVersion').val());
             }
             
             url += '&jdbcVersion=' + encodeURIComponent(driverVersion.val());
-            
-            //var key = licenseKey.val().trim();
-            //if (key) {
-            //  url += '&licenseKey=' + encodeURIComponent(key);
-            //}
             
             return url;
           }
