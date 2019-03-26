@@ -12,7 +12,7 @@ get_header('datastore'); ?>
       <div class="row">
         <div class="col" style="text-align: center">
           <h1 style="text-align: center">Use any Database</h1>
-          <img src="https://www.speedment.com/wp-content/uploads/2018/05/SQL-Server-Logo.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
+          <img src="https://www.speedment.com/wp-content/uploads/2019/03/any-database.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
       </div>
     </div> 
