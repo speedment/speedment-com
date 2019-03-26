@@ -7,9 +7,7 @@
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-7 px-5 pull-lg-2
-                      col-md-8 pull-md-1
-                      col-sm-9 pull-sm-0" id="first-view-text-wrapper">
+          <div class="col px-5" id="first-view-text-wrapper">
             <h1>DataStore</h1>
             <h3>Designed for commercial deployments where security, availability, and performance cannot be compromized.</h3>
               <div class="row">
