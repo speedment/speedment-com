@@ -603,6 +603,18 @@ a:hover, button:hover, input[type="button"]:hover {
      margin-right: 1em; 
 }
 
+.full-width {
+     width: 100%
+}
+
+.datastore-documentation {
+	background: #e9e9e9; 
+}
+
+.datastore-download {
+ 	background: #e7e7e7; 
+}
+
 #first-view {
     margin-bottom: 0;
     background-position: 60% 20%;
