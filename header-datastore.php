@@ -3,11 +3,11 @@
   <!--
       Main Hero (#1 Tool to Accelerate Existing Database Applications)
   -->
-  <div class="row jumbotron jumbotron-fluid" id="first-view" style="background-image: url('https://www.speedment.com/wp-content/uploads/2018/11/Speedment.jpeg');">
+  <div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('https://www.speedment.com/wp-content/uploads/2018/11/Speedment.jpeg');">
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col px-5" id="first-view-text-wrapper">
+          <div class="col px-5" id="product-view-text-wrapper">
             <h1>DataStore</h1>
             <h3>Designed for commercial deployments where security, availability, and performance cannot be compromized.</h3>
               <div class="row">
