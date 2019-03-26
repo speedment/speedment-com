@@ -18,7 +18,7 @@ A nice theme
 @import url('assets/css/ionicons.min.css');
 @import url('assets/css/footer.css');
 @import url('assets/css/navbar.css');
-@import url('assets/css/front-page.css');
+@import url('assets/css/front-page.css'); 
 @import url('assets/css/prism.css');
 @import url('assets/css/pricelist.css');
 @import url('assets/css/usecase.css');
@@ -201,8 +201,8 @@ a:hover, button:hover, input[type="button"]:hover {
     color: #fff;
     background-color: #3a9b79;
     border-color: #3a9b79;
-    font-family: "Titillium Web"; 
-    text-transform: uppercase; 
+    font-family: "Source Sans Pro"; 
+    font-weight: 600; 	
 }
 
 .btn-primary:hover {
@@ -563,6 +563,19 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #product-view h3 {
 	font-family: "Source Sans Pro";
+	font-weight: 400; 
+}
+
+
+#product-view #product-view-text-wrapper #product-view-button-area {
+	text-align: center; 
+	padding: 0.1em 0em;
+	margin-top: 1em; 
+}
+
+#product-view-button-area .btn { 
+     font-size: 1.2em; 
+     padding: 0.7em 1.5em; 
 }
 
 #first-view {
@@ -785,7 +798,7 @@ a:hover, button:hover, input[type="button"]:hover {
 .product-page {
   margin-top: 20px;
   margin-bottom: 20px;
-}
+}x
 
 .product-page h3 {
 	margin-top: 2px; 
