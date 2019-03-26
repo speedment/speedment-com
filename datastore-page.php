@@ -3,7 +3,7 @@
  * Template Name: DataStore page
  * Description: Page template that shows a DataStore page header
  */
-get_header('front-page'); ?>
+get_header('datastore'); ?>
 
 <!-- Start Page Content -->
 
