@@ -11,7 +11,7 @@ get_header('datastore'); ?>
     <div class="container">
       <div class="row">
         <div class="col" style="text-align: center">
-          <h1 style="text-align: center">Use any Database</h1>
+          <h1 style="text-align: center">Use any RDBMS</h1>
           <img src="https://www.speedment.com/wp-content/uploads/2019/03/any-database.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
       </div>
@@ -20,9 +20,16 @@ get_header('datastore'); ?>
 
   <div class="row justify-content-center" id="datastore-resources">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row no-gutters justify-content-center">
         <div class="col-lg">
-           <h1 style="text-align: center">Resources</h1>
+          <div class "row">
+            <div class="col-lg-6" id="datastore-documentation">
+              <h1 style="text-align: center">Documentation</h1>
+            </div>
+            <div class="col-lg-6" id="datastore-download">
+              <h1 style="text-align: center">Download</h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>
