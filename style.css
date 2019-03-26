@@ -276,8 +276,6 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #try-for-free .btn {
 	color: white; 
-	font-size: 1.2em; 
-	padding: 0.7em 1.5em; 
 	margin: 0em 1em 0em 0em;
 }
 
@@ -287,9 +285,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #try-for-free a {
     color: #3A9B79;
-    text-transform: uppercase; 
     font-size: 1.2em;
-    font-family: "Titillium Web"; 
 }
 
 #try-for-free a:hover {
@@ -408,9 +404,6 @@ a:hover, button:hover, input[type="button"]:hover {
     height: 52px;
     border-radius: 3px;
     background-color: #3a9b79;
-    border:none;
-    font-family: "Titillium Web"; 
-    text-transform: uppercase; 
 }
 
 #first-view button:hover{
@@ -603,11 +596,6 @@ a:hover, button:hover, input[type="button"]:hover {
 #first-view #first-view-text-wrapper #first-view-button-area {
 	text-align: center; 
 	padding: 0.1em 0em; 
-}
-
-#first-view-button-area .btn { 
-     font-size: 1.2em; 
-     padding: 0.7em 1.5em; 
 }
 
 #first-view #first-view-text-wrapper > form {
