@@ -577,7 +577,6 @@ a:hover, button:hover, input[type="button"]:hover {
 #product-view #product-view-text-wrapper h1 {
     text-transform: uppercase; 
     font-size: 3rem; 
-    line-height: 3.5em; 
     color: white;
     text-align: left;
 }
