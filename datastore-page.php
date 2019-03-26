@@ -7,7 +7,7 @@ get_header('datastore'); ?>
 
 <!-- Start Page Content -->
 
-  <div class="row justify-content-center" id="speedment-description">
+  <div class="row justify-content-center" id="compatability">
     <div class="container">
       <div class="row">
         <div class="col" style="text-align: center">
@@ -18,11 +18,11 @@ get_header('datastore'); ?>
     </div> 
   </div>
 
-  <div class="row justify-content-center" id="speedment-description">
+  <div class="row justify-content-center" id="datastore-resources">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg">
-          <?php if (dynamic_sidebar('home_description')): else: endif; ?>
+           <h1 style="text-align: center">Resources</h1>
         </div>
       </div>
     </div>
