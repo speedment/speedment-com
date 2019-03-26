@@ -19,7 +19,7 @@ get_header('datastore'); ?>
   </div>
 
   <div class="row justify-content-center" id="datastore-resources">
-    <div class="container full-width">
+    <div class="container full-width-product-view">
       <div class="row no-gutters justify-content-center">
             <div class="col-lg-6" id="datastore-documentation">
               <h1 style="text-align: center">Documentation</h1>
