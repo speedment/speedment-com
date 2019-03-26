@@ -21,16 +21,12 @@ get_header('datastore'); ?>
   <div class="row justify-content-center" id="datastore-resources">
     <div class="container">
       <div class="row no-gutters justify-content-center">
-        <div class="col-lg">
-          <div class "row">
             <div class="col-lg-6" id="datastore-documentation">
               <h1 style="text-align: center">Documentation</h1>
             </div>
             <div class="col-lg-6" id="datastore-download">
               <h1 style="text-align: center">Download</h1>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
