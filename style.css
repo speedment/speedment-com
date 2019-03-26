@@ -574,15 +574,25 @@ a:hover, button:hover, input[type="button"]:hover {
     text-align: left;
 }
 
-#product-view h3 {
-	font-family: "Source Sans Pro";
-	font-weight: 400; 
+#product-view #product-view-text-wrapper h1 {
+    text-transform: uppercase; 
+    font-size: 3rem; 
+    line-height: 3.5em; 
+    color: white;
+    text-align: left;
+}
+
+
+#product-view #product-view-text-wrapper h3 {
+    font-family: "Source Sans Pro";
+    font-weight: 400; 
+    line-height: 1.3em; 
 }
 
 
 #product-view #product-view-text-wrapper #product-view-button-area {
 	padding: 0.1em 0em;
-	margin-top: 1em; 
+	margin-top: 1.3em; 
 }
 
 #product-view-button-area .btn { 
