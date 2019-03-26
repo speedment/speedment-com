@@ -217,6 +217,19 @@ a:hover, button:hover, input[type="button"]:hover {
     cursor: pointer;
 }
 
+.btn-secondary {
+    color: #3a9b79;
+    background-color: transparent;
+    border-color: #3a9b79;
+    border-width: 5px; 
+}
+
+.btn-secondary:hover {
+    background-color: #5abf95;
+    border-color: #5abf95;
+    cursor: pointer;
+}
+
 .custom-control-input:checked ~ .custom-control-indicator {
   background-color: #3a9b79;
 }
