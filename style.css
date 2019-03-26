@@ -199,6 +199,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 .btn {
     border-radius: 5rem; 
+    border: 2px solid; 
     font-family: "Source Sans Pro"; 
     font-weight: 600; 
     padding: 0.7em 2em; 
@@ -221,13 +222,13 @@ a:hover, button:hover, input[type="button"]:hover {
     color: #3a9b79;
     background-color: transparent;
     border-color: #3a9b79;
-    border-width: 5px; 
 }
 
 .btn-secondary:hover {
     background-color: #5abf95;
     border-color: #5abf95;
     cursor: pointer;
+    color: #fff; 
 }
 
 .custom-control-input:checked ~ .custom-control-indicator {
