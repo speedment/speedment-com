@@ -197,6 +197,10 @@ a:hover, button:hover, input[type="button"]:hover {
   cursor: pointer;
 }
 
+.btn {
+    border-radius: 5rem; 
+}
+
 .btn-primary {
     color: #fff;
     background-color: #3a9b79;
