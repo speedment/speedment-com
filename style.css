@@ -546,6 +546,25 @@ a:hover, button:hover, input[type="button"]:hover {
   margin-bottom: 30px;
 }
 
+#product-view {
+    margin-bottom: 0;
+    background-position: 60% 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 5rem 0rem;
+}
+
+#product-view #product-view-text-wrapper {
+    color: white;
+    text-align: left;
+}
+
+#product-view h3 {
+	font-family: "Source Sans Pro";
+}
+
 #first-view {
     margin-bottom: 0;
     background-position: 60% 20%;
