@@ -587,8 +587,12 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #product-view-button-area .btn { 
-     font-size: 1.2em; 
+     font-size: 1.3em; 
      padding: 0.7em 1.5em; 
+}
+
+#product-view-button-area .btn-secondary { 
+     margin-left: 1em; 
 }
 
 #first-view {
