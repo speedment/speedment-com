@@ -3,7 +3,7 @@
   <!--
       Main Hero (#1 Tool to Accelerate Existing Database Applications)
   -->
-  <div class="row jumbotron jumbotron-fluid" id="first-view" style="background-image: url('<?php header_image(); ?>');">
+  <div class="row jumbotron jumbotron-fluid" id="first-view" style="background-image: url('https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');">
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
