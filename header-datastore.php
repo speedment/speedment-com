@@ -11,10 +11,10 @@
             <h1>DataStore</h1>
             <h3>Designed for commercial deployments where security, availability, and performance cannot be compromized.</h3>
               <div class="row">
-                <div class="col-6" id="first-view-button-area">
+                <div class="col-6" id="product-page-button-area">
                   <a href="https://speedment.github.io/speedment-doc/introduction.html" class="btn btn-primary">Documentation </a>
                 </div>
-                <div class="col-6" id="first-view-button-area">
+                <div class="col-6" id="product-page-button-area">
                   <a href="http://speedment.com/initializer" class="btn btn-primary">Download</a>
                 </div>
             </div>
