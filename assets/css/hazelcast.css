@@ -39,14 +39,12 @@
     font-family: "Ubuntu";
     font-weight: 500;
     margin-bottom: 0.1em;
-    padding-left: 0.3em;
 }
 
 #hazelcastForm .col-form-label {
     font-family: "Ubuntu";
     font-weight: 500;
     margin-bottom: 0.1em;
-    padding-left: 0.3em;
 }
 
 #hazelcastForm .form-control {
@@ -60,12 +58,13 @@
 }
 
 .powered-by-speedment {
-    width: 9em;
+    width: 90%;
     padding-left: 15px;
     margin-top: 10px;
 }
 
 .hazelcast-logo {
+    width: 90%;
     align: right;
     margin-top: 2px;
     position: absolute;
