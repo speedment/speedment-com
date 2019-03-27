@@ -115,3 +115,8 @@
 	    font-family: "Ubuntu";
 	    font-size: 1em;
 }
+
+@media screen and (min-width: 1201px)
+.hazelcast-code .preview {
+    max-height: 440px;
+}
