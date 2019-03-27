@@ -109,13 +109,13 @@ get_header(); ?>
       <?php //                      Preview Column                         // ?>
       <?php ///////////////////////////////////////////////////////////////// ?>
 
-      <div class="col-md-6 col-sm-12 preview-column"> 
+      <div class="col-md-6 col-sm-12 preview-column hazelcast-code"> 
         <div class="row tab-row d-none d-md-block">
           <div class="col-5 hazelcast-pom-tab">
              pom.xml
           </div>          
         </div>
-          <div class="tab-pane active hazelcast-code" id="fileMaven" role="tabpanel">
+          <div class="tab-pane active" id="fileMaven" role="tabpanel">
             <pre class="preview"><code class="language-xml" class="preview" id="previewMaven"></code></pre>
           </div>
       </div>
