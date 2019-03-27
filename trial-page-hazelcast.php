@@ -36,6 +36,7 @@ get_header(); ?>
 
           <!-- Select Database Type -->
           <div class="form-group row">
+            <legend class="col-form-legend">Database Type</legend>
             <div class="col-sm">
               <legend class="col-form-legend">Database Type</legend>
               <select name="DatabaseType" class="form-select" id="databaseType">
@@ -53,8 +54,8 @@ get_header(); ?>
 
           <!-- Select Driver Version -->
           <div class="form-group row">
+           <label for="inputDriverVersion" class="col-form-label">JDBC Driver Version</label>
             <div class="col-sm">
-              <label for="inputDriverVersion" class="col-form-label">JDBC Driver Version</label>
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="8.0.13">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
@@ -64,8 +65,8 @@ get_header(); ?>
           
           <!-- Select Java Version -->
           <div class="form-group row">
+           <legend class="col-form-legend">Java Version</legend>
             <div class="col-sm">
-               <legend class="col-form-legend">Java Version</legend>
                <select name="JavaVersion" class="form-select" id="javaVersion">
                   <option value="1.8" selected="selected">Java 8</option>
                   <option value="9">Java 9</option>
@@ -74,63 +75,23 @@ get_header(); ?>
               </select>
             </div>
           </div>
-          
-          <!-- Plugins 
-          <div class="form-group row">
-            <legend class="col-form-legend col-sm-4">Plugins</legend>
-            <div class="col-sm-8">
-              <label class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="checkPluginEnums">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Enums</span>
-              </label>
-              <label class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="checkPluginSpring">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Spring</span>
-              </label>
-              <label class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="checkPluginJson">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">JSON</span>
-              </label>
-            </div>
-          </div> -->
-
- 
-          <!-- In-memory Acceleration 
-          <div class="form-group row">
-            <label class="col-sm-4 col-form-label">In-memory Acceleration</label>
-            <div class="col-sm-8" id="inMemoryContainer">
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryTrue" value="true" checked>
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Enable</span>
-              </label>
-              <label class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" name="inMemory" id="inputInMemoryFalse" value="false">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Disable</span>
-              </label>
-            </div>
-          </div> -->
 
           <!-- Project Info -->
           <div class="form-group row">
+           <label for="inputGroupId" class="col-form-label">GroupId</label>
             <div class="col-sm">
-              <label for="inputGroupId" class="col-form-label">GroupId</label>
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
+           <label for="inputArtifactId" class="col-form-label">ArtifactId</label>
             <div class="col-sm">
-              <label for="inputArtifactId" class="col-form-label">ArtifactId</label>
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
+           <label for="inputVersion" class="col-form-label">Version</label>
             <div class="col-sm">
-              <label for="inputVersion" class="col-form-label">Version</label>
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
