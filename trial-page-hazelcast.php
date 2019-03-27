@@ -18,10 +18,10 @@ get_header(); ?>
         <div class="row">
           <div class="col hazel-cast-title-area">
             <div class="row">
-              <div class="col-8">
+              <div class="col-md-8">
                Project Initializer 
               </div>
-              <div class="col-4">
+              <div class="col-md-4">
                 <img class="hazelcast-logo" src="https://www.speedment.com/wp-content/uploads/2019/03/1_4rPMiBrysNV1at1Zdevq3Q.png">
               </div>
             </div>                                                                                                                     
@@ -36,9 +36,8 @@ get_header(); ?>
 
           <!-- Select Database Type -->
           <div class="form-group row">
-            <legend class="col-form-legend">Database Type</legend>
-            <div class="col-sm">
-              <legend class="col-form-legend">Database Type</legend>
+            <legend class="col-form-legend col-sm-4">Database Type</legend>
+            <div class="col-sm-8">
               <select name="DatabaseType" class="form-select" id="databaseType">
                   <option value="oracle" selected="selected">Oracle</option>
                   <option value="db2">DB2</option>
@@ -54,8 +53,8 @@ get_header(); ?>
 
           <!-- Select Driver Version -->
           <div class="form-group row">
-           <label for="inputDriverVersion" class="col-form-label">JDBC Driver Version</label>
-            <div class="col-sm">
+           <label for="inputDriverVersion col-sm-4" class="col-form-label col-4">JDBC Driver</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="8.0.13">
               <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
                 Make sure this driver is available on your development machine.
@@ -65,8 +64,8 @@ get_header(); ?>
           
           <!-- Select Java Version -->
           <div class="form-group row">
-           <legend class="col-form-legend">Java Version</legend>
-            <div class="col-sm">
+           <legend class="col-form-legend col-sm-4">Java Version</legend>
+            <div class="col-sm-8">
                <select name="JavaVersion" class="form-select" id="javaVersion">
                   <option value="1.8" selected="selected">Java 8</option>
                   <option value="9">Java 9</option>
@@ -78,29 +77,29 @@ get_header(); ?>
 
           <!-- Project Info -->
           <div class="form-group row">
-           <label for="inputGroupId" class="col-form-label">GroupId</label>
-            <div class="col-sm">
+           <label for="inputGroupId" class="col-form-label col-sm-4">GroupId</label>
+            <div class="col-sm-8"> 
               <input type="text" class="form-control" id="inputGroupId" placeholder="GroupId" value="com.example">
             </div>
           </div>
           <div class="form-group row">
-           <label for="inputArtifactId" class="col-form-label">ArtifactId</label>
-            <div class="col-sm">
+           <label for="inputArtifactId" class="col-form-label col-sm-4">ArtifactId</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputArtifactId" placeholder="ArtifactId" value="demo">
             </div>
           </div>
           <div class="form-group row">
-           <label for="inputVersion" class="col-form-label">Version</label>
-            <div class="col-sm">
+           <label for="inputVersion" class="col-form-label col-sm-4">Version</label>
+            <div class="col-sm-8">
               <input type="text" class="form-control" id="inputVersion" placeholder="Version" value="1.0.0-SNAPSHOT">
             </div>
           </div>
         </form> 
         <!-- Submit -->
         <div class="form-group-submit row" id="submitGroup">
-          <div class="col-6">
+          <div class="col-md-6">
              <img class="powered-by-speedment" src="https://www.speedment.com/wp-content/uploads/2019/03/Powered-by-Speedment-black.png" alt="Powered by Speedment">
-          </div><div class="col-6 download-btn-area">
+          </div><div class="col-md-6 download-btn-area">
             <button type="submit" class="btn btn-hazelcast" id="downloadBtn">Download</button>
           </div>
         </div>
