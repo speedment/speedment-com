@@ -64,11 +64,9 @@
 }
 
 .hazelcast-logo {
-    width: 90%;
     align: right;
     margin-top: 2px;
     position: absolute;
-    height: 1.3em;
     right: 1em;
 }
 
