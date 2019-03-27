@@ -18,10 +18,10 @@ get_header(); ?>
         <div class="row">
           <div class="col hazel-cast-title-area">
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-8">
                Project Initializer 
               </div>
-              <div class="col-md-4">
+              <div class="col-4">
                 <img class="hazelcast-logo" src="https://www.speedment.com/wp-content/uploads/2019/03/1_4rPMiBrysNV1at1Zdevq3Q.png">
               </div>
             </div>                                                                                                                     
@@ -97,9 +97,9 @@ get_header(); ?>
         </form> 
         <!-- Submit -->
         <div class="form-group-submit row" id="submitGroup">
-          <div class="col-md-6">
+          <div class="col-6">
              <img class="powered-by-speedment" src="https://www.speedment.com/wp-content/uploads/2019/03/Powered-by-Speedment-black.png" alt="Powered by Speedment">
-          </div><div class="col-md-6 download-btn-area">
+          </div><div class="col-6 download-btn-area">
             <button type="submit" class="btn btn-hazelcast" id="downloadBtn">Download</button>
           </div>
         </div>
