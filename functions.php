@@ -360,6 +360,7 @@ add_action('init',         'stripe_subscription_init');
 
 add_action('wp_enqueue_scripts', 'load_prism');
 add_action('wp_enqueue_scripts', 'load_tether');
+add_action('wp_enqueue_scripts', 'load_aos');
 add_action('wp_enqueue_scripts', 'load_popper');
 add_action('wp_enqueue_scripts', 'load_animateLogo');
 add_action('wp_enqueue_scripts', 'load_carosuelVideo');
