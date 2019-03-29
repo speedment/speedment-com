@@ -11,7 +11,7 @@ get_header('datastore'); ?>
     <div class="container full-width-product-view">
       <div class="row">
         <div class="col-md-5">  
-          <img src="https://www.speedment.com/wp-content/uploads/2019/03/speedment-properties-2.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
+          <img data-aos="fade-in" src="https://www.speedment.com/wp-content/uploads/2019/03/speedment-properties-2.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
         <div class="col-md-5">     
             <h1> Write Database Applications While Remaining in a Pure Java World</h1>
@@ -44,6 +44,12 @@ get_header('datastore'); ?>
       </div>
     </div>
   </div>
+
+<script type="text/javascript">
+  AOS.init({
+    duration: 1200,
+  }); 
+</script>
 
 <!-- End Page Content -->
 <?php get_footer(); ?>
