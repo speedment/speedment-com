@@ -25,6 +25,11 @@ function load_popper() {
   wp_enqueue_script('popper');
 }
 
+function load_aos() {
+  wp_register_script('aos', get_template_directory_uri().'/assets/js/aos.js');
+  wp_enqueue_script('aos');
+}
+
 function load_animateLogo() {
   wp_register_script('animate-logos', get_template_directory_uri().'/assets/js/animate-logos.js');
   wp_enqueue_script('animate-logos');
