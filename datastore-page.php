@@ -67,9 +67,13 @@ get_header('datastore'); ?>
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container full-width-product-view">
       <div class="row justify-content-center" data-aos="fade-up">
+        <div class="col">
+          <h1 style="text-align: center">Related Resources</h1>
+        </div>
+        <div class="row">
         <div class="col-md mx-3 my-3 px-4 gray">
           <div class="col title-area"> 
-            <i class="far fa-file-alt"></i>Article
+            Article
           </div>
           <div class="col min-height">
             <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
@@ -104,6 +108,7 @@ get_header('datastore'); ?>
           <div class="col center-button">
             <a href="https://www.youtube.com/watch?v=Ive1fTTxUpU" target="_blank" class="btn btn-secondary">Watch Now</a>
           </div>
+        </div>
         </div>
       </div>
     </div>
