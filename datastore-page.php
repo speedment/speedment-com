@@ -6,7 +6,7 @@
 get_header('datastore'); ?>
 
 <!-- Start Page Content -->
-
+<div class="container full-width-product-view">
   <div class="row justify-content-center" id="datastore-about">
     <div class="container full-width-product-view">
       <div class="row">
@@ -68,7 +68,7 @@ get_header('datastore'); ?>
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container">
       <div class="row justify-content-center" data-aos="fade-up">
-        <div class="col-md mx-2 my-3 px-4 gray">
+        <div class="col-md mx-3 my-3 px-4 gray">
           <div class="col title-area"> 
             <i class="far fa-file-alt"></i>Article
           </div>
@@ -80,7 +80,7 @@ get_header('datastore'); ?>
             <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Read Article</a>
           </div>
         </div>
-        <div class="col-md mx-2 my-3 px-4 gray">
+        <div class="col-md mx-3 my-3 px-4 gray">
           <div class="col title-area"> 
             White Paper
           </div>
@@ -92,7 +92,7 @@ get_header('datastore'); ?>
             <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
           </div>
         </div>
-        <div class="col-md mx-2 my-3 px-4 gray d-md-none d-lg-block">
+        <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block">
           <div class="col title-area"> 
             Webinar
           </div>
@@ -109,6 +109,7 @@ get_header('datastore'); ?>
       </div>
     </div>
   </div>
+</div>
 
 <script type="text/javascript">
   AOS.init({
