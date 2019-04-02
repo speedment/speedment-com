@@ -613,9 +613,8 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #datastore-extras .title-area {
-    background: #a7b2b92e;
     color: #A7B2B9;
-    padding: 0.5em 0em;
+    padding: 1em 0em 0.5em 0em;
     font-family: "Titillium Web";
     text-transform: uppercase;
 }
@@ -624,6 +623,8 @@ a:hover, button:hover, input[type="button"]:hover {
 	font-family: "Source Sans Pro"; 
 	font-size: 1.4em;  
 	margin: 0.5em 0em; 
+	line-height: 1.2em; 
+	margin: 0em 0em 0.5em 0em; 
 }
 
 #datastore-documentation {
@@ -645,6 +646,10 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #datastore-about p {
 	font-size: 1.3em; 
+}
+
+#datastore-extras .gray {
+	box-shadow: none; 	
 }
 
 
