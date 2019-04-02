@@ -70,7 +70,7 @@ get_header('datastore'); ?>
       <div class="row justify-content-center" data-aos="fade-up">
         <div class="col-md mx-2 my-3 px-4 gray">
           <div class="col title-area"> 
-            Article
+            <i class="far fa-file-alt"></i>Article
           </div>
           <div class="col min-height">
             <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
