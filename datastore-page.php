@@ -31,14 +31,11 @@ get_header('datastore'); ?>
     </div> 
 </div>
 
-<div class="row justify-content-center" id="datastore-extras">
-    <div class="container">
+<div class="row justify-content-center" id="datastore-">
+    <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col-md mx-2 my-3 px-4" id="datastore-resources">
-          <div class="col title-area"> 
-           
-          </div>
-          <div class="col min-height">
+        <div class="col-md mx-3 my-3 px-4 lightgray">
+          <div class="col">
             <h3>Get Free Trial</h3>
             <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
           </div>
@@ -46,11 +43,8 @@ get_header('datastore'); ?>
             <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
           </div>
         </div>
-        <div class="col-md mx-2 my-3 px-4" id="datastore-resources">
-          <div class="col title-area"> 
-
-          </div>
-          <div class="col min-height">
+        <div class="col-md mx-3 my-3 px-4 lightgray">
+          <div class="col">
             <h3>Documentation</h3>
             <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
               And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
