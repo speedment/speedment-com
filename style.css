@@ -46,8 +46,6 @@ body{
   }
 }
 
-
-
 @media (min-width: 1200px) {
   .margin-right {
     margin-right: 2.5em;
@@ -653,7 +651,6 @@ a:hover, button:hover, input[type="button"]:hover {
 	box-shadow: none; 	
 }
 
-
 #first-view {
     margin-bottom: 0;
     background-position: 60% 20%;
@@ -805,6 +802,10 @@ a:hover, button:hover, input[type="button"]:hover {
   #first-view #first-view-text-wrapper > h1, #first-view-text-wrapper > h2 {
     font-size: 1.75rem;
     line-height: 2.3rem;
+  }
+	
+  #datastore .min-height {
+	min-height: 0em; 
   }
 }
 
