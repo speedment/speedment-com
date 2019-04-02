@@ -343,7 +343,7 @@ a:hover, button:hover, input[type="button"]:hover {
 	background-color: #f5f5f5; 
 	padding: 0 2em 1.5em 2em;
 	margin: 0em 1em; 
-}
+}u
 
 #requirements .lightgray {
 	background-color: #a7b2b92e; 
@@ -603,7 +603,8 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .full-width-product-view {
-     width: 100%
+     width: 100%;
+     max-width: 1250px; 
 }
 
 #datastore-extras .center-button {
