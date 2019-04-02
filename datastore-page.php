@@ -56,9 +56,9 @@ get_header('datastore'); ?>
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md mx-3 my-3 px-0 gray d-md-none d-lg-block">
+        <div class="col-md mx-2 my-3 px-0 gray d-md-none d-lg-block">
           <div class="col title-area px-3"> 
-            Webinar | 1 hour
+            Webinar
           </div>
           <div class="col px-3">
             <h3>Five Java Features You Didn't Know About</h3>
@@ -68,9 +68,9 @@ get_header('datastore'); ?>
             <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary">Watch Now</a>
           </div>
         </div>
-        <div class="col-md mx-3 my-3 px-0 gray">
+        <div class="col-md mx-2 my-3 px-0 gray">
           <div class="col title-area px-3"> 
-            White Paper | 3 pages
+            White Paper
           </div>
           <div class="col px-3">
             <h3>Speedment the Java Stream ORM</h3>
@@ -80,9 +80,9 @@ get_header('datastore'); ?>
             <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary">Read Paper</a>
           </div>
         </div>
-        <div class="col-md mx-3 my-3 px-0 gray">
+        <div class="col-md mx-2 my-3 px-0 gray">
           <div class="col title-area px-3"> 
-            Article | 8 pages
+            Article
           </div>
           <div class="col px-3">
             <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
