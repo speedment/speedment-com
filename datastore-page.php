@@ -60,7 +60,7 @@ get_header('datastore'); ?>
           <div class="col title-area px-3"> 
             Article
           </div>
-          <div class="col px-3">
+          <div class="col px-3 min-height">
             <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
             <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data. </p>  
           </div>
@@ -72,7 +72,7 @@ get_header('datastore'); ?>
           <div class="col title-area px-3"> 
             White Paper
           </div>
-          <div class="col px-3">
+          <div class="col px-3 min-height">
             <h3>Speedment the Java Stream ORM</h3>
             <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
           </div>
@@ -84,7 +84,7 @@ get_header('datastore'); ?>
           <div class="col title-area px-3"> 
             Webinar
           </div>
-          <div class="col px-3">
+          <div class="col px-3 min-height">
             <h3>Building Super Fast Data-Driven Apps with Speedment and Vaadin</h3>
             <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
               And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
