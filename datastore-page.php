@@ -45,6 +45,22 @@ get_header('datastore'); ?>
     </div>
   </div>
 
+  <div class="row justify-content-center" id="datastore-resources">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4" id="datastore-documentation">
+          <h1>Five Java Features You Didn't Know About</h1>
+        </div>
+        <div class="col-md-4" id="datastore-documentation">
+          <h1>Speedment the Java Stream ORM</h1>
+        </div>
+        <div class="col-md-4" id="datastore-documentation">
+          <h1>Database Actions Using Java 8 Stream Syntax Instead of SQL</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <script type="text/javascript">
   AOS.init({
     duration: 1200,
