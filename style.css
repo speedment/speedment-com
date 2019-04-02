@@ -203,7 +203,7 @@ a:hover, button:hover, input[type="button"]:hover {
     border: 2px solid; 
     font-family: "Source Sans Pro"; 
     font-weight: 600; 
-    padding: 0.7em 2em; 
+    padding: 0.5em 2em; 
     font-size: 1.2em; 
 }
 
@@ -1259,6 +1259,10 @@ label {
 .cr-top.cr-right,
 .cr-bottom.cr-left {
   transform: rotate(45deg);
+}
+
+.center-button {
+	text-align: center;
 }
 
 #trial-ribbon a {
