@@ -651,7 +651,7 @@ a:hover, button:hover, input[type="button"]:hover {
 	box-shadow: none; 	
 }
 
-#datastore .min-height {
+#datastore-extras .min-height {
 	min-height: 20em; 
 }
 
@@ -809,7 +809,7 @@ a:hover, button:hover, input[type="button"]:hover {
     line-height: 2.3rem;
   }
 	
-  #datastore .min-height {
+  #datastore-extras .min-height {
 	min-height: 0em; 
   }
 }
