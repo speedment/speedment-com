@@ -6,7 +6,6 @@
 get_header('datastore'); ?>
 
 <!-- Start Page Content -->
-<div class="container full-width-product-view">
   <div class="row justify-content-center" id="datastore-about">
     <div class="container full-width-product-view">
       <div class="row">
@@ -66,7 +65,7 @@ get_header('datastore'); ?>
   </div>
 
   <div class="row justify-content-center" id="datastore-extras">
-    <div class="container">
+    <div class="container full-width-product-view">
       <div class="row justify-content-center" data-aos="fade-up">
         <div class="col-md mx-3 my-3 px-4 gray">
           <div class="col title-area"> 
@@ -109,7 +108,6 @@ get_header('datastore'); ?>
       </div>
     </div>
   </div>
-</div>
 
 <script type="text/javascript">
   AOS.init({
