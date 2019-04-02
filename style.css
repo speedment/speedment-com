@@ -608,6 +608,17 @@ a:hover, button:hover, input[type="button"]:hover {
      width: 100%
 }
 
+#product-view .title-area {
+    margin: 0px 15px;
+    background: #a7b2b92e;
+    color: black;
+    padding: 0.5em 1.5em;
+    margin-bottom: 1em;
+    font-family: "Titillium Web";
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
 #datastore-documentation {
 	background: #e9e9e9; 
 }
