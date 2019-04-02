@@ -49,13 +49,19 @@ get_header('datastore'); ?>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md mx-3" id="datastore-documentation">
-          <h1>Five Java Features You Didn't Know About</h1>
+          <p>Webinar | 1 hour</p>
+          <h3>Five Java Features You Didn't Know About</h3>
+          <p> The JVM is a remarkable piece of software that can do seemingly magical things with your code. Understanding these things is key to mastering the art of Java development allowing better and faster code that is easier to understand, test, and maintain. In this session, you will learn how to allocate standard Java objects on the stack rather than on the Java heap, how you should test code performance, how to short-circuit Java Streams and gain massive performance and more.</p>
         </div>
         <div class="col-md mx-3" id="datastore-documentation">
-          <h1>Speedment the Java Stream ORM</h1>
+          <p>White Paper | 3 pages</p>
+          <h3>Speedment the Java Stream ORM</h3>
+          <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
         </div>
         <div class="col-md mx-3" id="datastore-documentation">
-          <h1>Database Actions Using Java 8 Stream Syntax Instead of SQL</h1>
+          <p>Article in Oracle Java Magazine | 8 pages</p>
+          <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
+          <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data. </p>
         </div>
       </div>
     </div>
