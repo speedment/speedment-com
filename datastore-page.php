@@ -58,7 +58,7 @@ get_header('datastore'); ?>
       <div class="row justify-content-center">
         <div class="col-md mx-3 px-0" id="datastore-documentation">
           <div class="col title-area px-3"> 
-            Webinar | 1 hour
+            Webinar
           </div>
           <div class="col px-3">
             <h3>Five Java Features You Didn't Know About</h3>
@@ -67,7 +67,7 @@ get_header('datastore'); ?>
         </div>
         <div class="col-md mx-3 px-0" id="datastore-documentation">
           <div class="col title-area px-3"> 
-            Webinar | 1 hour
+            White Paper
           </div>
           <div class="col px-3">
             <h3>Speedment the Java Stream ORM</h3>
@@ -76,13 +76,13 @@ get_header('datastore'); ?>
         </div>
         <div class="col-md mx-3 px-0" id="datastore-documentation">
           <div class="col title-area px-3"> 
-            Webinar | 1 hour
+            Article
           </div>
           <div class="col px-3">
             <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
             <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data. </p>  
           </div>
-        </div
+        </div>
       </div>
     </div>
   </div>
