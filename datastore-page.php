@@ -67,7 +67,7 @@ get_header('datastore'); ?>
 
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" data-aos="fade-up">
         <div class="col-md mx-2 my-3 px-4 gray">
           <div class="col title-area"> 
             Article
