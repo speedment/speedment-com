@@ -607,7 +607,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 #datastore-extras .center-button {
-	margin: 1em 0em; 
+	margin: 2em 0em; 
 }
 
 #datastore-extras .title-area {
@@ -650,6 +650,11 @@ a:hover, button:hover, input[type="button"]:hover {
 #datastore-extras .gray {
 	box-shadow: none; 	
 }
+
+#datastore .min-height {
+	min-height: 20em; 
+}
+
 
 #first-view {
     margin-bottom: 0;
