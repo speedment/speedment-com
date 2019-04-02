@@ -608,7 +608,7 @@ a:hover, button:hover, input[type="button"]:hover {
      width: 100%
 }
 
-#datastore-extras center-button {
+#datastore-extras .center-button {
 	margin: 1em 0em; 
 }
 
