@@ -56,7 +56,7 @@ get_header('datastore'); ?>
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md mx-3 my-3 px-0 gray .d-md-none .d-lg-block">
+        <div class="col-md mx-3 my-3 px-0 gray d-md-none d-lg-block">
           <div class="col title-area px-3"> 
             Webinar | 1 hour
           </div>
