@@ -58,14 +58,14 @@ get_header('datastore'); ?>
       <div class="row justify-content-center">
         <div class="col-md mx-2 my-3 px-0 gray d-md-none d-lg-block">
           <div class="col title-area px-3"> 
-            Webinar
+            Article
           </div>
           <div class="col px-3">
-            <h3>Five Java Features You Didn't Know About</h3>
-            <p> The JVM is a remarkable piece of software that can do seemingly magical things with your code. Understanding these things is key to mastering the art of Java development allowing better and faster code that is easier to understand, test, and maintain. In this session, you will learn how to allocate standard Java objects on the stack rather than on the Java heap, how you should test code performance, how to short-circuit Java Streams and gain massive performance and more.</p>
+            <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
+            <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data. </p>  
           </div>
           <div class="col px-3 center-button">
-            <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary">Watch Now</a>
+            <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Read Article</a>
           </div>
         </div>
         <div class="col-md mx-2 my-3 px-0 gray">
@@ -77,19 +77,21 @@ get_header('datastore'); ?>
             <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
           </div>
           <div class="col px-3 center-button">
-            <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary">Read Paper</a>
+            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
           </div>
         </div>
         <div class="col-md mx-2 my-3 px-0 gray">
           <div class="col title-area px-3"> 
-            Article
+            Webinar
           </div>
           <div class="col px-3">
-            <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
-            <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data. </p>  
+            <h3>Building Super Fast Data-Driven Apps with Speedment and Vaadin</h3>
+            <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
+              And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
+              But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
           </div>
           <div class="col px-3 center-button">
-            <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary">Read Article</a>
+            <a href="https://www.youtube.com/watch?v=Ive1fTTxUpU" target="_blank" class="btn btn-secondary">Watch Now</a>
           </div>
         </div>
       </div>
