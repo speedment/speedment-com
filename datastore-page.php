@@ -56,7 +56,7 @@ get_header('datastore'); ?>
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md mx-2 my-3 px-0 gray d-md-none d-lg-block">
+        <div class="col-md mx-2 my-3 px-0 gray">
           <div class="col title-area px-3"> 
             Article
           </div>
@@ -80,7 +80,7 @@ get_header('datastore'); ?>
             <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
           </div>
         </div>
-        <div class="col-md mx-2 my-3 px-0 gray">
+        <div class="col-md mx-2 my-3 px-0 gray d-md-none d-lg-block">
           <div class="col title-area px-3"> 
             Webinar
           </div>
