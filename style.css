@@ -603,8 +603,8 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .full-width-product-view {
-     width: 100%;
-     max-width: 1250px; 
+     width: 90%;
+     max-width: 1200px; 
 }
 
 #datastore-extras .center-button {
