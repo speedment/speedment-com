@@ -56,7 +56,7 @@ get_header('datastore'); ?>
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md mx-3 px-0 gray">
+        <div class="col-md mx-3 my-3 px-0 gray .d-md-none .d-lg-block">
           <div class="col title-area px-3"> 
             Webinar | 1 hour
           </div>
@@ -68,7 +68,7 @@ get_header('datastore'); ?>
             <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary">Watch Now</a>
           </div>
         </div>
-        <div class="col-md mx-3 px-0 gray">
+        <div class="col-md mx-3 my-3 px-0 gray">
           <div class="col title-area px-3"> 
             White Paper | 3 pages
           </div>
@@ -80,7 +80,7 @@ get_header('datastore'); ?>
             <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary">Read Paper</a>
           </div>
         </div>
-        <div class="col-md mx-3 px-0 gray">
+        <div class="col-md mx-3 my-3 px-0 gray">
           <div class="col title-area px-3"> 
             Article | 8 pages
           </div>
