@@ -53,7 +53,7 @@ get_header('datastore'); ?>
     </div>
   </div>
 
-  <div class="row justify-content-center" id="datastore-resources">
+  <div class="row justify-content-center" id="datastore-extras">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md mx-3 px-2" id="datastore-documentation">
