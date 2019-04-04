@@ -111,7 +111,8 @@
 }
 
 .lightgray {
-	background: #A7B2B9; 
+    background: #a7b2b92b;
+    padding: 1em;
 }
 
 /* FULL POPOVER CSS FOR ALL POPOVERS */
