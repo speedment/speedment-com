@@ -21,7 +21,7 @@
       </div>
       <div class="footer-text">
         <div class="copyright">
-          Copyright © 2018 Speedment,&nbsp;Inc. All rights reserved.
+          Copyright © 2019 Speedment,&nbsp;Inc. All rights reserved.
         </div>
         <div class="links">
           <a href="<?php echo get_permalink(170); ?>" alt="Read the Speedment Privacy Policy">
