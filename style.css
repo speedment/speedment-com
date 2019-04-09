@@ -230,7 +230,7 @@ a:hover, button:hover, input[type="button"]:hover {
     color: #fff; 
 }
 
-.gray-parent > wp-block-column {
+.gray-parent > .wp-block-column {
 	background: #2D3639; 
 	color: white; 
 }
