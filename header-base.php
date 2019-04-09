@@ -7,15 +7,8 @@
   <meta name="keywords" content="Java,Database,Stream,Pure,ORM">
   <meta name="author" content="Speedment, Inc.">
   
-  <script src="snowstorm.js"></script>
-  <script>
-     snowStorm.autoStart = 'true';   // blue-ish snow!?
-     snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
-     snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
-  </script>
-
-
   <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <!--[if lt IE 9]>
   <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
