@@ -233,6 +233,7 @@ a:hover, button:hover, input[type="button"]:hover {
 .gray-parent > .wp-block-column {
 	background: #2D3639; 
 	color: white; 
+	padding: 1em 2em; 
 }
 
 .custom-control-input:checked ~ .custom-control-indicator {
