@@ -15,9 +15,9 @@
         </div>
       </div>
       <div id="sharing-icons" class="d-flex justify-content-end">
-        <a href="https://www.facebook.com/Speedment-231234486886756/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/speedment" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/company-beta/5217517/?pathWildcard=5217517" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/Speedment-231234486886756/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/speedment" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/company-beta/5217517/?pathWildcard=5217517" target="_blank"><i class="fab fa-linkedin-square" aria-hidden="true"></i></a>
       </div>
       <div class="footer-text">
         <div class="copyright">
