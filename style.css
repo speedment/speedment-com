@@ -77,33 +77,8 @@ body{
   }
 }
 
-@media (min-width: 600px) 
-    .wp-block-column:not(:first-child), 
-    .wp-block-column:nth-child(2n), 
-    .wp-block-column:nth-child(odd),
-    .wp-block-column:not(:last-child) {
-    	margin-left: 0px;
-        margin-right: 0px; 
- }
-
-@media (min-width: 600px)
-.wp-block-column:not(:last-child) {
-    margin-right: 0; 
-}
-
-@media (min-width: 600px)
-  .wp-block-column:nth-child(2n) {
-    margin-right: 0; 
-}
-
-@media (min-width: 600px)
-.wp-block-column:nth-child(odd) {
-    margin-right: 0; 
-}
-
-@media (min-width: 600px)
-.wp-block-column:not(:first-child) {
-    margin-right: 0; 
+.wp-block-column {
+	margin: 0px
 }
 
 .no-margins {
