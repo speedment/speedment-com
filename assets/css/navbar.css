@@ -97,11 +97,17 @@
 }
 
  /* Download button in menu */
-.nav-item-2093 {
+.nav-item-289 {
     color: #fff;
     background-color: #3a9b79;
-    border-color: #3a9b79;
-    text-transform: uppercase; 
+    border-radius: 5rem;
+    padding: 0.3em 2em;
+    margin-top: 0.2em;
+    margin-right: -0.5em;
+}
+
+.nav-item-289:hover {
+    background-color: #3a9b799e;
 }
 
 
