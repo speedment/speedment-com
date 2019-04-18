@@ -16,8 +16,11 @@
   }
 }
 
-#speedment-navbar {
+#speedment-navbar .menu-item {
   padding: 0em 0.5em; 
+  text-transform: uppercase; 
+  font-size: 1.3em; 
+  color: black; 
 }
 
 #developer-navbar {
@@ -29,7 +32,7 @@
 }
 
 #developer-navbar a {
-  color: white; 
+  color: black; 
   text-transform: uppercase; 
 }
 
