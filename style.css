@@ -59,10 +59,10 @@ body{
 
 @media (min-width: 992px) {
 
-	#narrow-page .container {
+  #narrowPage .container {
     width: 800px;
     max-width: 100%;
-	}
+  }
 
   .container {
     width: 900px;
@@ -72,7 +72,7 @@ body{
 
 @media (min-width: 1200px) {
 	
-  #narrow-page .container {
+  #narrowPage .container {
     width: 800px;
     max-width: 100%;
 	}
