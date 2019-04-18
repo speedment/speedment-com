@@ -37,7 +37,7 @@
             'theme_location'    => 'top-right-menu',
             'depth'             => 2,
             'container'         => 'div',
-            'container_class'   => 'collapse navbar-collapse',
+            'container_class'   => 'collapse navbar-collapse justify-content-end',
             'container_id'      => 'developer-navbar',
             'menu_class'        => 'navbar-nav',
             'walker'            => new bootstrap_4_walker_nav_menu())
@@ -59,7 +59,7 @@
             'theme_location'    => 'top-left-menu',
             'depth'             => 2,
             'container'         => 'div',
-            'container_class'   => 'collapse navbar-collapse',
+            'container_class'   => 'collapse navbar-collapse justify-content-end',
             'container_id'      => 'speedment-navbar',
             'menu_class'        => 'navbar-nav',
             'walker'            => new bootstrap_4_walker_nav_menu())
