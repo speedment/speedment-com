@@ -58,6 +58,12 @@ body{
 }
 
 @media (min-width: 992px) {
+
+	#narrow-page .container {
+    width: 800px;
+    max-width: 100%;
+	}
+
   .container {
     width: 900px;
     max-width: 100%;
@@ -65,6 +71,12 @@ body{
 }
 
 @media (min-width: 1200px) {
+	
+  #narrow-page .container {
+    width: 800px;
+    max-width: 100%;
+	}
+	
   .container {
     width: 1000px;
     max-width: 100%;
