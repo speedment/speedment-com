@@ -446,6 +446,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #subpage-hero {
   background-color: #eee;
+  margin-top: 1em; 
 }
 
 #first-view button {
