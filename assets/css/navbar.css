@@ -91,3 +91,17 @@
 .nav-link {
     color: black; 
 }
+
+.dropdown-toggle::after {
+    display: none; /* inline-block to display arrows after drop down menu items again */ 
+}
+
+ /* Download button in menu */
+.nav-item-2093 {
+    color: #fff;
+    background-color: #3a9b79;
+    border-color: #3a9b79;
+    text-transform: uppercase; 
+}
+
+
