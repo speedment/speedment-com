@@ -76,3 +76,8 @@
 .navbar-brand > img {
     margin-right: -2px;
 }
+.navbar-light 
+.navbar-nav 
+.nav-link {
+    color: black; 
+}
