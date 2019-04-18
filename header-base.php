@@ -43,7 +43,7 @@
             'walker'            => new bootstrap_4_walker_nav_menu())
           ); ?>
       </nav>
-      <nav class="navbar navbar-toggleable-md navbar-light bg-white hidden-md-down" role="navigation">
+      <nav class="navbar navbar-toggleable-md navbar-light bg-white hidden-md-down navbar-shadow" role="navigation">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#speedment-navbar" aria-controls="speedment-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
