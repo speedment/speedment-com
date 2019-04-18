@@ -17,10 +17,12 @@
 }
 
 #speedment-navbar .menu-item {
+   color: black; 
+}
+#speedment-navbar .menu-item-has-children {
   padding: 0em 0.5em; 
   text-transform: uppercase; 
   font-size: 1.3em; 
-  color: black; 
 }
 
 #developer-navbar {
