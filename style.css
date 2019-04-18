@@ -97,6 +97,10 @@ body{
 	margin: 0px; 
 }
 
+.bg-white {
+	background: white; 
+}
+
 /* Remove tle header border */
 .table th {
 	border-top: none; 
