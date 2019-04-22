@@ -31,7 +31,7 @@
   text-transform: none; 
 }
 
-.collapse .navbar-collapse .justify-content-end {
+#speedment-navbar .navbar-nav {
     padding-top: 1em; 
 }
 
