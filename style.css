@@ -279,6 +279,10 @@ a:hover, button:hover, input[type="button"]:hover {
           box-shadow: 0 0 0 1px #fff, 0 0 0 3px #3a9b79;
 }
 
+space {
+	height: 1em; 
+}
+
 #gradient-footer {
 	color: #FFFFFF; 
 	text-align: center; 
@@ -286,6 +290,12 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #gradient-footer p {
 	font-size: 1.1em; 
+}
+
+#gradient-footer .btn-secondary {
+    color: #white;
+    background-color: transparent;
+    border-color: #white;
 }
 
 .datastore-gradient {
