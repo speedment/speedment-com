@@ -43,6 +43,10 @@
   padding: 0.5em 0.5em 0em 0.5em;
 }
 
+#developer-navbar .nav-link {
+  padding-bottom: 0em; 
+}
+
 #developer-navbar a {
   color: black; 
 }
