@@ -124,6 +124,25 @@
     text-transform: none; 
 }
 
+ /* Download button in menu */
+#menu-item-2093 a {
+    color: #fff;
+    background-color: #3a9b79;
+    border-radius: 5rem;
+    margin-right: 0.5em;
+    padding: 0.5em 2em; 
+    font-weight: 600; 
+}
+
+#menu-item-2093 a:hover {
+    background-color: #3a9b799e;
+}
+
+#menu-item-2093 .nav-link {
+    color: #fff;
+    text-transform: none; 
+}
+
 .navbar {
   padding-top: 0em; 
 }
