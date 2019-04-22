@@ -35,6 +35,10 @@
     padding-top: 1em; 
 }
 
+#speedment-navbar .navbar {
+    padding-top: 0em; 
+}
+
 #developer-navbar {
   background-color: white;
 }
