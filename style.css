@@ -279,6 +279,10 @@ a:hover, button:hover, input[type="button"]:hover {
           box-shadow: 0 0 0 1px #fff, 0 0 0 3px #3a9b79;
 }
 
+.gradient {
+	background-image: linear-gradient(to right top, #2171ad, #0088b6, #009db3, #00afa6, #5abf95);
+}
+
 #mainbg_container {
     width: 100%;
     min-width: 850px;
