@@ -3,7 +3,7 @@
   <!--
       Main Hero (#1 Tool to Accelerate Existing Database Applications)
   -->
-  <div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('http://35.232.42.240/wp-content/uploads/2019/04/os-header.png');">
+  <div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('http://35.232.42.240/wp-content/uploads/2019/04/opensource-header-2.png');">
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
