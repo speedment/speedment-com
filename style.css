@@ -281,6 +281,22 @@ a:hover, button:hover, input[type="button"]:hover {
 
 #gradient-footer {
 	color: #FFFFFF; 
+	text-align: center; 
+}
+
+#gradient-footer p {
+	font-size: 1.1em; 
+}
+
+.datastore-gradient {
+        background-image: linear-gradient(to right top, #2171ad, #0088b6, #009db3, #00afa6, #5abf95);
+}
+
+.hazelcast-gradient {
+	background-image: linear-gradient(to left bottom, #2e7de1, #8c66c8, #b64fa0, #c54172, #bf4545);
+}
+
+.oss-gradient {
 	background-image: linear-gradient(to right top, #2171ad, #0088b6, #009db3, #00afa6, #5abf95);
 }
 
