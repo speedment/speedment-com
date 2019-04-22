@@ -5,8 +5,6 @@
  */
 get_header('hazelcast'); ?>
 
-<div class="container full-width-product-view">
-
 <!-- Start Page Content -->
   <div class="row justify-content-center" id="datastore-about">
     <div class="container full-width-product-view">
@@ -130,8 +128,7 @@ get_header('hazelcast'); ?>
       </div>
     </div>
   </div>
-</div>
-
+  
 <script type="text/javascript">
   AOS.init({
     duration: 1200,
