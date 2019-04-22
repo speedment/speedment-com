@@ -76,7 +76,7 @@ get_header('hazelcast'); ?>
               (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.</p>
           </div>
           <div class="col center-button">
-            <a href="http://35.232.42.240/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf">Read Now</a>
+            <a href="http://35.232.42.240/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf" target="_blank" class="btn btn-secondary">Read Now</a>
           </div>
         </div>
         <div class="col-md mx-3 my-3 px-4 gray">
