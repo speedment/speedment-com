@@ -111,10 +111,10 @@ get_header('hazelcast'); ?>
   <div class="container" id="divider">
   </div>
 
-  <div class="row justify-content-center" id="gradient-footer">
+  <div class="row justify-content-center hazelcast-gradient" id="gradient-footer">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col gradient px-5 py-5 title-area">
+        <div class="col gradient px-5 py-5">
           <h1>Try for Free now</h1>
           <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
               And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
