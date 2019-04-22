@@ -293,7 +293,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .hazelcast-gradient {
-	background-image: linear-gradient(to left bottom, #2e7de1, #8c66c8, #b64fa0, #c54172, #bf4545);
+	background-image: linear-gradient(to left bottom, #0b2a35, #00405c, #005687, #006bb5, #2e7de1);
 }
 
 .oss-gradient {
