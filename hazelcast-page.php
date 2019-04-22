@@ -65,6 +65,20 @@ get_header('hazelcast'); ?>
           <h1 style="text-align: center">Related Resources</h1>
         </div>
         <div class="row">
+<div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block">
+          <div class="col title-area"> 
+            Datasheet
+          </div>
+          <div class="col min-height">
+            <h3>Hazelcast Auto Database Integration</h3>
+            <p>Speedment offers a handy productivity tool that automates database integration with Hazelcast IMDG. 
+              It streamlines the development of Hazelcast applications by generating a Java domain model representation 
+              (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.</p>
+          </div>
+          <div class="col center-button">
+            <a href="http://35.232.42.240/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf">Read Now</a>
+          </div>
+        </div>
         <div class="col-md mx-3 my-3 px-4 gray">
           <div class="col title-area"> 
             Article
@@ -88,21 +102,7 @@ get_header('hazelcast'); ?>
           <div class="col center-button">
             <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
           </div>
-        </div>
-        <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block">
-          <div class="col title-area"> 
-            Webinar
           </div>
-          <div class="col min-height">
-            <h3>Building Super Fast Data-Driven Apps with Speedment and Vaadin</h3>
-            <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
-              And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
-              But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
-          </div>
-          <div class="col center-button">
-            <a href="https://www.youtube.com/watch?v=Ive1fTTxUpU" target="_blank" class="btn btn-secondary">Watch Now</a>
-          </div>
-        </div>
         </div>
       </div>
     </div>
