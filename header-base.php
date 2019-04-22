@@ -49,7 +49,7 @@
           </button>
 
           <a class="navbar-brand" href="/">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/speedment-black.png" height="40" class="d-inline-block align-top" alt="Speedment">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/speedment-black.png" height="55" class="d-inline-block align-top" alt="Speedment">
           </a>
 
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -70,7 +70,7 @@
           </button>
 
           <a class="navbar-brand" href="/">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/speedment-black.png" height="30" class="d-inline-block align-top" alt="Speedment">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/speedment-black.png" height="40" class="d-inline-block align-top" alt="Speedment">
           </a>
 
           <!-- Brand and toggle get grouped for better mobile display -->
