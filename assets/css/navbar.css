@@ -105,18 +105,19 @@
 }
 
  /* Download button in menu */
-.nav-item-300 > a {
+#menu-item-300 .nav-item-300 > a {
     color: #fff;
     background-color: #3a9b79;
     border-radius: 5rem;
-    padding: 0em 2em;
     margin-right: 0.5em;
+    padding: 0.5em 2em; 
+    font-weight: 600; 
 }
-.nav-item-300 > a:hover {
+#menu-item-300 .nav-item-300 > a:hover {
     background-color: #3a9b799e;
 }
 
-.nav-item-300 .nav-link {
+#menu-item-300 .nav-item-300 .nav-link {
     color: #fff;
     text-transform: none; 
 }
