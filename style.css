@@ -608,6 +608,10 @@ a:hover, button:hover, input[type="button"]:hover {
   margin-bottom: 30px;
 }
 
+.center {
+	text-align: center; 
+}
+
 #product-view {
     margin-bottom: 0;
     background-position: 60% 20%;
