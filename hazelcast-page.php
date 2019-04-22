@@ -116,10 +116,12 @@ get_header('hazelcast'); ?>
       <div class="row justify-content-center">
         <div class="col gradient px-5 py-5">
           <h1>Try for Free now</h1>
+          <space></space>
           <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
               And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
               But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
-              <a href="http://speedment.com/hazelcast-initializer" class="btn btn-secondary">Try for Free</a>
+          <space></space>
+          <a href="http://speedment.com/hazelcast-initializer" class="btn btn-secondary">Try for Free</a>
           </div>
         </div>
       </div>
