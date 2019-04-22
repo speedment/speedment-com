@@ -49,8 +49,7 @@
           </button>
 
           <a class="navbar-brand" href="/">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/cross.svg" width="30" height="30" class="d-inline-block align-top" alt="Speedment">
-            Speedment
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/brand/speedment-black.png" height="40" class="d-inline-block align-top" alt="Speedment">
           </a>
 
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -65,7 +64,7 @@
             'walker'            => new bootstrap_4_walker_nav_menu())
           ); ?>
       </nav>
-      <nav class="navbar navbar-toggleable-md navbar-light hidden-lg-up" role="navigation">
+      <nav class="navbar navbar-toggleable-md navbar-light bg-white hidden-lg-up" role="navigation">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
