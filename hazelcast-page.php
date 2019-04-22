@@ -114,7 +114,8 @@ get_header('hazelcast'); ?>
   <div class="row justify-content-center hazelcast-gradient" id="gradient-footer">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col gradient px-5 py-5">
+        <div class="col-2"></div>
+        <div class="col-8 py-5">
           <h1>Try for Free now</h1>
           <space></space>
           <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
@@ -123,6 +124,7 @@ get_header('hazelcast'); ?>
           <space></space>
           <a href="http://speedment.com/hazelcast-initializer" class="btn btn-secondary">Try for Free</a>
           </div>
+          <div class="col-2"></div>
         </div>
       </div>
     </div>
