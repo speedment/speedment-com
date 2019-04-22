@@ -12,7 +12,7 @@
             <h3>The popular Java Stream ORM for Open Source databases.</h3>
               <div class="row">
                 <div class="col px-3" id="product-view-button-area">
-                  <a href="http://github.com/speedment/speedment" class="btn btn-secondary">View on GitHub <i class="fab fa-github-alt"></i></a>
+                  <a href="http://github.com/speedment/speedment" target="_blank" class="btn btn-secondary">View on GitHub <i class="fab fa-github-alt"></i></a>
                   <a href="http://speedment.com/oss-download" class="btn btn-primary">Download</a>
                 </div>
             </div>
