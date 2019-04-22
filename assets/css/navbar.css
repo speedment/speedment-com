@@ -47,10 +47,6 @@
   padding: 0.5em 0.5em 0em 0.5em;
 }
 
-#developer-navbar .nav-link {
-  padding-bottom: 0em; 
-}
-
 #developer-navbar a {
   color: black; 
 }
@@ -109,14 +105,14 @@
 }
 
  /* Download button in menu */
-.nav-item-300 {
+.nav-item-300 > a {
     color: #fff;
     background-color: #3a9b79;
     border-radius: 5rem;
     padding: 0em 2em;
     margin-right: 0.5em;
 }
-.nav-item-300:hover {
+.nav-item-300 > a:hover {
     background-color: #3a9b799e;
 }
 
