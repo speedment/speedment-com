@@ -116,7 +116,7 @@ get_header('hazelcast'); ?>
       <div class="row justify-content-center">
         <div class="col-2 d-none d-sm-block"></div>
         <div class="col-8 py-5">
-          <h1>Try for Free now</h1>
+          <h1>Streamline Your Hazelcast Development Today</h1>
           <space></space>
           <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
               And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
