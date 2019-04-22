@@ -281,6 +281,7 @@ a:hover, button:hover, input[type="button"]:hover {
 
 space {
 	height: 1em; 
+	display: block; 
 }
 
 #gradient-footer {
@@ -293,9 +294,9 @@ space {
 }
 
 #gradient-footer .btn-secondary {
-    color: #white;
+    color: white;
     background-color: transparent;
-    border-color: #white;
+    border-color: white;
 }
 
 .datastore-gradient {
