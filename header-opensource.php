@@ -8,12 +8,11 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col px-5" id="product-view-text-wrapper">
-            <h1>Hazelcast Auto Database Integration</h1>
-            <h3>The industry's most efficient database integration tool for data grids.</h3>
+            <h1>Speedment Open Source</h1>
+            <h3>The popular Java Stream ORM for Open Source databases.</h3>
               <div class="row">
                 <div class="col px-3" id="product-view-button-area">
-                  <a href="https://speedment.github.io/speedment-doc/introduction.html#top" target="_blank" class="btn btn-secondary">Documentation </a>
-                  <a href="http://github.com/speedment/speedment" class="btn btn-secondary">View on GitHu <i class="fab fa-github-alt"></i></a>
+                  <a href="http://github.com/speedment/speedment" class="btn btn-secondary">View on GitHub <i class="fab fa-github-alt"></i></a>
                   <a href="http://speedment.com/hazelcast-initializer" class="btn btn-primary">Try for Free</a>
                 </div>
             </div>
