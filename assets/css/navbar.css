@@ -96,7 +96,7 @@
 }
 
  /* Download button in menu */
-.nav-item-294 {
+#menu-item-294 .nav-item-294 {
     color: #fff;
     background-color: #3a9b79;
     border-radius: 5rem;
@@ -104,11 +104,11 @@
     margin-right: 0.5em;
 }
 
-.nav-item-294:hover {
+#menu-item-294 .nav-item-294:hover {
     background-color: #3a9b799e;
 }
 
-.nav-item-294 .nav-link {
+#menu-item-294 .nav-item-294 .nav-link {
     color: #fff;
     text-transform: none; 
 }
