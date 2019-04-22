@@ -31,13 +31,16 @@
   text-transform: none; 
 }
 
+#speedment-navbar navbar-collapse {
+    padding-top: 1em; 
+}
+
 #developer-navbar {
   background-color: white;
 }
 
 #developer-navbar .menu-item {
   padding: 0.5em 0.5em 0em 0.5em;
-  font-size: 1.1em; 
 }
 
 #developer-navbar a {
@@ -84,7 +87,9 @@
 
 .navbar-brand > img {
     margin-right: -2px;
+    padding-bottom: 0.2em; 
 }
+
 .navbar-light 
 .navbar-nav 
 .nav-link {
@@ -96,19 +101,18 @@
 }
 
  /* Download button in menu */
-#menu-item-294 .nav-item-294 {
+.nav-item-300 {
     color: #fff;
     background-color: #3a9b79;
     border-radius: 5rem;
     padding: 0em 2em;
     margin-right: 0.5em;
 }
-
-#menu-item-294 .nav-item-294:hover {
+.nav-item-300:hover {
     background-color: #3a9b799e;
 }
 
-#menu-item-294 .nav-item-294 .nav-link {
+.nav-item-300 .nav-link {
     color: #fff;
     text-transform: none; 
 }
