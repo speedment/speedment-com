@@ -108,6 +108,9 @@ get_header('hazelcast'); ?>
     </div>
   </div>
 
+  <div class="container id="divider">
+  </div>
+
   <div class="row justify-content-center" id="gradient-footer">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
