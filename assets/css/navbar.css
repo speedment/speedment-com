@@ -16,16 +16,13 @@
   }
 }
 
-.navbar-shadow {
-  box-shadow: 1px 22px 40px -20px rgba(0,0,0,0.75);
-}
-
 #speedment-navbar .menu-item {
    color: black; 
    padding-right: 0.7em;
    padding-left: 0.7em;
    text-transform: uppercase; 
    font-size: 1.3em; 
+   font-weight: 600; 
 }
 
 #speedment-navbar .depth_0 .menu-item {
@@ -40,6 +37,7 @@
 
 #developer-navbar .menu-item {
   padding: 0.5em 0.5em 0em 0.5em;
+  font-size: 1.1em; 
 }
 
 #developer-navbar a {
@@ -98,7 +96,7 @@
 }
 
  /* Download button in menu */
-.nav-item-289 {
+.nav-item-294 {
     color: #fff;
     background-color: #3a9b79;
     border-radius: 5rem;
@@ -106,11 +104,11 @@
     margin-right: 0.5em;
 }
 
-.nav-item-289:hover {
+.nav-item-294:hover {
     background-color: #3a9b799e;
 }
 
-.nav-item-289 .nav-link {
+.nav-item-294 .nav-link {
     color: #fff;
     text-transform: none; 
 }
