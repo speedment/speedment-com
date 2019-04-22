@@ -284,6 +284,10 @@ a:hover, button:hover, input[type="button"]:hover {
 	background-image: linear-gradient(to right top, #2171ad, #0088b6, #009db3, #00afa6, #5abf95);
 }
 
+#divider {
+	height: 2em; 
+}
+
 #mainbg_container {
     width: 100%;
     min-width: 850px;
