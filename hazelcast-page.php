@@ -10,7 +10,6 @@ get_header('hazelcast'); ?>
     <div class="container full-width-product-view">
       <div class="row">
         <div class="col-md-5">  
-          <img data-aos="fade-up" src="https://www.speedment.com/wp-content/uploads/2019/03/speedment-properties-2.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
         <div data-aos="fade-up" class="col-md-5">     
             <h1> Write Database Applications While Remaining in a Pure Java World</h1>
@@ -19,6 +18,10 @@ get_header('hazelcast'); ?>
       </div>
     </div> 
   </div>
+
+  <div class="container" id="divider">
+  </div>
+
 
   <div class="row justify-content-center" id="compatability">
     <div class="container">
@@ -31,31 +34,7 @@ get_header('hazelcast'); ?>
     </div> 
 </div>
 
-<div class="row justify-content-center" id="datastore-">
-    <div class="container full-width-product-view">
-      <div class="row justify-content-center">
-        <div class="col-md mx-3 my-3 px-4 lightgray">
-          <div class="col">
-            <h3>Get Free Trial</h3>
-            <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
-          </div>
-          <div class="col center-button">
-            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
-          </div>
-        </div>
-        <div class="col-md mx-3 my-3 px-4 lightgray">
-          <div class="col">
-            <h3>Documentation</h3>
-            <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
-              And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
-              But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
-          </div>
-          <div class="col center-button">
-            <a href="https://www.youtube.com/watch?v=Ive1fTTxUpU" target="_blank" class="btn btn-secondary">Watch Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="container" id="divider">
   </div>
 
   <div class="row justify-content-center" id="datastore-extras">
