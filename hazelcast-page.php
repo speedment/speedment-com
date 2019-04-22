@@ -1,9 +1,9 @@
 <?php
 /*
- * Template Name: DataStore page
- * Description: Page template that shows a DataStore page header
+ * Template Name: Hazelcast page
+ * Description: Page template that shows a Hazelcast page header
  */
-get_header('datastore'); ?>
+get_header('hazelcast'); ?>
 
 <!-- Start Page Content -->
   <div class="row justify-content-center" id="datastore-about">
