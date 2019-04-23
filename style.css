@@ -1551,6 +1551,11 @@ label {
 #office i {
 	font-size: 2em; 
 	margin-bottom: 1em; 
+	color: #9be9ce; 
+}
+
+#office .btn-primary {
+	margin-top: 2em; 
 }
 
 @media screen and (max-width: 460px) {
@@ -1595,7 +1600,7 @@ label {
 		font-size: 2em; 
 		margin-bottom: 1em; 
 	}
-	.btn-primary {
+	#office .btn-primary {
 		margin-top: 2em; 
 	}
 }
