@@ -1530,3 +1530,11 @@ label {
 	font-weight: 400; 
 	margin-top: 0em; 
 }
+
+#leadership hr {
+    display: block;
+    height: 1px;
+    border-top: 2px solid black;
+    width: 4em;
+    margin-left: 1px;
+}
