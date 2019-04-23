@@ -147,4 +147,10 @@
   padding-top: 0em; 
 }
 
+.navbar-brand {
+  padding-top: 0.5em; 
+}
 
+.navbar-toggler {
+  padding-top: 0.5em; 
+}
