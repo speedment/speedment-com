@@ -1541,7 +1541,6 @@ label {
 
 .square{
 	position: relative;
-	width: 50%;		/* desired width */
 }
 
 .square:before{
