@@ -1,7 +1,15 @@
     <footer class="container-fluid" id="footer">
       <div class="row justify-content-center">
         <div class="container">
-          <nav class="row justify-content-center" role="navigation">
+          <div class="row">
+            <div class="col"> 
+                <h2>Speedment</h2>
+                <p>470 Ramona Street</p>
+                <p>Palo Alto</p>
+                <p>USA</p>
+            </div>
+            <div class="col"> 
+              <nav class="row justify-content-center" role="navigation">
               <?php wp_nav_menu(array(
                 'theme_location' => 'footer-menu',
                 'menu'           => 'footer-menu',
@@ -11,7 +19,9 @@
                 'items_wrap'     => '%3$s',
                 'walker'         => new Footer_Menu_Walker()
               )); ?>
-          </nav>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
       <div id="sharing-icons" class="d-flex justify-content-end">
