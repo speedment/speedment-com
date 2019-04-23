@@ -214,6 +214,13 @@ h2 {
     text-transform: uppercase; 
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border-top: 4px solid white;
+    width: 2em; 
+}
+
 /* Styling for code in text*/ 
 c {
     font-size: 1em;
