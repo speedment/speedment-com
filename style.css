@@ -1553,6 +1553,21 @@ label {
 	margin-bottom: 1em; 
 }
 
+@media (min-width: 768px)
+ #office h4 {
+   font-size: 1.75em; 
+   margin-top: 0em;
+}
+#office p {
+   font-size: 1em; 
+}
+#office i {
+	font-size: 1.2em; 
+	margin-bottom: 0.5em; 
+}
+
+}
+
 .square{
 	position: relative;
 }
@@ -1575,4 +1590,5 @@ label {
 	background-image: url("http://35.232.42.240/wp-content/uploads/2019/04/bild.png");
 	background-size: auto; 
 }
+
 
