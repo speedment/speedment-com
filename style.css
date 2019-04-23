@@ -1540,22 +1540,18 @@ label {
 }
 
 #office h4 {
-   font-size: 2.5em; 
-   margin-top: 0em;
+        font-size: 1.75em; 
+        margin-top: 0em;
 }
-
 #office p {
-   font-size: 1.2em; 
+   	font-size: 1em; 
 }
-
 #office i {
-	font-size: 2em; 
-	margin-bottom: 1em; 
-	color: #33b88a; 
+	font-size: 1.2em; 
+	margin-bottom: 0.5em; 
 }
-
 #office .btn-primary {
-	margin-top: 2em; 
+	margin-top: 0.5em; 
 }
 
 #office a {
@@ -1566,41 +1562,7 @@ label {
 	color: #93c0e4; 
 }
 
-@media (max-width: 428px) {
- 	#office h4 {
-          	font-size: 1.75em; 
-          	margin-top: 0em;
-	}
-	#office p {
-   		font-size: 1em; 
-	}
-	#office i {
-		font-size: 1.2em; 
-		margin-bottom: 0.5em; 
-	}
-	#office .btn-primary {
-		margin-top: 0.5em; 
-	}
-}
-
-@media (max-width: 992px){
- 	#office h4 {
-          	font-size: 1.75em; 
-          	margin-top: 0em;
-	}
-	#office p {
-   		font-size: 1em; 
-	}
-	#office i {
-		font-size: 1.2em; 
-		margin-bottom: 0.5em; 
-	}
-	#office .btn-primary {
-		margin-top: 0.5em; 
-	}
-}
-	
-@media (max-width: 768px){
+@media (min-width: 460px) {
 	#office h4 {
  		  font-size: 2.5em; 
  		  margin-top: 0em;
@@ -1614,6 +1576,40 @@ label {
 	}
 	#office .btn-primary {
 		margin-top: 2em; 
+	}
+}
+
+@media (min-width: 992px){
+	#office h4 {
+ 		  font-size: 2.5em; 
+ 		  margin-top: 0em;
+	}
+	#office p {
+   		font-size: 1.2em; 
+	}
+	#office i {
+		font-size: 2em; 
+		margin-bottom: 1em; 
+	}
+	#office .btn-primary {
+		margin-top: 2em; 
+	}
+}
+	
+@media (min-width: 768px){
+ 	#office h4 {
+          	font-size: 1.75em; 
+          	margin-top: 0em;
+	}
+	#office p {
+   		font-size: 1em; 
+	}
+	#office i {
+		font-size: 1.2em; 
+		margin-bottom: 0.5em; 
+	}
+	#office .btn-primary {
+		margin-top: 0.5em; 
 	}
 }
 
