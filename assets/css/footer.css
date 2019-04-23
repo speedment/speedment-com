@@ -47,3 +47,7 @@
   flex-direction: column;
   text-align: right;
 }
+
+.footer-brand {
+  width: 12em; 
+}
