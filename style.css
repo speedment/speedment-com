@@ -909,7 +909,7 @@ space {
 }
 
 @media screen and (max-width: 480px) {
-  #first-view #first-view-text-wrapper > h1, #first-view-text-wrapper > h2 {
+  #first-view-text-wrapper > h2 {
     font-size: 3rem;
     line-height: 2.3rem; 
     margin-top: 0; 
