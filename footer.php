@@ -33,7 +33,7 @@
         <a href="https://twitter.com/speedment" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/company-beta/5217517/?pathWildcard=5217517" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
       </div>
-      <div class="footer-text" class="justify-content-center">
+      <div class="footer-text "justify-content-center">
         <div class="copyright">
           Copyright © 2019 Speedment,&nbsp;Inc. All rights reserved.
         </div>
