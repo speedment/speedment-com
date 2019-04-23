@@ -30,7 +30,7 @@
   color: white; 
 }
 
-.navbar-nav .menu-item .dropdown-menu .menu-item > a:pressed {
+.navbar-nav .menu-item .dropdown-menu .menu-item > a:focused {
   background-color: #3a9b799e;
   color: white; 
 }
