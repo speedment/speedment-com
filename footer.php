@@ -8,7 +8,7 @@
                    470 Ramona Street</br>
             Palo Alto, CA 94301, USA</br>
             </div>
-            <div class="col-md-8"> 
+            <div class="col-md-6"> 
               <nav class="row" role="navigation">
               <?php wp_nav_menu(array(
                 'theme_location' => 'footer-menu',
