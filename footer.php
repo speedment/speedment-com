@@ -4,9 +4,9 @@
           <div class="row">
             <div class="col-md-4"> 
               <img src="http://35.232.42.240/wp-content/uploads/2019/04/ICON-logo-White-3-3.png" class="footer-brand">
-                <p>470 Ramona Street</p>
-                <p>Palo Alto</p>
-                <p>USA</p>
+                <p>Silicon Valley HQ</br>
+                   470 Ramona Street</br>
+            Palo Alto, CA 94301, USA</br>
             </div>
             <div class="col-md-8"> 
               <nav class="row" role="navigation">
