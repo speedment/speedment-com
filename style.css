@@ -1590,20 +1590,37 @@ label {
 	}
 }
 
-#office h4 {
-        font-size: 1.75em; 
-        margin-top: 0em;
+@media (max-width: 459px) {	
+ 	#office h4 {
+          	font-size: 1.75em; 
+          	margin-top: 0em;
+	}
+	#office p {
+   		font-size: 1em; 
+	}
+	#office i {
+		font-size: 1.2em; 
+		margin-bottom: 0.5em; 
+	}
+	#office .btn-primary {
+		margin-top: 0.5em; 
+	}
 }
-#office p {
-   	font-size: 1em; 
-}
-#office i {
-	font-size: 1.2em; 
-	margin-bottom: 0.5em; 
-}
-#office .btn-primary {
-	margin-top: 0.5em; 
-}
+
+	#office h4 {
+ 		  font-size: 2.5em; 
+ 		  margin-top: 0em;
+	}
+	#office p {
+   		font-size: 1.2em; 
+	}
+	#office i {
+		font-size: 2em; 
+		margin-bottom: 1em; 
+	}
+	#office .btn-primary {
+		margin-top: 2em; 
+	}
 
 #office a {
 	color: #93c0e4; 
