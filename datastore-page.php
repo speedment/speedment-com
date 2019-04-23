@@ -108,6 +108,25 @@ get_header('datastore'); ?>
     </div>
   </div>
 
+  <div class="row justify-content-center datastore-gradient" id="gradient-footer">
+    <div class="container full-width-product-view">
+      <div class="row justify-content-center">
+        <div class="col-2 d-none d-sm-block"></div>
+        <div class="col py-5">
+          <h1>Streamline Your Hazelcast Development Today</h1>
+          <space></space>
+          <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
+              And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
+              But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
+          <space></space>
+          <a href="http://speedment.com/hazelcast-initializer" class="btn btn-secondary">Try for Free</a>
+          </div>
+          <div class="col-2 d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <script type="text/javascript">
   AOS.init({
     duration: 1200,
