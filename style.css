@@ -1553,7 +1553,7 @@ label {
 	margin-bottom: 1em; 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
  	#office h4 {
           	font-size: 1.75em; 
           	margin-top: 0em;
@@ -1568,7 +1568,6 @@ label {
 }
 
 @media (min-width: 992px) {
-	
 	#office h4 {
  		  font-size: 2.5em; 
  		  margin-top: 0em;
