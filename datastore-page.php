@@ -108,6 +108,8 @@ get_header('datastore'); ?>
     </div>
   </div>
 
+<div id="divider"></div>
+
   <div class="row justify-content-center datastore-gradient" id="gradient-footer">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
