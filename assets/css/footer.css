@@ -20,6 +20,7 @@
 }
 #footer li {
   list-style-type: none;
+  margin: 0.5em 0em; 
 }
 #footer .navbar {
   padding: 0;
