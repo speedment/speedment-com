@@ -49,5 +49,7 @@
 }
 
 .footer-brand {
-  width: 12em; 
+  width: 12em;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
