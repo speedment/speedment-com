@@ -3,19 +3,19 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4"> 
-                <h2>Speedment</h2>
+              <img src="http://35.232.42.240/wp-content/uploads/2019/04/ICON-logo-White-3-3.png">
                 <p>470 Ramona Street</p>
                 <p>Palo Alto</p>
                 <p>USA</p>
             </div>
             <div class="col-md-8"> 
-              <nav class="row justify-content-center" role="navigation">
+              <nav class="row" role="navigation">
               <?php wp_nav_menu(array(
                 'theme_location' => 'footer-menu',
                 'menu'           => 'footer-menu',
                 'theme_location' => 'footer-menu',
                 'container'      => false,
-                'depth'          => 2,
+                'depth'          => 3,
                 'items_wrap'     => '%3$s',
                 'walker'         => new Footer_Menu_Walker()
               )); ?>
