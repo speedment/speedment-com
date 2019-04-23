@@ -26,7 +26,8 @@
         </div>
       </div>
       <div id="divider"></div>
-      </hr>
+    </footer>
+    <footer class="container-fluid" id="lower-footer">
       <div id="divider"></div>
       <div id="sharing-icons" class="d-flex justify-content-center">
         <a href="https://www.facebook.com/Speedment-231234486886756/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
@@ -45,7 +46,7 @@
           </a>
         </div>
       </div>
-    </footer>
+     </footer>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
