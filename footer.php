@@ -2,13 +2,13 @@
       <div class="row justify-content-center">
         <div class="container">
           <div class="row">
-            <div class="col"> 
+            <div class="col-md-4"> 
                 <h2>Speedment</h2>
                 <p>470 Ramona Street</p>
                 <p>Palo Alto</p>
                 <p>USA</p>
             </div>
-            <div class="col"> 
+            <div class="col-md-8"> 
               <nav class="row justify-content-center" role="navigation">
               <?php wp_nav_menu(array(
                 'theme_location' => 'footer-menu',
