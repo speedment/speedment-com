@@ -2,7 +2,8 @@
       <div class="row justify-content-center">
         <div class="container">
             <div id="divider"></div>
-          <div class="row">
+            <div id="divider"></div>
+            <div class="row">
             <div class="col-md-4"> 
               <img src="http://35.232.42.240/wp-content/uploads/2019/04/ICON-logo-White-3-3.png" class="footer-brand">
                 <p>Silicon Valley HQ</br>
