@@ -27,6 +27,12 @@
 
 .navbar-nav .menu-item .dropdown-menu .menu-item > a:hover {
   background-color: #3a9b79; 
+  color: white; 
+}
+
+.navbar-nav .menu-item .dropdown-menu .menu-item > a:pressed {
+  background-color: #3a9b799e;
+  color: white; 
 }
 
 #speedment-navbar .depth_0 .menu-item {
