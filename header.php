@@ -10,7 +10,8 @@
           <div class="col col-sm-auto">
             <div class="col-md-auto" id="first-view-text-wrapper">
               <h2><?php if (is_404()) {echo '404 Page Not found';} else {single_post_title();} ?></h2>
-           </div>
+              <hr/>
+            </div>
           </div>
         </div>
       </div>
