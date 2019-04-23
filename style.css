@@ -219,6 +219,7 @@ hr {
     height: 1px;
     border-top: 4px solid white;
     width: 2em; 
+    margin-left: 0; 
 }
 
 /* Styling for code in text*/ 
@@ -815,6 +816,7 @@ space {
     margin-bottom: 0.1em;
     line-height: 3.5rem;
     color: white;
+    text-transform: none; 
 }
 
 #first-view #first-view-text-wrapper > h1 {
@@ -900,8 +902,9 @@ space {
 
 @media screen and (max-width: 480px) {
   #first-view #first-view-text-wrapper > h1, #first-view-text-wrapper > h2 {
-    font-size: 1.75rem;
-    line-height: 2.3rem;
+    font-size: 3rem;
+    line-height: 2.3rem; 
+    margin-top: 0; 
   }
 }
 
