@@ -14,7 +14,7 @@
                 'theme_location' => 'footer-menu',
                 'menu'           => 'footer-menu',
                 'theme_location' => 'footer-menu',
-                'container'      => false,
+                'container'      => 'div',
                 'depth'          => 2,
                 'items_wrap'     => '%3$s',
                 'walker'         => new Footer_Menu_Walker()
