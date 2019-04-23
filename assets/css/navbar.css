@@ -25,6 +25,10 @@
    font-weight: 600; 
 }
 
+.dropdown-item:pressed {
+  background-color: #3a9b79; 
+}
+
 #speedment-navbar .depth_0 .menu-item {
   padding: 0;
   font-size: 1.1em;
