@@ -44,9 +44,9 @@
 }
 
 .footer-text {
-  display: flex;
-  flex-direction: column;
-  text-align: right;
+  /*display: flex;
+  flex-direction: column;*/
+  text-align: center;
 }
 
 .footer-brand {
