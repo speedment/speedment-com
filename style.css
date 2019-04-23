@@ -1523,7 +1523,7 @@ label {
 
 #leadership h4 {
 	font-size: 1.3em; 
-	margin-top: 0em; 
+	margin-top: 0em;
 }
 
 #leadership h5 {
@@ -1540,7 +1540,8 @@ label {
 }
 
 #office h4 {
-   font-size: 2.5em; 	
+   font-size: 2.5em; 
+   margin-top: 0em;
 }
 
 #office p {
@@ -1549,6 +1550,7 @@ label {
 
 #office i {
 	font-size: 2em; 
+	margin-bottom: 1em; 
 }
 
 .square{
