@@ -1518,3 +1518,15 @@ label {
     cursor: hand;
     transition: all .3s ease;
 }
+
+/* Leadership page */ 
+
+#leadership h4 {
+	font-size: 1.3em; 
+	margin-top: 0em; 
+}
+
+#leadership h5 {
+	font-weight: 400; 
+	margin-top: 0em; 
+}
