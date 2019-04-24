@@ -17,16 +17,18 @@ get_header('opensource'); ?>
           <hr></hr>
         </div>
         <div class="row">
+          <div class="col-md-1"></div>
           <div class="col-md-5">  
             <img data-aos="fade-right" src="http://35.232.42.240/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
-          <div data-aos="fade-left" class="col-md-7 px-2 py-2">     
+          <div data-aos="fade-left" class="col-md-5 px-2 py-2">     
               <h1>View Database Tables as Standard Java Streams</h1>
               <p>Pure Java - Stream API instead of SQL eliminates the need of a query language</br>
                  Dynamic Joins - Ability to perform joins as Java streams on the application side</br>
                  Parallel Streams - Workload can automatically be divided over several threads
               </p>
           </div>
+          <div class="col-md-1"></div>
         </div>
         <div class="container" id="divider">
         </div>
