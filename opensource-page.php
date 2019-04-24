@@ -72,7 +72,7 @@ get_header('opensource'); ?>
       <div class="row">
         <div class="col" style="text-align: center">
           <h1 style="text-align: center">Use any RDBMS</h1>
-          <img  data-aos="fade-up" src="https://www.speedment.com/wp-content/uploads/2019/03/any-database.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
+          <img  data-aos="fade-up" src="https://www.speedment.com/wp-content/uploads/2019/04/oss-logos.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
       </div>
     </div> 
