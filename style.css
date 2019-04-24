@@ -658,7 +658,6 @@ space {
 }
 
 #product-view #product-view-text-wrapper h1 {
-    text-transform: uppercase; 
     font-size: 3rem; 
     color: white;
     text-align: left;
