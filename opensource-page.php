@@ -117,12 +117,12 @@ get_header('opensource'); ?>
         <div class="col-2 d-none d-sm-block"></div>
         <div class="col py-5">
           <h1>Contribute to Speedment OSS</h1>
-          </space>
+          <space></space>
           <p>The Speedment Open Source project is available under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>. 
             We gladly welcome, and encourage contributions from the community. 
             If you have something to add, need to file an issue or simply want to browse the source code, 
             pay the project a visit on <a href="https://www.github.com/speedment/speedment" target="_blank">GitHub</a>.</p>
-          </space>
+          <space></space>
           <a href="http://github.com/speedment/speedment" target="_blank" class="btn btn-secondary">View on GitHub <i class="fab fa-github-alt"></i></a>
           </div>
           <div class="col-2 d-none d-sm-block"></div>
