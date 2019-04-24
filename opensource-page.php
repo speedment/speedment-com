@@ -178,6 +178,16 @@ get_header('opensource'); ?>
     </div>
   </div>
 
+<button class="js-gitter-toggle-chat-button" data-gitter-toggle-chat-state="true">Open Gitter Chat</button>
+
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'speedment/speedment',
+    activationElement: 'false'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
 <script type="text/javascript">
   AOS.init({
     duration: 1200,
