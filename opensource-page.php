@@ -10,7 +10,7 @@ get_header('opensource'); ?>
 
 <!-- Start Page Content -->
   <div class="row justify-content-center" id="oss-features">
-    <div class="container full-width-product-view">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col">
           <h1 style="text-align: center">Features</h1>
@@ -24,6 +24,8 @@ get_header('opensource'); ?>
               <p>Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
           </div>
         </div>
+        <div class="container" id="divider">
+        </div>
         <div class="row">
           <div data-aos="fade-right" class="col-md-7">     
               <h1> Write Database Applications While Remaining in a Pure Java World</h1>
@@ -32,6 +34,8 @@ get_header('opensource'); ?>
           <div class="col-md-5">  
             <img data-aos="fade-left" src="http://35.232.42.240/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
           </div>
+        </div>
+        <div class="container" id="divider">
         </div>
         <div class="row">
           <div class="col-md-5">  
