@@ -10,9 +10,9 @@ get_header('opensource'); ?>
     <div class="container full-width-product-view">
       <div class="row">
         <div class="col-md-5">  
-          <img data-aos="fade-up" src="https://www.speedment.com/wp-content/uploads/2019/03/speedment-properties-2.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
+          <img data-aos="fade-right" src="http://35.232.42.240/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
-        <div data-aos="fade-up" class="col-md-5">     
+        <div data-aos="fade-left" class="col-md-7">     
             <h1> Write Database Applications While Remaining in a Pure Java World</h1>
             <p>Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
         </div>
