@@ -32,7 +32,7 @@ get_header('opensource'); ?>
         </div>
         <div class="container" id="divider">
         </div>
-        <div class="row">
+        <div class="row" style="text-align:right">
           <div class="col-md-1"></div>
           <div data-aos="fade-right" class="col-md-5 px-2 py-2">     
               <h1>Short and Concise Type Safe Code</h1>
