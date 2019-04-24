@@ -111,7 +111,7 @@ get_header('opensource'); ?>
   <div class="container" id="divider">
   </div>
 
-  <div class="row justify-content-center opensource-gradient" id="gradient-footer">
+  <div class="row justify-content-center oss-gradient" id="gradient-footer">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
         <div class="col-2 d-none d-sm-block"></div>
