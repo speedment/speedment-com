@@ -20,7 +20,7 @@ get_header('opensource'); ?>
           <div class="col-md-5">  
             <img data-aos="fade-right" src="http://35.232.42.240/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
-          <div data-aos="fade-left" class="col-md-7">     
+          <div data-aos="fade-left" class="col-md-7 px-2 py-2">     
               <h1>View Database Tables as Standard Java Streams</h1>
               <p>Pure Java - Stream API instead of SQL eliminates the need of a query language</br>
                  Dynamic Joins - Ability to perform joins as Java streams on the application side</br>
@@ -31,7 +31,7 @@ get_header('opensource'); ?>
         <div class="container" id="divider">
         </div>
         <div class="row">
-          <div data-aos="fade-right" class="col-md-7">     
+          <div data-aos="fade-right" class="col-md-7 px-2 py-2">     
               <h1>Short and Concise Type Safe Code</h1>
               <p>Code Generation - Automatic Java representation of the latest state of your database eliminates boilerplate code and the need of manually writing Java Entity classes while minimizing the risk for bugs</br>
                  Null Protection - Minimizes the risk involved with database null values by wrapping to Java Optionals</br>
@@ -48,7 +48,7 @@ get_header('opensource'); ?>
           <div class="col-md-5">  
             <img data-aos="fade-right" src="http://35.232.42.240/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
-          <div data-aos="fade-left" class="col-md-7">     
+          <div data-aos="fade-left" class="col-md-7 px-2 py-2">     
               <h1>Lazy Evaluation for Increased Performance</h1>
               <p>Streams are Lazy - Content from the database is pulled as elements are needed and consumed</br>
                  Pipeline Introspection - Optimized performance by short circuiting of stream operations</p>
