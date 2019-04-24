@@ -108,6 +108,29 @@ get_header('opensource'); ?>
     </div>
   </div>
 
+  <div class="container" id="divider">
+  </div>
+
+  <div class="row justify-content-center opensource-gradient" id="gradient-footer">
+    <div class="container full-width-product-view">
+      <div class="row justify-content-center">
+        <div class="col-2 d-none d-sm-block"></div>
+        <div class="col py-5">
+          <h1>Contribute to Speedment OSS</h1>
+          </space>
+          <p>The Speedment Open Source project is available under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>. 
+            We gladly welcome, and encourage contributions from the community. 
+            If you have something to add, need to file an issue or simply want to browse the source code, 
+            pay the project a visit on <a href="https://www.github.com/speedment/speedment" target="_blank">GitHub</a>.</p>
+          </space>
+          <a href="http://github.com/speedment/speedment" target="_blank" class="btn btn-secondary">View on GitHub <i class="fab fa-github-alt"></i></a>
+          </div>
+          <div class="col-2 d-none d-sm-block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <script type="text/javascript">
   AOS.init({
     duration: 1200,
