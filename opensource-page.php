@@ -164,6 +164,7 @@ get_header('opensource'); ?>
 <script type="text/javascript">
   AOS.init({
     duration: 1200,
+    once: true
   }); 
 </script>
 
