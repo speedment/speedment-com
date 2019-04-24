@@ -5,8 +5,8 @@
  */
 get_header('opensource'); ?>
 
-  <div class="container" id="divider">
-  </div>
+<div class="container" id="divider">
+</div>
 
 <!-- Start Page Content -->
   <div class="row justify-content-center" id="oss-features">
@@ -22,7 +22,10 @@ get_header('opensource'); ?>
           </div>
           <div data-aos="fade-left" class="col-md-7">     
               <h1>View Database Tables as Standard Java Streams</h1>
-              <p>Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
+              <p>Pure Java - Stream API instead of SQL eliminates the need of a query language</br>
+                 Dynamic Joins - Ability to perform joins as Java streams on the application side</br>
+                 Parallel Streams - Workload can automatically be divided over several threads
+              </p>
           </div>
         </div>
         <div class="container" id="divider">
@@ -30,7 +33,10 @@ get_header('opensource'); ?>
         <div class="row">
           <div data-aos="fade-right" class="col-md-7">     
               <h1>Short and Concise Type Safe Code</h1>
-              <p>Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
+              <p>Code Generation - Automatic Java representation of the latest state of your database eliminates boilerplate code and the need of manually writing Java Entity classes while minimizing the risk for bugs</br>
+                 Null Protection - Minimizes the risk involved with database null values by wrapping to Java Optionals</br>
+                 Enum Integration - Mapping of String columns to Java Enums increases memory efficiency and type safety
+              </p>
           </div>
           <div class="col-md-5">  
             <img data-aos="fade-left" src="http://35.232.42.240/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
@@ -44,12 +50,16 @@ get_header('opensource'); ?>
           </div>
           <div data-aos="fade-left" class="col-md-7">     
               <h1>Lazy Evaluation for Increased Performance</h1>
-              <p>Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
+              <p>Streams are Lazy - Content from the database is pulled as elements are needed and consumed</br>
+                 Pipeline Introspection - Optimized performance by short circuiting of stream operations</p>
           </div>
         </div>
       </div>
     </div> 
   </div>
+
+<div class="container" id="divider">
+</div>
 
   <div class="row justify-content-center" id="compatability">
     <div class="container">
@@ -60,6 +70,9 @@ get_header('opensource'); ?>
         </div>
       </div>
     </div> 
+</div>
+
+<div class="container" id="divider">
 </div>
 
 <div class="row justify-content-center" id="datastore-">
@@ -88,6 +101,9 @@ get_header('opensource'); ?>
       </div>
     </div>
   </div>
+
+<div class="container" id="divider">
+</div>
 
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container full-width-product-view">
