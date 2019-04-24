@@ -976,7 +976,7 @@ space {
 .product-page {
   margin-top: 20px;
   margin-bottom: 20px;
-}x
+}
 
 .product-page h3 {
 	margin-top: 2px; 
@@ -1046,6 +1046,11 @@ space {
   font-family: "Titillium Web"; 
   text-transform: uppercase;
 }
+
+#oss-features h1 {
+	margin-top: 0em; 
+}
+	
 /* Full width container */
 
 .full-width {
