@@ -14,6 +14,7 @@ get_header('opensource'); ?>
       <div class="row justify-content-center">
         <div class="col">
           <h1 style="text-align: center">Features</h1>
+          <hr></hr>
         </div>
         <div class="row">
           <div class="col-md-5">  
