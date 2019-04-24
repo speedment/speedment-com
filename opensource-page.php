@@ -18,7 +18,7 @@ get_header('opensource'); ?>
         </div>
         <div class="row">
           <div class="col-md-1"></div>
-          <div class="col-md-5">  
+          <div class="col-md-5 px-2 py-2">  
             <img data-aos="fade-right" src="http://35.232.42.240/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div data-aos="fade-left" class="col-md-5 px-2 py-2">     
@@ -41,7 +41,7 @@ get_header('opensource'); ?>
                  Enum Integration - Mapping of String columns to Java Enums increases memory efficiency and type safety
               </p>
           </div>
-          <div class="col-md-5">  
+          <div class="col-md-5 px-2 py-2">  
             <img data-aos="fade-left" src="http://35.232.42.240/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div class="col-md-1"></div>
@@ -50,7 +50,7 @@ get_header('opensource'); ?>
         </div>
         <div class="row">
           <div class="col-md-1"></div>
-          <div class="col-md-5">  
+          <div class="col-md-5 px-2 py-2">  
             <img data-aos="fade-right" src="http://35.232.42.240/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div data-aos="fade-left" class="col-md-5 px-2 py-2">     
