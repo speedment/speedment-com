@@ -104,7 +104,7 @@ get_header('hazelcast'); ?>
   </div>
 
   <div class="row justify-content-center hazelcast-gradient" id="gradient-footer">
-    <div class="container">
+    <div class="container full-width-product-view">
       <div class="row justify-content-center">
         <div class="col-2 d-none d-sm-block"></div>
         <div class="col py-5">
