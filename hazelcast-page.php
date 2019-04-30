@@ -27,9 +27,25 @@ get_header('hazelcast'); ?>
     <div class="container">
       <div class="row">
         <div class="col" style="text-align: center">
-          <h1 style="text-align: center">Industry-Leading Features</h1>
-    
-          <p>Automatically generates a Java domain model for the given database with POJOs (Portable), SerializationFactories, ClassDefinitions, MapStores, MapLoaders, ClientConfiguration, Ingest, and Index.</p>
+          <h1 style="text-align: center">Industry-Leading Features</h1>    
+           <h5>Automatic Generation of Java Domain Model</h5>
+           <p>Automatically generates a Java domain model for the given database with POJOs (Portable), SerializationFactories, ClassDefinitions, MapStores, MapLoaders, ClientConfiguration, Ingest, and Index.</p>
+            
+           <h5>Reduced Maintenance of Java Domain Model</h5>
+           <p>Changes in the database schema do not entail manual configurations. Instead, automatic schema migration can be performed to quickly adapt the application to the new schema.</p>
+         
+           <h5>Initial Data Ingest Support</h5>
+           <p>Utility methods for bootstrapping the IMDG from an existing database via a single call are generated. These methods support the parallel loading of tables.</p>
+          
+           <h5>Hazzel-free Project Configuration and Capacity Expansion</h5>
+           <p>The IMDG does not need to have the generated classes on its classpath. New Hazelcast nodes can be added to an existing IMDG with no additional configuration or prior knowledge of existing applications. In addition, new IMDGs can easily be set up using Hazelcast cloud instances, enabling hassle-free initial project configuration.</p>
+            
+           <h5>Data is Persistent</h5>
+           <p>Updates to the grid can easily be propagated into the database using write-through, write-behind or IMDG-only operations. Client-side persistence is also offered with write-through or Hazelcast only updates.</p>
+            
+           <h5>Familiar Java Stream API</h5>
+           <p>As an alternative to the Hazelcast API, customers are given the option to express CRUD operations as standard Java Streams. Using familiar APIs can reduce the learning curve and lower the risk for mistakes.</p>
+
         </div>
       </div>
     </div> 
@@ -89,24 +105,7 @@ get_header('hazelcast'); ?>
           </div>
           <div class="col min-height">
             <h3>Speedment the Java Stream ORM</h3>
-            <h5>Automatic Generation of Java Domain Model</h5>
             <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
-            
-            <h5>Reduced Maintenance of Java Domain Model</h5>
-            <p>Changes in the database schema do not entail manual configurations. Instead, automatic schema migration can be performed to quickly adapt the application to the new schema.</p>
-         
-            <h5>Initial Data Ingest Support</h5>
-            <p>Utility methods for bootstrapping the IMDG from an existing database via a single call are generated. These methods support the parallel loading of tables.</p>
-          
-            <h5>Hazzel-free Project Configuration and Capacity Expansion</h5>
-            <p>The IMDG does not need to have the generated classes on its classpath. New Hazelcast nodes can be added to an existing IMDG with no additional configuration or prior knowledge of existing applications. In addition, new IMDGs can easily be set up using Hazelcast cloud instances, enabling hassle-free initial project configuration.</p>
-            
-            <h5>Data is Persistent</h5>
-            <p>Updates to the grid can easily be propagated into the database using write-through, write-behind or IMDG-only operations. Client-side persistence is also offered with write-through or Hazelcast only updates.</p>
-            
-            <h5>Familiar Java Stream API</h5>
-            <p>As an alternative to the Hazelcast API, customers are given the option to express CRUD operations as standard Java Streams. Using familiar APIs can reduce the learning curve and lower the risk for mistakes.</p>
-
           </div>
           <div class="col center-button">
             <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
