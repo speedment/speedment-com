@@ -13,8 +13,7 @@ get_header('hazelcast'); ?>
         </div>
         <div data-aos="fade-up" class="col-md-5">     
             <h1>Effortless integration with your database</h1>
-            <p>Hazelcast Auto Database Integration is a highly efficient time-saving tool for companies working with databases. It streamlines the development of Hazelcast applications by generating a Java domain model representation (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.
-          </br>Moreover, it integrates with any RDBMS: Oracle, SQL Server, DB2, AS400, PostgreSQL, MySQL, MariaDB, and SQLite are supported. It also supports most standard database types, including BLOB and CLOB.</p>
+            <p>Hazelcast Auto Database Integration is a highly efficient, time-saving tool for companies working with databases. It streamlines the development of Hazelcast applications by generating a Java domain model representation (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.
         </div>
       </div>
     </div> 
@@ -23,6 +22,19 @@ get_header('hazelcast'); ?>
   <div class="container" id="divider">
   </div> 
 
+
+  <div class="row justify-content-center" id="hazelcast-features">
+    <div class="container">
+      <div class="row">
+        <div class="col" style="text-align: center">
+          <h1 style="text-align: center">Industry-Leading Features</h1>
+    
+          <p>Automatically generates a Java domain model for the given database with POJOs (Portable), SerializationFactories, ClassDefinitions, MapStores, MapLoaders, ClientConfiguration, Ingest, and Index.</p>
+        </div>
+      </div>
+    </div> 
+ </div>
+  
 
   <div class="row justify-content-center" id="compatability">
     <div class="container">
@@ -92,7 +104,7 @@ get_header('hazelcast'); ?>
   </div>
 
   <div class="row justify-content-center hazelcast-gradient" id="gradient-footer">
-    <div class="container full-width-product-view">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-2 d-none d-sm-block"></div>
         <div class="col py-5">
@@ -113,6 +125,7 @@ get_header('hazelcast'); ?>
 <script type="text/javascript">
   AOS.init({
     duration: 1200,
+    once: true, 
   }); 
 </script>
 
