@@ -12,8 +12,9 @@ get_header('hazelcast'); ?>
         <div class="col-md-5">  
         </div>
         <div data-aos="fade-up" class="col-md-5">     
-            <h1> Write Database Applications While Remaining in a Pure Java World</h1>
-            <p>Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
+            <h1>Effortless integration with your database</h1>
+            <p>Hazelcast Auto Database Integration is a highly efficient time-saving tool for companies working with databases. It streamlines the development of Hazelcast applications by generating a Java domain model representation (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.
+          </br>Moreover, it integrates with any RDBMS: Oracle, SQL Server, DB2, AS400, PostgreSQL, MySQL, MariaDB, and SQLite are supported. It also supports most standard database types, including BLOB and CLOB.</p>
         </div>
       </div>
     </div> 
