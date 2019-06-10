@@ -94,7 +94,7 @@ get_header('hazelcast'); ?>
           <div class="col min-height">
             <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
             <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data. </p>  
-          </div>C
+          </div>
           <div class="col center-button">
             <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Read Article</a>
           </div>
