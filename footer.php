@@ -40,9 +40,9 @@
           Copyright © 2019 Speedment,&nbsp;Inc. All rights reserved.
         </div>
         <div class="links">
-          <a href="https://speedment.com/privacy" alt="Read the Speedment Privacy Policy">
+          <a href="<?php echo get_permalink(3); ?>" alt="Read the Speedment Privacy Policy">
             Privacy&nbsp;Policy
-          </a>&nbsp;|&nbsp;<a href="https://speedment.com/terms" alt="Read the Speedment Terms of Use">
+          </a>&nbsp;|&nbsp;<a href="<?php echo get_permalink(1200); ?>" alt="Read the Speedment Terms of Use">
             Terms
           </a>
         </div>
