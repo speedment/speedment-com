@@ -243,15 +243,17 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .btn-primary {
-    color: #fff;
+    color: #ffffff;
     background-color: #3a9b79;
     border-color: #3a9b79;
 }
 
 .btn-primary:hover, 
-.btn-primary:pressed {
+.btn-primary:pressed,
+.btn-primary:focused {
     background-color: #5abf95;
     border-color: #5abf95;
+    color: #ffffff; 
     cursor: pointer;
 }
 
@@ -262,11 +264,12 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .btn-secondary:hover,
-.btn-secondary:pressed {
+.btn-secondary:pressed,
+.btn-secondary:focused{
     background-color: #5abf95;
     border-color: #5abf95;
     cursor: pointer;
-    color: #fff; 
+    color: #ffffff; 
 }
 
 .gray-parent > .wp-block-column {
