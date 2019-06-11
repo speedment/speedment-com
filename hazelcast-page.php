@@ -68,12 +68,12 @@ get_header('hazelcast'); ?>
 
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container full-width-product-view">
-      <div class="row justify-content-center" data-aos="fade-up">
+      <div class="row justify-content-center">
         <div class="col">
           <h1 style="text-align: center">Related Resources</h1>
         </div>
         <div class="row">
-<div class="col-md mx-3 my-3 px-4 gray">
+<div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
           <div class="col title-area"> 
             Datasheet
           </div>
@@ -87,7 +87,7 @@ get_header('hazelcast'); ?>
             <a href="http://speedment.com/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf" target="_blank" class="btn btn-secondary">Read Now</a>
           </div>
         </div>
-        <div class="col-md mx-3 my-3 px-4 gray">
+        <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
           <div class="col title-area"> 
             Article
           </div>
@@ -99,7 +99,7 @@ get_header('hazelcast'); ?>
             <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Read Article</a>
           </div>
         </div>
-        <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block">
+        <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block" data-aos="fade-up">
           <div class="col title-area"> 
             White Paper
           </div>
