@@ -33,7 +33,7 @@
       <div id="sharing-icons" class="d-flex justify-content-center">
         <a href="https://www.facebook.com/Speedment-231234486886756/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
         <a href="https://twitter.com/speedment" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/company-beta/5217517/?pathWildcard=5217517" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://se.linkedin.com/company/speedment-ab" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
       </div>
       <div class="footer-text justify-content-center">
         <div class="copyright">
