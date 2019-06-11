@@ -248,9 +248,8 @@ a:hover, button:hover, input[type="button"]:hover {
     border-color: #3a9b79;
 }
 
-.btn-primary:hover, 
-.btn-primary:pressed,
-.btn-primary:focused {
+.btn-primary:hover, ,
+.btn-primary:focus{
     background-color: #5abf95;
     border-color: #5abf95;
     color: #ffffff; 
@@ -264,8 +263,7 @@ a:hover, button:hover, input[type="button"]:hover {
 }
 
 .btn-secondary:hover,
-.btn-secondary:pressed,
-.btn-secondary:focused{
+.btn-secondary:focus {
     background-color: #5abf95;
     border-color: #5abf95;
     cursor: pointer;
