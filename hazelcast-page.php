@@ -44,7 +44,7 @@ get_header('hazelcast'); ?>
            <p>Updates to the grid can easily be propagated into the database using write-through, write-behind or IMDG-only operations. Client-side persistence is also offered with write-through or Hazelcast only updates.</p>
             
            <h5>Familiar Java Stream API</h5>
-           <p>As an alternative to the Hazelcast API, customers are given the option to express CRUD operations as standard Java Streams. Using familiar APIs can reduce the learning curve and lower the risk for mistakes.</p>
+           <p>As an alternative to the Hazelcast API, developers are given the option to express CRUD operations as standard Java Streams. Using familiar APIs can reduce the learning curve and lower the risk for mistakes.</p>
 
         </div>
       </div>
@@ -126,9 +126,9 @@ get_header('hazelcast'); ?>
         <div class="col py-5">
           <h1>Streamline Your Hazelcast Development Today</h1>
           <space></space>
-          <p>Building highly scalable and fast applications quickly sound like an oxymoron. 
-              And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream. 
-              But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
+          <p>Sit back and enjoy while Auto Database Integration completes the tedious work that is usually associated with setting up, populating and maintaining a datagrid. 
+         
+          </p>
           <space></space>
           <a href="http://speedment.com/hazelcast-initializer" class="btn btn-secondary">Try for Free</a>
           </div>
