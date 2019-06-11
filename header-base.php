@@ -6,6 +6,7 @@
   <meta name="description" content="<?php bloginfo('description'); ?>">
   <meta name="keywords" content="Java,Database,Stream,Pure,ORM">
   <meta name="author" content="Speedment, Inc.">
+  <meta name="google-site-verification" content="aXJW68kMbD2Mb0zRHCVkiSoe5ao6OUgNg8_RPVt5Qdo" />
   
   <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
