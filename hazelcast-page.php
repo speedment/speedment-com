@@ -57,7 +57,7 @@ get_header('hazelcast'); ?>
       <div class="row">
         <div class="col" style="text-align: center">
           <h1 style="text-align: center">Use any RDBMS</h1>
-          <img  data-aos="fade-up" src="https://www.speedment.com/wp-content/uploads/2019/03/any-database.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
+          <img  data-aos="fade-up" src="https://speedment.com/wp-content/uploads/2019/06/any-database.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
       </div>
     </div> 
@@ -84,7 +84,7 @@ get_header('hazelcast'); ?>
               (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.</p>
           </div>
           <div class="col center-button">
-            <a href="http://35.232.42.240/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf" target="_blank" class="btn btn-secondary">Read Now</a>
+            <a href="http://speedment.com/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf" target="_blank" class="btn btn-secondary">Read Now</a>
           </div>
         </div>
         <div class="col-md mx-3 my-3 px-4 gray">
