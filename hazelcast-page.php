@@ -27,23 +27,23 @@ get_header('hazelcast'); ?>
     <div class="container">
       <div class="row">
         <div class="col" style="text-align: center">
-          <h1 style="text-align: center">Industry-Leading Features</h1>    
-           <h5>Automatic Generation of Java Domain Model</h5>
+          <h1 style="text-align: center">Features</h1>    
+           <h3>Automatic Generation of Java Domain Model</h3>
            <p>Automatically generates a Java domain model for the given database with POJOs (Portable), SerializationFactories, ClassDefinitions, MapStores, MapLoaders, ClientConfiguration, Ingest, and Index.</p>
             
-           <h5>Reduced Maintenance of Java Domain Model</h5>
+           <h3>Reduced Maintenance of Java Domain Model</h3>
            <p>Changes in the database schema do not entail manual configurations. Instead, automatic schema migration can be performed to quickly adapt the application to the new schema.</p>
          
-           <h5>Initial Data Ingest Support</h5>
+           <h3>Initial Data Ingest Support</h3>
            <p>Utility methods for bootstrapping the IMDG from an existing database via a single call are generated. These methods support the parallel loading of tables.</p>
           
-           <h5>Hazzel-free Project Configuration and Capacity Expansion</h5>
+           <h3>Hazzel-free Project Configuration and Capacity Expansion</h3>
            <p>The IMDG does not need to have the generated classes on its classpath. New Hazelcast nodes can be added to an existing IMDG with no additional configuration or prior knowledge of existing applications. In addition, new IMDGs can easily be set up using Hazelcast cloud instances, enabling hassle-free initial project configuration.</p>
             
-           <h5>Data is Persistent</h5>
+           <h3>Data is Persistent</h3>
            <p>Updates to the grid can easily be propagated into the database using write-through, write-behind or IMDG-only operations. Client-side persistence is also offered with write-through or Hazelcast only updates.</p>
             
-           <h5>Familiar Java Stream API</h5>
+           <h3>Familiar Java Stream API</h3>
            <p>As an alternative to the Hazelcast API, developers are given the option to express CRUD operations as standard Java Streams. Using familiar APIs can reduce the learning curve and lower the risk for mistakes.</p>
 
         </div>
