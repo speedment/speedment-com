@@ -27,25 +27,35 @@ get_header('hazelcast'); ?>
     <div class="container">
       <div class="row">
         <div class="col" style="text-align: center">
-          <h1 style="text-align: center">Features</h1>    
-           <h3>Automatic Generation of Java Domain Model</h3>
-           <p>Automatically generates a Java domain model for the given database with POJOs (Portable), SerializationFactories, ClassDefinitions, MapStores, MapLoaders, ClientConfiguration, Ingest, and Index.</p>
-            
-           <h3>Reduced Maintenance of Java Domain Model</h3>
-           <p>Changes in the database schema do not entail manual configurations. Instead, automatic schema migration can be performed to quickly adapt the application to the new schema.</p>
-         
-           <h3>Initial Data Ingest Support</h3>
-           <p>Utility methods for bootstrapping the IMDG from an existing database via a single call are generated. These methods support the parallel loading of tables.</p>
-          
-           <h3>Hazzel-free Project Configuration and Capacity Expansion</h3>
-           <p>The IMDG does not need to have the generated classes on its classpath. New Hazelcast nodes can be added to an existing IMDG with no additional configuration or prior knowledge of existing applications. In addition, new IMDGs can easily be set up using Hazelcast cloud instances, enabling hassle-free initial project configuration.</p>
-            
-           <h3>Data is Persistent</h3>
-           <p>Updates to the grid can easily be propagated into the database using write-through, write-behind or IMDG-only operations. Client-side persistence is also offered with write-through or Hazelcast only updates.</p>
-            
-           <h3>Familiar Java Stream API</h3>
-           <p>As an alternative to the Hazelcast API, developers are given the option to express CRUD operations as standard Java Streams. Using familiar APIs can reduce the learning curve and lower the risk for mistakes.</p>
-
+          <h1 style="text-align: center">Features</h1>
+           <div class="row"> 
+             <div class="col">
+               <h3>Automatic Generation of Java Domain Model</h3>
+               <p>Automatically generates a Java domain model for the given database with POJOs (Portable), SerializationFactories, ClassDefinitions, MapStores, MapLoaders, ClientConfiguration, Ingest, and Index.</p>
+             </div> 
+             <div class="col">
+              <h3>Reduced Maintenance of Java Domain Model</h3>
+              <p>Changes in the database schema do not entail manual configurations. Instead, automatic schema migration can be performed to quickly adapt the application to the new schema.</p>
+             </div> 
+             <div class="col">
+              <h3>Initial Data Ingest Support</h3>
+              <p>Utility methods for bootstrapping the IMDG from an existing database via a single call are generated. These methods support the parallel loading of tables.</p>
+             </div> 
+           </div>
+           <div class="row"> 
+             <div class="col">
+               <h3>Hazzel-free Project Configuration and Capacity Expansion</h3>
+               <p>The IMDG does not need to have the generated classes on its classpath. New Hazelcast nodes can be added to an existing IMDG with no additional configuration or prior knowledge of existing applications. In addition, new IMDGs can easily be set up using Hazelcast cloud instances, enabling hassle-free initial project configuration.</p>
+             </div> 
+             <div class="col">
+               <h3>Data is Persistent</h3>
+               <p>Updates to the grid can easily be propagated into the database using write-through, write-behind or IMDG-only operations. Client-side persistence is also offered with write-through or Hazelcast only updates.</p>
+             </div> 
+             <div class="col">
+               <h3>Familiar Java Stream API</h3>
+               <p>As an alternative to the Hazelcast API, developers are given the option to express CRUD operations as standard Java Streams. Using familiar APIs can reduce the learning curve and lower the risk for mistakes.</p>
+             </div> 
+           </div>
         </div>
       </div>
     </div> 
