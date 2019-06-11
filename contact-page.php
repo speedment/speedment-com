@@ -46,7 +46,7 @@ if (isset($_POST['g-recaptcha-response'])) {
   } else {
     if ($my_email != "" && $my_name != "" && $my_text != "") {
       $subject = 'New Message From ' . esc_html($my_name);
-      if (!wp_mail($my_email, $subject,
+      if (!wp_mail(get_theme_mod('contact_email'), $subject,
         '<!DOCTYPE html><html><head><title>' . $subject . '</title></head>' .
         '<body>' .
           '<p><b>From:</b> ' . esc_html($my_name) . '</p>' .
