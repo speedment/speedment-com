@@ -94,7 +94,7 @@ get_header(); ?>
         <h3>Technical Questions</h3>
            <p>If you have a technical question, one of our developers will be happy to assist you.
            You can get in direct contact with them in our Gitter Chatroom.</p>
-          <img src="https://www.speedment.com/wp-content/uploads/2018/06/Gitter.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank"><h5>gitter.im/speedment</h5></a>
+          <img src="https://www.speedment.com/wp-content/uploads/2019/06/gitter-logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank"><h5>gitter.im/speedment</h5></a>
       </div>  
       <div class="col-lg contact-form">
          <h3>Contact Form</h3>
