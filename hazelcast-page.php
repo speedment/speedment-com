@@ -7,7 +7,7 @@ get_header('hazelcast'); ?>
 
 <!-- Start Page Content -->
   <div class="row justify-content-center" id="datastore-about">
-    <div class="container full-width-product-view">
+    <div class="container">
       <div class="row">
         <div class="col-md-5" data-aos="fade-right"> 
           <img src="https://speedment.com/wp-content/uploads/2019/04/generate.png" width="100%" style="margin-top:2em"/>
