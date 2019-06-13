@@ -91,8 +91,9 @@ get_header('opensource'); ?>
     </div> 
 </div>
 
-<div class="container" id="divider">
-</div>
+<div class="container" id="divider"></div>
+<div class="container" id="divider"></div>
+
 
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container full-width-product-view">
@@ -145,8 +146,8 @@ get_header('opensource'); ?>
     </div>
   </div>
 
-  <div class="container" id="divider">
-  </div>
+  <div class="container" id="divider"></div>
+<div class="container" id="divider"></div>
 
   <div class="row justify-content-center oss-gradient" id="gradient-footer">
     <div class="container full-width-product-view">
