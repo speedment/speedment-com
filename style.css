@@ -318,7 +318,7 @@ space {
 }
 
 .oss-feature-gradient {
-        background-image: linear-gradient(to bottom, #a9c5d8, #c3d2e3, #dae0ed, #eeeff6, #ffffff);
+	background-image: linear-gradient(to bottom, #dce4ea, #e6eaf0, #eff1f5, #f8f8fa, #ffffff);
 }
 
 #divider {
