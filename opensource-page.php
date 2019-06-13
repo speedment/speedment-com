@@ -14,10 +14,10 @@ get_header('opensource'); ?>
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
           <div class="col-md-1"></div>
-          <div class="col-md-5 px-2 py-2">  
+          <div class="col-md-5 px-5 py-5">  
             <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
-          <div data-aos="fade-left" class="col-md-5 px-2 py-5">     
+          <div data-aos="fade-left" class="col-md-5 px-5 py-5">     
               <h1>View Database Tables as Standard Java Streams</h1>
             <p><i class="far fa-check-circle"></i><b>Pure Java</b> - Stream API instead of SQL eliminates the need of a query language</p>
             <p><i class="far fa-check-circle"></i><b>Dynamic Joins</b> - Ability to perform joins as Java streams on the application side</p>
@@ -33,14 +33,14 @@ get_header('opensource'); ?>
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
           <div class="col-md-1"></div>
-          <div data-aos="fade-right" class="col-md-5 px-2 py-5">     
+          <div data-aos="fade-right" class="col-md-5 px-5 py-5">     
               <h1>Short and Concise Type Safe Code</h1>
               <p>Code Generation - Automatic Java representation of the latest state of your database eliminates boilerplate code and the need of manually writing Java Entity classes while minimizing the risk for bugs</br>
                  Null Protection - Minimizes the risk involved with database null values by wrapping to Java Optionals</br>
                  Enum Integration - Mapping of String columns to Java Enums increases memory efficiency and type safety
               </p>
           </div>
-          <div class="col-md-5 px-2 py-2">  
+          <div class="col-md-5 px-5 py-5">  
             <img data-aos="fade-left" src="http://speedment.com/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div class="col-md-1"></div>
@@ -52,10 +52,10 @@ get_header('opensource'); ?>
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
           <div class="col-md-1"></div>
-          <div class="col-md-5 px-2 py-2">  
+          <div class="col-md-5 px-5 py-5">  
             <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
-          <div data-aos="fade-left" class="col-md-5 px-2 py-5">     
+          <div data-aos="fade-left" class="col-md-5 px-5 py-5">     
               <h1>Lazy Evaluation for Increased Performance</h1>
               <p>Streams are Lazy - Content from the database is pulled as elements are needed and consumed</br>
                  Pipeline Introspection - Optimized performance by short circuiting of stream operations</p>
