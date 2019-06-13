@@ -23,9 +23,9 @@ get_header('opensource'); ?>
           </div>
           <div data-aos="fade-left" class="col-md-5 px-2 py-2">     
               <h1>View Database Tables as Standard Java Streams</h1>
-              <p>Pure Java - Stream API instead of SQL eliminates the need of a query language</br>
-                 Dynamic Joins - Ability to perform joins as Java streams on the application side</br>
-                 Parallel Streams - Workload can automatically be divided over several threads
+            <p><i class="fab check-circle"></i><b>Pure Java</b> - Stream API instead of SQL eliminates the need of a query language</p>
+            <p><i class="fab check-circle"></i><b>Dynamic Joins</b> - Ability to perform joins as Java streams on the application side</p>
+            <p><i class="fab check-circle"></i><b>Parallel Streams</b> - Workload can automatically be divided over several threads</p>
               </p>
           </div>
           <div class="col-md-1"></div>
