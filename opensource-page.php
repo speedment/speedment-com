@@ -42,7 +42,7 @@ get_header('opensource'); ?>
               </p>
           </div>
           <div class="col-md-5 px-2 py-2">  
-            <img data-aos="fade-left" src="http://35.232.42.240/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
+            <img data-aos="fade-left" src="http://speedment.com/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div class="col-md-1"></div>
         </div>
