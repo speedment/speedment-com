@@ -3,7 +3,7 @@
   <!--
       Main Hero (#1 Tool to Accelerate Existing Database Applications)
   -->
-  <div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('https://www.speedment.com/wp-content/uploads/2019/03/Skärmavbild-2019-03-26-kl.-14.24.02.png');">
+  <div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('https://speedment.com/wp-content/uploads/2019/04/speedment_header.jpeg');">
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
