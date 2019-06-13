@@ -21,7 +21,7 @@ get_header('stream'); ?>
         </div>
       </div>
     </div>
-    <div class="col-lg-5 gray" id="sql-java-table">
+    <div class="col-lg-5 gray" id="sql-java-table" data-aos="fade-up">
       <table class="table table-striped">
         <thead>
           <tr>
