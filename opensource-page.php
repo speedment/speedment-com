@@ -13,7 +13,7 @@ get_header('opensource'); ?>
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col">
+        <div class="col aligncenter">
           <h1>View Database Tables as Standard Java Streams</h1>
         </div>
       </div>
@@ -35,7 +35,7 @@ get_header('opensource'); ?>
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col">
+        <div class="col aligncenter">
           <h1>Short and Concise Type Safe Code</h1>
         </div>
       </div>
@@ -58,7 +58,7 @@ get_header('opensource'); ?>
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col">
+        <div class="col aligncenter">
           <h1>Lazy Evaluation for Increased Performance</h1>
         </div>
       </div>
