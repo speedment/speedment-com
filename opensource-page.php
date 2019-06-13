@@ -19,7 +19,7 @@ get_header('opensource'); ?>
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-5 px-2 py-2">  
-            <img data-aos="fade-right" src="http://35.232.42.240/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
+            <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div data-aos="fade-left" class="col-md-5 px-2 py-2">     
               <h1>View Database Tables as Standard Java Streams</h1>
@@ -51,7 +51,7 @@ get_header('opensource'); ?>
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-5 px-2 py-2">  
-            <img data-aos="fade-right" src="http://35.232.42.240/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
+            <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div data-aos="fade-left" class="col-md-5 px-2 py-2">     
               <h1>Lazy Evaluation for Increased Performance</h1>
@@ -72,7 +72,7 @@ get_header('opensource'); ?>
       <div class="row">
         <div class="col" style="text-align: center">
           <h1 style="text-align: center">Use any Open Source RDBMS</h1>
-          <img  data-aos="fade-up" src="http://35.232.42.240/wp-content/uploads/2019/04/oss-logos.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
+          <img  data-aos="fade-up" src="http://speedment.com/wp-content/uploads/2019/04/oss-logos.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
       </div>
     </div> 
