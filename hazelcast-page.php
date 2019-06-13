@@ -9,7 +9,8 @@ get_header('hazelcast'); ?>
   <div class="row justify-content-center" id="datastore-about">
     <div class="container full-width-product-view">
       <div class="row">
-        <div class="col-md-5">  
+        <div class="col-md-5"> 
+          <img src="https://speedment.com/wp-content/uploads/2019/04/generate.png"/>
         </div>
         <div data-aos="fade-up" class="col-md-5">     
             <h1>Effortless integration with your database</h1>
