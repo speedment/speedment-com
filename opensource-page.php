@@ -11,9 +11,9 @@ get_header('opensource'); ?>
 <!-- Start Page Content -->
 
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
-    <div class="container full-width-product-view">
+    <div class="container full-width-product-view py-5">
       <div class="row justify-content-center">
-        <div class="col py-3" style="text-align: center">
+        <div class="col" style="text-align: center">
           <h1>View Database Tables as Standard Java Streams</h1>
         </div>
       </div>
@@ -33,9 +33,9 @@ get_header('opensource'); ?>
   </div>
 
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
-    <div class="container full-width-product-view">
+    <div class="container full-width-product-view py-5">
       <div class="row justify-content-center">
-        <div class="col py-3" style="text-align: center">
+        <div class="col" style="text-align: center">
           <h1>Short and Concise Type Safe Code</h1>
         </div>
       </div>
@@ -56,9 +56,9 @@ get_header('opensource'); ?>
   </div>
 
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
-    <div class="container full-width-product-view">
+    <div class="container full-width-product-view py-4">
       <div class="row justify-content-center">
-        <div class="col py-3" style="text-align: center">
+        <div class="col" style="text-align: center">
           <h1>Lazy Evaluation for Increased Performance</h1>
         </div>
       </div>
