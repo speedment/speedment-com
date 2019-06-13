@@ -8,7 +8,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col px-5" id="product-view-text-wrapper">
-            <h1>HyperStream</h1>
+            <h1>Speedment HyperStream</h1>
             <h3>Designed for commercial deployments where security, availability, and performance cannot be compromized.</h3>
               <div class="row">
                 <div class="col px-3" id="product-view-button-area">
