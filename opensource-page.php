@@ -13,16 +13,16 @@ get_header('opensource'); ?>
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col aligncenter">
+        <div class="col py-3" style="text-align: center">
           <h1>View Database Tables as Standard Java Streams</h1>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center py-4">
           <div class="col-md-1"></div>
-          <div class="col-md-5 px-5 py-5">  
+          <div class="col-md-5 px-4">  
             <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
-          <div data-aos="fade-left" class="col-md-5 px-5 py-5">     
+          <div data-aos="fade-left" class="col-md-5 px-4">     
             <p></i><b> Pure Java </b> - Stream API instead of SQL eliminates the need of a query language</p>
             <p><b>Dynamic Joins </b> - Ability to perform joins as Java streams on the application side</p>
             <p>Parallel Streams</b> - Workload can automatically be divided over several threads</p>
@@ -35,19 +35,19 @@ get_header('opensource'); ?>
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col aligncenter">
+        <div class="col py-3" style="text-align: center">
           <h1>Short and Concise Type Safe Code</h1>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center py-4">
           <div class="col-md-1"></div>
-          <div data-aos="fade-right" class="col-md-5 px-5 py-5">     
+          <div data-aos="fade-right" class="col-md-5 px-5">     
             <p><b>Code Generation</b> - Automatic Java representation of the latest state of your database eliminates boilerplate code and the need of manually writing Java Entity classes while minimizing the risk for bugs</p>
             <p><b>Null Protection</b> - Minimizes the risk involved with database null values by wrapping to Java Optionals</p>
         <p><b>Enum Integration</b> - Mapping of String columns to Java Enums increases memory efficiency and type safety</p>
               </p>
           </div>
-          <div class="col-md-5 px-5 py-5">  
+          <div class="col-md-5 px-5">  
             <img data-aos="fade-left" src="http://speedment.com/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div class="col-md-1"></div>
@@ -58,16 +58,16 @@ get_header('opensource'); ?>
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col aligncenter">
+        <div class="col py-3" style="text-align: center">
           <h1>Lazy Evaluation for Increased Performance</h1>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center py-4">
           <div class="col-md-1"></div>
-          <div class="col-md-5 px-5 py-5">  
+          <div class="col-md-5 px-5">  
             <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
-          <div data-aos="fade-left" class="col-md-5 px-5 py-5">     
+          <div data-aos="fade-left" class="col-md-5 px-5">     
             <p><b>Streams are Lazy</b>- Content from the database is pulled as elements are needed and consumed</p>
             <p><b>Pipeline Introspection</b> - Optimized performance by short circuiting of stream operations</p>
           </div>
