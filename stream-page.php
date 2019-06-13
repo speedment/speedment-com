@@ -7,12 +7,15 @@ get_header('stream'); ?>
 
 <!-- Start Page Content -->
 
+<div class="divider"></div>
+<div class="divider"></div>
+
 <div class="container" style="margin-bottom: 3em" id="sql-java">
   <div class="row">
     <div class="col-md margin-right" style="margin-bottom:1em">
-<h1>Write Database Applications While Remaining in a Pure Java World</h1>
-<p style="font-size: 1.1em; margin-top: 1em">Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
-</p><em>Speedment was originally developed by researchers and engineers based in Palo Alto with the purpose to simplify and streamline the development of Java database applications by leveraging the Java Stream API.</em></p>
+      <h1>Write Database Applications While Remaining in a Pure Java World</h1>
+      <p style="font-size: 1.1em; margin-top: 1em">Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
+      </p><em>Speedment was originally developed by researchers and engineers based in Palo Alto with the purpose to simplify and streamline the development of Java database applications by leveraging the Java Stream API.</em></p>
       <div class="row" style="text-align: center">
         <div class="col">
           <a href="http://speedment.com/initializer" class="btn btn-primary">Start Now</a>
@@ -20,7 +23,7 @@ get_header('stream'); ?>
       </div>
     </div>
     <div class="col-lg-5 gray" id="sql-java-table">
-<table class="table table-striped">
+      <table class="table table-striped">
         <thead>
           <tr>
             <th><h5>SQL</h5></th>
@@ -175,7 +178,7 @@ The graphical interface allows custom configurations and optimizations in a jiff
   </div>
   <div class="row">
     <div class="col-lg-8" style="margin: 0.5em 0em">
-<img src="https://speedment.com/wp-content/uploads/2019/06/classify-films.png" alt="" width="100%" class="aligncenter size-full wp-image-1501" />
+      <img src="https://speedment.com/wp-content/uploads/2019/06/classify-films.png" alt="" width="100%" class="aligncenter size-full wp-image-1501" />
     </div>
     <div class="col-lg-4" style="margin: 0.5em 0em">
       <h5>UTILIZE TAB COMPLETION</h5>
