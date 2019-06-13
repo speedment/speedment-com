@@ -25,7 +25,7 @@ get_header('opensource'); ?>
           <div data-aos="fade-left" class="col-md-5 px-4">     
             <p></i><b> Pure Java </b> - Stream API instead of SQL eliminates the need of a query language</p>
             <p><b>Dynamic Joins </b> - Ability to perform joins as Java streams on the application side</p>
-            <p>Parallel Streams</b> - Workload can automatically be divided over several threads</p>
+            <p><b>Parallel Streams</b> - Workload can automatically be divided over several threads</p>
           </div>
           <div class="col-md-1"></div>
       </div>
@@ -56,7 +56,7 @@ get_header('opensource'); ?>
   </div>
 
   <div class="row justify-content-center oss-feature-gradient" id="oss-features">
-    <div class="container full-width-product-view py-4">
+    <div class="container full-width-product-view py-5">
       <div class="row justify-content-center">
         <div class="col" style="text-align: center">
           <h1>Lazy Evaluation for Increased Performance</h1>
