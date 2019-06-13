@@ -20,7 +20,7 @@ get_header('opensource'); ?>
       <div class="row justify-content-center py-4">
           <div class="col-md-1"></div>
           <div class="col-md-5 px-4">  
-            <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
+            <img src="http://speedment.com/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div data-aos="fade-left" class="col-md-5 px-4">     
             <p></i><b> Pure Java </b> - Stream API instead of SQL eliminates the need of a query language</p>
@@ -48,7 +48,7 @@ get_header('opensource'); ?>
               </p>
           </div>
           <div class="col-md-5 px-5">  
-            <img data-aos="fade-left" src="http://speedment.com/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
+            <img src="http://speedment.com/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div class="col-md-1"></div>
       </div>
@@ -65,7 +65,7 @@ get_header('opensource'); ?>
       <div class="row justify-content-center py-4">
           <div class="col-md-1"></div>
           <div class="col-md-5 px-5">  
-            <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
+            <img src="http://speedment.com/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div data-aos="fade-left" class="col-md-5 px-5">     
             <p><b>Streams are Lazy</b>- Content from the database is pulled as elements are needed and consumed</p>
