@@ -9,14 +9,10 @@ get_header('opensource'); ?>
 </div>
 
 <!-- Start Page Content -->
-  <div class="row justify-content-center" id="oss-features">
-    <div class="container">
+
+  <div class="row justify-content-center oss-gradient" id="oss-features">
+    <div class="container full-width-product-view">
       <div class="row justify-content-center">
-        <div class="col">
-          <h1 style="text-align: center">Features</h1>
-          <hr></hr>
-        </div>
-        <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-5 px-2 py-2">  
             <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/stream-api-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
@@ -29,10 +25,13 @@ get_header('opensource'); ?>
               </p>
           </div>
           <div class="col-md-1"></div>
-        </div>
-        <div class="container" id="divider">
-        </div>
-        <div class="row" style="text-align:right">
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center oss-gradient" id="oss-features">
+    <div class="container full-width-product-view">
+      <div class="row justify-content-center">
           <div class="col-md-1"></div>
           <div data-aos="fade-right" class="col-md-5 px-2 py-2">     
               <h1>Short and Concise Type Safe Code</h1>
@@ -45,10 +44,13 @@ get_header('opensource'); ?>
             <img data-aos="fade-left" src="http://speedment.com/wp-content/uploads/2019/04/type-safety-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
           </div>
           <div class="col-md-1"></div>
-        </div>
-        <div class="container" id="divider">
-        </div>
-        <div class="row">
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center oss-gradient" id="oss-features">
+    <div class="container full-width-product-view">
+      <div class="row justify-content-center">
           <div class="col-md-1"></div>
           <div class="col-md-5 px-2 py-2">  
             <img data-aos="fade-right" src="http://speedment.com/wp-content/uploads/2019/04/lazy-evaluation-oss.png" alt="" width="100%" class="aligncenter size-full wp-image-1470" />
@@ -59,9 +61,8 @@ get_header('opensource'); ?>
                  Pipeline Introspection - Optimized performance by short circuiting of stream operations</p>
           </div>
           <div class="col-md-1"></div>
-        </div>
       </div>
-    </div> 
+    </div>
   </div>
 
 <div class="container" id="divider">
