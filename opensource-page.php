@@ -170,6 +170,7 @@ get_header('opensource'); ?>
       <div class="row justify-content-center">
         <div class="col-2 d-none d-sm-block"></div>
         <div class="col py-5">
+          <img src="https://speedment.com/wp-content/uploads/2019/06/ttJLnds9.png" width="150px" class="aligncenter" />
           <h1>Contribute to Speedment OSS</h1>
           <space></space>
           <p>The Speedment Open Source project is available under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a>. 
