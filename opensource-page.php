@@ -75,6 +75,7 @@ get_header('opensource'); ?>
       <div class="row">
         <div class="col" style="text-align: center">
           <h1 style="text-align: center">Compatible with Open Source Databases</h1>
+          <div class="container" id="divider"></div>
           <img  data-aos="fade-up" src="http://speedment.com/wp-content/uploads/2019/04/oss-logos.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
         </div>
       </div>
@@ -89,6 +90,7 @@ get_header('opensource'); ?>
       <div class="row justify-content-center" data-aos="fade-up">
         <div class="col">
           <h1 style="text-align: center">Related Resources</h1>
+          <div class="container" id="divider"></div>
         </div>
         <div class="row">
         <div class="col-md mx-3 my-3 px-4 gray">
