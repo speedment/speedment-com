@@ -10,7 +10,7 @@ get_header('opensource'); ?>
 
 <!-- Start Page Content -->
 
-  <div class="row justify-content-center oss-gradient" id="oss-features">
+  <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
           <div class="col-md-1"></div>
@@ -29,7 +29,7 @@ get_header('opensource'); ?>
     </div>
   </div>
 
-  <div class="row justify-content-center oss-gradient" id="oss-features">
+  <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
           <div class="col-md-1"></div>
@@ -48,7 +48,7 @@ get_header('opensource'); ?>
     </div>
   </div>
 
-  <div class="row justify-content-center oss-gradient" id="oss-features">
+  <div class="row justify-content-center oss-feature-gradient" id="oss-features">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
           <div class="col-md-1"></div>
