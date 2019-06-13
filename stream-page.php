@@ -6,9 +6,8 @@
 get_header('stream'); ?>
 
 <!-- Start Page Content -->
-
-<div class="divider"></div>
-<div class="divider"></div>
+<div id="divider"></div>
+<div id="divider"></div>
 
 <div class="container" style="margin-bottom: 3em" id="sql-java">
   <div class="row">
