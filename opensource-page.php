@@ -19,12 +19,9 @@ get_header('opensource'); ?>
           </div>
           <div data-aos="fade-left" class="col-md-5 px-5 py-5">     
               <h1>View Database Tables as Standard Java Streams</h1>
-            <p><i class="far fa-check-circle"></i><b> Pure Java</b></p>
-            <p>Stream API instead of SQL eliminates the need of a query language</p>
-            <p><i class="far fa-check-circle"></i><b>Dynamic Joins </b></p>
-            <p>Ability to perform joins as Java streams on the application side</p>
-            <p><i class="far fa-check-circle"></i><b> Parallel Streams</b></p>
-            <p>Workload can automatically be divided over several threads</p>
+            <p></i><b> Pure Java </b> - Stream API instead of SQL eliminates the need of a query language</p>
+            <p><b>Dynamic Joins </b> - Ability to perform joins as Java streams on the application side</p>
+            <p>Parallel Streams</b> - Workload can automatically be divided over several threads</p>
           </div>
           <div class="col-md-1"></div>
       </div>
@@ -37,9 +34,9 @@ get_header('opensource'); ?>
           <div class="col-md-1"></div>
           <div data-aos="fade-right" class="col-md-5 px-5 py-5">     
               <h1>Short and Concise Type Safe Code</h1>
-              <p>Code Generation - Automatic Java representation of the latest state of your database eliminates boilerplate code and the need of manually writing Java Entity classes while minimizing the risk for bugs</br>
-                 Null Protection - Minimizes the risk involved with database null values by wrapping to Java Optionals</br>
-                 Enum Integration - Mapping of String columns to Java Enums increases memory efficiency and type safety
+            <p><b>Code Generation</b> - Automatic Java representation of the latest state of your database eliminates boilerplate code and the need of manually writing Java Entity classes while minimizing the risk for bugs</p>
+            <p><b>Null Protection</b> - Minimizes the risk involved with database null values by wrapping to Java Optionals</p>
+        <p><b>Enum Integration</b> - Mapping of String columns to Java Enums increases memory efficiency and type safety</p>
               </p>
           </div>
           <div class="col-md-5 px-5 py-5">  
@@ -59,8 +56,8 @@ get_header('opensource'); ?>
           </div>
           <div data-aos="fade-left" class="col-md-5 px-5 py-5">     
               <h1>Lazy Evaluation for Increased Performance</h1>
-              <p>Streams are Lazy - Content from the database is pulled as elements are needed and consumed</br>
-                 Pipeline Introspection - Optimized performance by short circuiting of stream operations</p>
+            <p><b>Streams are Lazy</b>- Content from the database is pulled as elements are needed and consumed</p>
+            <p><b>Pipeline Introspection</b> - Optimized performance by short circuiting of stream operations</p>
           </div>
           <div class="col-md-1"></div>
       </div>
