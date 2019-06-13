@@ -1056,6 +1056,10 @@ space {
 #oss-features h1 {
 	margin-top: 0em; 
 }
+
+#oss-features p {
+	font-size: 1.1em; 
+}
 	
 /* Full width container */
 
