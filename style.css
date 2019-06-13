@@ -317,6 +317,10 @@ space {
 	background-image: linear-gradient(to right top, #3a9b79, #48b0a7, #6ec3ce, #9dd5eb, #cce7ff);
 }
 
+.oss-feature-gradient {
+        background-image: linear-gradient(to bottom, #a9c5d8, #c3d2e3, #dae0ed, #eeeff6, #ffffff);
+}
+
 #divider {
 	height: 2em; 
 }
