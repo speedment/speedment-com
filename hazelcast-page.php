@@ -9,10 +9,10 @@ get_header('hazelcast'); ?>
   <div class="row justify-content-center" id="datastore-about">
     <div class="container full-width-product-view">
       <div class="row">
-        <div class="col-md-5"> 
-          <img src="https://speedment.com/wp-content/uploads/2019/04/generate.png" width="100%"/>
+        <div class="col-md-5" data-aos="fade-right"> 
+          <img src="https://speedment.com/wp-content/uploads/2019/04/generate.png" width="100%" style="margin-top:2em"/>
         </div>
-        <div data-aos="fade-up" class="col-md-5">     
+        <div class="col-md-5">     
             <h1>Effortless integration with your database</h1>
             <p>Hazelcast Auto Database Integration is a highly efficient, time-saving tool for companies working with databases. It streamlines the development of Hazelcast applications by generating a Java domain model representation (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.
         </div>
