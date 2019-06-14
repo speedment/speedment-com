@@ -37,7 +37,7 @@ get_header('tools'); ?>
           </div>
           <div class="col center-button">
             <a href="http://speedment.com/stream" target="_blank" class="btn btn-secondary">Learn more</a>
-            <a href="https://speedment.com/initializer" target="_blank" class="btn btn-secondary">Download</a>
+            <a href="https://speedment.com/initializer" style="margin-left: 0.5em" target="_blank" class="btn btn-secondary">Download</a>
           </div>
         </div>
         <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up" style="text-align: center">
@@ -49,7 +49,7 @@ get_header('tools'); ?>
           </div>
           <div class="col center-button">
             <a href="http://www.speedment.com/hyperStream" target="_blank" class="btn btn-secondary">Learn More</a>
-            <a href="https://speedment.com/initializer" target="_blank" class="btn btn-secondary">Download</a>
+            <a href="https://speedment.com/initializer" style="margin-left: 0.5em" target="_blank" class="btn btn-secondary">Download</a>
           </div>
         </div>
         <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block" data-aos="fade-up" style="text-align: center">
@@ -61,7 +61,7 @@ get_header('tools'); ?>
           </div>
           <div class="col center-button">
             <a href="https://speedment.com/open-source" target="_blank" class="btn btn-secondary">Learn More</a>
-            <a href="https://speedment.com/oss-download" target="_blank" class="btn btn-secondary">Download</a>
+            <a href="https://speedment.com/oss-download" style="margin-left: 0.5em" target="_blank" class="btn btn-secondary">Download</a>
           </div>
           </div>
         </div>
