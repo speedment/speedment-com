@@ -9,7 +9,7 @@
         <div class="row justify-content-center">
           <div class="col" id="product-view-text-wrapper">
             <h1>Speedment Tools</h1>
-            <h3>Designed for commercial deployments where security, availability, and performance cannot be compromized.</h3>
+            <h3>The latest generation of development tools for enterprises with hard-core Java applications and relational databases.</h3>
           </div>
         </div>
       </div>
