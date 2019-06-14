@@ -25,7 +25,7 @@ get_header('tools'); ?>
           </div>
           <div class="col min-height">
             <h2>Speedment </br>Stream</h2>
-            <p></p>
+            <p>Express queries as standard Java Streams.</p>
           </div>
           <div class="col center-button">
             <a href="http://speedment.com/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf" target="_blank" class="btn btn-secondary">Learn more</a>
@@ -37,7 +37,7 @@ get_header('tools'); ?>
           </div>
           <div class="col min-height">
             <h2>Speedment </br>HyperStream</h2>
-            <p></p>  
+            <p>Designed for commercial deployments where security, availability, and performance cannot be compromized.</p>  
           </div>
           <div class="col center-button">
             <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Learn More</a>
@@ -49,7 +49,7 @@ get_header('tools'); ?>
           </div>
           <div class="col min-height">
             <h2>Speedment </br>Open Source</h2>
-            <p></p>
+            <p>Speedment Stream limited for use with Open Source databases.</p>
           </div>
           <div class="col center-button">
             <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Learn More</a>
