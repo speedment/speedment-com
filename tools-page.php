@@ -6,74 +6,19 @@
 get_header('tools'); ?>
 
 <!-- Start Page Content -->
+<div id="divider"></div>
+<div id="divider"></div>
 
 <div class="container" style="margin-bottom: 3em" id="sql-java">
   <div class="row">
     <div class="col-md margin-right" style="margin-bottom:1em">
-<h1>Write Database Applications While Remaining in a Pure Java World</h1>
-<p style="font-size: 1.1em; margin-top: 1em">Speedment is a Java Stream ORM toolkit and runtime. The toolkit analyzes the metadata of an existing SQL database and automatically creates a Java representation of the data model. This powerful ORM enables you to create scalable and efficient Java applications using standard Java Streams with no need to type SQL or use any new API.</p>
-</p><em>Speedment was originally developed by researchers and engineers based in Palo Alto with the purpose to simplify and streamline the development of Java database applications by leveraging the Java Stream API.</em></p>
+<h1>The Latest Generation of Java Development Tools</h1>
+<p style="font-size: 1.1em; margin-top: 1em">For enterprises with hard-core Java applications and relational databases.</p>
       <div class="row" style="text-align: center">
         <div class="col">
           <a href="http://speedment.com/initializer" class="btn btn-primary">Start Now</a>
         </div>
       </div>
-    </div>
-    <div class="col-lg-5 gray" id="sql-java-table">
-<table class="table table-striped">
-        <thead>
-          <tr>
-            <th><h5>SQL</h5></th>
-            <th><h5>JAVA STREAM</h5></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><c>FROM</c></td>
-            <td><c>stream()</c></td>
-          </tr>
-          <tr>
-            <td><c>COUNT</c></td>
-            <td><c>count()</c></td>
-          </tr>
-          <tr>
-            <td><c>LIMIT</c></td>
-            <td><c>limit()</c></td>
-          </tr>
-          <tr>
-            <td><c>SELECT</c></td>
-            <td><c>map()</c></td>
-          </tr>
-          <tr>
-            <td><c>WHERE</c></td>
-            <td><c>filter()</c> (before collecting)</td>
-          </tr>
-          <tr>
-            <td><c>HAVING</c></td>
-            <td><c>filter()</c> (after collecting)</td>
-          </tr>
-          <tr>
-            <td><c>JOIN<c/></td>
-            <td><c>flatmap()</c></td>
-          </tr>
-          <tr>
-            <td><c>UNION</c></td>
-            <td><c>concat(s0, s1).distinct()</c></td>
-          </tr>
-          <tr>
-            <td><c>ORDER BY</c></td>
-            <td><c>sorted()</c></td>
-          </tr>
-          <tr>
-            <td><c>OFFSET</c></td>
-            <td><c>skip()</c></td>
-          </tr>
-          <tr>
-            <td><c>GROUP BY</c></td>
-            <td><c>collect(groupingBY())</c></td>
-          </tr>
-     </tbody>
-</table>
     </div>
   </div>
 </div>
