@@ -36,8 +36,8 @@ get_header('tools'); ?>
             <p>Express queries as standard Java Streams.</p>
           </div>
           <div class="col center-button">
-            <a href="http://speedment.com/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf" target="_blank" class="btn btn-secondary">Learn more</a>
-            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Download</a>
+            <a href="http://speedment.com/stream" target="_blank" class="btn btn-secondary">Learn more</a>
+            <a href="https://speedment.com/initializer" target="_blank" class="btn btn-secondary">Download</a>
           </div>
         </div>
         <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up" style="text-align: center">
@@ -48,8 +48,8 @@ get_header('tools'); ?>
             <p>Designed for commercial deployments where security, availability, and performance cannot be compromized.</p>  
           </div>
           <div class="col center-button">
-            <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Learn More</a>
-            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Download</a>
+            <a href="http://www.speedment.com/hyperStream" target="_blank" class="btn btn-secondary">Learn More</a>
+            <a href="https://speedment.com/initializer" target="_blank" class="btn btn-secondary">Download</a>
           </div>
         </div>
         <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block" data-aos="fade-up" style="text-align: center">
@@ -60,8 +60,8 @@ get_header('tools'); ?>
             <p>Speedment Stream limited for use with Open Source databases.</p>
           </div>
           <div class="col center-button">
-            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Learn More</a>
-            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Download</a>
+            <a href="https://speedment.com/open-source" target="_blank" class="btn btn-secondary">Learn More</a>
+            <a href="https://speedment.com/oss-download" target="_blank" class="btn btn-secondary">Download</a>
           </div>
           </div>
         </div>
