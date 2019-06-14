@@ -691,6 +691,10 @@ space {
      margin-right: 1em; 
 }
 
+#tools-page p {
+	font-size: 1.3em; 
+}
+
 .full-width-product-view {
      width: 90%;
      max-width: 1200px; 
