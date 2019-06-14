@@ -695,6 +695,12 @@ space {
 	font-size: 1.3em; 
 }
 
+#tools-page h2 {
+	font-size: 2.2em; 
+	text-transform: none; 
+	line-height: 1.2em; 
+}
+
 #tools-page .quote {
 	font-style: italic; 
 	font-size: 1.8em; 
