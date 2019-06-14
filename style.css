@@ -732,6 +732,62 @@ space {
 	margin: 0em 0em 0.5em 0em; 
 }
 
+#datastore-extras .gray {
+	box-shadow: none; 	
+}
+
+#datastore-extras .min-height {
+	min-height: 20em; 
+}
+
+#datastore-extras .lightgray {
+	box-shadow: none; 	
+	background: #43cea2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#tools-product-list .center-button {
+	margin: 2em 0em; 
+}
+
+#tools-product-list .title-area {
+    color: #A7B2B9;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    font-size: 1.2em; 
+}
+
+#tools-product-list h3 {
+	font-family: "Source Sans Pro"; 
+	font-size: 1.4em;  
+	margin: 0.5em 0em; 
+	line-height: 1.2em;
+	margin: 0em 0em 0.5em 0em; 
+}
+
+#tools-product-list btn {
+	padding: 0; 
+}
+
+
+#tools-product-list .gray {
+	box-shadow: none; 	
+}
+
+#tools-product-list .min-height {
+	min-height: 20em; 
+}
+
+#tools-product-list .lightgray {
+	box-shadow: none; 	
+	background: #43cea2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #datastore-documentation {
 	background: #e9e9e9; 
 }
@@ -751,21 +807,6 @@ space {
 
 #datastore-about p {
 	font-size: 1.3em; 
-}
-
-#datastore-extras .gray {
-	box-shadow: none; 	
-}
-
-#datastore-extras .min-height {
-	min-height: 20em; 
-}
-
-#datastore-extras .lightgray {
-	box-shadow: none; 	
-	background: #43cea2;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #first-view {
