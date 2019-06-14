@@ -19,8 +19,9 @@ get_header('tools'); ?>
     <div class="row">
       <div class="col-md margin-right" style="margin-bottom:1em; text-align: center" >
         <div style="margin-top: 1em" class="quote">  
-          "Speedment was originally developed by researchers and engineers based in Palo Alto with the purpose to simplify and streamline the development of Java database applications by leveraging the Java Stream API."
+          "Speedment Stream was originally developed by researchers and engineers based in Palo Alto with the purpose to simplify and streamline the development of Java database applications by leveraging the Java Stream API."
         </div>
+        <p>- <b>Carina Dreifeldt</b>, founder and CEO</p>
       </div>
     </div>
  </div>
