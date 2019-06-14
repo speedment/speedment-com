@@ -1,7 +1,7 @@
 <?php
 /*
- * Template Name: Speedment Stream page
- * Description: Page template that shows a Stream page header
+ * Template Name: Speedment Tools page
+ * Description: Page template that shows a Tools page header
  */
 get_header('tools'); ?>
 
