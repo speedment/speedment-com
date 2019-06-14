@@ -977,6 +977,12 @@ space {
   }
 }
 
+@media screen and (max-width: 620px) {
+	#tools-product-list .min-height {
+    		min-height: 0em;
+	}
+}
+
 .information {
     padding: 90px 0;
 }
