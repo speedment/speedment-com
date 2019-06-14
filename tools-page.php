@@ -9,16 +9,12 @@ get_header('tools'); ?>
 <div id="divider"></div>
 <div id="divider"></div>
 
+<div id="tools-page">  
 <div class="container" style="margin-bottom: 3em" id="sql-java">
   <div class="row">
-    <div class="col-md margin-right" style="margin-bottom:1em">
+    <div class="col-md margin-right" style="margin-bottom:1em; text-align: center" >
 <h1>The Latest Generation of Java Development Tools</h1>
-<p style="font-size: 1.1em; margin-top: 1em">For enterprises with hard-core Java applications and relational databases.</p>
-      <div class="row" style="text-align: center">
-        <div class="col">
-          <a href="http://speedment.com/initializer" class="btn btn-primary">Start Now</a>
-        </div>
-      </div>
+<p style="margin-top: 1em">For enterprises with hard-core Java applications and relational databases.</p>
     </div>
   </div>
 </div>
@@ -171,6 +167,7 @@ The graphical interface allows custom configurations and optimizations in a jiff
       </div>
     </div>
   </div>
+</div> 
 
 <script type="text/javascript">
   AOS.init({
