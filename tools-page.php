@@ -24,7 +24,7 @@ get_header('tools'); ?>
  
  <div id="divider"></div>
  
-  <div class="row justify-content-center" id="datastore-extras">
+  <div class="row justify-content-center" id="tools-product-list">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
         <div class="row">
