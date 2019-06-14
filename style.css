@@ -222,6 +222,11 @@ hr {
     margin-left: 0; 
 }
 
+.quote {
+	text-style: italic; 
+	font-size: 1.5em; 
+}
+
 /* Styling for code in text*/ 
 c {
     font-size: 1em;
