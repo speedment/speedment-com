@@ -15,6 +15,16 @@ get_header('tools'); ?>
 
 <div id="divider"></div>
  
+   <div class="container" style="margin-bottom: 3em" id="sql-java">
+    <div class="row">
+      <div class="col-md margin-right" style="margin-bottom:1em; text-align: center" >
+         <p> Speedment is a software tool for enterprises that run Java applications and relational databases, which can increase the data access by order of magnitudes and reduce development time by 50%. It works by creating a virtual data object, retrieving only the data the application needs when it needs it.</p>
+      </div>
+    </div>
+ </div>
+ 
+ <div id="divider"></div>
+ 
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
