@@ -222,11 +222,6 @@ hr {
     margin-left: 0; 
 }
 
-.quote {
-	font-style: italic; 
-	font-size: 1.8em; 
-}
-
 /* Styling for code in text*/ 
 c {
     font-size: 1em;
@@ -698,6 +693,11 @@ space {
 
 #tools-page p {
 	font-size: 1.3em; 
+}
+
+#tools-page .quote {
+	font-style: italic; 
+	font-size: 1.8em; 
 }
 
 .full-width-product-view {
