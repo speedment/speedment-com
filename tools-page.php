@@ -11,15 +11,6 @@ get_header('tools'); ?>
 
 <div id="tools-page">  
 
-<div class="container">
-  <div class="row">
-    <div class="col" style="text-align: center">
-      <h3 style="text-align: center">Use any Database</h3>
-      <img src="https://speedment.com/wp-content/uploads/2019/06/any-database.png" alt="" width="90%" class="aligncenter size-full wp-image-1470" />
-    </div>
-  </div>
-</div> 
-
 <button class="js-gitter-toggle-chat-button" data-gitter-toggle-chat-state="true">Open Gitter Chat</button>
 
 <div id="divider"></div>
@@ -27,7 +18,6 @@ get_header('tools'); ?>
   <div class="container" style="margin-bottom: 3em" id="sql-java">
     <div class="row">
       <div class="col-md margin-right" style="margin-bottom:1em; text-align: center" >
-        <h1>The Latest Generation of Java Development Tools</h1>
         <div style="margin-top: 1em" class="quote">  
           "Speedment was originally developed by researchers and engineers based in Palo Alto with the purpose to simplify and streamline the development of Java database applications by leveraging the Java Stream API."
         </div>
