@@ -14,8 +14,7 @@ get_header('tools'); ?>
 <button class="js-gitter-toggle-chat-button" data-gitter-toggle-chat-state="true">Open Gitter Chat</button>
 
 <div id="divider"></div>
-  
-  
+ 
   <div class="row justify-content-center" id="datastore-extras">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
@@ -83,6 +82,7 @@ get_header('tools'); ?>
         <div class="col">
           <h2 class="text-center">Companies Using Speedment</h2>
         </div>
+        <div id="divider"></div>
       </div>
       <div class="row align-items-center justify-content-between" data-info="company-logos-wrapper">
         <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
