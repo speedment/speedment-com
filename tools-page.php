@@ -52,7 +52,7 @@ get_header('tools'); ?>
             <a href="https://speedment.com/initializer" style="margin-left: 0.5em" target="_blank" class="btn btn-secondary">Download</a>
           </div>
         </div>
-        <div class="col-md mx-3 my-3 px-4 gray d-lg-none d-xl-block" data-aos="fade-up" style="text-align: center">
+        <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-none d-xl-block" data-aos="fade-up" style="text-align: center">
           <div class="col title-area"> 
           </div>
           <div class="col min-height">
