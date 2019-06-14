@@ -24,7 +24,7 @@ get_header('tools'); ?>
           <div class="col title-area"> 
           </div>
           <div class="col min-height">
-            <h3>Speedment Stream</h3>
+            <h2>Speedment Stream</h2>
             <p>Speedment offers a handy productivity tool that automates database integration with Hazelcast IMDG. 
               It streamlines the development of Hazelcast applications by generating a Java domain model representation 
               (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.</p>
@@ -37,7 +37,7 @@ get_header('tools'); ?>
           <div class="col title-area"> 
           </div>
           <div class="col min-height">
-            <h3>Speedment HyperStream</h3>
+            <h2>Speedment HyperStream</h2>
             <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data. </p>  
           </div>
           <div class="col center-button">
@@ -48,7 +48,7 @@ get_header('tools'); ?>
           <div class="col title-area"> 
           </div>
           <div class="col min-height">
-            <h3>Speedment Open Source</h3>
+            <h2>Speedment Open Source</h2>
             <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
           </div>
           <div class="col center-button">
