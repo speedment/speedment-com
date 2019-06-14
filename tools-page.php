@@ -20,39 +20,42 @@ get_header('tools'); ?>
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
         <div class="row">
-<div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
+         <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up" style="text-align: center">
           <div class="col title-area"> 
           </div>
           <div class="col min-height">
-            <h2>Speedment Stream</h2>
+            <h2>Speedment </br>Stream</h2>
             <p>Speedment offers a handy productivity tool that automates database integration with Hazelcast IMDG. 
               It streamlines the development of Hazelcast applications by generating a Java domain model representation 
               (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.</p>
           </div>
           <div class="col center-button">
-            <a href="http://speedment.com/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf" target="_blank" class="btn btn-secondary">Read Now</a>
+            <a href="http://speedment.com/wp-content/uploads/2019/04/Hazelcast_Speedment_Datasheet.pdf" target="_blank" class="btn btn-secondary">Learn more</a>
+            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Download</a>
           </div>
         </div>
-        <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
+        <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up" style="text-align: center">
           <div class="col title-area"> 
           </div>
           <div class="col min-height">
-            <h2>Speedment HyperStream</h2>
+            <h2>Speedment </br>HyperStream</h2>
             <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data. </p>  
           </div>
           <div class="col center-button">
-            <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Read Article</a>
+            <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Learn More</a>
+            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Download</a>
           </div>
         </div>
-        <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block" data-aos="fade-up">
+        <div class="col-md mx-3 my-3 px-4 gray d-md-none d-lg-block" data-aos="fade-up" style="text-align: center">
           <div class="col title-area"> 
           </div>
           <div class="col min-height">
-            <h2>Speedment Open Source</h2>
+            <h2>Speedment </br>Open Source</h2>
             <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
           </div>
           <div class="col center-button">
-            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
+            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Learn More</a>
+            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Download</a>
           </div>
           </div>
         </div>
