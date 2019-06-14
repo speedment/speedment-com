@@ -7,7 +7,7 @@
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col px-5" id="product-view-text-wrapper">
+          <div class="col" id="product-view-text-wrapper">
             <h1>Speedment Tools</h1>
             <h3>Designed for commercial deployments where security, availability, and performance cannot be compromized.</h3>
           </div>
