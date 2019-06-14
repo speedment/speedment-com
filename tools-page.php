@@ -72,6 +72,8 @@ get_header('tools'); ?>
     </div>
  </div>
 
+<div id="divider"></div>
+
   <!--
       Company Logos
   -->
@@ -87,6 +89,8 @@ get_header('tools'); ?>
       </div>
     </div>
   </div>
+
+<div id="divider"></div>
 
   <div class="row justify-content-center datastore-gradient" id="gradient-footer">
     <div class="container full-width-product-view">
