@@ -10,85 +10,6 @@ get_header('tools'); ?>
 <div id="divider"></div>
 
 <div id="tools-page">  
-<div class="container" style="margin-bottom: 3em" id="sql-java">
-  <div class="row">
-    <div class="col-md margin-right" style="margin-bottom:1em; text-align: center" >
-<h1>The Latest Generation of Java Development Tools</h1>
-<p style="margin-top: 1em">For enterprises with hard-core Java applications and relational databases.</p>
-    </div>
-  </div>
-</div>
-
-<div class="container" id="type-safe">
-  <div class="row">
-    <div class="col">
-      <h3>Queries Expressed as Standard Java Streams</h3>
-<p>Speedment leverages the Stream API to enable database querying using lamdas without a single line of SQL. A custom delegator is used to optimize the resulting SQL queries for reduced database load, latency, and network load. The examples below illustrate the expressiveness of the stream queries.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8" style="margin: 0.5em 0em">
-      <pre><code class="language-java">
-FilmApplication app = new FilmApplicationBuilder()
-    .withPassword("...") // Needs to match the database
-    .build();
-
-// FilmManager represents a table with films and is generated automatically
-FilmManager films = app.getOrThrow(FilmManager.class);
-      </code></pre>
-    </div>
-    <div class="col-lg-4" style="margin: 0.5em 0em">
-      <h5>NEW APPLICATION</h5>
-Setting up a Speedment application requires only a few lines of code. For the sake of this simple demo, an open film database provided by MySQL is used. At this point, we are ready to query. 
-  </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8" style="margin: 0.5em 0em">
-      <pre><code class="language-java">
-// Searches are optimized in the background!
-Optional&lt;Film&gt; longFilm = films.stream()
-    .filter(Film.LENGTH.greaterThan(120))
-    .findAny();
-      </code></pre>
-    </div>
-    <div class="col-lg-4" style="margin: 0.5em 0em">
-      <h5>BASE CASE</h5>
-Let's find a film with a length greater than 120 minutes. Such a query only requires a simple filter. 
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8" style="margin: 0.5em 0em">
-      <pre><code class="language-java">
-Join&lt;Tuple2&lt;Film, Language&gt;&gt; join = joinComponent
-    .from(FilmManager.IDENTIFIER)
-    .innerJoinOn(Language.LANGUAGE_ID).equal(Film.LANGUAGE_ID)
-    .build(Tuples::of);
-      </code></pre>
-    </div>
-    <div class="col-lg-4" style="margin: 0.5em 0em">
-      <h5>JAVA JOINS</h5>
-Interested in knowing what language is spoken? A join will take care of that in a second.
-   </div>
-  </div>
-</div>  
-
-<div class="container" style="margin: 3em 0em"> 
-  <div class="row">
-    <div class="col-lg-3" style="margin-bottom: 1em">
-      <h3>Powerful Code Generator</h3>
-Speedment analyses the underlying data sources’ metadata and automatically creates code which directly reflects the structure (i.e. the “domain model”) of the underlying data sources.
-</br>
-</br>
-The graphical interface allows custom configurations and optimizations in a jiffy. 
-</br>
-</br>
-<a href="https://www.youtube.com/watch?v=7co9Fszz5Rg&t=73s" target="_blank" class="btn btn-primary" rel="noopener noreferrer">Watch a demo</a>
-    </div>
-    <div class="col-lg-9">
-       <img src="https://speedment.com/wp-content/uploads/2019/06/tool-generate.png" alt="" width="100%" class="aligncenter size-full wp-image-1509" />
-    </div>
-  </div>
-</div>
 
 <div class="container">
   <div class="row">
@@ -99,55 +20,20 @@ The graphical interface allows custom configurations and optimizations in a jiff
   </div>
 </div> 
 
-<div class="container" id="type-safe" style="margin-top: 3em">
-  <div class="row">
-    <div class="col">
-      <h3>Enjoy Full Type-Safety</h3>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8" style="margin: 0.5em 0em">
-<img src="https://speedment.com/wp-content/uploads/2019/06/left-join.png" alt="" width="100%" class="aligncenter size-full wp-image-1500" />
-    </div>
-    <div class="col-lg-4" style="margin: 0.5em 0em">
-      <h5>JAVA GOT YOUR BACK</h5>
-      Generated code that reflects the data source in combination with Java as the query language enables full type-safety. Syntax errors are discovered in real time rather than weeks into the testing phase or even worse, in production!
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8" style="margin: 0.5em 0em">
-<img src="https://speedment.com/wp-content/uploads/2019/06/classify-films.png" alt="" width="100%" class="aligncenter size-full wp-image-1501" />
-    </div>
-    <div class="col-lg-4" style="margin: 0.5em 0em">
-      <h5>UTILIZE TAB COMPLETION</h5>
-        Unsure what tables or columns that are available in the data source? You can trust tab-completion to fill in any gaps. 
-    </div>
-  </div>
-</div>  
-
-<div id="try-for-free">
-  <div class="row justify-content-center"> 
-    <div class="col-xl-3">
- <a href="http://speedment.com/initializer" class="btn btn-primary">Try For Free Now</a>
-    </div>
-    <div class="col-xl-3" style="padding: 1em">
-<a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" rel="noopener noreferrer">Read The User Guide</a>
-    </div>
-  </div>
-</div>
-
-<div id="contribute" style="margin-top: 3em">
-  <div class="row">
-    <div class="col lightgray">
-    <h4>Contribute</h4>
-    The Speedment Open Source project is available under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener noreferrer">Apache 2.0 License</a>. We gladly welcome, and encourage contributions from the community. If you have something to add, need to file an issue or simply want to browse the source code, pay the project a visit on <a href="http://www.github.com/speedment/speedment" target="_blank" rel="noopener noreferrer">GitHub</a>. 
-    </div>
-  </div>
-</div> 
-
 <button class="js-gitter-toggle-chat-button" data-gitter-toggle-chat-state="true">Open Gitter Chat</button>
 
 <div id="divider"></div>
+  
+  <div class="container" style="margin-bottom: 3em" id="sql-java">
+    <div class="row">
+      <div class="col-md margin-right" style="margin-bottom:1em; text-align: center" >
+        <h1>The Latest Generation of Java Development Tools</h1>
+        <div style="margin-top: 1em" class="quote">  
+          "Speedment was originally developed by researchers and engineers based in Palo Alto with the purpose to simplify and streamline the development of Java database applications by leveraging the Java Stream API."
+        </div>
+      </div>
+    </div>
+ </div>
 
   <div class="row justify-content-center datastore-gradient" id="gradient-footer">
     <div class="container full-width-product-view">
