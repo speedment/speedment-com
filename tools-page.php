@@ -6,19 +6,18 @@
 get_header('tools'); ?>
 
 <!-- Start Page Content -->
-<div id="divider"></div>
-<div id="divider"></div>
-
 <div id="tools-page">  
 
 <button class="js-gitter-toggle-chat-button" data-gitter-toggle-chat-state="true">Open Gitter Chat</button> 
- 
-   <div class="container full-width-product-view oss-feature-gradient" style="margin-bottom: 3em" id="sql-java">
-    <div class="row">
-      <div class="col-md margin-right" style="margin-bottom:1em; text-align: center" >
+
+ <div class="row justify-content-center oss-feature-gradient">
+   <div class="container full-width-product-view" id="sql-java">
+     <div class="row justify-content-center">
+       <div class="col-md margin-right" style="margin-bottom:1em; text-align: center" >
          <p> Speedment is a software tool for enterprises that run Java applications and relational databases, which can increase the data access by order of magnitudes and reduce development time by 50%. It works by creating a virtual data object, retrieving only the data the application needs when it needs it.</p>
-      </div>
-    </div>
+       </div>
+     </div>
+   </div>
  </div>
  
  <div id="divider"></div>
