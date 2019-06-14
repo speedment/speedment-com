@@ -72,6 +72,22 @@ get_header('tools'); ?>
     </div>
  </div>
 
+  <!--
+      Company Logos
+  -->
+  <div class="row justify-content-center" id="company-logos">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h2 class="text-center">Companies Using Speedment</h2>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-between" data-info="company-logos-wrapper">
+        <?php if (dynamic_sidebar('company_logos')): else: endif; ?>
+      </div>
+    </div>
+  </div>
+
   <div class="row justify-content-center datastore-gradient" id="gradient-footer">
     <div class="container full-width-product-view">
       <div class="row justify-content-center">
