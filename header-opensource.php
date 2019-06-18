@@ -7,7 +7,7 @@
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col px-5" style="color: black" id="product-view-text-wrapper">
+          <div class="col" style="color: black" id="product-view-text-wrapper">
             <h1>Speedment Open Source</h1>
             <h3>The popular Java Stream ORM for Open Source databases.</h3>
               <div class="row">
