@@ -94,7 +94,7 @@
                 </div>
                 <div class="col-lg-5 text-centered">
                     <div class="oracle-frame">
-                    <img class="align-vertical" src="http://localhost/wordpress/wp-content/uploads/2019/06/oracle-code-one.png" width="90%">
+                    <img class="align-vertical" src="http://speedment.com/wp-content/uploads/2019/07/oracle-code-one.png" width="90%">
                     </div>
                 </div>
             </div>

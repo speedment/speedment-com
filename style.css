@@ -1879,12 +1879,12 @@ label {
 }
 
 #speedment-oss {
-    background-image: url("http://localhost/wordpress/wp-content/uploads/2019/06/third-bg.png");
+    background-image: url("http://speedment.com/wp-content/uploads/2019/07/third-bg.png");
     background-size: 100%;
 }
 
 #speedment-stream {
-    background-image: url("http://localhost/wordpress/wp-content/uploads/2019/06/first-bg.png");
+    background-image: url("http://speedment.com/wp-content/uploads/2019/07/first-bg.png");
     background-size: 100%;
 }
 
@@ -1901,12 +1901,12 @@ label {
 }
 
 #speedment-hyperstream {
-    background-image: url("http://localhost/wordpress/wp-content/uploads/2019/06/second-bg.png");
+    background-image: url("http://speedment.com/wp-content/uploads/2019/07/second-bg.png");
     background-size: 100%;
 }
 
 #oss-footer {
-    background-image: url("http://localhost/wordpress/wp-content/uploads/2019/06/oss-bg.png");
+    background-image: url("http://speedment.com/wp-content/uploads/2019/07/oss-bg.png");
     background-size: cover;
 }
 
@@ -2048,13 +2048,13 @@ label {
 .rocket {
     color: white;
     background-size: cover;
-    background-image: url("http://localhost/wordpress/wp-content/uploads/2019/06/rocket.jpg");
+    background-image: url("http://speedment.com/wp-content/uploads/2019/07/rocket.jpg");
 }
 
 .stars {
     color: white;
     background-size: cover;
-    background-image: url("http://localhost/wordpress/wp-content/uploads/2019/06/stream-header.png");
+    background-image: url("http://speedment.com/wp-content/uploads/2019/07/stream-header.png");
 
 }
 
