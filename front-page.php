@@ -53,19 +53,19 @@
     <div class="row justify-content-center" id="speedment-tools">
         <div class="container full-width-section">
             <div class="row justify-content-center">
-                <div class="col-md px-5 py-3 mx-2 text-center" id="speedment-stream">
+                <div class="col-md px-5 py-3 mx-2 my-2 text-center" id="speedment-stream">
                     <h2>Speedment</br>Stream</h2>
                     <p>The latest generation of ORM</p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/stream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
-                <div class="col-md py-3 px-5 mx-2 text-center" id="speedment-hyperstream">
+                <div class="col-md py-3 px-5 mx-2 my-2 text-center" id="speedment-hyperstream">
                     <h2>Speedment</br>HyperStream</h2>
                     <p>Accelerate your application to hypersonic speeds</p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/hyperstream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
-                <div class="col-md py-3 px-5 mx-2 text-center" id="speedment-oss">
+                <div class="col-md py-3 px-5 mx-2 my-2 text-center" id="speedment-oss">
                     <h2>Speedment</br>Open Source</h2>
                     <p>The #1 OSS Java Stream ORM</p>
                     <a href="https://speedment.com/download-oss/" class="btn btn-secondary-white">Download Now</a></br>
