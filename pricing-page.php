@@ -767,13 +767,13 @@ get_header('pricing'); ?>
                         <tr>
                             <td></td>
                             <td style="text-align: center; vertical-align: middle">
-                                <a href="http://speedment.com/oss-download" target="_blank" style="font-family: Titillium Web; font-size: 0.9em; color: #5ABF95" rel="noopener noreferrer">GET OSS</a>
+                                <a href="http://speedment.com/oss-download" target="_blank" style="font-family: Titillium Web; font-size: 0.9em" rel="noopener noreferrer">Get OSS</a>
                             </td>
                             <td style="text-align: center">
                                 <a href="http://speedment.com/initializer" class="btn btn-primary btn-small btn-gray">Get Free</a>
                             </td>
                             <td style="text-align: center">
-                                <a href="https://www.speedment.com/licensing/payment?plan=developer" class="btn btn-primary btn-small">Contact Sales</a>
+                                <a href="https://www.speedment.com/contact" class="btn btn-primary btn-small">Contact Sales</a>
                             </td>
                             <td style="text-align: center">
                                 <a href="https://www.speedment.com/contact" class="btn btn-primary btn-small">Contact Sales</a>

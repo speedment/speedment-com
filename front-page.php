@@ -122,7 +122,7 @@
                             <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
                         </div>
                         <div class="col center-button">
-                            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
+                            <a href="https://speedment.com/wp-content/uploads/2019/04/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
                         </div>
                     </div>
                     <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
@@ -146,7 +146,7 @@
                             <p>Hazelcast Auto Database Integration streamlines the development of Hazelcast applications by generating a Java domain model representation (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.</p>
                         </div>
                         <div class="col center-button">
-                            <a href="https://www.youtube.com/watch?time_continue=764&v=FRO0XYgCdpM" target="_blank" class="btn btn-secondary">Read Article</a>
+                            <a href="https://www.youtube.com/watch?time_continue=764&v=FRO0XYgCdpM" target="_blank" class="btn btn-secondary">Watch Webinar</a>
                         </div>
                     </div>
                 </div>
