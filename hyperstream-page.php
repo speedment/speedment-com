@@ -20,7 +20,7 @@ get_header('hyperstream'); ?>
                 </div>
             </div>
             <div class="col-lg-7 pull-lg-5 vertical-align d-none d-lg-block mt-5" data-aos="fade-right">
-                <img src="http://localhost/wordpress/wp-content/uploads/2019/07/rocket_zoom2.jpg" alt="Rocket" width="100%" class="size-full wp-image-1509"/>
+                <img src="http://speedment.com/wp-content/uploads/2019/07/rocket_zoom2.jpg" alt="Rocket" width="100%" class="size-full wp-image-1509"/>
             </div>
         </div>
     </div>
@@ -101,8 +101,8 @@ get_header('hyperstream'); ?>
                     <p>A graphical interface lets the user monitor the process and perform custom configurations and optimizations.</p>
                 </div>
                 <div class="col-md-5 pull-md-5">
-                    <img src="http://localhost/wordpress/wp-content/uploads/2019/06/architecture-vertical.png" width="90%" class="d-none d-md-block">
-                    <img src="http://localhost/wordpress/wp-content/uploads/2019/06/architecture-horizontal.png" width="90%" class="d-md-none">
+                    <img src="http://speedment.com/wp-content/uploads/2019/07/architecture-vertical.png" width="90%" class="d-none d-md-block">
+                    <img src="http://speedment.com/wordpress/wp-content/uploads/2019/07/architecture-horizontal.png" width="90%" class="d-md-none">
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@ get_header('hyperstream'); ?>
                 <div class="line-divider-center"></div>
                 <p>Speedment Stream coexists nicely with the current backend and works for any RDBMS;
                     MySQL, DB2, Microsoft SQL Server, Oracle, AS/400, PostgreSQL, MariaDB or SQLite.</p>
-                <img src="http://localhost/wordpress/wp-content/uploads/2019/06/database-connectors.png" class="mt-3" width="100%"/>
+                <img src="http://speedment.com/wp-content/uploads/2019/07/database-connectors.png" class="mt-3" width="100%"/>
             </div>
             <div class="col-2 d-none d-sm-block"></div>
         </div>
