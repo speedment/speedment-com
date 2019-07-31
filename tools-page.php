@@ -25,7 +25,7 @@ get_header('tools'); ?>
                     </div>
                 </div>
                 <div class="col-lg-7 pull-lg-5 vertical-align d-none d-lg-block mt-5" data-aos="fade-right">
-                    <img src="http://localhost/wordpress/wp-content/uploads/2019/07/rocket_zoom2.jpg" alt="Rocket" width="100%" class="size-full wp-image-1509"/>
+                    <img src="http://speedment.com/wp-content/uploads/2019/07/rocket_zoom2.jpg" alt="Rocket" width="100%" class="size-full wp-image-1509"/>
                 </div>
             </div>
         </div>

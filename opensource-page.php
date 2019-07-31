@@ -170,7 +170,7 @@ get_header('opensource'); ?>
                 </div>
             </div>
             <div class="col-md-5 pull-md-5">
-                <img src="http://localhost/wordpress/wp-content/uploads/2019/06/os-connectors.png" alt="" width="90%" class="size-full wp-image-1470" />
+                <img src="http://speedment.com/wp-content/uploads/2019/07/os-connectors.png" alt="" width="90%" class="size-full wp-image-1470" />
             </div>
         </div>
     </div>
