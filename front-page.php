@@ -74,7 +74,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col py-4 text-center">
-                    <a href="https://speedment.com/tools/" class="btn btn-primary">Compare Tools</a>
+                    <a href="https://speedment.com/tools/#comparison" class="btn btn-primary">Compare Tools</a>
                 </div>
             </div>
         </div>
