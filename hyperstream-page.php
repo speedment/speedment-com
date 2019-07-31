@@ -102,7 +102,7 @@ get_header('hyperstream'); ?>
                 </div>
                 <div class="col-md-5 pull-md-5">
                     <img src="http://speedment.com/wp-content/uploads/2019/07/architecture-vertical.png" width="90%" class="d-none d-md-block">
-                    <img src="http://speedment.com/wordpress/wp-content/uploads/2019/07/architecture-horizontal.png" width="90%" class="d-md-none">
+                    <img src="http://speedment.com/wp-content/uploads/2019/07/architecture-horizontal.png" width="90%" class="d-md-none">
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@ get_header('hyperstream'); ?>
                         <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment HyperStream, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
                     </div>
                     <div class="col center-button">
-                        <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
+                        <a href="https://speedment.com/wp-content/uploads/2019/04/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
                     </div>
                 </div>
                 <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
