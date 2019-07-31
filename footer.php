@@ -28,7 +28,7 @@
             <div class="col-md-6 copyright">
                 <div class="row justify-content-center justify-content-md-start">
                     <div class="col-md col-md-1 mr-md-2 py-2 py-md-0 d-flex justify-content-center justify-content-md-start">
-                        <img src="http://localhost/wordpress/wp-content/uploads/2019/06/ICON-logo-white.png" width="35px" height="38px">
+                        <img src="http://speedment.com/wp-content/uploads/2019/07/ICON-logo-white.png" width="35px" height="38px">
                     </div>
                     <div class="col-md d-flex justify-content-center justify-content-md-start">
                         <p>© 2019 Speedment,&nbsp;Inc. All rights reserved.</br>
