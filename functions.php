@@ -30,6 +30,11 @@ function load_aos() {
   wp_enqueue_script('aos');
 }
 
+function load_youtube() {
+    wp_register_script('aos', get_template_directory_uri().'/assets/js/youtubeHD.js');
+    wp_enqueue_script('youtube');
+}
+
 function load_animateLogo() {
   wp_register_script('animate-logos', get_template_directory_uri().'/assets/js/animate-logos.js');
   wp_enqueue_script('animate-logos');
@@ -357,6 +362,7 @@ add_action('init',         'stripe_subscription_init');
 add_action('wp_enqueue_scripts', 'load_prism');
 add_action('wp_enqueue_scripts', 'load_tether');
 add_action('wp_enqueue_scripts', 'load_aos');
+add_action('wp_enqueue_scripts', 'load_youtube');
 add_action('wp_enqueue_scripts', 'load_popper');
 add_action('wp_enqueue_scripts', 'load_animateLogo');
 add_action('wp_enqueue_scripts', 'load_carosuelVideo');

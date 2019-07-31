@@ -20,19 +20,21 @@
    color: black; 
    padding-right: 0.7em;
    padding-left: 0.7em;
-   text-transform: uppercase; 
+   text-transform: none;
    font-size: 1.3em; 
-   font-weight: 600; 
 }
 
-.navbar-nav .menu-item .dropdown-menu .menu-item > a:hover {
-  background-color: #3a9b79; 
-  color: white; 
+.navbar {
+    background-color: transparent;
+    transition: 0.3s;
 }
 
-.navbar-nav .menu-item .dropdown-menu .menu-item > a:focused {
-  background-color: #3a9b799e;
-  color: white; 
+.navbar-nav .menu-item .dropdown-menu .menu-item > a:hover,
+.navbar-nav .menu-item .dropdown-menu .menu-item > a:focus,
+.navbar-nav .menu-item .dropdown-menu .menu-item > a:active
+{
+  background-color: transparent;
+  color: #155D89;
 }
 
 #speedment-navbar .depth_0 .menu-item {
@@ -41,16 +43,12 @@
   text-transform: none; 
 }
 
-#speedment-navbar .navbar-nav {
-    padding-top: 1em; 
-}
-
 #speedment-navbar .navbar {
     padding-top: 0em; 
 }
 
 #developer-navbar {
-  background-color: white;
+  background-color: transparent;
   padding-top: 0.5em; 
 }
 
@@ -105,29 +103,39 @@
     padding-bottom: 0.2em; 
 }
 
-.navbar-light 
-.navbar-nav 
-.nav-link {
-    color: black; 
+.logo {
+    background-image: url("http://localhost/wordpress/wp-content/uploads/2019/06/speedment-logo-white.png");
+    background-size: contain;
+    height: 55px;
+    width: 175px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    text-decoration: underline;
+    color: white;
 }
 
 .dropdown-toggle::after {
     display: none; /* inline-block to display arrows after drop down menu items again */ 
 }
 
- /* Download button in menu */
-#menu-item-300 a {
-    color: #fff;
-    background-color: #3a9b79;
-    border-radius: 5rem;
-    margin-right: 0.5em;
-    padding: 0.5em 2em; 
-    font-weight: 600; 
+#menu-item-28 a,
+#menu-item-29 a {
+    font-weight: 600;
 }
 
-#menu-item-300 a:hover {
-    background-color: #3a9b799e;
+#menu-item-24 a,
+#menu-item-25 a,
+#menu-item-26 a,
+#menu-item-27 a {
+    margin-left: 1em;
 }
+
 
 #menu-item-300 .nav-link {
     color: #fff;
@@ -153,9 +161,6 @@
     text-transform: none; 
 }
 
-.navbar {
-  padding-top: 0em; 
-}
 
 .navbar-brand {
   padding-top: 0.5em; 
@@ -163,4 +168,65 @@
 
 .navbar-toggler {
   margin-top: 0.5em; 
+}
+
+.scrolled{
+    background-color: white;
+    transition: 0.3s;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2)
+}
+
+.scrolled .navbar-nav .nav-link {
+    color: black;
+}
+
+.scrolled .navbar-nav .nav-link:hover,
+.scrolled .navbar-nav .nav-link:focus {
+    color: black;
+}
+
+.scrolled .logo {
+    background-image: url("http://localhost/wordpress/wp-content/uploads/2019/06/speedment-logo-black.png");
+    background-size: contain;
+    height: 55px;
+    width: 175px;
+}
+
+.scrolled .btn-secondary-white {
+    border-color: black;
+    color: black;
+}
+
+.scrolled .btn-secondary-white:hover {
+    border-color: #112B3A;
+    color: white;
+    background-color:  #112B3A;
+}
+
+/*
+#menu-main-menu a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#menu-main-menu a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}*/
+
+.dropdown-menu {
+    padding: 1em 0em;
+    box-shadow: 0px 2px 20px #a7b2b9;
+    border-width: 0px;
 }

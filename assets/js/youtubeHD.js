@@ -26,8 +26,8 @@
 			this.elem = element;
 			this.$elem = $(element);
 			this.settings = $.extend( {}, defaults, options );
-			this._defaults = defaults;
-			this._name = 'youTubeHDThumbnail';
+			this.defaults = defaults;
+			this.name = 'youTubeHDThumbnail';
 			this.init();
 		}
 

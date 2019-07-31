@@ -7,14 +7,11 @@
     <div class="col">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-7 px-5 pull-lg-2
-                      col-md-8 pull-md-1
-                      col-sm-9 pull-sm-0" id="first-view-text-wrapper">
+          <div class="col" id="first-view-text-wrapper">
             <h1><?php echo get_bloginfo('description'); ?></h1>
-              <div class="row">
-                <div class="col" id="first-view-button-area">
-                  <a href="http://speedment.com/initializer" class="btn btn-primary">Try For Free</a>
-                </div>
+              <div class="row" id="first-view-button-area">
+                  <a href="https://speedment.com/tools" class="btn btn-primary col-sm col-md-4 col-lg-3">Learn More</a>
+                  <a href="https://speedment.com/initializer" class="btn btn-secondary-white col-sm col-md-4 col-lg-3 ml-0 ml-sm-2 mt-3 m-sm-0">Start Now</a>
               </div>
             <form class="lead" id="leadForm" action="#">
               <label class="sr-only" for="inlineFormInput">Name</label>

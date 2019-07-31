@@ -14,53 +14,170 @@
     </div>
   </div>
 
-  <!--
-      Why Speedment (Large boxes on green background)
-  -->
-  <div class="row justify-content-center" id="why-speedment">
-    <div class="container">
-      <div class="row justify-content-center">
-        <?php if (dynamic_sidebar('big_boxes')): else: endif; ?>
-      </div>
-    </div>
-  </div>
+    <!--Why Speedment (Large boxes on light green background)-->
 
-  <!--
-      Buzzwords (Small boxes on white background)
-  -->
-  <div class="row justify-content-center" id="small-boxes">
-    <div class="container">
-       <div class="row justify-content-center">
-        <div class="col">
-          <h4> </h4>
+    <div class="row justify-content-center" id="why-speedment">
+        <div class="container full-width-section">
+            <div class="row justify-content-center">
+                <div class="col-lg px-5">
+                    <h2>Reduced Development Time</h2>
+                    <div class="line-divider-center"></div>
+                    <p>Database queries expressed as standard Java Streams yields short,
+                        concise and readable code while the introduced type-safety minimizes
+                        the risk for bugs.  Furthermore, all required boilerplate code is
+                        automatically generated. </p>
+                </div>
+                <div class="col-lg px-5">
+                    <h2>Increased Data Access</h2>
+                    <div class="line-divider-center"></div>
+                    <p>Use Speedments unique in-JVM-memory management model to provide immediate relief from performance bottlenecks by accelerating application response times orders of magnitude and reducing database load. </p>
+                </div>
+                <div class="col-lg px-5">
+                    <h2>Leverage Your Infrastructure</h2>
+                    <div class="line-divider-center"></div>
+                    <p>The tools coexists nicely with any relational database; Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, DB2, MariaDB or AS400. It is possible to deploy them in the cloud, standalone, or on an app server.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col py-4">
+                    <a href="https://speedment.com/tools/" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row justify-content-center">
-        <?php if (dynamic_sidebar('small_boxes')): else: endif; ?>
-      </div>
     </div>
-  </div>
 
-      <!--
-    Oracle Article Link
-  -->
-  <?php if (new DateTime() < new DateTime("2018-10-06 00:00:00")) { ?>
-  <div class="row justify-content-center" id="javaone-promo">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col">
-          <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" rel="external">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/JavaMagazine_900px_Margin.png" alt="Oracle Java Magazine Article" width="80%"/>
-          </a>
+    <div class="container" id="divider"></div>
+    <!--Speedment products, black boxes-->
+
+    <div class="row justify-content-center" id="speedment-tools">
+        <div class="container full-width-section">
+            <div class="row justify-content-center">
+                <div class="col-md px-5 py-3 mx-2 text-center" id="speedment-stream">
+                    <h2>Speedment</br>Stream</h2>
+                    <p>The latest generation of ORM</p>
+                    <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
+                    <a href="https://speedment.com/stream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
+                </div>
+                <div class="col-md py-3 px-5 mx-2 text-center" id="speedment-hyperstream">
+                    <h2>Speedment</br>HyperStream</h2>
+                    <p>Accelerate your application to hypersonic speeds</p>
+                    <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
+                    <a href="https://speedment.com/hyperstream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
+                </div>
+                <div class="col-md py-3 px-5 mx-2 text-center" id="speedment-oss">
+                    <h2>Speedment</br>Open Source</h2>
+                    <p>The #1 OSS Java Stream ORM</p>
+                    <a href="https://speedment.com/download-oss/" class="btn btn-secondary-white">Download Now</a></br>
+                    <a href="https://speedment.com/open-source/" style="margin-top:0.5em" class="learn-more">Learn More</a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col py-4 text-center">
+                    <a href="https://speedment.com/tools/" class="btn btn-primary">Compare Tools</a>
+                </div>
+            </div>
         </div>
+    </div>
+
+    <div class="container" id="divider-wide"></div>
+
+
+    <div class="row justify-content-center" id="speedment-next-event">
+        <div class="container">
+            <div class="row justify-content-center py-4">
+                <div class="col-lg-7">
+                    <h4>Next Conferance Talk</h4>
+                    <h2>Become a Master of Java Streams</h2>
+                    <p>San Francisco</br>
+                        September 15-19, 2019 </p>
+                </div>
+                <div class="col-lg-5 text-centered">
+                    <div class="oracle-frame">
+                    <img class="align-vertical" src="http://localhost/wordpress/wp-content/uploads/2019/06/oracle-code-one.png" width="90%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="divider-wide"></div>
+
+    <!-- Related Resources -->
+
+    <div class="row justify-content-center" id="related-resources">
+        <div class="container full-width-product-view">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h1 style="text-align: center">Related Resources</h1>
+                    <div class="line-divider-center"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md mx-3 my-3 px-4 gray d-lg-block" data-aos="fade-up">
+                        <div class="col title-area">
+                            White Paper
+                        </div>
+                        <div class="col min-height">
+                            <h3>Speedment the Java Stream ORM</h3>
+                            <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
+                        </div>
+                        <div class="col center-button">
+                            <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
+                        </div>
+                    </div>
+                    <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
+                        <div class="col title-area">
+                            Article
+                        </div>
+                        <div class="col min-height">
+                            <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
+                            <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data.</p>
+                        </div>
+                        <div class="col center-button">
+                            <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Read Article</a>
+                        </div>
+                    </div>
+                    <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
+                        <div class="col title-area">
+                            Webinar
+                        </div>
+                        <div class="col min-height">
+                            <h3>How You Can Quickly and Effortlessly Integrate Your Database with Hazelcast</h3>
+                            <p>Hazelcast Auto Database Integration streamlines the development of Hazelcast applications by generating a Java domain model representation (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.</p>
+                        </div>
+                        <div class="col center-button">
+                            <a href="https://www.youtube.com/watch?time_continue=764&v=FRO0XYgCdpM" target="_blank" class="btn btn-secondary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="divider"></div>
+
+
+    <!--
+  Oracle Article Link
+
+<?php if (new DateTime() < new DateTime("2018-10-06 00:00:00")) { ?>
+<div class="row justify-content-center" id="javaone-promo">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col">
+        <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" rel="external">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/JavaMagazine_900px_Margin.png" alt="Oracle Java Magazine Article" width="80%"/>
+        </a>
       </div>
     </div>
   </div>
-  <?php } ?>
-  
+</div>
+<?php } ?>
+-->
+
+
   <!--
       Initializer (Text Area with link and picture on light green background)
-  -->
   <div class="row justify-content-center" id="guides">
     <div class="container">
       <div class="row align-items-center">
@@ -77,23 +194,7 @@
       </div>
     </div>
   </div>
-
-  <!--
-    Video
   -->
-  <div id="front-page-video">
-   <div class="row justify-content-center">
-     <div class="container">
-       <div class="row">
-         <div class="col-12">
-           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B_cdvPNEhc0" frameborder="0" allowfullscreen></iframe>
-          </div>
-         </div>  
-        </div>
-     </div>
-   </div>
-  </div>
 
   <!--
       Company Logos
@@ -103,6 +204,7 @@
       <div class="row justify-content-center">
         <div class="col">
           <h2 class="text-center">Companies Using Speedment</h2>
+            <div class="line-divider-center"></div>
         </div>
       </div>
       <div class="row align-items-center justify-content-between" data-info="company-logos-wrapper">
@@ -112,6 +214,8 @@
   </div>
 
 </div><!-- container-fluid -->
+
+<!--
 
 <div id="leadModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="leadTitle" aria-hidden="true">
   <div class="modal-dialog modal-lg">
@@ -131,5 +235,13 @@
     </div>
   </div>
 </div>
+-->
+
+<script type="text/javascript">
+    AOS.init({
+        duration: 1200,
+        once: true,
+    });
+</script>
 
 <?php get_footer(); ?>

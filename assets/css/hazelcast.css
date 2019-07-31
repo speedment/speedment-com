@@ -1,39 +1,39 @@
 /* Download button styling */
 #submitGroup .btn-hazelcast {
-  color: #FFFFFF;
-  background-color: #2e7de1; 
-  border-color: #2e7de1; 
-  font-family: "Ubuntu";
-  border-width: 3px; 
-  padding: 0.7em 2.5em; 
-  text-transform: none; 
-  font-weight: 500;
-  font-size: 1.1em;
+    color: #FFFFFF;
+    background-color: #2e7de1;
+    border-color: #2e7de1;
+    font-family: "Ubuntu";
+    border-width: 3px;
+    padding: 0.7em 2.5em;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 1.1em;
 }
 
 #submitGroup .btn-hazelcast:hover,
 #submitGroup .btn-hazelcast:focus {
-  color: white;
-  background-color: #5e94db; 
-  border-color: #5e94db; 
-  border-width: 3px; 
-  font-family: "Ubuntu"; 
-  padding: 0.7em 2.5em; 
-  text-transform: none; 
+    color: white;
+    background-color: #5e94db;
+    border-color: #5e94db;
+    border-width: 3px;
+    font-family: "Ubuntu";
+    padding: 0.7em 2.5em;
+    text-transform: none;
 }
 
 #hazelcastForm {
-	padding: 0em 1.5em; 
+    padding: 0em 1.5em;
 }
 
-/* Radio button background color */ 
+/* Radio button background color */
 #hazelcastForm .custom-control-input:checked ~ .custom-control-indicator {
     background-color: #2e7de1;
 }
 
 /* Radio button description */
 #hazelcastForm .custom-control-description {
-	font-family: "Ubuntu"; 
+    font-family: "Ubuntu";
 }
 
 #hazelcastForm .col-form-legend {
@@ -49,12 +49,12 @@
 }
 
 #hazelcastForm .form-control {
-	font-family: "Ubuntu"; 
+    font-family: "Ubuntu";
 }
 
 
 #hazelcastForm small {
-    font-size: 0.7em; 
+    font-size: 0.7em;
     font-family: "Ubuntu";
 }
 
@@ -73,9 +73,9 @@
 
 .hazel-cast-title-area {
     font-family: "Ubuntu";
-    font-size: 1.5em; 
-    padding: 0.5em 1em; 
-    margin: 0px 15px; 
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    margin: 0px 15px;
     background: #a7b2b92e;
     color: black;
     margin-bottom: 1em;
@@ -88,33 +88,35 @@
     font-size: 1em;
     font-family: "Ubuntu";
     margin-left: 3em;
-    color: white; 
-} 
+    color: white;
+}
 
 .hazelcast-code. pre[class*="language-"] {
     background: #0b2a35;
 }
 
 .hazelcast-code .token.attr-value {
-	color: #ff5f00; 
+    color: #ff5f00;
 }
 
 .hazelcast-code .token.tag {
-	color: #2e7de1; 
+    color: #2e7de1;
 }
 
 .hazelcast-code .token.attr-name {
-	color: white; 
+    color: white;
 }
 
 #hazelcastForm select {
-	    width: 100%;
-	    height: 2.3em;
-	    font-family: "Ubuntu";
-	    font-size: 1em;
+    width: 100%;
+    height: 2.3em;
+    font-family: "Ubuntu";
+    font-size: 1em;
 }
 
-@media screen and (min-width: 1201px)
-.hazelcast-preview {
-    max-height: 440px;
+@media screen and (min-width: 1201px) {
+    .hazelcast-preview {
+        max-height: 440px;
+    }
 }
+
