@@ -20,7 +20,7 @@ get_header('hazelcast'); ?>
             </div>
         </div>
         <div class="col-lg-8">
-            <img src="http://localhost/wordpress/wp-content/uploads/2019/07/generate-cropped.png" alt="Generator" width="100%" class="d-none d-lg-block size-full wp-image-1509"/>
+            <img src="http://speedment.com/wp-content/uploads/2019/07/generate-cropped.png" alt="Generator" width="100%" class="d-none d-lg-block size-full wp-image-1509"/>
             <img src="https://speedment.com/wp-content/uploads/2019/04/generate.png" alt="" width="100%" class="size-full wp-image-1509 d-lg-none" />
         </div>
     </div>
@@ -105,7 +105,7 @@ get_header('hazelcast'); ?>
                 <div class="line-divider-center"></div>
                 <p>Speedment Stream coexists nicely with the current backend and works for any RDBMS;
                     MySQL, DB2, Microsoft SQL Server, Oracle, AS/400, PostgreSQL, MariaDB or SQLite.</p>
-                <img src="http://localhost/wordpress/wp-content/uploads/2019/06/database-connectors.png" class="mt-3" width="100%"/>
+                <img src="http://speedment.com/wp-content/uploads/2019/07/database-connectors.png" class="mt-3" width="100%"/>
             </div>
             <div class="col-2 d-none d-sm-block"></div>
         </div>
