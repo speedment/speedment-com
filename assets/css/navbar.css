@@ -130,18 +130,16 @@
     display: none; /* inline-block to display arrows after drop down menu items again */ 
 }
 
-#menu-item-28 a,
-#menu-item-29 a {
+#menu-item-1532 a {
     font-weight: 600;
 }
 
-#menu-item-24 a,
-#menu-item-25 a,
-#menu-item-26 a,
-#menu-item-27 a {
+#menu-item-1533 a,
+#menu-item-1128 a,
+#menu-item-1127 a,
+#menu-item-1215 a {
     margin-left: 1em;
 }
-
 
 #menu-item-300 .nav-link {
     color: #fff;

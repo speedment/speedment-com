@@ -68,8 +68,7 @@ get_header('hyperstream'); ?>
         <div class="row justify-content-center py-5">
             <div class="col-md-4 py-md-5 vertical-align">
                 <h1>One-minute Demo</h1>
-                <div
-                <div class="line-divider-left"></div>
+                <div class="d-none d-md-block line-divider-left"></div>
                 <p>Watch the one-minute demo to learn how Speedment HyperStream delivers ultra-fast applications and integrates with the database and application layer.</p>
             </div>
             <div class="col-md-8 vertical-align ">
@@ -190,7 +189,7 @@ get_header('hyperstream'); ?>
     <div class="container full-width-product-view">
         <div class="row justify-content-center py-3">
             <div class="col-2 d-none d-md-block"></div>
-            <div class="col py-5 px-5 px-sm-0">
+            <div class="col py-5 px-5 px-md-0">
                 <h1>Go Hypersonic with Speedment HyperStream.</h1>
                 <div class="line-divider-left"></div>
                 <p>HyperStream allows data retrieval at hypersonic speed while decreasing database load and development time. But don’t take our word for it, try Speedment HyperStream today. </p>
