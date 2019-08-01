@@ -3,7 +3,7 @@
     <div class="modal-content">
       <form id="trialModalForm" action="#">
         <div class="modal-header">
-          <h5 class="modal-title" id="trialModalHeader">Get a 30 Days Free Trial of Speedment Enterprise</h5>
+          <h5 class="modal-title" id="trialModalHeader">Register for a 30-day Free Trial of HyperStream</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -373,7 +373,7 @@
                 $('#trialModalSubmit').disable(true);
 
                 $.ajax({
-                   url: 'https://service.speedment.com/licenses/trial/hazelcast,datastore,virtual-columns,mssql,oracle,db2/json',
+                   url: 'https://service.speedment.com/licenses/trial/hz,datastore,virtual-columns,mssql,oracle,db2/json',
                    data: JSON.stringify({
                      'firstname' : $('#trial-firstname').val(),
                      'lastname'  : $('#trial-lastname').val(),
@@ -396,9 +396,9 @@
                      $('#trialModalSubmit').disable(false);
                      $('#popupModal .modal-title').html('Success!');
                      $('#popupModal .modal-body').html(
-                       'A 30 Days Speedment Enterprise Trial has been sent to <i>' + email +
+                       'A 30-day HyperStream Trial has been sent to <i>' + email +
                        '</i>. In the email, you will find the code that you ' +
-                       'need to enter to get access to the enterprise features!'
+                       'need to enter to get access to the HyperStream features!'
                      );
                      $('#popupModal').modal('show');
                    },
