@@ -68,10 +68,16 @@
   text-align: center;
 }
 
+#mobile-navbar .navbar-nav .nav-link {
+    color: black;
+    font-size: 1.2em;
+}
+
 #mobile-navbar .dropdown-menu {
-  background-color: none;
+  background-color: transparent;
   border: 0;
   text-align: center;
+  box-shadow: none;
 }
 
 @media (min-width: 576px) {
@@ -81,7 +87,7 @@
   }
 
   #mobile-navbar .dropdown-menu {
-    background-color: none;
+    background-color: transparent;
     border: 0;
     text-align: left;
   }
