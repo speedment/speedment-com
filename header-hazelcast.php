@@ -14,7 +14,7 @@
                     <div class="row">
                         <div class="col py-3" id="product-view-button-area">
                             <a href="http://speedment.com/hazelcast-initializer" class="btn btn-primary">Try for Free</a>
-                            <a href="https://speedment.github.io/speedment-doc/hazelcast.html#top" target="_blank" class="btn btn-secondary-white ml-0 ml-sm-2">Documentation</a>
+                            <a href="https://speedment.github.io/speedment-doc/hazelcast.html#top" target="_blank" class="btn btn-secondary-white ml-0 ml-sm-2 mt-3 mt-sm-0">Documentation</a>
                         </div>
                     </div>
                 </div>
