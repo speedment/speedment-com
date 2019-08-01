@@ -85,7 +85,7 @@ get_header('stream'); ?>
 <div class="row justify-content-center stars" id="quote-carina">
     <div class="container full-width-product-view" >
         <div class="row justify-content-center py-5 text-left">
-            <div class="col col-md-6">
+            <div class="col col-md-6 px-4 px-sm-0">
                 <h3>”Speedment was originally developed by researchers and engineers based in Palo Alto with the purpose to simplify and streamline the development of Java database applications by leveraging the Java Stream API.”</h3>
                 <div id="divider-xsmall"></div>
                 <div class="line-divider-left"></div>
@@ -135,9 +135,9 @@ get_header('stream'); ?>
             </div>
         </div>
         <div class="row justify-content-center text-center">
-            <div class="col px-5">
-                <div class="row px-5">
-                    <div class="col px-5">
+            <div class="col px-0 px-sm-5">
+                <div class="row px-0 px-sm-5">
+                    <div class="col px-0 px-sm-5">
                         <p>Speedment leverages the standard Java Stream API to enable database querying using lambdas without a single line of SQL. A custom delegator is used to optimize the resulting SQL queries for reduced database load, latency, and network load.</p>
                     </div>
                 </div>
@@ -477,8 +477,8 @@ List<Film> filmsInLengthOrder = films.stream()
     <div class="container full-width-product-view">
         <div class="row justify-content-center py-4">
             <div class="col-2 d-none d-sm-block"></div>
-            <div class="col py-5 text-center">
-                <h1>Integrates with Any RDMBS</h1>
+            <div class="col py-5 px-4 px-sm-0 text-center">
+                <h1>Integrates with Any RDBMS</h1>
                 <div class="line-divider-center"></div>
                 <p>Speedment Stream coexists nicely with the current backend and works for any RDBMS;
                     MySQL, DB2, Microsoft SQL Server, Oracle, AS/400, PostgreSQL, MariaDB or SQLite.</p>
@@ -549,7 +549,7 @@ List<Film> filmsInLengthOrder = films.stream()
     <div class="container full-width-product-view">
         <div class="row justify-content-center py-3">
             <div class="col-2 d-none d-md-block"></div>
-            <div class="col py-5">
+            <div class="col py-5 px-4 px-sm-0">
                 <h1>Stop Hibernating.</h1>
                 <div class="line-divider-left"></div>
                 <p>We claim that Hibernate has passed its expiration date. Hence, it’s time to leverage the modern features of the Java language to build reliable and scalable applications with minimum effort. </p>

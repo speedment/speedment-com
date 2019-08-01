@@ -68,6 +68,7 @@ get_header('hyperstream'); ?>
         <div class="row justify-content-center py-5">
             <div class="col-md-4 py-md-5 vertical-align">
                 <h1>One-minute Demo</h1>
+                <div
                 <div class="line-divider-left"></div>
                 <p>Watch the one-minute demo to learn how Speedment HyperStream delivers ultra-fast applications and integrates with the database and application layer.</p>
             </div>
@@ -91,7 +92,7 @@ get_header('hyperstream'); ?>
                 <div id="divider"></div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-5 push-md-5">
+                <div class="col-md-5 push-md-5 mx-4 mx-sm-0">
                     <h2 style="margin-top:0px">In-JVM-Memory DataStore</h2>
                     <p>Speedment HyperStream creates a virtual data object within the JVM itself, containing a snapshot of the datasource. Operations are then performed using DataStore, an Off-Heap Storage Engine which has no impact on Garbage Collect (GC) times. This allows data to be retrieved in sub-millisecond time while the underlying database is free to focus solely on storing and validating data.</p>
                     <h2>Java Stream ORM</h2>
@@ -117,8 +118,8 @@ get_header('hyperstream'); ?>
     <div class="container full-width-product-view">
         <div class="row justify-content-center py-4">
             <div class="col-2 d-none d-sm-block"></div>
-            <div class="col py-5 text-center">
-                <h1>Integrates with Any RDMBS</h1>
+            <div class="col py-5 px-4 px-sm-0 text-center">
+                <h1>Integrates with Any RDBMS</h1>
                 <div class="line-divider-center"></div>
                 <p>Speedment Stream coexists nicely with the current backend and works for any RDBMS;
                     MySQL, DB2, Microsoft SQL Server, Oracle, AS/400, PostgreSQL, MariaDB or SQLite.</p>
@@ -189,13 +190,13 @@ get_header('hyperstream'); ?>
     <div class="container full-width-product-view">
         <div class="row justify-content-center py-3">
             <div class="col-2 d-none d-md-block"></div>
-            <div class="col py-5">
+            <div class="col py-5 px-5 px-sm-0">
                 <h1>Go Hypersonic with Speedment HyperStream.</h1>
                 <div class="line-divider-left"></div>
                 <p>HyperStream allows data retrieval at hypersonic speed while decreasing database load and development time. But don’t take our word for it, try Speedment HyperStream today. </p>
                 <space></space>
                 <a href="http://speedment.com/hazelcast-initializer" class="btn btn-primary">Download Now</a>
-                <a href="https://speedment.github.io/speedment-doc/introduction.html" class="btn btn-secondary-white ml-2">Documentation</a>
+                <a href="https://speedment.github.io/speedment-doc/introduction.html" class="btn btn-secondary-white ml-0 ml-sm-2 mt-3 mt-sm-0">Documentation</a>
                 <div id="divider-wide"></div>
                 <div id="divider-wide"></div>
             </div>

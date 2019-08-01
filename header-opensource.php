@@ -13,7 +13,7 @@
               <div class="row">
                 <div class="col py-3" id="product-view-button-area">
                     <a href="http://speedment.com/oss-download" class="btn btn-primary">Download Now</a>
-                    <a href="http://github.com/speedment/speedment" target="_blank" class="btn btn-secondary-white ml-0 ml-sm-2">View on GitHub <i class="fab fa-github-alt"></i></a>
+                    <a href="http://github.com/speedment/speedment" target="_blank" class="btn btn-secondary-white ml-0 ml-sm-2  mt-3 mt-sm-0">View on GitHub <i class="fab fa-github-alt"></i></a>
                 </div>
             </div>
           </div>

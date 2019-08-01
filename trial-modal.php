@@ -397,8 +397,10 @@
                      $('#popupModal .modal-title').html('Success!');
                      $('#popupModal .modal-body').html(
                        'A 30-day HyperStream Trial has been sent to <i>' + email +
-                       '</i>. In the email, you will find the code that you ' +
-                       'need to enter to get access to the HyperStream features!'
+                       '</i>. The e-mail contains your license key which you will need ' +
+                       'when starting HyperStream for the first time. ' +
+                       'In case you do not receive an e-mail, please check your junk folder.' +
+                       'Please proceed by downloading HyperStream using the Initializer on this page.'
                      );
                      $('#popupModal').modal('show');
                    },
