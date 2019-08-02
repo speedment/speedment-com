@@ -16,6 +16,10 @@
   }
 }
 
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
+    color: white
+}
+
 #speedment-navbar .menu-item {
    color: black; 
    padding-right: 0.7em;
