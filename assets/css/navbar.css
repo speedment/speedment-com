@@ -20,6 +20,10 @@
     color: white;
 }
 
+.scrolled .navbar-light .navbar-nav .active>.nav-link {
+    color: black;
+}
+
 #speedment-navbar .menu-item {
    color: black; 
    padding-right: 0.7em;
