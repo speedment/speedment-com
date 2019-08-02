@@ -177,7 +177,7 @@ get_header('hazelcast'); ?>
                 <p>Hazelcast Auto Database Integration will drastically change the way you develop and maintain Hazelcast applications. Start today by downloading a free trial.</p>
                 <space></space>
                 <a href="http://speedment.com/hazelcast-initializer" class="btn btn-primary">Try for Free</a>
-                <a href="https://speedment.github.io/speedment-doc/hazelcast.html#top" class="btn btn-secondary-white ml-2">Documentation</a>
+                <a href="https://speedment.github.io/speedment-doc/hazelcast.html#top" class="btn btn-secondary-white ml-0 ml-sm-2 mt-3 mt-sm-0">Documentation</a>
             </div>
             <div class="col-2 d-none d-md-block"></div>
         </div>

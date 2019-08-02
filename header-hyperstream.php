@@ -3,7 +3,7 @@
   <!--
       Main Hero (#1 Tool to Accelerate Existing Database Applications)
   -->
-  <div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('http://speedment.com/wp-content/uploads/2019/07/hyperstream-header.png');">
+  <div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('http://speedment.com/wp-content/uploads/2019/08/hyperstream-header.jpg');">
       <div class="col">
           <div class="container">
               <div class="row justify-content-center py-3">
