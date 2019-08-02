@@ -14,39 +14,6 @@
     </div>
   </div>
 
-    <!--Why Speedment (Large boxes on light green background)-->
-
-    <div class="row justify-content-center" id="why-speedment">
-        <div class="container full-width-section">
-            <div class="row justify-content-center">
-                <div class="col-lg px-5">
-                    <h2>Reduced Development Time</h2>
-                    <div class="line-divider-center"></div>
-                    <p>Database queries expressed as standard Java Streams yields short,
-                        concise and readable code while the introduced type-safety minimizes
-                        the risk for bugs.  Furthermore, all required boilerplate code is
-                        automatically generated. </p>
-                </div>
-                <div class="col-lg px-5">
-                    <h2>Increased Data Access</h2>
-                    <div class="line-divider-center"></div>
-                    <p>Use Speedments unique in-JVM-memory management model to provide immediate relief from performance bottlenecks by accelerating application response times orders of magnitude and reducing database load. </p>
-                </div>
-                <div class="col-lg px-5">
-                    <h2>Leverage Your Infrastructure</h2>
-                    <div class="line-divider-center"></div>
-                    <p>The tools coexists nicely with any relational database; Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, DB2, MariaDB or AS400. It is possible to deploy them in the cloud, standalone, or on an app server.
-                    </p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col py-4">
-                    <a href="https://speedment.com/tools/" class="btn btn-primary">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="container" id="divider"></div>
     <!--Speedment products, black boxes-->
 
@@ -82,6 +49,36 @@
 
     <div class="container" id="divider-wide"></div>
 
+
+    <!--Why Speedment (Large boxes on light green background)-->
+
+    <div class="row justify-content-center" id="why-speedment">
+        <div class="container full-width-section">
+            <div class="row justify-content-center">
+                <div class="col-lg px-5">
+                    <h2>Reduced Development Time</h2>
+                    <div class="line-divider-center"></div>
+                    <p>Database queries expressed as standard Java Streams yields short,
+                        concise and readable code while the introduced type-safety minimizes
+                        the risk for bugs.  Furthermore, all required boilerplate code is
+                        automatically generated. </p>
+                </div>
+                <div class="col-lg px-5">
+                    <h2>Increased Data Access</h2>
+                    <div class="line-divider-center"></div>
+                    <p>Use Speedments unique in-JVM-memory management model to provide immediate relief from performance bottlenecks by accelerating application response times orders of magnitude and reducing database load. </p>
+                </div>
+                <div class="col-lg px-5">
+                    <h2>Leverage Your Infrastructure</h2>
+                    <div class="line-divider-center"></div>
+                    <p>The tools coexists nicely with any relational database; Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, DB2, MariaDB or AS400. It is possible to deploy them in the cloud, standalone, or on an app server.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="divider-wide"></div>
 
     <div class="row justify-content-center" id="speedment-next-event">
         <div class="container">
