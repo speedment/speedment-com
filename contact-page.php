@@ -78,8 +78,10 @@ get_header(); ?>
             Contact Widget Area
         -->
         <div class="row justify-content-center product-page">
-            <div class="col-lg contact-form">
+            <div class="col-lg contact-form text-center">
                 <h3>Contact Form</h3>
+                <div class="line-divider-center"></div>
+                <div id="divider"></div>
                 <?php if ($my_success) { ?>
                     <div class="row justify-content-center">
                         <div class="col">
