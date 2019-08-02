@@ -505,7 +505,7 @@ List<Film> filmsInLengthOrder = films.stream()
                         White Paper
                     </div>
                     <div class="col min-height">
-                        <h3>Speedment HyperStream: The Java Stream ORM</h3>
+                        <h3>Speedment HyperStream</h3>
                         <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment HyperStream, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
                     </div>
                     <div class="col center-button">

@@ -50,7 +50,7 @@
             'walker'            => new bootstrap_4_walker_nav_menu())
           ); ?>
 
-          <a class="btn btn-secondary-white d-inline-block align-top" href="https://www.speedment.com/initializer">Get Speedment</a>
+          <a class="btn btn-secondary-white d-inline-block align-top" href="https://www.speedment.com/initializer">Download Now</a>
       </nav>
       <nav class="navbar navbar-toggleable-md navbar-light bg-white hidden-lg-up" role="navigation">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
