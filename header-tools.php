@@ -9,7 +9,7 @@
         <div class="row justify-content-center text-left text-white">
           <div class="col" id="first-view-text-wrapper">
             <h1>Speedment Tools</h1>
-            <h3>The latest generation of development tools for enterprises with hard-core Java applications and relational databases.</h3>
+            <h3>The #1 Development Tool for Enterprises With Hard-Core Java Applications and Relational Databases.</h3>
           </div>
         </div>
           <div class="row" id="first-view-button-area">

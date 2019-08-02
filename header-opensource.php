@@ -9,7 +9,7 @@
         <div class="row justify-content-center py-3">
           <div class="col" id="product-view-text-wrapper">
             <h1>Speedment Open Source</h1>
-            <h3>The #1 Java Stream ORM for Open Source databases.</h3>
+            <h3>OSS Java Stream ORM for Open Source Databases.</h3>
               <div class="row">
                 <div class="col py-3" id="product-view-button-area">
                     <a href="http://speedment.com/oss-download" class="btn btn-primary">Download Now</a>

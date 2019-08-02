@@ -89,7 +89,7 @@ get_header('pricing'); ?>
                             </div>
                             <div class="row">
                                 <div class="col mx-2 pb-4 text-center">
-                                    <a href="http://speedment.com/licensing/payment?plan=team" class="btn btn-primary">Contact Sales</a>
+                                    <a href="http://speedment.com/contact" class="btn btn-primary">Contact Sales</a>
                                     </br>
                                     <a href="http://speedment.com/stream">Learn More</a>
                                 </div>

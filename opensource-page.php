@@ -193,8 +193,8 @@ get_header('opensource'); ?>
                         White Paper
                     </div>
                     <div class="col min-height">
-                        <h3>Speedment the Java Stream ORM</h3>
-                        <p>This whitepaper addresses the performance challenges for existing slow databases and presents a more modern solution – Speedment, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in JVM-memory data store. </p>
+                        <h3>Speedment HyperStream</h3>
+                        <p>This white paper addresses the performance challenges for existing slow databases and presents a more modern solution – HyperStream, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in-JVM-memory data storage. </p>
                     </div>
                     <div class="col center-button">
                         <a href="https://speedment.com/wp-content/uploads/2017/03/Speedment-White-Paper_2017.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>

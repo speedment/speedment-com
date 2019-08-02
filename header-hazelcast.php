@@ -10,7 +10,7 @@
             <div class="row justify-content-center py-3">
                 <div class="col pt-5 px-5" id="product-view-text-wrapper">
                     <h1>Hazelcast Auto Database Integration</h1>
-                    <h3>The industry's most efficient database integration tool for data grids.</h3>
+                    <h3>The Industry's Most Efficient Database Integration Tool for Data Grids.</h3>
                     <div class="row">
                         <div class="col py-3" id="product-view-button-area">
                             <a href="http://speedment.com/hazelcast-initializer" class="btn btn-primary">Try for Free</a>
