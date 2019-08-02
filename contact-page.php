@@ -75,18 +75,6 @@ get_header(); ?>
 <div class="justify-content-center" id="contact">
     <div class="container">
         <!--
-            Contact Page Content
-        -->
-        <div class="row justify-content-center product-page">
-            <div class="col">
-                <!-- Start Page Content -->
-                <?php while (have_posts()) : the_post();
-                    the_content();
-                endwhile; ?>
-            </div>
-        </div>
-
-        <!--
             Contact Widget Area
         -->
         <div class="row justify-content-center product-page">
@@ -134,25 +122,24 @@ get_header(); ?>
                 <?php } ?>
             </div>
         </div>
+    </div>
+</div>
 
-        <div id="divider-wide"></div>
+<div id="divider-wide"></div>
 
-        <div class="row justify-content-center dark-gray" id="stream-footer">
-            <div class="container full-width-product-view">
-                <div class="row justify-content-center py-3">
-                    <div class="col-2 d-none d-md-block"></div>
-                    <div class="col py-5 px-5 px-md-0">
-                        <h1>Technical Questions</h1>
-                        <div class="line-divider-left"></div>
-                        <p>If you have a technical question, one of our developers will be happy to assist you.
-                            You can get in direct contact with them in our Gitter Chatroom.</p>
-                        <img src="https://speedment.com/wp-content/uploads/2019/06/gitter_logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank"><h5>gitter.im/speedment</h5></a>
-                    </div>
-                    <div class="col-2 d-none d-md-block"></div>
-                </div>
+<div class="row justify-content-center dark-gray" id="stream-footer">
+    <div class="container full-width-product-view">
+        <div class="row justify-content-center py-3">
+            <div class="col-2 d-none d-md-block"></div>
+            <div class="col py-5 px-5 px-md-0">
+                <h1>Technical Questions</h1>
+                <div class="line-divider-left"></div>
+                <p>If you have a technical question, one of our developers will be happy to assist you.
+                    You can get in direct contact with them in our Gitter Chatroom.</p>
+                <img src="https://speedment.com/wp-content/uploads/2019/06/gitter_logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank">gitter.im/speedment</a>
             </div>
+            <div class="col-2 d-none d-md-block"></div>
         </div>
-
     </div>
 </div>
 
