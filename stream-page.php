@@ -555,7 +555,7 @@ List<Film> filmsInLengthOrder = films.stream()
                 <p>We claim that Hibernate has passed its expiration date. Hence, it’s time to leverage the modern features of the Java language to build reliable and scalable applications with minimum effort. </p>
                 <space></space>
                 <a href="http://speedment.com/initializer" class="btn btn-primary">Try for Free</a>
-                <a href="https://speedment.github.io/speedment-doc/introduction.html" class="btn btn-secondary-white ml-2">Documentation</a>
+                <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary-white ml-2">Documentation</a>
             </div>
             <div class="col-2 d-none d-md-block"></div>
         </div>
