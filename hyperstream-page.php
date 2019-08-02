@@ -29,37 +29,6 @@ get_header('hyperstream'); ?>
 <div id="divider-wide"></div>
 
 
-<!--Why HyperStream (Large boxes on light green background)-->
-
-<div class="row justify-content-center" id="why-speedment">
-    <div class="container full-width-section px-sm-5">
-        <div class="row justify-content-center py-5 px-sm-5">
-            <div class="col-lg px-lg-4">
-                <h2>Reduced Development Time</h2>
-                <div class="line-divider-center"></div>
-                <div id="divider"></div>
-                <p>Database queries expressed as standard Java Streams yields short,
-                    concise and readable code while the introduced type-safety minimizes
-                    the risk for bugs.  Furthermore, all required boilerplate code is
-                    automatically generated. </p>
-            </div>
-            <div class="col-lg px-lg-4">
-                <h2>Increased Data Access</h2>
-                <div class="line-divider-center"></div>
-                <div id="divider"></div>
-                <p>Use Speedments unique in-JVM-memory management model to provide immediate relief from performance bottlenecks by accelerating application response times orders of magnitude and reducing database load. </p>
-            </div>
-            <div class="col-lg px-lg-4">
-                <h2>Leverage Your Infrastructure</h2>
-                <div class="line-divider-center"></div>
-                <div id="divider"></div>
-                <p>The tools coexists nicely with any relational database; Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, DB2, MariaDB or AS400. It is possible to deploy them in the cloud, standalone, or on an app server.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- One-minute video -->
 <div id="divider-wide"></div>
 
@@ -111,9 +80,42 @@ get_header('hyperstream'); ?>
 
 <div id="divider-wide"></div>
 
+<!--Why HyperStream (Large boxes on light green background)-->
+
+<div class="row justify-content-center" id="why-speedment">
+    <div class="container full-width-section px-sm-5">
+        <div class="row justify-content-center py-5 px-sm-5">
+            <div class="col-lg px-lg-4">
+                <h2>Reduced Development Time</h2>
+                <div class="line-divider-center"></div>
+                <div id="divider"></div>
+                <p>Database queries expressed as standard Java Streams yields short,
+                    concise and readable code while the introduced type-safety minimizes
+                    the risk for bugs.  Furthermore, all required boilerplate code is
+                    automatically generated. </p>
+            </div>
+            <div class="col-lg px-lg-4">
+                <h2>Increased Data Access</h2>
+                <div class="line-divider-center"></div>
+                <div id="divider"></div>
+                <p>Use Speedments unique in-JVM-memory management model to provide immediate relief from performance bottlenecks by accelerating application response times orders of magnitude and reducing database load. </p>
+            </div>
+            <div class="col-lg px-lg-4">
+                <h2>Leverage Your Infrastructure</h2>
+                <div class="line-divider-center"></div>
+                <div id="divider"></div>
+                <p>The tools coexists nicely with any relational database; Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, DB2, MariaDB or AS400. It is possible to deploy them in the cloud, standalone, or on an app server.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="divider-wide"></div>
+
 <!-- Connectors -->
 
-<div class="row justify-content-center light-blue" id="commercial-connectors">
+<div class="row justify-content-center" id="commercial-connectors">
     <div class="container full-width-product-view">
         <div class="row justify-content-center py-4">
             <div class="col-2 d-none d-sm-block"></div>
