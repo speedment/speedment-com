@@ -40,11 +40,6 @@ body{
         padding-top: 0px;
     }
 
-    .product-page .contact-form {
-        border-left: solid 0.5px lightgray;
-        padding-left: 2em;
-    }
-
     .no-left-margin {
         margin-left: 0;
         padding: 0;
