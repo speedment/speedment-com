@@ -92,7 +92,7 @@ get_header(); ?>
           <div class="form-group row">
            <legend class="col-form-legend col-sm-4">DataStore
                 <a style="color: gray" href="#" data-toggle="popover" data-trigger="hover"
-                data-placement="bottom" data-content="Enable DataStore to leverage in-memory acceleration">
+                data-placement="bottom" data-content="Enable DataStore to leverage HyperStream's in-JVM-memory capabilities for extreme performance">
                 <i class="fa fa-question-circle"></i>
             </a></legend>
             <div class="col-sm-8" id="inMemoryContainer">
