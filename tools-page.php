@@ -35,25 +35,19 @@ get_header('tools'); ?>
     <!--Speedment products, black boxes-->
 
     <div class="row justify-content-center" id="speedment-tools">
-        <div class="container full-width-section">
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md px-5 py-3 mx-2 my-2 text-center" id="speedment-stream" onclick="location.href='https://speedment.com/stream/';">
+                <div class="col-md px-5 py-3 mx-2 my-2 ml-0 ml-md-5 text-center" id="speedment-stream" onclick="location.href='https://speedment.com/stream/';">
                     <h2>Speedment</br>Stream</h2>
                     <p>Stream ORM for enterprise projects</p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/stream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
-                <div class="col-md py-3 px-5 mx-2 my-2 text-center" id="speedment-hyperstream" onclick="location.href='https://speedment.com/hyperstream/';">
+                <div class="col-md py-3 px-5 mx-2 my-2 mr-0 mr-md-5 text-center" id="speedment-hyperstream" onclick="location.href='https://speedment.com/hyperstream/';">
                     <h2>Speedment</br>HyperStream</h2>
                     <p>Accelerate your enterprise application to hypersonic speeds</p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/hyperstream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
-                </div>
-                <div class="col-md py-3 px-5 mx-2 my-2 d-md-none d-lg-block text-center" id="speedment-oss" onclick="location.href='https://speedment.com/open-source/';">
-                    <h2>Speedment</br>Open Source</h2>
-                    <p>OSS Java Stream ORM for open-source databases</p>
-                    <a href="https://speedment.com/download-oss/" class="btn btn-secondary-white">Download Now</a></br>
-                    <a href="https://speedment.com/open-source/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
             </div>
         </div>
@@ -77,9 +71,9 @@ get_header('tools'); ?>
                     <thead>
                         <tr>
                             <th class="w-25 px-4 py-4">Software</br>Feature</th>
-                            <th class="w-25 text-center th-stream">Speedment</br> Stream</th>
-                            <th class="w-25 text-center th-hyper">Speedment</br> HyperStream</th>
-                            <th class="w-25 text-center th-oss">Speedment</br> Open Source</th>
+                            <th class="w-25 text-center th-stream" onclick="location.href='https://speedment.com/stream/';">Speedment</br> Stream</th>
+                            <th class="w-25 text-center th-hyper" onclick="location.href='https://speedment.com/hyperstream/';">Speedment</br> HyperStream</th>
+                            <th class="w-25 text-center th-oss" onclick="location.href='https://speedment.com/open-source/';">Speedment</br> Open Source</th>
                         </tr>
                     </thead>
                     <tbody>

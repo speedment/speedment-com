@@ -1966,16 +1966,23 @@ label {
 }
 
 #overview-comparison .table .th-stream {
-    background-color: #3A9B79;
+    background-color: #305c77;
     color: white;
 }
+
+#overview-comparison .table .th-stream:hover,
+#overview-comparison .table .th-oss:hover,
+#overview-comparison .table .th-hyper:hover {
+    cursor: pointer;
+}
+
 #overview-comparison .table  .th-oss {
-    background-color: #4BB0B2;
+    background-color: lightgray;
     color: white;
 }
 
 #overview-comparison .table  .th-hyper {
-    background-color: #112B3A;
+    background-color: #305c77;
     color: white;
 }
 
