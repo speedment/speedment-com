@@ -81,12 +81,6 @@ get_header(); ?>
             Contact Widget Area
         -->
         <div class="row justify-content-center product-page">
-            <div class="col-lg-4 mb-4">
-                <h3>Technical Questions</h3>
-                <p>If you have a technical question, one of our developers will be happy to assist you.
-                    You can get in direct contact with them in our Gitter Chatroom.</p>
-                <img src="https://speedment.com/wp-content/uploads/2019/06/gitter_logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank"><h5>gitter.im/speedment</h5></a>
-            </div>
             <div class="col-lg contact-form">
                 <h3>Contact Form</h3>
                 <?php if ($my_success) { ?>
@@ -129,6 +123,12 @@ get_header(); ?>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 <?php } ?>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <h3>Technical Questions</h3>
+                <p>If you have a technical question, one of our developers will be happy to assist you.
+                    You can get in direct contact with them in our Gitter Chatroom.</p>
+                <img src="https://speedment.com/wp-content/uploads/2019/06/gitter_logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank"><h5>gitter.im/speedment</h5></a>
             </div>
         </div>
     </div>
