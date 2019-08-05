@@ -19,16 +19,21 @@ get_header('pricing'); ?>
                                 <div class="col py-4 px-4 mx-2 mb-4 lightgray paid-plan">
                                     <div class="row">
                                         <div class="col px-3">
-                                            <h2>Free</h2>
+                                            <h2>Free*</h2>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3 quote">
-                                            <h4>Use all features of HyperStream with small databases for free</h4>
+                                            <h4>Great for learning HyperStream and projects that do not require high levels of scaling or support.</h4>
                                         </div>
                                     </div>
                                     <div class="row px-3">
                                         <div class="line-divider-left"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6>Java Stream ORM</h6>
+                                        </div>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3">
@@ -37,12 +42,39 @@ get_header('pricing'); ?>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3">
-                                            <h6>500 MB Database Size</h6>
+                                            <h6>In-JVM-Memory Acceleration</h6>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3">
-                                            <h6>500 MB In-Memory Acceleration</h6>
+                                            <h6></h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6></h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6></h6>
+                                        </div>
+                                    </div>                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6></h6>
+                                        </div>
+                                    </div>                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6></h6>
+                                        </div>
+                                    </div>                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6></h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6 style="font-style: italic">*Limited to 500 MB database size</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -64,11 +96,16 @@ get_header('pricing'); ?>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3 quote">
-                                            <h4>Stream ORM for modern Java applications</h4>
+                                            <h4>Ideal for enterprise projects without hyperspeed requirements.</h4>
                                         </div>
                                     </div>
                                     <div class="row px-3">
                                         <div class="line-divider-left"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6>Java Stream ORM</h6>
+                                        </div>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3">
@@ -77,12 +114,32 @@ get_header('pricing'); ?>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3">
-                                            <h6>Unlimited Database Size</h6>
+                                            <h6>-</h6>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3">
                                             <h6>Expert Chat</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6>Training</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6>Warranty</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6>Professional Support</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3 pb-4">
+                                            <h6>Custom Development</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -108,11 +165,16 @@ get_header('pricing'); ?>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3 quote">
-                                            <h4>Ultra-low latency and support for Enterprise sized Java projects</h4>
+                                            <h4>The same great features as Free, with enterprise-grade availability and scaling capabilities.</h4>
                                         </div>
                                     </div>
                                     <div class="row px-3">
                                         <div class="line-divider-left"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col px-3">
+                                            <h6>Java Stream ORM</h6>
+                                        </div>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3">
@@ -121,12 +183,7 @@ get_header('pricing'); ?>
                                     </div>
                                     <div class="row">
                                         <div class="col px-3">
-                                            <h6>Unlimited Database Size</h6>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col px-3">
-                                            <h6>Unlimited In-Memory Acceleration</h6>
+                                            <h6>In-JVM-Memory Acceleration</h6>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -198,13 +255,6 @@ get_header('pricing'); ?>
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td style="text-align: left">Number of Developers</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>5</td>
-                        </tr>
                         <tr>
                             <td style="text-align: left">Database Size
                             </td>
@@ -714,7 +764,9 @@ get_header('pricing'); ?>
                             </td>
                             <td>-</td>
                             <td>-</td>
-                            <td>-</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -728,7 +780,9 @@ get_header('pricing'); ?>
                             </td>
                             <td>-</td>
                             <td>-</td>
-                            <td>-</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -741,7 +795,9 @@ get_header('pricing'); ?>
                                 </a></td>
                             <td>-</td>
                             <td>-</td>
-                            <td>-</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -755,7 +811,13 @@ get_header('pricing'); ?>
                             </td>
                             <td>-</td>
                             <td>-</td>
-                            <td>-</td>
+                            <td>
+                                Available
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="Hours are bought separately.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>
                                 Available
                                 <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
