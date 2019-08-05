@@ -19,28 +19,23 @@
     <div class="row justify-content-center" id="speedment-tools">
         <div class="container full-width-section">
             <div class="row justify-content-center">
-                <div class="col-md px-5 py-3 mx-2 my-2 text-center" id="speedment-stream">
+                <div class="col-md px-5 py-3 mx-2 my-2 text-center" id="speedment-stream" onclick="location.href='https://speedment.com/stream/';">
                     <h2>Speedment</br>Stream</h2>
-                    <p>Stream ORM tool for enterprise projects</p>
+                    <p>Stream ORM for enterprise projects</p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/stream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
-                <div class="col-md py-3 px-5 mx-2 my-2 text-center" id="speedment-hyperstream">
+                <div class="col-md py-3 px-5 mx-2 my-2 text-center" id="speedment-hyperstream" onclick="location.href='https://speedment.com/hyperstream/';">
                     <h2>Speedment</br>HyperStream</h2>
                     <p>Accelerate your enterprise application to hypersonic speeds</p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/hyperstream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
-                <div class="col-md py-3 px-5 mx-2 my-2 text-center" id="speedment-oss">
+                <div class="col-md py-3 px-5 mx-2 my-2 d-md-none d-lg-block text-center" id="speedment-oss" onclick="location.href='https://speedment.com/open-source/';">
                     <h2>Speedment</br>Open Source</h2>
                     <p>OSS Java Stream ORM for open-source databases</p>
                     <a href="https://speedment.com/download-oss/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/open-source/" style="margin-top:0.5em" class="learn-more">Learn More</a>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col py-4 text-center">
-                    <a href="https://speedment.com/tools/#comparison" class="btn btn-primary">Compare Tools</a>
                 </div>
             </div>
         </div>
