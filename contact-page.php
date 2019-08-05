@@ -74,6 +74,9 @@ get_header(); ?>
 
 <div class="justify-content-center" id="contact">
     <div class="container">
+
+        <div id="divider"></div>
+
         <!--
             Contact Widget Area
         -->
@@ -138,7 +141,7 @@ get_header(); ?>
                 <div class="line-divider-left"></div>
                 <p>If you have a technical question, one of our developers will be happy to assist you.
                     You can get in direct contact with them in our Gitter Chatroom.</p>
-                <img src="https://speedment.com/wp-content/uploads/2019/06/gitter_logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank">gitter.im/speedment</a>
+                <img src="https://speedment.com/wp-content/uploads/2019/06/gitter_logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank" style="color: white"> gitter.im/speedment</a>
             </div>
             <div class="col-2 d-none d-md-block"></div>
         </div>
