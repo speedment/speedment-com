@@ -43,6 +43,26 @@
 
     <div class="container" id="divider-wide"></div>
 
+    <div class="row justify-content-center full-width-product-view no-left-margin" id="why-speedment-tools">
+        <div class="container no-left-margin">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 py-4 py-md-0 push-lg-7 vertical-align">
+                    <div class="col">
+                        <h1>Why Speedment?</h1>
+                        <div class="line-divider-left"></div>
+                        <p>Today’s society requires blazingly fast applications. This, in turn, requires modern agile application development.</p>
+
+                        <p>Speedment offers the possibility to update an existing software monolith to meet these demands without risky and costly migrations. Meanwhile, the application layer is decoupled from the underlying datasource to lower the cost of maintenance and enable total agility.
+                    </div>
+                </div>
+                <div class="col-lg-7 pull-lg-5 vertical-align d-none d-lg-block mt-5" data-aos="fade-right">
+                    <img src="http://speedment.com/wp-content/uploads/2019/07/rocket_zoom2.jpg" alt="Rocket" width="100%" class="size-full wp-image-1509"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="divider-wide"></div>
 
     <!--Why Speedment (Large boxes on light green background)-->
 
@@ -71,6 +91,8 @@
             </div>
         </div>
     </div>
+
+    <div class="container" id="divider-wide"></div>
 
     <div class="row justify-content-center" id="speedment-next-event">
         <div class="container">
