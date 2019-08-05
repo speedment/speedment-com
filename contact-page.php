@@ -4,7 +4,6 @@
  * Description: Page template with a Contact Us form below the text
  */
 $my_email         = "";
-$my_name          = "";
 $my_text          = "";
 $my_email_error   = false;
 $my_captcha_error = false;
@@ -19,7 +18,6 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
 if (isset($_POST['myEmail'])): $my_email = trim($_POST['myEmail']); endif;
-if (isset($_POST['myName'])):  $my_name  = trim($_POST['myName']);  endif;
 if (isset($_POST['myText'])):  $my_text  = trim($_POST['myText']);  endif;
 if (isset($_POST['g-recaptcha-response'])) {
     $url  = 'https://www.google.com/recaptcha/api/siteverify';
@@ -38,12 +36,11 @@ if (isset($_POST['g-recaptcha-response'])) {
     if ($result === false || !boolval(json_decode($result, true)['success'])) {
         $my_captcha_error = "Error! Failed to identify you as a human.";
     } else {
-        if ($my_email != "" && $my_name != "" && $my_text != "") {
-            $subject = 'New Message From ' . esc_html($my_name);
+        if ($my_email != "" && $my_text != "") {
+            $subject = 'New Message From ' . esc_html($my_email);
             if (!wp_mail(get_theme_mod('contact_email'), $subject,
                 '<!DOCTYPE html><html><head><title>' . $subject . '</title></head>' .
                 '<body>' .
-                '<p><b>From:</b> ' . esc_html($my_name) . '</p>' .
                 '<p><b>Email:</b> ' . esc_html($my_email) . '</p>' .
                 '<p><b>Message:</b> ' . esc_html($my_text) . '</p>' .
                 '<hr />' .
@@ -52,7 +49,7 @@ if (isset($_POST['g-recaptcha-response'])) {
                 array(
                     'Content-Type: text/html; charset=UTF-8',
                     'From: speedment.com <noreply@speedment.com>',
-                    "Reply-To: $my_name <$my_email>"
+                    "Reply-To: <$my_email>"
                 )
             )) {
                 $my_email_error = "Error! Make sure specified address '$my_email' is correct.";
@@ -95,13 +92,7 @@ get_header(); ?>
                 <?php } else { ?>
                     <form action="?" method="POST">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="myName">Name</label>
-                                    <input name="myName" type="text" class="form-control" id="myName" placeholder="Enter name" value="<?php echo $my_name; ?>">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
+                            <div class="col-12">
                                 <div class="form-group<?php if ($my_email_error) echo ' has-danger'; ?>">
                                     <label for="myEmail">Email</label>
                                     <input name="myEmail" type="email" class="form-control<?php if ($my_email_error) echo ' form-control-danger'; ?>" id="myEmail" placeholder="Enter email" value="<?php echo $my_email; ?>">
