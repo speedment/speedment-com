@@ -122,7 +122,7 @@ get_header('hyperstream'); ?>
             <div class="col py-5 px-4 px-sm-0 text-center">
                 <h1>Integrates with Any RDBMS</h1>
                 <div class="line-divider-center"></div>
-                <p>Speedment Stream coexists nicely with the current backend and works for any RDBMS;
+                <p>Speedment HyperStream coexists nicely with the current backend and works for any RDBMS;
                     MySQL, DB2, Microsoft SQL Server, Oracle, AS/400, PostgreSQL, MariaDB or SQLite.</p>
                 <img src="http://speedment.com/wp-content/uploads/2019/07/database-connectors.png" class="mt-3" width="100%"/>
             </div>

@@ -1,7 +1,7 @@
 <?php get_header('base'); ?>
 
   <!--
-      Main Hero (#1 Tool to Accelerate Existing Database Applications)
+      Tools Header
   -->
   <div class="row jumbotron jumbotron-fluid" id="first-view" style="background-image: url('<?php header_image(); ?>');">
     <div class="col">

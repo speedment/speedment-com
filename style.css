@@ -1885,7 +1885,10 @@ label {
 
 #speedment-stream:hover,
 #speedment-hyperstream:hover,
-#speedment-oss:hover {
+#speedment-oss:hover,
+#hazelcast:hover,
+#ext-speeder:hover,
+#ibm-oms:hover {
     transform: translateY(-5px);
 }
 
@@ -1898,6 +1901,23 @@ label {
 #speedment-hyperstream {
     background-image: url("http://speedment.com/wp-content/uploads/2019/08/second-bg.jpg");
     background-size: 100%;
+}
+
+#ext-speeder {
+    background-image: url("https://speedment.com/wp-content/uploads/2019/08/extspeeder-header.jpg");
+    background-size: cover;
+}
+
+#ibm-oms {
+    background-image: url("https://speedment.com/wp-content/uploads/2019/06/speedment-bg-blue-4.png");
+    background-size: cover;
+    background-position-x: 740px;
+}
+
+#hazelcast {
+    background-image: url("https://speedment.com/wp-content/uploads/2019/08/hazelcast-header.jpg");
+    background-size: cover;
+    background-position-x: 700px;
 }
 
 #oss-footer {

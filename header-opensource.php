@@ -1,7 +1,7 @@
 <?php get_header('base'); ?>
 
   <!--
-      Main Hero (#1 Tool to Accelerate Existing Database Applications)
+      Open Source Header
   -->
   <div class="row jumbotron jumbotron-fluid oss-gradient" id="product-view">
     <div class="col">

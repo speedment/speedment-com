@@ -1,7 +1,7 @@
 <?php get_header('base'); ?>
 
   <!--
-      Main Hero (#1 Tool to Accelerate Existing Database Applications)
+      HyperStream Header
   -->
   <div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('http://speedment.com/wp-content/uploads/2019/08/hyperstream-header.jpg');">
       <div class="col">
