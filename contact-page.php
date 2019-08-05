@@ -3,14 +3,12 @@
  * Template Name: Contact Page
  * Description: Page template with a Contact Us form below the text
  */
-
 $my_email         = "";
 $my_name          = "";
 $my_text          = "";
 $my_email_error   = false;
 $my_captcha_error = false;
 $my_success       = false;
-
 $secret = get_theme_mod('recaptcha_secret');
 $ip = null;
 if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
@@ -20,7 +18,6 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 } else {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
-
 if (isset($_POST['myEmail'])): $my_email = trim($_POST['myEmail']); endif;
 if (isset($_POST['myName'])):  $my_name  = trim($_POST['myName']);  endif;
 if (isset($_POST['myText'])):  $my_text  = trim($_POST['myText']);  endif;
@@ -29,7 +26,6 @@ if (isset($_POST['g-recaptcha-response'])) {
     $data = array('secret'   => $secret,
         'response' => $_POST['g-recaptcha-response'],
         'remoteip' => $ip);
-
     $options = array(
         'http' => array(
             'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
@@ -39,10 +35,8 @@ if (isset($_POST['g-recaptcha-response'])) {
     );
     $context = stream_context_create($options);
     $result  = file_get_contents($url, false, $context);
-
     if ($result === false || !boolval(json_decode($result, true)['success'])) {
         $my_captcha_error = "Error! Failed to identify you as a human.";
-
     } else {
         if ($my_email != "" && $my_name != "" && $my_text != "") {
             $subject = 'New Message From ' . esc_html($my_name);
@@ -68,23 +62,33 @@ if (isset($_POST['g-recaptcha-response'])) {
         }
     }
 }
-
 get_header(); ?>
 <!-- Start Page Content -->
-
 <div class="justify-content-center" id="contact">
     <div class="container">
-
-        <div id="divider"></div>
-
+        <!--
+            Contact Page Content
+        -->
+        <div class="row justify-content-center product-page">
+            <div class="col">
+                <!-- Start Page Content -->
+                <?php while (have_posts()) : the_post();
+                    the_content();
+                endwhile; ?>
+            </div>
+        </div>
         <!--
             Contact Widget Area
         -->
         <div class="row justify-content-center product-page">
-            <div class="col-lg contact-form text-center">
+            <div class="col-lg-4 mb-4">
+                <h3>Technical Questions</h3>
+                <p>If you have a technical question, one of our developers will be happy to assist you.
+                    You can get in direct contact with them in our Gitter Chatroom.</p>
+                <img src="https://speedment.com/wp-content/uploads/2019/06/gitter_logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank"><h5>gitter.im/speedment</h5></a>
+            </div>
+            <div class="col-lg contact-form">
                 <h3>Contact Form</h3>
-                <div class="line-divider-center"></div>
-                <div id="divider"></div>
                 <?php if ($my_success) { ?>
                     <div class="row justify-content-center">
                         <div class="col">
@@ -129,25 +133,5 @@ get_header(); ?>
         </div>
     </div>
 </div>
-
-<div id="divider-wide"></div>
-
-<div class="row justify-content-center dark-gray" id="stream-footer">
-    <div class="container full-width-product-view">
-        <div class="row justify-content-center py-3">
-            <div class="col-2 d-none d-md-block"></div>
-            <div class="col py-5 px-5 px-md-0">
-                <h1>Technical Questions</h1>
-                <div class="line-divider-left"></div>
-                <p>If you have a technical question, one of our developers will be happy to assist you.
-                    You can get in direct contact with them in our Gitter Chatroom.</p>
-                <img src="https://speedment.com/wp-content/uploads/2019/06/gitter_logo.png" width="30px"><a href="https://gitter.im/speedment/speedment" target="_blank" style="color: white"> gitter.im/speedment</a>
-            </div>
-            <div class="col-2 d-none d-md-block"></div>
-        </div>
-    </div>
-</div>
-
-
 <!-- Start Page Content -->
 <?php get_footer(); ?>
