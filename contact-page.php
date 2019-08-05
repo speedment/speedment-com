@@ -83,6 +83,7 @@ get_header(); ?>
         <div class="row justify-content-center product-page">
             <div class="col-lg contact-form">
                 <h3>Contact Form</h3>
+                <p>Have a question? Need some information or a quote? Use the contact form below.</p>
                 <?php if ($my_success) { ?>
                     <div class="row justify-content-center">
                         <div class="col">
