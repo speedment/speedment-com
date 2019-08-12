@@ -653,24 +653,6 @@ get_header('pricing'); ?>
                             <th></th>
                         </tr>
                         <tr>
-                            <td style="text-align: left">Spring Plugin with REST API
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
-                                   data-placement="bottom" data-content="Generates Spring Boot configuration automatically. Optionally generates a compelete REST API for your entire database schema.">
-                                    <i class="fa fa-question-circle"></i>
-                                </a>
-                            </td>
-                            <td>-</td>
-                            <td>
-                                <i class="fa fa-check"></i>
-                            </td>
-                            <td>
-                                <i class="fa fa-check"></i>
-                            </td>
-                            <td>
-                                <i class="fa fa-check"></i>
-                            </td>
-                        </tr>
-                        <tr>
                             <td style="text-align: left">JSON Off-Heap Stream Collector
                                 <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
                                    data-placement="bottom" data-content="Optimized JSON collector that operates completely off-heap.">
@@ -700,6 +682,24 @@ get_header('pricing'); ?>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Spring Plugin with REST API
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="Generates Spring Boot configuration automatically. Optionally generates a compelete REST API for your entire database schema.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
