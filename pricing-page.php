@@ -677,7 +677,9 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
-                            <td>-</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -695,7 +697,9 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
-                            <td>-</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>

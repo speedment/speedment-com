@@ -93,10 +93,10 @@
         <div class="container">
             <div class="row justify-content-center py-4">
                 <div class="col-lg-7">
-                    <h4>Next Conferance Talk</h4>
+                    <h4>Next Conference Session</h4>
                     <h2>Become a Master of Java Streams</h2>
                     <p>San Francisco</br>
-                        September 15-19, 2019 </p>
+                        September 16-19, 2019 </p>
                 </div>
                 <div class="col-lg-5 text-centered">
                     <div class="oracle-frame">
