@@ -273,12 +273,12 @@ get_header(); ?>
             setTimeout(function() {
               $(document).scrollTop(0);
               // Needed to get proper statistics, this rewrites the url without triggering reload
-              history.pushState('Speedment Download', 'download', '/quick-start#oss');
+              history.pushState('Speedment Download', 'download', '/oss-quick-start');
               $.ajax({
-                url: '/quick-start/',
+                url: '/oss-quick-start/',
                 xhrFields: { withCredentials: true },
                 success: function(data) {
-                  console.log('Show quick-start');
+                  console.log('Show oss-quick-start');
                   var starts = data.indexOf("<body");
                   starts = data.indexOf(">", starts) + 1;
                   var ends = data.lastIndexOf("</body>");
