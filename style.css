@@ -2107,25 +2107,29 @@ label {
 /* FAQ */
 
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #254354;
+    color: #white;
     cursor: pointer;
-    padding: 18px;
+    padding: 16px;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
+    font-family: "Source Sans Pro";
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 0.2em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #2F4E60;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 18px;
+    padding: 16px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
@@ -2137,7 +2141,7 @@ label {
     font-size: 13px;
     color: #777;
     float: right;
-    margin-left: 5px;
+    margin: 5px 0 0 5px;
 }
 
 .active:after {
