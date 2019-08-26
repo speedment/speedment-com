@@ -2141,13 +2141,11 @@ label {
 }
 
 .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
+    content: '+'; /* Unicode character for "plus" sign (+) */
     color: white;
     float: right;
-    margin: 5px 0 0 5px;
 }
 
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "-"; /* Unicode character for "minus" sign (-) */
 }
