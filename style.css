@@ -2148,4 +2148,7 @@ label {
 
 .active:after {
     content: "-"; /* Unicode character for "minus" sign (-) */
+    line-height: 0.7em;
+    font-size: 1.7em;
+    font-weight: 400;
 }
