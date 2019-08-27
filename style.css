@@ -2146,7 +2146,7 @@ label {
     float: right;
 }
 
-.active:after {
+.active-accordion:after {
     content: "-"; /* Unicode character for "minus" sign (-) */
     line-height: 0.7em;
     font-size: 1.7em;
