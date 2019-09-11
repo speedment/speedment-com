@@ -78,9 +78,9 @@
                     <p>Use Speedments unique in-JVM-memory management model to provide immediate relief from performance bottlenecks by accelerating application response times orders of magnitude and reducing database load. </p>
                 </div>
                 <div class="col-lg px-5">
-                    <h2>Leverage Your Infrastructure</h2>
+                    <h2>Perfect for the Cloud</h2>
                     <div class="line-divider-center"></div>
-                    <p>The tools coexists nicely with any relational database; Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, DB2, MariaDB or AS400. It is possible to deploy them in the cloud, standalone, or on an app server.
+                    <p>The tools coexists nicely with any relational database; Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, DB2, MariaDB or AS400. It is easy deploy the application in the cloud.
                     </p>
                 </div>
             </div>
