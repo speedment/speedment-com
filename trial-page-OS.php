@@ -267,7 +267,7 @@ get_header(); ?>
                         } else if (this.value === 'postgresql') {
                             driverVersion.val('42.2.8');
                         } else if (this.value === 'mariadb') {
-                            driverVersion.val('2.5.1');
+                            driverVersion.val('2.4.4');
                         } else {
                             console.error('Unknown database type "' + this.value + '".');
                             return;
