@@ -75,9 +75,6 @@ get_header(); ?>
             <label for="inputDriverVersion" class="col-sm-3 col-form-label">JDBC Driver Version</label>
             <div class="col-sm-9">
               <input type="text" class="form-control" id="inputDriverVersion" placeholder="Database Driver Version" value="8.0.13">
-              <small id="helpDriverVersion" class="text-muted nosize" style="display:none">
-                Make sure this driver is available on your development machine.
-              </small>
             </div>
           </div>
           
@@ -358,11 +355,6 @@ get_header(); ?>
               $('#licenseKey').hide();
             }
 
-            if (enterpriseDb) {
-              $('#helpDriverVersion').show();
-            } else {
-              $('#helpDriverVersion').hide();
-            }
             $('#submitGroup button[type="submit"]').disable(
               enterprise && !licenseKey.val().trim()
             );
@@ -393,21 +385,21 @@ get_header(); ?>
 
           dbType.change(function() {
             if        (this.value === 'mysql') {
-                driverVersion.val('5.1.46');
+                driverVersion.val('8.0.18');
             } else if (this.value === 'sqlite') {
-                driverVersion.val('3.23.1');
+                driverVersion.val('3.28.0');
             } else if (this.value === 'postgresql') {
-                driverVersion.val('42.2.2');
+                driverVersion.val('42.2.8');
             } else if (this.value === 'mariadb') {
-                driverVersion.val('2.2.3');
+                driverVersion.val('2.4.4');
             } else if (this.value == 'oracle') {
-                driverVersion.val('12.1.0.1.0');
+                driverVersion.val('19.3.0.0');
             } else if (this.value === 'db2') {
-                driverVersion.val('4.21.29');
+                driverVersion.val('11.5.0.0');
             } else if (this.value === 'as400') {
-                driverVersion.val('9.1');
+                driverVersion.val('9.8');
             } else if (this.value === 'mssql') {
-                driverVersion.val('6.1.0.jre8');
+                driverVersion.val('7.4.1.jre8');
             } else {
               console.error('Unknown database type "' + this.value + '".');
               return;

@@ -966,21 +966,21 @@ space {
 
 @media screen and (min-width: 1201px) {
     .preview {
-        max-height: 530px;
+        max-height: 552px;
     }
 
     .preview-os {
-        max-height: 444px;
+        max-height: 505px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .preview {
-        max-height: 530px;
+        max-height: 552px;
     }
 
     .preview-os {
-        max-height: 444px;
+        max-height: 505px;
     }
 }
 
@@ -993,11 +993,11 @@ space {
     }
 
     .preview {
-        max-height: 530px;
+        max-height: 610px;
     }
 
     .preview-os {
-        max-height: 444px;
+        max-height: 505px;
     }
 }
 
@@ -1017,11 +1017,11 @@ space {
     }
 
     .preview {
-        max-height: 603px;;
+        max-height: 685px;;
     }
 
     .preview-os {
-        max-height: 476px;
+        max-height: 580px;
     }
 }
 

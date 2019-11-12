@@ -81,6 +81,7 @@ get_header(); ?>
             <div class="col-lg contact-form">
                 <h3>Contact Form</h3>
                 <p>Have a question? Need some information or a quote? Use the contact form below.</p>
+                <p><i>All fields marked * are required</i></p>
                 <?php if ($my_success) { ?>
                     <div class="row justify-content-center">
                         <div class="col">
@@ -94,8 +95,8 @@ get_header(); ?>
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group<?php if ($my_email_error) echo ' has-danger'; ?>">
-                                    <label for="myEmail">Email</label>
-                                    <input name="myEmail" type="email" class="form-control<?php if ($my_email_error) echo ' form-control-danger'; ?>" id="myEmail" placeholder="Enter email" value="<?php echo $my_email; ?>">
+                                    <label for="myEmail">Email*</label>
+                                    <input name="myEmail" type="email" class="form-control<?php if ($my_email_error) echo ' form-control-danger'; ?>" id="myEmail" placeholder="Enter email address" value="<?php echo $my_email; ?>">
                                     <?php if ($my_email_error) { ?><div class="form-control-feedback"><?php echo $my_email_error; ?></div><?php } ?>
                                 </div>
                             </div>
@@ -103,8 +104,8 @@ get_header(); ?>
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
-                                    <label for="myText">Message</label>
-                                    <textarea name="myText" class="form-control" id="myText" rows="6" placeholder="Enter message here"><?php echo $my_text; ?></textarea>
+                                    <label for="myText">Message*</label>
+                                    <textarea name="myText" class="form-control" id="myText" rows="6" placeholder="Enter your message here..."><?php echo $my_text; ?></textarea>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +117,7 @@ get_header(); ?>
                     </form>
                 <?php } ?>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 mb-4 mt-4 mt-lg-0">
                 <h3>Technical Questions</h3>
                 <p>If you have a technical question, one of our developers will be happy to assist you.
                     You can get in direct contact with them in our Gitter Chatroom.</p>
