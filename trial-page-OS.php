@@ -191,7 +191,7 @@ get_header(); ?>
                         url += '&artifactId=' + encodeURIComponent(artifactId.val());
                         url += '&version=' + encodeURIComponent(version.val());
 
-                        if ($('input[type=radio][name=javaVersion]:checked').val()) {
+                        if ($('#javaVersion').val()) {
                             url += '&javaVersion=' + encodeURIComponent($('#javaVersion').val());
                         }
 

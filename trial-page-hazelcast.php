@@ -68,8 +68,6 @@ get_header(); ?>
                         <div class="col-sm-8">
                             <select name="JavaVersion" class="form-select" id="javaVersion">
                                 <option value="1.8" selected="selected">Java 8</option>
-                                <option value="9">Java 9</option>
-                                <option value="10">Java 10</option>
                                 <option value="11">Java 11</option>
                             </select>
                         </div>
