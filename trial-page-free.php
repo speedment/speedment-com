@@ -50,7 +50,7 @@ get_header(); ?>
                         <label for="inputDriverVersion" class="col-form-label col-sm-4">JDBC Driver</label>
                         <div class="col-sm-8">
                             <input type="text" class="form-control" id="inputDriverVersion"
-                                   placeholder="Database Driver Version" value="8.0.13">
+                                   placeholder="Database Driver Version" value="19.3.0.0">
                         </div>
                     </div>
 
