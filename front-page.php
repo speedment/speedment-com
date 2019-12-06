@@ -86,27 +86,26 @@
             </div>
         </div>
     </div>
-    <!-- NEXT EVENT
+
         <div class="container" id="divider-wide"></div>
 
         <div class="row justify-content-center" id="speedment-next-event">
             <div class="container">
                 <div class="row justify-content-center py-4">
                     <div class="col-lg-7">
-                        <h4>Next Conference Session</h4>
-                        <h2>Become a Master of Java Streams</h2>
-                        <p>San Francisco</br>
-                            September 16-19, 2019 </p>
+                        <h4>New Release</h4>
+                        <h2>Speedment 3.2 Channing</h2>
+                        <p>Now compliant with Java Platform Module System (JPMS) to enable deployment of light-weight microservices in the cloud.</p>
                     </div>
                     <div class="col-lg-5 text-centered">
                         <div class="oracle-frame">
-                        <img class="align-vertical" src="http://speedment.com/wp-content/uploads/2019/07/oracle-code-one.png" width="90%">
+                        <img class="align-vertical" src="https://speedment.com/wp-content/uploads/2019/12/speedment-cloud-1.png" width="90%" data-aos="fade-up">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    -->
+
     <div class="container" id="divider-wide"></div>
 
     <!-- Related Resources -->
