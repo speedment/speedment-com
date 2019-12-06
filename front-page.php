@@ -92,7 +92,7 @@
         <div class="row justify-content-center" id="speedment-next-event">
             <div class="container">
                 <div class="row justify-content-center py-4">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 my-2">
                         <h4>New Release</h4>
                         <h2><a href="https://speedment.com/release-3-2/" target="_blank">Speedment 3.2 Channing</a></h2>
                         <p>Now compliant with Java Platform Module System (JPMS) to enable deployment of light-weight microservices in the cloud.</p>
