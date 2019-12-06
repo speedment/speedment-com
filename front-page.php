@@ -97,7 +97,7 @@
                         <h2><a href="https://speedment.com/release-3-2/" target="_blank">Speedment 3.2 Channing</a></h2>
                         <p>Now compliant with Java Platform Module System (JPMS) to enable deployment of light-weight microservices in the cloud.</p>
                     </div>
-                    <div class="col-lg-5 text-centered">
+                    <div class="col-lg-5 text-centered my-3">
                         <div class="oracle-frame">
                         <img class="align-vertical" src="https://speedment.com/wp-content/uploads/2019/12/speedment-cloud-transparent.png" width="90%" data-aos="fade-up">
                         </div>
