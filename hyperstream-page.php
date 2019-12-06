@@ -131,7 +131,7 @@ get_header('hyperstream'); ?>
     </div>
 </div>
 
-<div id="divider-wide"></div>
+<div id="divider"></div>
 <!-- Related Resources -->
 
 
@@ -147,7 +147,7 @@ get_header('hyperstream'); ?>
                     be distilled, whereby only the required modules are incorporated into the runtime, greatly
                     reducing storage and memory requirements for the application. Use of the JPMS feature is
                     optional and HyperStream can still be run on Java 8 and upwards.</p>
-                <img src="https://speedment.com/wp-content/uploads/2019/12/speedment-cloud.png" class="mt-3" width="100%" data-aos="fade-up"/>
+                <img src="https://speedment.com/wp-content/uploads/2019/12/speedment-cloud.png" class="mt-3" width="50%" data-aos="fade-up"/>
             </div>
             <div class="col-2 d-none d-sm-block"></div>
         </div>
