@@ -9,7 +9,7 @@
             <div class="row justify-content-center py-3">
                 <div class="col pt-5" id="product-view-text-wrapper">
                     <h1>Speedment Stream</h1>
-                    <h3>Stop Hibernating. Experience The Latest Generation of ORM Tools.</h3>
+                    <h3>A Java ORM That the Java Community Deserves.</h3>
                     <div class="row">
                         <div class="col py-3" id="product-view-button-area">
                             <a href="http://speedment.com/initializer" class="btn btn-primary">Try for Free</a>
