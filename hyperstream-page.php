@@ -134,6 +134,30 @@ get_header('hyperstream'); ?>
 <div id="divider-wide"></div>
 <!-- Related Resources -->
 
+
+<div class="row justify-content-center" id="commercial-connectors">
+    <div class="container full-width-product-view">
+        <div class="row justify-content-center py-4">
+            <div class="col-2 d-none d-sm-block"></div>
+            <div class="col py-5 px-4 px-sm-0 text-center">
+                <h1>Modularized for Light-weight Deployments</h1>
+                <div class="line-divider-center"></div>
+                <p>HyperStream complies with the Java Platform Module System (JPMS), hence can benefit from recent
+                    improvements in JVMs such as Java 11+ and GraalVM. JPMS allows tailor-made Java runtimes to
+                    be distilled, whereby only the required modules are incorporated into the runtime, greatly
+                    reducing storage and memory requirements for the application. Use of the JPMS feature is
+                    optional and HyperStream can still be run on Java 8 and upwards.</p>
+                <img src="https://speedment.com/wp-content/uploads/2019/12/speedment-cloud.png" class="mt-3" width="100%" data-aos="fade-up"/>
+            </div>
+            <div class="col-2 d-none d-sm-block"></div>
+        </div>
+    </div>
+</div>
+
+<div id="divider-wide"></div>
+<!-- Related Resources -->
+
+
 <div class="row justify-content-center" id="related-resources">
     <div class="container full-width-product-view">
         <div class="row justify-content-center">
