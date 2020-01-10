@@ -45,9 +45,8 @@ get_header('poweredby'); ?>
                 </div>
                 <div class="col-md py-3 px-5 mx-2 my-2 text-center" id="ibm-oms">
                     <h2>Live Data Agent for IBM OMoC</h2>
-                    <p>Free your order manegement data</p>
-                    <a href="https://speedment.com/contact" style="margin-top:0.5em" class="learn-more">Contact Sales</a>
-                    <a href="https://speedment.com/live-data-agent" style="margin-top:0.5em" class="learn-more">Learn More</a>
+                    <p>Free your IBM OMoC production data to your business users</p>
+                    <p><i><strong>Coming Soon</strong></i></p>
                 </div>
                 <div class="col-md py-3 px-5 mx-2 my-2 text-center" id="ext-speeder" onclick="location.href='https://speedment.com/ext-speeder/';">
                     <h2>Sencha</br>Ext Speeder</h2>
