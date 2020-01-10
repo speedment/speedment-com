@@ -7,38 +7,35 @@ get_header('livedataagent'); ?>
 
 <div id="divider-wide"></div>
 
-<!-- Start Page Content -->
-<div class="row justify-content-center full-width-product-view no-left-margin">
-    <div class="container no-left-margin">
-        <div class="row justify-content-center">
-            <div class="col-lg-5 py-4 py-md-0 push-lg-7 vertical-align">
-                <div class="col">
-                    <h1>Hypersonic Performance and Developer Productivity</h1>
-                    <div class="line-divider-left"></div>
-                    <p>Speedment HyperStream goes beyond Speedment Stream with its
-                        in-JVM-memory capabilities which boosts application speed by orders of magnitude. This enables exploration of the foreign landscapes of your data with minimum effort.</p>
-                </div>
+<!-- Exposes Data in Near Real-time -->
+
+<div class="row justify-content-center" id="commercial-connectors">
+    <div class="container full-width-product-view">
+        <div class="row justify-content-center py-4">
+            <div class="col-2 d-none d-sm-block"></div>
+            <div class="col py-5 px-4 px-sm-0 text-center">
+                <h1>Fast, Reliable, and Scalable Access to Live Data</h1>
+                <div class="line-divider-center"></div>
+                <p>Live Data Agent is a data extract tool for organizations using IBM Order Management on Cloud which allows business users to glean important insights in near real-time by accessing order management data as Kafka Topics, Java Streams, via a REST API or in a target database.</p>
+                <img src="https://speedment.com/wp-content/uploads/2020/01/data-outputs.png" class="mt-3" width="100%" data-aos="fade-up"/>
             </div>
-            <div class="col-lg-7 pull-lg-5 vertical-align d-none d-lg-block mt-5" data-aos="fade-right">
-                <img src="http://speedment.com/wp-content/uploads/2019/07/rocket_zoom2.jpg" alt="Rocket" width="100%" class="size-full wp-image-1509"/>
-            </div>
+            <div class="col-2 d-none d-sm-block"></div>
         </div>
     </div>
 </div>
 
 <div id="divider-wide"></div>
 
-
 <!-- One-minute video -->
 <div id="divider-wide"></div>
 
-<div class="row justify-content-center stars" id="hyperstream-video">
+<div class="row justify-content-center dark-blue-bg" id="ibm-video">
     <div class="container">
         <div class="row justify-content-center py-5">
             <div class="col-md-4 py-md-5 vertical-align">
                 <h1>One-minute Demo</h1>
                 <div class="d-none d-md-block line-divider-left"></div>
-                <p>Watch the one-minute demo to learn how Speedment HyperStream delivers ultra-fast applications and integrates with the database and application layer.</p>
+                <p>Watch the one-minute demo to learn how Live Data Agent can free your IBM order management data.</p>
             </div>
             <div class="col-md-8 vertical-align ">
                 <iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/B_cdvPNEhc0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -55,23 +52,23 @@ get_header('livedataagent'); ?>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">
-                <h1 style="text-align: center">HyperStream Architecture</h1>
+                <h1 style="text-align: center">Architecture</h1>
                 <div class="line-divider-center"></div>
                 <div id="divider"></div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-5 push-md-5 mx-4 mx-sm-0">
-                    <h2 style="margin-top:0px">In-JVM-Memory DataStore</h2>
-                    <p>Speedment HyperStream creates a virtual data object within the JVM itself, containing a snapshot of the datasource. Operations are then performed using DataStore, an Off-Heap Storage Engine which has no impact on Garbage Collect (GC) times. This allows data to be retrieved in sub-millisecond time while the underlying database is free to focus solely on storing and validating data.</p>
-                    <h2>Java Stream ORM</h2>
-                    <p>HyperStream includes the ORM capabilities of Speedment Stream. Hence, developers are equipped with an expressive and type-safe language which minimizes the risk for bugs. <a href="https://speedment.com/stream">Read more here</a>.</p>
-                    <h2>Code Generator & Interface</h2>
-                    <p>The included toolkit analyses the underlying data sources’ metadata and automatically generates code which reflects the structure (i.e. the “domain model”) of the underlying data sources. This eliminates the need to write boilerplate code or Java Entity Classes.</p>
-                    <p>A graphical interface lets the user monitor the process and perform custom configurations and optimizations.</p>
+                <div class="col-lg-5 push-lg-5 mx-4 mx-sm-0">
+                    <h2 style="margin-top:0px">Data Extract Configuration Service</h2>
+                    <p>IMB's standard APIs are used to configure what data is being fed to the Live Data Agent.</p>
+                    <h2>Live Data Agent</h2>
+                    <p>The Live Data Agent replaces IBM's Data Extract Agent which currently exposes data from a backup database in CSV-format over FTP. Instead, Live Data Agent delivers data straight from the source through four different reliable outputs.
                 </div>
-                <div class="col-md-5 pull-md-5">
-                    <img src="http://speedment.com/wp-content/uploads/2019/07/architecture-vertical.png" width="90%" class="d-none d-md-block">
-                    <img src="http://speedment.com/wp-content/uploads/2019/07/architecture-horizontal.png" width="90%" class="d-md-none">
+                <div class="col-lg-5 pull-lg-5 text-center">
+                    <img src="https://speedment.com/wp-content/uploads/2020/01/live-data-agent-architecture.jpg" width="90%" class="d-none d-lg-block">
+                    <img src="https://speedment.com/wp-content/uploads/2020/01/live-data-agent-architecture.jpg" width="80%" class="mt-4 d-lg-none">
+                </div>
+                <div class="text-center">
+                    <a href="https://speedment.com/wp-content/uploads/2020/01/live-data-agent-glossy.pdf" class="mt-5 btn btn-primary">Read More</a>
                 </div>
             </div>
         </div>
@@ -86,25 +83,25 @@ get_header('livedataagent'); ?>
     <div class="container full-width-section px-sm-5">
         <div class="row justify-content-center py-5 px-sm-5">
             <div class="col-lg px-lg-4">
-                <h2>Reduced Development Time</h2>
+                <h2>Fetch Historical Data</h2>
                 <div class="line-divider-center"></div>
                 <div id="divider"></div>
-                <p>Database queries expressed as standard Java Streams yields short,
-                    concise and readable code while the introduced type-safety minimizes
-                    the risk for bugs.  Furthermore, all required boilerplate code is
-                    automatically generated. </p>
+                <p>Supports IBM’s Data Extracts’ First Run to allow historical data from
+                    any number of days up to the current data/time to be synched.</p>
             </div>
             <div class="col-lg px-lg-4">
-                <h2>Increased Data Access</h2>
+                <h2>Hypersonic Analytics</h2>
                 <div class="line-divider-center"></div>
                 <div id="divider"></div>
-                <p>Use Speedments unique in-JVM-memory management model to provide immediate relief from performance bottlenecks by accelerating application response times orders of magnitude and reducing database load. </p>
+                <p>Can be configured with in-memory
+                    capabilities to allow data to be
+                    analyzed with ultra-low latency.</p>
             </div>
             <div class="col-lg px-lg-4">
-                <h2>Leverage Your Infrastructure</h2>
+                <h2>Any Reporting Tools</h2>
                 <div class="line-divider-center"></div>
                 <div id="divider"></div>
-                <p>The tools coexists nicely with any relational database; Oracle, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, DB2, MariaDB or AS400. It is possible to deploy them in the cloud, standalone, or on an app server.
+                <p>Connect your data to established enterprise reporting tools or easily build live custom reports of your own. The choice is yours.
                 </p>
             </div>
         </div>
@@ -113,41 +110,22 @@ get_header('livedataagent'); ?>
 
 <div id="divider-wide"></div>
 
-<!-- Connectors -->
+<!-- Tailor Made for IBM OMoC -->
 
 <div class="row justify-content-center" id="commercial-connectors">
     <div class="container full-width-product-view">
         <div class="row justify-content-center py-4">
             <div class="col-2 d-none d-sm-block"></div>
             <div class="col py-5 px-4 px-sm-0 text-center">
-                <h1>Integrates with Any RDBMS</h1>
+                <h1>Tailor-made for IBM Order Management on Cloud</h1>
                 <div class="line-divider-center"></div>
-                <p>Speedment HyperStream coexists nicely with the current backend and works for any RDBMS;
-                    MySQL, DB2, Microsoft SQL Server, Oracle, AS/400, PostgreSQL, MariaDB or SQLite.</p>
-                <img src="http://speedment.com/wp-content/uploads/2019/07/database-connectors.png" class="mt-3" width="100%"/>
-            </div>
-            <div class="col-2 d-none d-sm-block"></div>
-        </div>
-    </div>
-</div>
-
-<div id="divider"></div>
-<!-- Related Resources -->
-
-
-<div class="row justify-content-center" id="commercial-connectors">
-    <div class="container full-width-product-view">
-        <div class="row justify-content-center py-4">
-            <div class="col-2 d-none d-sm-block"></div>
-            <div class="col py-5 px-4 px-sm-0 text-center">
-                <h1>Modularized for Light-weight Deployments</h1>
-                <div class="line-divider-center"></div>
-                <p>HyperStream complies with the Java Platform Module System (JPMS), hence can benefit from recent
-                    improvements in JVMs such as Java 11+ and GraalVM. JPMS allows tailor-made Java runtimes to
-                    be distilled, whereby only the required modules are incorporated into the runtime, greatly
-                    reducing storage and memory requirements for the application. Use of the JPMS feature is
-                    optional and HyperStream can still be run on Java 8 and upwards.</p>
-                <img src="https://speedment.com/wp-content/uploads/2019/12/speedment-cloud.png" class="mt-3" width="50%" data-aos="fade-up"/>
+                <p>OMoC Live Data Agent is simple to configure and deploy since the solution utilizes
+                    the same configuration tables that are used to set up the IBM Data
+                    Extract Agent. This means organizations can use existing IBM API’s
+                    to configure what is fed to the OMoC Agent. Customers can finally get at the critical transaction data, quickly,
+                    efficiently, and with little to no impact on their production system.
+                </p>
+                <img src="https://speedment.com/wp-content/uploads/2020/01/IBM_logoR_pos_RGB.jpg" class="mt-2" width="50%" data-aos="fade-up"/>
             </div>
             <div class="col-2 d-none d-sm-block"></div>
         </div>
@@ -155,8 +133,8 @@ get_header('livedataagent'); ?>
 </div>
 
 <div id="divider-wide"></div>
-<!-- Related Resources -->
 
+<!-- Related Resources -->
 
 <div class="row justify-content-center" id="related-resources">
     <div class="container full-width-product-view">
@@ -168,14 +146,14 @@ get_header('livedataagent'); ?>
             <div class="row">
                 <div class="col-md mx-3 my-3 px-4 gray d-lg-block" data-aos="fade-up">
                     <div class="col title-area">
-                        White Paper
+                        Glossy
                     </div>
                     <div class="col min-height">
-                        <h3>Speedment HyperStream</h3>
-                        <p>This white paper addresses the performance challenges for existing slow databases and presents a more modern solution – HyperStream, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in-JVM-memory data storage. </p>
+                        <h3>Live Data Agent for IBM OMoC</h3>
+                        <p>Learn how Live Data Agent is tailor made for IBM OMoC to finally allow quick and efficient retrieval of the critical transaction data with little to no impact on the customers’ production systems.</p>
                     </div>
                     <div class="col center-button">
-                        <a href="https://speedment.com/wp-content/uploads/2019/12/Speedment_HyperStream_Whitepaper.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
+                        <a href="https://speedment.com/wp-content/uploads/2020/01/live-data-agent-glossy.pdf" target="_blank" class="btn btn-secondary">Read Glossy</a>
                     </div>
                 </div>
                 <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
@@ -197,8 +175,8 @@ get_header('livedataagent'); ?>
                     <div class="col min-height">
                         <h3>Building Super Fast Data-Driven Apps with Speedment and Vaadin</h3>
                         <p>Building highly scalable and fast applications quickly sound like an oxymoron.
-                            And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream.
-                            But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
+                            And if we throw in the possibility of doing it for your OMoC data, it sounds even more like a daydream.
+                            By combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
                     </div>
                     <div class="col center-button">
                         <a href="https://www.youtube.com/watch?v=Ive1fTTxUpU" target="_blank" class="btn btn-secondary">Watch Now</a>
@@ -218,10 +196,9 @@ get_header('livedataagent'); ?>
             <div class="col py-5 px-5 px-md-0">
                 <h1>Go Hypersonic with Speedment HyperStream.</h1>
                 <div class="line-divider-left"></div>
-                <p>HyperStream allows data retrieval at hypersonic speed while decreasing database load and development time. But don’t take our word for it, try Speedment HyperStream today. </p>
+                <p>Live Data Agent for IBM OMoC is shipped with all the computing power of Speedment's product suite. Leverage HyperStream's unique memory manager to explore the foreign landscapes of your order management data.</p>
                 <space></space>
-                <a href="http://speedment.com/hazelcast-initializer" class="btn btn-primary">Try for Free</a>
-                <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary-white ml-0 ml-sm-2 mt-3 mt-sm-0">Documentation</a>
+                <a href="http://speedment.com/contact" class="btn btn-primary">Contact Sales</a>
                 <div id="divider-wide"></div>
                 <div id="divider-wide"></div>
             </div>

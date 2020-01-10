@@ -10,7 +10,7 @@
             <div class="row justify-content-center py-3">
                 <div class="col pt-5 px-5" id="product-view-text-wrapper">
                     <h1>Live Data Agent for IBM OMoC</h1>
-                    <h3>Free Your Order Management Data.</h3>
+                    <h3>Free Your IBM OMoC Production Data to Your Business Users</h3>
                     <div class="row">
                         <div class="col py-3" id="product-view-button-area">
                             <a href="http://speedment.com/contact" class="btn btn-primary">Contact Sales</a>

@@ -532,7 +532,7 @@ List<Film> filmsInLengthOrder = films.stream()
                         <h3>Building Super Fast Data-Driven Apps with Speedment and Vaadin</h3>
                         <p>Building highly scalable and fast applications quickly sound like an oxymoron.
                             And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream.
-                            But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
+                            By combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
                     </div>
                     <div class="col center-button">
                         <a href="https://www.youtube.com/watch?v=Ive1fTTxUpU" target="_blank" class="btn btn-secondary">Watch Now</a>

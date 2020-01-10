@@ -132,7 +132,7 @@ get_header('hyperstream'); ?>
 </div>
 
 <div id="divider"></div>
-<!-- Related Resources -->
+<!-- Microservices -->
 
 
 <div class="row justify-content-center" id="commercial-connectors">
@@ -198,7 +198,7 @@ get_header('hyperstream'); ?>
                         <h3>Building Super Fast Data-Driven Apps with Speedment and Vaadin</h3>
                         <p>Building highly scalable and fast applications quickly sound like an oxymoron.
                             And if we throw in the possibility of doing it for your current database and application, it sounds even more like a daydream.
-                            But combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
+                            By combining two technology stacks that share the goal of great UX through awesome DX we can achieve the impossible.</p>
                     </div>
                     <div class="col center-button">
                         <a href="https://www.youtube.com/watch?v=Ive1fTTxUpU" target="_blank" class="btn btn-secondary">Watch Now</a>
@@ -220,7 +220,7 @@ get_header('hyperstream'); ?>
                 <div class="line-divider-left"></div>
                 <p>HyperStream allows data retrieval at hypersonic speed while decreasing database load and development time. But don’t take our word for it, try Speedment HyperStream today. </p>
                 <space></space>
-                <a href="http://speedment.com/hazelcast-initializer" class="btn btn-primary">Try for Free</a>
+                <a href="http://speedment.com/initializer" class="btn btn-primary">Try for Free</a>
                 <a href="https://speedment.github.io/speedment-doc/introduction.html" target="_blank" class="btn btn-secondary-white ml-0 ml-sm-2 mt-3 mt-sm-0">Documentation</a>
                 <div id="divider-wide"></div>
                 <div id="divider-wide"></div>

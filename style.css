@@ -2086,6 +2086,11 @@ label {
 
 }
 
+.dark-blue-bg {
+    color: white;
+    background: #101820;
+}
+
 .code-title {
     background: #4BB0B2;
     color: white;
