@@ -77,6 +77,49 @@ get_header('livedataagent'); ?>
 
 <div id="divider-wide"></div>
 
+
+<div class="row justify-content-center stars" id="quote-carina">
+    <div class="container full-width-product-view" >
+        <div class="row justify-content-center py-5 text-left">
+            <div class="col col-md-6 px-5 px-md-0">
+                <h3>”Live Data Agent is tailor-made for IBM OMoC to finally allow customers to get at the critical transaction data, quickly, efficiently, and with little to no impact on their production system. ”</h3>
+                <div id="divider-xsmall"></div>
+                <div class="line-divider-left"></div>
+                <div class="row">
+                    <div class="col vertical-align">
+                        <p><strong>Phil Tympanick</strong></br>Omni-Channel Solution Architect at IBM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="divider-wide"></div>
+
+<!-- Tailor Made for IBM OMoC -->
+
+<div class="row justify-content-center" id="commercial-connectors">
+    <div class="container full-width-product-view">
+        <div class="row justify-content-center py-4">
+            <div class="col-2 d-none d-sm-block"></div>
+            <div class="col py-5 px-4 px-sm-0 text-center">
+                <h1>Tailor-made for IBM Order Management on Cloud</h1>
+                <div class="line-divider-center"></div>
+                <p>OMoC Live Data Agent is simple to configure and deploy since the solution utilizes
+                    the same configuration tables that are used to set up the IBM Data
+                    Extract Agent. This means organizations can use existing IBM API’s
+                    to configure what is fed to the OMoC Agent.
+                </p>
+                <img src="https://speedment.com/wp-content/uploads/2020/01/IBM_logoR_pos_RGB.jpg" class="mt-2" width="50%" data-aos="fade-up"/>
+            </div>
+            <div class="col-2 d-none d-sm-block"></div>
+        </div>
+    </div>
+</div>
+
+<div id="divider-wide"></div>
+
 <!--Why HyperStream (Large boxes on light green background)-->
 
 <div class="row justify-content-center" id="why-speedment">
@@ -104,30 +147,6 @@ get_header('livedataagent'); ?>
                 <p>Connect your data to established enterprise reporting tools or easily build live custom reports of your own. The choice is yours.
                 </p>
             </div>
-        </div>
-    </div>
-</div>
-
-<div id="divider-wide"></div>
-
-<!-- Tailor Made for IBM OMoC -->
-
-<div class="row justify-content-center" id="commercial-connectors">
-    <div class="container full-width-product-view">
-        <div class="row justify-content-center py-4">
-            <div class="col-2 d-none d-sm-block"></div>
-            <div class="col py-5 px-4 px-sm-0 text-center">
-                <h1>Tailor-made for IBM Order Management on Cloud</h1>
-                <div class="line-divider-center"></div>
-                <p>OMoC Live Data Agent is simple to configure and deploy since the solution utilizes
-                    the same configuration tables that are used to set up the IBM Data
-                    Extract Agent. This means organizations can use existing IBM API’s
-                    to configure what is fed to the OMoC Agent. Customers can finally get at the critical transaction data, quickly,
-                    efficiently, and with little to no impact on their production system.
-                </p>
-                <img src="https://speedment.com/wp-content/uploads/2020/01/IBM_logoR_pos_RGB.jpg" class="mt-2" width="50%" data-aos="fade-up"/>
-            </div>
-            <div class="col-2 d-none d-sm-block"></div>
         </div>
     </div>
 </div>
