@@ -165,14 +165,14 @@ get_header('livedataagent'); ?>
             <div class="row">
                 <div class="col-md mx-3 my-3 px-4 gray d-lg-block" data-aos="fade-up">
                     <div class="col title-area">
-                        Glossy
+                        Datasheet
                     </div>
                     <div class="col min-height">
                         <h3>Live Data Agent for IBM OMoC</h3>
                         <p>Learn how Live Data Agent is tailor made for IBM OMoC to finally allow quick and efficient retrieval of the critical transaction data with little to no impact on the customers’ production systems.</p>
                     </div>
                     <div class="col center-button">
-                        <a href="https://speedment.com/wp-content/uploads/2020/01/live-data-agent-glossy.pdf" target="_blank" class="btn btn-secondary">Read Glossy</a>
+                        <a href="https://speedment.com/wp-content/uploads/2020/01/live-data-agent-glossy.pdf" target="_blank" class="btn btn-secondary">Read Datasheet</a>
                     </div>
                 </div>
                 <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
