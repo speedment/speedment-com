@@ -38,7 +38,7 @@ get_header('livedataagent'); ?>
                 <p>Watch the one-minute demo to learn how Live Data Agent can free your IBM order management data.</p>
             </div>
             <div class="col-md-8 vertical-align ">
-                <iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/B_cdvPNEhc0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe class="yt-hd-thumbnail" width="560" height="315" src="https://youtu.be/Cqmqy20_ZsE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@ get_header('livedataagent'); ?>
                     Extract Agent. This means organizations can use existing IBM API’s
                     to configure what is fed to the OMoC Agent.
                 </p>
-                <img src="https://speedment.com/wp-content/uploads/2020/01/IBM_logoR_pos_RGB.jpg" class="mt-2" width="50%" data-aos="fade-up"/>
+                <img src="https://speedment.com/wp-content/uploads/2019/12/speedment-cloud.png" class="mt-3" width="50%" data-aos="fade-up"/>
             </div>
             <div class="col-2 d-none d-sm-block"></div>
         </div>
