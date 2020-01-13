@@ -38,7 +38,7 @@ get_header('livedataagent'); ?>
                 <p>Watch the one-minute demo to learn how Live Data Agent can free your IBM order management data.</p>
             </div>
             <div class="col-md-8 vertical-align ">
-                <iframe class="yt-hd-thumbnail" width="560" height="315" src="https://youtu.be/Cqmqy20_ZsE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/Cqmqy20_ZsE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
