@@ -59,7 +59,7 @@ get_header('livedataagent'); ?>
             <div class="row justify-content-center">
                 <div class="col-lg-5 push-lg-5 mx-4 mx-sm-0">
                     <h2 style="margin-top:0px">Data Extract Configuration Service</h2>
-                    <p>IMB's standard APIs are used to configure what data is being fed to the Live Data Agent.</p>
+                    <p>IBM's standard APIs are used to configure what data is being fed to the Live Data Agent.</p>
                     <h2>Live Data Agent</h2>
                     <p>The Live Data Agent replaces IBM's Data Extract Agent which currently exposes data from a backup database in CSV-format over FTP. Instead, Live Data Agent delivers data straight from the source through four different reliable outputs.
                 </div>
