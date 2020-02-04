@@ -36,6 +36,7 @@ get_header(); ?>
                                 <option value="oracle" selected="selected">Oracle</option>
                                 <option value="db2">DB2</option>
                                 <option value="as400">AS400</option>
+                                <option value="informix">Informix</option>
                                 <option value="mssql">SQL Server</option>
                                 <option value="sqlite">SQLite</option>
                                 <option value="mysql">MySQL</option>
@@ -289,6 +290,7 @@ get_header(); ?>
                         enterpriseDb = selectedDbType === 'oracle'
                             || selectedDbType === 'db2'
                             || selectedDbType === 'as400'
+                            || selectedDbType === 'informix'
                             || selectedDbType === 'mssql';
                         enterprise = 'true' == $('input[type=radio][name=inMemory]:checked').val()
                             || enterpriseDb;
@@ -331,21 +333,23 @@ get_header(); ?>
 
                     dbType.change(function() {
                         if        (this.value === 'mysql') {
-                            driverVersion.val('8.0.18');
+                            driverVersion.val('8.0.19');
                         } else if (this.value === 'sqlite') {
-                            driverVersion.val('3.28.0');
+                            driverVersion.val('3.30.1');
                         } else if (this.value === 'postgresql') {
-                            driverVersion.val('42.2.8');
+                            driverVersion.val('42.2.9');
                         } else if (this.value === 'mariadb') {
-                            driverVersion.val('2.4.4');
+                            driverVersion.val('2.5.4');
                         } else if (this.value == 'oracle') {
                             driverVersion.val('19.3.0.0');
                         } else if (this.value === 'db2') {
                             driverVersion.val('11.5.0.0');
                         } else if (this.value === 'as400') {
-                            driverVersion.val('9.8');
+                            driverVersion.val('10.2');
                         } else if (this.value === 'mssql') {
-                            driverVersion.val('7.4.1.jre8');
+                            driverVersion.val('8.2.0.jre8');
+                        } else if (this.value === 'informix') {
+                            driverVersion.val('4.50.3');
                         } else {
                             console.error('Unknown database type "' + this.value + '".');
                             return;

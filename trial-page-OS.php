@@ -261,13 +261,13 @@ get_header(); ?>
 
                     dbType.change(function () {
                         if (this.value === 'mysql') {
-                            driverVersion.val('8.0.18');
+                            driverVersion.val('8.0.19');
                         } else if (this.value === 'sqlite') {
-                            driverVersion.val('3.28.0');
+                            driverVersion.val('3.30.1');
                         } else if (this.value === 'postgresql') {
-                            driverVersion.val('42.2.8');
+                            driverVersion.val('42.2.9');
                         } else if (this.value === 'mariadb') {
-                            driverVersion.val('2.4.4');
+                            driverVersion.val('2.5.4');
                         } else {
                             console.error('Unknown database type "' + this.value + '".');
                             return;
