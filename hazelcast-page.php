@@ -104,8 +104,8 @@ get_header('hazelcast'); ?>
                 <h1>Integrates with Any RDMBS</h1>
                 <div class="line-divider-center"></div>
                 <p>Hazelcast Auto DBI coexists nicely with the current backend and works for any RDBMS;
-                    MySQL, DB2, Microsoft SQL Server, Oracle, AS/400, PostgreSQL, MariaDB or SQLite.</p>
-                <img src="http://speedment.com/wp-content/uploads/2019/07/database-connectors.png" class="mt-3" width="100%"/>
+                    MySQL, DB2, Microsoft SQL Server, Oracle, AS/400, PostgreSQL, MariaDB, SQLite or Informix.</p>
+                <img src="http://speedment.com/wp-content/uploads/2020/02/db-connectors-2.png" class="mt-3" width="100%"/>
             </div>
             <div class="col-2 d-none d-sm-block"></div>
         </div>
