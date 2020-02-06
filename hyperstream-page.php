@@ -131,7 +131,30 @@ get_header('hyperstream'); ?>
     </div>
 </div>
 
-<div id="divider"></div>
+<div id="divider-wide"></div>
+
+<!-- Spring REST -->
+
+<div class="row justify-content-center" id="spring-boot">
+    <div class="container">
+        <div class="row justify-content-center py-4">
+            <div class="col-lg-7 mt-3 mb-2">
+                <h4>WHATS NEW</h4>
+                <h2>Generate a Complete Spring REST API</h2>
+                <p>HyperStream is now capable of generating a complete Spring Boot REST API (including all CRUD operators) for any
+                    of the supported databases.</p>
+            </div>
+            <div class="col-lg-5 text-centered my-3">
+                <div class="oracle-frame">
+                    <img class="align-vertical" src="https://speedment.com/wp-content/uploads/2020/02/spring-generation.png" width="90%" data-aos="fade-up">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="divider-wide"></div>
+
 <!-- Microservices -->
 
 
