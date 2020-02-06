@@ -109,7 +109,7 @@ get_header('tools'); ?>
                         </tr>
                         <tr>
                             <th class="px-4 py-4">Spring REST API Generation
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Can automatically generate a complete Spring Boot REST API for any of the supported database types.">
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Automatically generates a complete Spring Boot REST API for any of the supported database types.">
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </th>
@@ -119,7 +119,7 @@ get_header('tools'); ?>
                         </tr>
                         <tr>
                             <th class="px-4 py-4">In-JVM-Memory</br>Acceleration
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Speedment DataStore (a unique memory management model) which allows performance boost by orders of magnitude.">
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Speedment DataStore (a unique memory management model) allows performance boost by orders of magnitude.">
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </th>
