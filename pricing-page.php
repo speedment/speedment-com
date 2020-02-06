@@ -388,6 +388,55 @@ get_header('pricing'); ?>
                             <th></th>
                             <th></th>
                         <tr>
+                            <td  style="text-align: left">Fully Support JPMS
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="Java Platform Module System supported by Java 11 and forward.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  style="text-align: left">Kubernetes/Docker etc.</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left"><b>Database Connectors</b></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        <tr>
                             <td  style="text-align: left">MySQL</td>
                             <td>
                                 <i class="fa fa-check"></i>
