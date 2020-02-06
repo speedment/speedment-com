@@ -109,7 +109,7 @@ get_header('hyperstream'); ?>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col py-4 text-center">
+            <div class="col pb-5 text-center">
                 <a href="https://speedment.com/pricing/#compare-plans" class="btn btn-primary">View All Features</a>
             </div>
         </div>
