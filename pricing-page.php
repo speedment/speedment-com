@@ -500,6 +500,32 @@ get_header('pricing'); ?>
                             </td>
                         </tr>
                         <tr>
+                            <td style="text-align: left">Informix</td>
+                            <td>-</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Snowflake <i>Coming Soon</i></td>
+                            <td>-</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                        </tr>
+                        <tr>
                             <td style="text-align: left">Files
                                 <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
                                    data-placement="bottom" data-content="Read data from binary- or text files, such as avro, protobuf, bson, csv, xlsx etc.">
