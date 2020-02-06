@@ -1981,11 +1981,6 @@ label {
     margin-left: 5px;
 }
 
-#overview-comparison .fa-check {
-    color: #3a9b79;
-    margin-left: 5px;
-}
-
 #overview-comparison .table thead th,
 #overview-comparison .table tbody th {
     vertical-align: middle;
@@ -2018,7 +2013,7 @@ label {
 }
 
 #overview-comparison .table  .th-included {
-    background-color: #9be9ce;
+    background-color: #A7B2B9;
     color: white;
 }
 
