@@ -2012,6 +2012,11 @@ label {
     color: white;
 }
 
+#overview-comparison .table  .th-included {
+    background-color: #9be9ce;
+    color: white;
+}
+
 #quote-carina h3,
 #quote-greg h3 {
     font-weight: 400;

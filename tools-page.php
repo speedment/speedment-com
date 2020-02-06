@@ -83,18 +83,38 @@ get_header('tools'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </th>
-                            <th class="text-center"><i class="fa fa-check"></i></th>
-                            <th class="text-center"><i class="fa fa-check"></i></th>
-                            <th class="text-center"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
                         </tr>
                         <tr>
-                            <th class="px-4 py-4">Commercial</br>Database Connectors
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Support included for Oracle, MySQL, Microsoft SQL Server, SQLite, PostgreSQL, DB2, MariaDB or AS400.">
+                            <th class="px-4 py-4">Cloud Readiness
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Fully supports use of the Java Platform Module System (JPMS) and can be deployed in containers such as Docker, Kubernetes etc.">
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </th>
-                            <th class="text-center"><i class="fa fa-check"></i></th>
-                            <th class="text-center"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        </tr>
+                        <tr>
+                            <th class="px-4 py-4">Commercial</br>Database Connectors
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Support included for AS400, DB2, Informix, MariaDB, MySQL, PostgreSQL, Snowflake (coming soon), SQLite, SQLServer or Oracle.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                            <th class="text-center"></th>
+                        </tr>
+                        <tr>
+                            <th class="px-4 py-4">Spring REST API Generation
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Can automatically generate a complete Spring Boot REST API for any of the supported database types.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
                             <th class="text-center"></th>
                         </tr>
                         <tr>
@@ -104,7 +124,7 @@ get_header('tools'); ?>
                                 </a>
                             </th>
                             <th class="text-center"></th>
-                            <th class="text-center"><i class="fa fa-check"></i></th>
+                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
                             <th class="text-center"></th>
                         </tr>
                     </tbody>
