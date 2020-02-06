@@ -493,7 +493,7 @@ List<Film> filmsInLengthOrder = films.stream()
 
 <!-- Spring REST -->
 
-<div class="row justify-content-center" id="speedment-next-event">
+<div class="row justify-content-center" id="spring-boot">
     <div class="container">
         <div class="row justify-content-center py-4">
             <div class="col-lg-7 my-2">

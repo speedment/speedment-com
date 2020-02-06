@@ -1815,7 +1815,8 @@ label {
     margin-bottom: 1em;
 }
 
-#speedment-next-event {
+#speedment-next-event,
+#spring-boot {
     background-color: #1E2426;
     color: white;
 }
@@ -1824,6 +1825,21 @@ label {
     text-transform: none;
     font-size: 2.4em;
     margin-top: 0em;
+}
+
+#spring-boot h2 {
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-top: 0em;
+}
+
+#spring-boot h4 {
+    line-height: 1.3em;
+    margin-top: 0em;
+}
+
+#spring-boot p {
+    font-size: 1.1em;
 }
 
 #speedment-next-event h4 {
