@@ -381,7 +381,7 @@ get_header('pricing'); ?>
                             <td></td>
                         </tr>
                         <tr>
-                            <th style="text-align: left"><b>Database Connectors</b></th>
+                            <th style="text-align: left"><b>Cloud Readiness</b></th>
                             <th></th>
                             <th></th>
                             <th></th>
