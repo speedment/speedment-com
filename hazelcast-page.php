@@ -77,7 +77,6 @@ get_header('hazelcast'); ?>
 <div class="container" id="divider-wide"></div>
 
 <!-- Quote Carina -->
-
 <div class="row justify-content-center stars" id="quote-greg">
     <div class="container full-width-product-view">
         <div class="row justify-content-center py-5 text-left">
