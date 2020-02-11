@@ -45,7 +45,7 @@ get_header(); ?>
                         <label for="inputDriverVersion" class="col-sm-4 col-form-label">JDBC Driver
                             <a style="color: gray" href="#" data-toggle="popover" data-trigger="hover"
                                data-placement="bottom"
-                               data-content="Enable this if your application will use the Java Platform Module System (JPMS)">
+                               data-content="The default value provided is the supported JDBC driver.">
                                 <i class="fa fa-question-circle"></i>
                             </a>
                         </label>
