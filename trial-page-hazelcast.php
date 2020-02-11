@@ -56,7 +56,13 @@ get_header(); ?>
 
                     <!-- Select Driver Version -->
                     <div class="form-group row">
-                        <label for="inputDriverVersion" class="col-form-label col-sm-4">JDBC Driver</label>
+                        <label for="inputDriverVersion" class="col-form-label col-sm-4">JDBC Driver
+                            <a style="color: gray" href="#" data-toggle="popover" data-trigger="hover"
+                               data-placement="bottom"
+                               data-content="Enable this if your application will use the Java Platform Module System (JPMS)">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </label>
                         <div class="col-sm-8">
                             <input type="text" class="form-control" id="inputDriverVersion"
                                    placeholder="Database Driver Version" value="19.3.0.0">

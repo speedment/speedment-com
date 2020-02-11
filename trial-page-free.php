@@ -37,6 +37,7 @@ get_header(); ?>
                                 <option value="db2">DB2</option>
                                 <option value="as400">AS400</option>
                                 <option value="informix">Informix</option>
+          <!--                  <option value="snowflake">Snowflake</option>-->
                                 <option value="mssql">SQL Server</option>
                                 <option value="sqlite">SQLite</option>
                                 <option value="mysql">MySQL</option>
@@ -48,7 +49,13 @@ get_header(); ?>
 
                     <!-- Select Driver Version -->
                     <div class="form-group row">
-                        <label for="inputDriverVersion" class="col-form-label col-sm-4">JDBC Driver</label>
+                        <label for="inputDriverVersion" class="col-form-label col-sm-4">JDBC Driver
+                            <a style="color: gray" href="#" data-toggle="popover" data-trigger="hover"
+                               data-placement="bottom"
+                               data-content="The default value provided is the supported JDBC driver.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </label>
                         <div class="col-sm-8">
                             <input type="text" class="form-control" id="inputDriverVersion"
                                    placeholder="Database Driver Version" value="19.3.0.0">
@@ -291,6 +298,7 @@ get_header(); ?>
                             || selectedDbType === 'db2'
                             || selectedDbType === 'as400'
                             || selectedDbType === 'informix'
+                            || selectedDbType === 'snowflake'
                             || selectedDbType === 'mssql';
                         enterprise = 'true' == $('input[type=radio][name=inMemory]:checked').val()
                             || enterpriseDb;
