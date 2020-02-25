@@ -14,7 +14,7 @@
         </div>
           <div class="row" id="first-view-button-area">
               <a href="http://speedment.com/initializer" class="btn btn-primary col-sm col-md-4 col-lg-3">Download Now</a>
-              <a href="https://speedment.github.io/speedment-doc/introduction.html" class="btn btn-secondary-white col-sm col-md-4 col-lg-3 ml-0 ml-sm-2 mt-3 m-sm-0">Documentation</a>
+              <a href="https://speedment.github.io/speedment-doc/index" class="btn btn-secondary-white col-sm col-md-4 col-lg-3 ml-0 ml-sm-2 mt-3 m-sm-0">Documentation</a>
           </div>
       </div>
     </div>

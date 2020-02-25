@@ -37,7 +37,7 @@ get_header(); ?>
                                 <option value="db2">DB2</option>
                                 <option value="as400">AS400</option>
                                 <option value="informix">Informix</option>
-          <!--                  <option value="snowflake">Snowflake</option>-->
+                                <option value="snowflake">Snowflake</option>
                                 <option value="mssql">SQL Server</option>
                                 <option value="sqlite">SQLite</option>
                                 <option value="mysql">MySQL</option>
@@ -358,6 +358,9 @@ get_header(); ?>
                             driverVersion.val('8.2.0.jre8');
                         } else if (this.value === 'informix') {
                             driverVersion.val('4.50.3');
+                        else if (this.value === 'snowflake') {
+                                driverVersion.val('3.10.3');
+                            }
                         } else {
                             console.error('Unknown database type "' + this.value + '".');
                             return;
