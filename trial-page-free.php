@@ -333,6 +333,9 @@ get_header(); ?>
                         updateEnterprise();
                         updateCode();
                     });
+                    modules.change(function() {
+                        updateCode();
+                    });
 
                     //licenseKey.change(function() {
                     //  updateEnterprise();

@@ -264,6 +264,9 @@ get_header(); ?>
                         updateCode();
                         updateModules();
                     });
+                    modules.change(function() {
+                        updateCode();
+                    });
 
                     dbType.change(function () {
                         if (this.value === 'mysql') {
