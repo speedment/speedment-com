@@ -360,7 +360,6 @@ get_header(); ?>
                             driverVersion.val('4.50.3');
                         else if (this.value === 'snowflake') {
                                 driverVersion.val('3.10.3');
-                            }
                         } else {
                             console.error('Unknown database type "' + this.value + '".');
                             return;
