@@ -562,7 +562,7 @@ get_header('pricing'); ?>
                             </td>
                         </tr>
                         <tr>
-                            <td style="text-align: left">Snowflake <i>Coming Soon</i></td>
+                            <td style="text-align: left">Snowflake</td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
