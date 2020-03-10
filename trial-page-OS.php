@@ -174,7 +174,7 @@ get_header(); ?>
                     var email = $('#inputEmail');
                     var javaVersion = $('#javaVersion');
                     var dbType = $('#databaseType');
-
+                    var modules = $('input[type=radio][name=modules]');
                     var useEnums = $('#checkPluginEnums');
                     var useJson = $('#checkPluginJson');
                     var enterprise = false;
