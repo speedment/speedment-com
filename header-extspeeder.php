@@ -4,7 +4,7 @@
    ExtSpeeder Header
 -->
 
-<div class="row jumbotron jumbotron-fluid" id="product-view" style="background-image: url('https://speedment.com/wp-content/uploads/2019/08/extspeeder-header.jpg');">
+<div class="row jumbotron jumbotron-fluid" id="product-view">
     <div class="col">
         <div class="container hazelcast">
             <div class="row justify-content-center py-3">
