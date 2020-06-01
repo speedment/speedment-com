@@ -9,7 +9,7 @@
  * @since 1.0.0
  */
 
-get_header();
+get_header('blogpost');
 ?>
 
 	<section id="primary" class="content-area">
