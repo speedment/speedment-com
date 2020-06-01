@@ -354,6 +354,13 @@ function cc_mime_types($mimes) {
   return $mimes;
 }
 
+/**
+ * Determines if post thumbnail can be displayed.
+ */
+function twentynineteen_can_show_post_thumbnail() {
+	return apply_filters( 'twentynineteen_can_show_post_thumbnail', ! post_password_required() && ! is_attachment() && has_post_thumbnail() );
+}
+
 add_filter('upload_mimes', 'cc_mime_types');
 add_action('widgets_init', 'speedment_widgets_init');
 add_action('init',         'speedment_menues_init');
