@@ -10,8 +10,8 @@ get_header(); ?>
 
 <!-- Start Page Content -->
     <?php while (have_posts()) : the_post(); ?>
-        <h1>the_title();</h1>
-        <div class="justify-content-center"><?php the_content(); ?></div>
+        <h1><?php the_title();?></h1>
+        <div class="justify-content-center container"><?php the_content(); ?></div>
     <?php endwhile; ?>
 
     <div class="navigation">
