@@ -9,10 +9,10 @@ get_header(); ?>
 <?php if( have_posts() ): ?>
 
 <!-- Start Page Content -->
-    <?php while (have_posts()) : the_post();
-        the_title(); 
-        the_content();
-    endwhile; ?>
+    <?php while (have_posts()) : the_post(); ?>
+        <h1>the_title();</h1>
+        <div class="justify-content-center"><?php the_content(); ?></div>
+    <?php endwhile; ?>
 
     <div class="navigation">
         <span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
