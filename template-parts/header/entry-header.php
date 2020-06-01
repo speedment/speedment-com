@@ -7,7 +7,7 @@
  * @since 1.0.0
  */
 
-$discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentynineteen_get_discussion_data() : null; ?>
+$discussion = ! is_page() && can_show_post_thumbnail() ? get_discussion_data() : null; ?>
 
 <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
@@ -38,7 +38,6 @@ $discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentyni
 				),
 				get_the_title()
 			),
-			'<span class="edit-link">' . twentynineteen_get_icon_svg( 'edit', 16 ),
 			'</span>'
 		);
 	?>
