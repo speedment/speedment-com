@@ -2182,3 +2182,22 @@ label {
     font-size: 1.7em;
     font-weight: 400;
 }
+
+/* Author box styling */
+.author_bio_section{
+    background-color: #F5F5F5;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.author_name{
+    font-size:16px;
+    font-weight: bold;
+}
+
+.author_details img {
+    border: 1px solid #D8D8D8;
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px 10px 0;
+}
