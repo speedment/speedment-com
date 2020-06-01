@@ -13,6 +13,7 @@
   - nav-page.php
   - page.php
   - blog.php
+  - single.php
 
 -->
 <?php get_footer(); ?>
