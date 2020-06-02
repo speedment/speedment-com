@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-md-left">
                 <div class="col col-sm-auto">
-                    <div class="col-md-auto blogpost-title justify-content-center text-centered" id="first-view-text-wrapper">
+                    <div class="col-md-auto justify-content-center text-centered" id="blogpost-title">
                         <h2><?php if (is_404()) {echo '404 Page Not found';} else {single_post_title();} ?></h2>
                         <div class="line-divider-left"></div>
                             <div id="author_pic">
