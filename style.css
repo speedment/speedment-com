@@ -2249,3 +2249,8 @@ label {
 #blogPost code {
     font-size: 1.1em;
 }
+
+#blogPost pre {
+    margin: 1.5em 0em;
+    padding: 1.5em; 
+}
