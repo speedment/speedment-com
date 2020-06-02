@@ -14,7 +14,7 @@
                                 <?php echo get_avatar( get_the_author_meta('ID', get_post_field( 'post_author', get_queried_object_id())), 70); ?>
                             </div>
                             <p>by <?php echo get_the_author_meta('display_name', get_post_field( 'post_author', get_queried_object_id())); ?></p>
-                            <p>on <?php echo get_post_field( 'post_date', get_queried_object_id()); ?></p>
+                            <p>on <?php echo date_format(get_post_field( 'post_date', get_queried_object_id()), "Y/m/d"); ?></p>
                     </div>
                 </div>
             </div>
