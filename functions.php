@@ -429,7 +429,7 @@ function wpb_author_info_box( $content ) {
 		if ( ! empty( $display_name ) )
 
 			$author_details = '<p class="about">About </p>';
-			$author_details .= '<h3 class="display_name">' . $display_name . '</h3>';
+			$author_details .= '<p class="display_name">' . $display_name . '</p>';
 
 		if ( ! empty( $user_description ) )
 // Author avatar and bio
