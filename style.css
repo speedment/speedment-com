@@ -77,6 +77,11 @@ body{
         max-width: 100%;
     }
 
+    #blogPost .container {
+        width: 800px;
+        max-width: 100%;
+    }
+
     .container {
         width: 900px;
         max-width: 100%;
@@ -86,6 +91,11 @@ body{
 @media (min-width: 1200px) {
 
     #narrowPage .container {
+        width: 800px;
+        max-width: 100%;
+    }
+
+    #blogPost .container {
         width: 800px;
         max-width: 100%;
     }
@@ -1318,15 +1328,7 @@ label {
   Page
 */
 #defaultPage,
-#blogPost {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-#blogPost {
-    max-width: 700px;
-}
-
+#blogPost,
 #narrowPage {
     margin-top: 50px;
     margin-bottom: 50px;
