@@ -12,7 +12,7 @@
 get_header('blogpost');
 ?>
 
-<div class="row justify-content-center" id="defaultPage">
+<div class="row justify-content-center" id="blogPost">
     <div class="container">
         <!--
             Default Page Content

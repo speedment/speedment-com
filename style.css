@@ -1317,9 +1317,14 @@ label {
 /*
   Page
 */
-#defaultPage {
+#defaultPage,
+#blogPost {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#blogPost {
+    max-width: 800px;
 }
 
 #narrowPage {
@@ -1632,6 +1637,11 @@ label {
 /* Add some padding on really small screens */
 @media (max-width: 575px) {
     #defaultPage > .container > .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #blogPost > .container > .row {
         margin-left: 0px;
         margin-right: 0px;
     }
