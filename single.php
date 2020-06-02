@@ -64,6 +64,21 @@ get_header('blogpost');
     </div>
 </div>
 
+
+<div class="row justify-content-center" id="related-resources">
+    <div class="container full-width-product-view">
+        <div class="row justify-content-center">
+            <div class="col">
+                <h1 style="text-align: center">Related Resources</h1>
+                <div class="line-divider-center"></div>
+            </div>
+            <div class="row">
+                <?php echo do_shortcode("[post_grid_pickplugins id='2045']"); ?>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php get_footer(); ?>
 
 
