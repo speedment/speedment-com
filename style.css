@@ -2247,7 +2247,12 @@ label {
 }
 
 #blogPost .content h3 {
-    margin-top: 3em; 
+    margin-top: 3em;
+}
+
+#blogPost ul {
+    font-size: 1.2em;
+    line-height: 2em;
 }
 
 #blogPost code {
