@@ -73,7 +73,7 @@ get_header('blogpost');
                 <div class="line-divider-center"></div>
             </div>
             <div class="row">
-                <?php echo do_shortcode("[post_grid_pickplugins id='2045']"); ?>
+                <?php echo do_shortcode("[post_grid id='2045']"); ?>
             </div>
         </div>
     </div>
