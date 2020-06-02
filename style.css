@@ -2202,8 +2202,9 @@ label {
     margin: 0 10px 10px 0;
 }
 
-#first-view-text-wrapper > .blogpost-title h2 {
+.blogpost-title h1 {
     font-size: 3em;
+    color: white; 
     line-height: 3.5em;
 }
 

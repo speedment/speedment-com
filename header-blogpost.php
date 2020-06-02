@@ -10,7 +10,6 @@
                 <div class="col col-sm-auto" id="first-view-text-wrapper">
                     <div class="col-md-auto blogpost-title justify-content-center text-centered">
                         <h1><?php if (is_404()) {echo '404 Page Not found';} else {single_post_title();} ?></h1>
-                        <div class="line-divider-center"></div>
                             <div id="author_pic">
                                 <?php echo get_avatar( get_the_author_meta('ID', get_post_field( 'post_author', get_queried_object_id())), 70); ?>
                             </div>
