@@ -2201,3 +2201,13 @@ label {
     float: left;
     margin: 0 10px 10px 0;
 }
+
+.blogpost-title h2 {
+    font-size: 3em;
+    line-height: 3.5em;
+}
+
+.blogpost-title .author_pic {
+    border-radius: 50%;
+    border: solid white 2px;
+}
