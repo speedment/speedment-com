@@ -2200,6 +2200,7 @@ label {
     background-color: #1E2426;
     padding: 2em;
     color: white;
+    margin-top: 2em; 
 }
 
 .author_bio_section .about {
@@ -2207,7 +2208,7 @@ label {
     margin-bottom: 0.5em;
 }
 
-.author_bio_section h3 {
+.author_bio_section > h3 {
     margin-top: 0em;
 }
 
@@ -2256,7 +2257,7 @@ label {
 }
 
 #blogPost ul {
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 2em;
 }
 
