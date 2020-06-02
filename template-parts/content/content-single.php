@@ -19,7 +19,7 @@
 	</header>
 	--><?php /*endif; */?>
 
-	<div class="entry-content">
+	<div class="entry-content justify-content-center">
 		<?php
 		the_content(
 			sprintf(
