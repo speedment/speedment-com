@@ -434,23 +434,23 @@ function wpb_author_info_box( $content ) {
 		if ( ! empty( $user_description ) )
 // Author avatar and bio
 
-			$author_details .= '<p class="author_details">' . get_avatar( get_the_author_meta('user_email') , 90 ) . nl2br( $user_description ). '</p>';
+			$author_details .= '<p class="author_details">' . get_avatar( get_the_author_meta('user_email') , 90 ) . nl2br($user_description ). '</p>';
 
 		//$author_details .= '<p class="author_links"><a href="'. $user_posts .'">View all posts by ' . $display_name . '</a>';
 
 // Check if author has a website in their profile
-		if ( ! empty( $user_website ) ) {
+		//if ( ! empty( $user_website ) ) {
 
 // Display author website link
-			$author_details .= ' | <a href="' . $user_website .'" target="_blank" rel="nofollow">Website</a></p>';
+			//$author_details .= '<a href="' . $user_website .'" target="_blank" rel="nofollow">Website</a></p>';
 
-		} else {
+		//} else {
 // if there is no author website then just close the paragraph
 			$author_details .= '</p>';
-		}
+		//}
 
 // Pass all this info to post content
-		$content = $content . '<footer class="author_bio_section" >' . $author_details . '</footer>';
+		$content = $content . '<div class="container full-width-product-view" >' . $author_details . '</div>';
 	}
 	return $content;
 }
