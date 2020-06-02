@@ -13,7 +13,7 @@
                         <p>This article was written by <?php get_the_author(get_the_ID()); ?></p>
                         <div class="line-divider-left"></div>
                             <div id="author_pic">
-                                <?php echo get_avatar( get_the_author_meta('user_email'), 50); ?>
+                                <?php echo get_avatar( get_the_author_meta('ID', get_post_field( 'post_author', get_queried_object_id())), 50); ?>
                             </div>
                     </div>
                 </div>
