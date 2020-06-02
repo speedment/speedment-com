@@ -45,13 +45,4 @@
 		?>
 	</div><!-- .entry-content -->
 
-
-<!--	<footer class="entry-footer">
-		<?php /*twentynineteen_entry_footer(); */?>
-	</footer> .entry-footer -->-->
-
-	<?php if ( ! is_singular( 'attachment' ) ) : ?>
-		<?php get_template_part( 'template-parts/post/author', 'bio' ); ?>
-	<?php endif; ?>
-
 </article><!-- #post-<?php the_ID(); ?> -->
