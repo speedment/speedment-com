@@ -713,6 +713,21 @@ if ( ! function_exists( 'wp_body_open' ) ) :
 	}
 endif;
 
+add_action('wp_head', 'wpse_wp_head');
+function wpse_wp_head(){
+    // first make sure this is a single post/page
+    if( !is_page() || !is_single() )
+        return;
+
+    // then get the post data
+    $post = get_post();
+
+    echo '<meta name="post_id" value="'. $post->ID .'" />';
+
+    $author = get_user_option('display_name', $post->post_author );
+    echo '<meta name="author" value="'. esc_attr( $author ) .'" />';
+}
+
 // Allow HTML in author bio section
 remove_filter('pre_user_description', 'wp_filter_kses');
 
