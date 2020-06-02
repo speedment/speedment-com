@@ -2233,7 +2233,7 @@ label {
     color: white;
 }
 
-#author_pic img {
+#author_pic > img {
     border-radius: 50%;
     border: solid white 2px;
     margin: 1em 0em 1em 0em;
@@ -2271,7 +2271,7 @@ label {
     padding: 1.5em;
 }
 
-#blogPost img {
+#blogPost .content img {
     margin: 2em 0em;
 }
 
