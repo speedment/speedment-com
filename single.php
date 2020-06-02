@@ -31,7 +31,7 @@ get_header('blogpost');
                     /*
                                     if ( is_singular( 'attachment' ) ) {
                                         // Parent post navigation.
-                                        the_post_navigation(
+                                        athe_post_navigation(
                                             array(
                                                 /* translators: %s: parent post link */
                     /*'prev_text' => sprintf( __( '<span class="meta-nav">Published in</span><span class="post-title">%s</span>', 'twentynineteen' ), '%title' ),

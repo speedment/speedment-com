@@ -434,7 +434,7 @@ function wpb_author_info_box( $content ) {
 		if ( ! empty( $user_description ) )
 // Author avatar and bio
 
-			$author_details .= '<p class="author_details">' . get_avatar( get_the_author_meta('user_email') , 90 ) . nl2br($user_description ). '</p>';
+			$author_details .= '<p class="author_details">' . get_avatar( get_the_author_meta('user_email') , 100 ) . nl2br($user_description ). '</p>';
 
 		//$author_details .= '<p class="author_links"><a href="'. $user_posts .'">View all posts by ' . $display_name . '</a>';
 
@@ -450,7 +450,7 @@ function wpb_author_info_box( $content ) {
 		//}
 
 // Pass all this info to post content
-		$content = $content . '<div class="container full-width-product-view" >' . $author_details . '</div>';
+		$content = $content . '<div class="author_bio_section" >' . $author_details . '</div>';
 	}
 	return $content;
 }

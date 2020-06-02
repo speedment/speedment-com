@@ -2197,9 +2197,8 @@ label {
 
 /* Author box styling */
 .author_bio_section{
-    background-color: #F5F5F5;
-    padding: 15px;
-    border: 1px solid #ccc;
+    background-color: #1E2426;
+    padding: 2em;
 }
 
 .author_name{
