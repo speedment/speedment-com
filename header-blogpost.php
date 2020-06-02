@@ -10,11 +10,11 @@
                 <div class="col col-sm-auto">
                     <div class="col-md-auto blogpost-title justify-content-center text-centered" id="first-view-text-wrapper">
                         <h2><?php if (is_404()) {echo '404 Page Not found';} else {single_post_title();} ?></h2>
-                        <div class="line-divider-left"></div>
+                        <div class="line-divider-center"></div>
                             <div id="author_pic">
                                 <?php echo get_avatar( get_the_author_meta('ID', get_post_field( 'post_author', get_queried_object_id())), 70); ?>
                             </div>
-                            <p>by <?php get_post_field( 'post_author', get_queried_object_id()); ?></p>
+                            <p>by <?php get_the_author_meta('display_name', get_post_field( 'post_author', get_queried_object_id())); ?></p>
                     </div>
                 </div>
             </div>
