@@ -2241,3 +2241,11 @@ label {
     color: white;
     line-height: 0.5em;
 }
+
+#blogPost p {
+    font-size: 1.2em;
+}
+
+#blogPost code {
+    font-size: 1.1em;
+}
