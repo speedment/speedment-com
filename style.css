@@ -2270,3 +2270,7 @@ label {
     margin: 1.5em 0em;
     padding: 1.5em;
 }
+
+#blogPost img {
+    margin: 2em 0em;
+}
