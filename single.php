@@ -49,13 +49,12 @@ get_header('blogpost');
                         '<span class="post-title">%title</span>',
                 )
             );
-        }
-        // If comments are open or we have at least one comment, load up the comment template.
+        }*/
+        //If comments are open or we have at least one comment, load up the comment template.
         if ( comments_open() || get_comments_number() ) {
             comments_template();
         }
-                    */
-
+        
                 endwhile; // End of the loop.
                 ?>
 
