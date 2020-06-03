@@ -2248,7 +2248,8 @@ label {
     font-size: 1.2em;
 }
 
-#blogPost h3 {
+#blogPost h3,
+#blogPost h2 {
     margin-top: 2em;
 }
 
