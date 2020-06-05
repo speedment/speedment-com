@@ -117,13 +117,12 @@
                     <h1 style="text-align: center">Latest Articles</h1>
                     <div class="line-divider-center"></div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <h1 style="text-align: center">Most Recent Posts</h1>
-                        <div class="line-divider-center"></div>
-                        <?php echo do_shortcode("[post_grid id='2045']"); ?>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <?php echo do_shortcode("[post_grid id='2045']"); ?>
                 </div>
+            </div>
             </div>
         </div>
     </div>
