@@ -114,45 +114,14 @@
         <div class="container full-width-product-view">
             <div class="row justify-content-center">
                 <div class="col">
-                    <h1 style="text-align: center">Related Resources</h1>
+                    <h1 style="text-align: center">Latest Articles</h1>
                     <div class="line-divider-center"></div>
                 </div>
                 <div class="row">
-                    <div class="col-md mx-3 my-3 px-4 gray d-lg-block" data-aos="fade-up">
-                        <div class="col title-area">
-                            White Paper
-                        </div>
-                        <div class="col min-height">
-                            <h3>Speedment HyperStream</h3>
-                            <p>This white paper addresses the performance challenges for existing slow databases and presents a more modern solution – HyperStream, a Stream ORM Java Toolkit and Runtime with extreme capabilities using an in-JVM-memory data storage. </p>
-                        </div>
-                        <div class="col center-button">
-                            <a href="https://speedment.com/wp-content/uploads/2019/12/Speedment_HyperStream_Whitepaper.pdf" target="_blank" class="btn btn-secondary">Read Paper</a>
-                        </div>
-                    </div>
-                    <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
-                        <div class="col title-area">
-                            Article
-                        </div>
-                        <div class="col min-height">
-                            <h3>Database Actions Using Java 8 Stream Syntax Instead of SQL</h3>
-                            <p>Why should you need to use SQL when the same semantics can be derived directly from Java 8 streams? This article shows how the resemblance between streams and SQL commands can be used to gain ultra-fast access to data.</p>
-                        </div>
-                        <div class="col center-button">
-                            <a href="http://www.javamagazine.mozaicreader.com/MayJune2017/Default/34/0#&pageSet=34&page=34" target="_blank" class="btn btn-secondary">Read Article</a>
-                        </div>
-                    </div>
-                    <div class="col-md mx-3 my-3 px-4 gray" data-aos="fade-up">
-                        <div class="col title-area">
-                            Webinar
-                        </div>
-                        <div class="col min-height">
-                            <h3>How You Can Quickly and Effortlessly Integrate Your Database with Hazelcast</h3>
-                            <p>Hazelcast Auto Database Integration streamlines the development of Hazelcast applications by generating a Java domain model representation (POJOs and more) of the database, allowing companies to be productive with Hazelcast in no time.</p>
-                        </div>
-                        <div class="col center-button">
-                            <a href="https://www.youtube.com/watch?time_continue=764&v=FRO0XYgCdpM" target="_blank" class="btn btn-secondary">Watch Now</a>
-                        </div>
+                    <div class="col">
+                        <h1 style="text-align: center">Most Recent Posts</h1>
+                        <div class="line-divider-center"></div>
+                        <?php echo do_shortcode("[post_grid id='2045']"); ?>
                     </div>
                 </div>
             </div>
