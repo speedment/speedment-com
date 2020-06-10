@@ -2279,3 +2279,13 @@ label {
 #blogPost .content > .intro {
     font-size: 1.4em;
 }
+
+#blogPost table,
+#blogPost tr,
+#blogPost td {
+    border: 1px solid black;
+}
+
+#blogPost td {
+    padding: 0.5em;  
+}
