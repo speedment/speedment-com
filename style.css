@@ -2284,8 +2284,14 @@ label {
 #blogPost tr,
 #blogPost td {
     border: 1px solid black;
+    font-size: 1.2em; 
 }
 
-#blogPost td {
-    padding: 0.5em;  
+#blogPost td,
+#blogPost th {
+    padding: 0.5em;
+}
+
+#blogPost table {
+    margin: 1em 0em;
 }
