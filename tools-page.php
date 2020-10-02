@@ -37,15 +37,21 @@ get_header('tools'); ?>
     <div class="row justify-content-center" id="speedment-tools">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md px-5 py-3 mx-2 my-2 ml-0 ml-md-5 text-center" id="speedment-stream" onclick="location.href='https://speedment.com/stream/';">
+                <div class="col-md px-5 py-3 mx-2 my-2 ml-0 mx-md-0 text-center" id="speedment-oss" onclick="location.href='https://speedment.com/stream/';">
+                    <h2>JPAstreamer<br>Open Source</h2>
+                    <p>Stream querying for projects constrained to Hibernate/JPA</p>
+                    <a href="https://jpastreamer.org/install/" class="btn btn-secondary-white">Install Now</a></br>
+                    <a href="https://jpastreamer.org/" style="margin-top:0.5em" class="learn-more">Learn More</a>
+                </div>
+                <div class="col-md px-5 py-3 mx-2 my-2 mx-md-2 text-center" id="speedment-stream" onclick="location.href='https://speedment.com/stream/';">
                     <h2>Speedment</br>Stream</h2>
-                    <p>Stream ORM for enterprise projects</p>
+                    <p>A complete Stream ORM for enterprise projects </p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/stream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
-                <div class="col-md py-3 px-5 mx-2 my-2 mr-0 mr-md-5 text-center" id="speedment-hyperstream" onclick="location.href='https://speedment.com/hyperstream/';">
+                <div class="col-md py-3 px-5 mx-2 my-2 mr-0 mx-md-0 text-center" id="speedment-hyperstream" onclick="location.href='https://speedment.com/hyperstream/';">
                     <h2>Speedment</br>HyperStream</h2>
-                    <p>Accelerate your enterprise application to hypersonic speeds</p>
+                    <p>Accelerate your enterprise queries to hypersonic speeds</p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/hyperstream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
@@ -69,64 +75,88 @@ get_header('tools'); ?>
             <div class="table-responsive" id="overview-comparison">
                 <table class="table">
                     <thead>
-                        <tr>
-                            <th class="w-25 px-4 py-4">Software</br>Feature</th>
-                            <th class="w-25 text-center th-stream" onclick="location.href='https://speedment.com/stream/';">Speedment</br> Stream</th>
-                            <th class="w-25 text-center th-hyper" onclick="location.href='https://speedment.com/hyperstream/';">Speedment</br> HyperStream</th>
-                            <th class="w-25 text-center th-oss" onclick="location.href='https://speedment.com/open-source/';">Speedment</br> Open Source</th>
-                        </tr>
+                    <tr>
+                        <th class="w-25 px-4 py-4">Software Feature</th>
+                        <th class="w-20 text-center th-jpa" onclick="location.href='https://jpastreamer.org/';">JPAstreamer</br>Open Source</th>
+                        <th class="w-20 text-center th-stream" onclick="location.href='https://speedment.com/stream/';">Speedment</br> Stream</th>
+                        <th class="w-20 text-center th-hyper" onclick="location.href='https://speedment.com/hyperstream/';">Speedment</br> HyperStream</th>
+                        <th class="w-20 text-center th-oss" onclick="location.href='https://speedment.com/open-source/';">Speedment</br> Open Source</th>
+                    </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th class="px-4 py-4">Java Stream ORM
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Express queries as standard Java Streams and generate all boilerplate code.">
-                                    <i class="fa fa-question-circle"></i>
-                                </a>
-                            </th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                        </tr>
-                        <tr>
-                            <th class="px-4 py-4">Cloud Readiness
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Fully supports use of the Java Platform Module System (JPMS) and can be deployed in containers such as Docker, Kubernetes etc.">
-                                    <i class="fa fa-question-circle"></i>
-                                </a>
-                            </th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                        </tr>
-                        <tr>
-                            <th class="px-4 py-4">Commercial</br>Database Connectors
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Support included for AS400, DB2, Informix, MariaDB, MySQL, PostgreSQL, Snowflake (coming soon), SQLite, SQLServer or Oracle.">
-                                    <i class="fa fa-question-circle"></i>
-                                </a>
-                            </th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center"></th>
-                        </tr>
-                        <tr>
-                            <th class="px-4 py-4">Spring REST API Generation
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Automatically generates a complete Spring Boot REST API for any of the supported database types.">
-                                    <i class="fa fa-question-circle"></i>
-                                </a>
-                            </th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center"></th>
-                        </tr>
-                        <tr>
-                            <th class="px-4 py-4">In-JVM-Memory</br>Acceleration
-                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Speedment DataStore (a unique memory management model) allows performance boost by orders of magnitude.">
-                                    <i class="fa fa-question-circle"></i>
-                                </a>
-                            </th>
-                            <th class="text-center"></th>
-                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
-                            <th class="text-center"></th>
-                        </tr>
+                    <tr>
+                        <th class="px-4 py-4">Java Stream API
+                            <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Use standard Java Streams to issue database queries.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                    </tr>
+                    <tr>
+                        <th class="px-4 py-4">Object Relational Mapping (ORM)
+                            <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Automatically generates a Java domain model from the database schema.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </th>
+                        <th class="text-center">N/A
+                            <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="JPAstreamer integrates with an underlying JPA provider (e.g. Hibernate) that handles the ORM-capabilites.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                    </tr>
+                    <tr>
+                        <th class="px-4 py-4">Cloud Readiness
+                            <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Fully supports use of the Java Platform Module System (JPMS) and can be deployed in containers such as Docker, Kubernetes etc.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                    </tr>
+                    <tr>
+                        <th class="px-4 py-4">Commercial</br>Database Connectors
+                            <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Support included for AS400, DB2, Informix, MariaDB, MySQL, PostgreSQL, Snowflake (coming soon), SQLite, SQLServer or Oracle.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </th>
+                        <th class="text-center">N/A
+                            <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </th>                            <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center"></th>
+                    </tr>
+                    <tr>
+                        <th class="px-4 py-4">Spring REST API Generation
+                            <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Automatically generates a complete Spring Boot REST API for any of the supported database types.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </th>
+                        <th class="text-center"></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center"></th>
+                    </tr>
+                    <tr>
+                        <th class="px-4 py-4">In-JVM-Memory</br>Acceleration
+                            <a style="color: black" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Speedment DataStore (a unique memory management model) allows performance boost by orders of magnitude.">
+                                <i class="fa fa-question-circle"></i>
+                            </a>
+                        </th>
+                        <th class="text-center"></th>
+                        <th class="text-center"></th>
+                        <th class="text-center th-included"><i class="fa fa-check"></i></th>
+                        <th class="text-center"></th>
+                    </tr>
                     </tbody>
                 </table>
             </div>

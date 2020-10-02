@@ -19,15 +19,21 @@
     <div class="row justify-content-center" id="speedment-tools">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md px-5 py-3 mx-2 my-2 ml-0 ml-md-5 text-center" id="speedment-stream" onclick="location.href='https://speedment.com/stream/';">
+                <div class="col-md px-5 py-3 mx-2 my-2 ml-0 mx-md-0 text-center" id="speedment-oss" onclick="location.href='https://speedment.com/stream/';">
+                    <h2>JPAstreamer<br>Open Source</h2>
+                    <p>Stream querying for projects constrained to Hibernate/JPA</p>
+                    <a href="https://jpastreamer.org/install/" class="btn btn-secondary-white">Install Now</a></br>
+                    <a href="https://jpastreamer.org/" style="margin-top:0.5em" class="learn-more">Learn More</a>
+                </div>
+                <div class="col-md px-5 py-3 mx-2 my-2 mx-md-2 text-center" id="speedment-stream" onclick="location.href='https://speedment.com/stream/';">
                     <h2>Speedment</br>Stream</h2>
-                    <p>Stream ORM for enterprise projects</p>
+                    <p>A complete Stream ORM for enterprise projects </p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/stream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>
-                <div class="col-md py-3 px-5 mx-2 my-2 mr-0 mr-md-5 text-center" id="speedment-hyperstream" onclick="location.href='https://speedment.com/hyperstream/';">
+                <div class="col-md py-3 px-5 mx-2 my-2 mr-0 mx-md-0 text-center" id="speedment-hyperstream" onclick="location.href='https://speedment.com/hyperstream/';">
                     <h2>Speedment</br>HyperStream</h2>
-                    <p>Accelerate your enterprise application to hypersonic speeds</p>
+                    <p>Accelerate your enterprise queries to hypersonic speeds</p>
                     <a href="https://speedment.com/initializer/" class="btn btn-secondary-white">Download Now</a></br>
                     <a href="https://speedment.com/hyperstream/" style="margin-top:0.5em" class="learn-more">Learn More</a>
                 </div>

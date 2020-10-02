@@ -36,34 +36,34 @@ get_header('hazelcast'); ?>
                 <h1>Features</h1>
                 <div class="line-divider-center"></div>
                 <div class="row">
-                    <div class="col-md px-5 px-md-0">
+                    <div class="col-md px-5 px-md-4">
                         <h3>Automatic Generation of Java Domain Model</h3>
                         <div class="line-divider-small"></div>
                         <p>Automatically generates a Java domain model for the given database with POJOs (Portable), SerializationFactories, ClassDefinitions, MapStores, MapLoaders, ClientConfiguration, Ingest, and Index.</p>
                     </div>
-                    <div class="col-md px-5 px-md-0">
+                    <div class="col-md px-5 px-md-4">
                         <h3>Reduced Maintenance of Java Domain Model</h3>
                         <div class="line-divider-small"></div>
                         <p>Changes in the database schema do not entail manual configurations. Instead, automatic schema migration can be performed to quickly adapt the application to the new schema.</p>
                     </div>
-                    <div class="col-md px-5 px-md-0">
+                    <div class="col-md px-5 px-md-4">
                         <h3>Easy Project Config and Capacity Expansion</h3>
                         <div class="line-divider-small"></div>
                         <p>The IMDG does not need the generated classes on its classpath. New Hazelcast nodes can be added to an existing IMDG with no additional configuration or prior knowledge of existing applications.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md px-5 px-md-0">
+                    <div class="col-md px-5 px-md-4">
                         <h3>Initial Data Ingest Support</h3>
                         <div class="line-divider-small"></div>
                         <p>Utility methods for bootstrapping the IMDG from an existing database via a single call are generated. These methods support the parallel loading of tables.</p>
                     </div>
-                    <div class="col-md px-5 px-md-0">
+                    <div class="col-md px-5 px-md-4">
                         <h3>Data is Persistent</h3>
                         <div class="line-divider-small"></div>
                         <p>Updates to the grid can easily be propagated into the database using write-through, write-behind or IMDG-only operations. Client-side persistence is also offered with write-through or Hazelcast only updates.</p>
                     </div>
-                    <div class="col-md px-5 px-md-0">
+                    <div class="col-md px-5 px-md-4">
                         <h3>Familiar Java Stream API</h3>
                         <div class="line-divider-small"></div>
                         <p>As an alternative to the Hazelcast API, developers are given the option to express CRUD operations as standard Java Streams. Using familiar APIs can reduce the learning curve and lower the risk for mistakes.</p>

@@ -235,7 +235,7 @@ get_header('pricing'); ?>
 <div class="row justify-content-center" id="compare-plans">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col">
+                <div class="col">
                 <h1 style="text-align: center">Compare Plans</h1>
                 <div class="line-divider-center"></div>
             </div>
@@ -248,16 +248,18 @@ get_header('pricing'); ?>
                         <thead>
                         <tr>
                             <th></th>
-                            <th style="text-align: center">Open Source</th>
-                            <th style="text-align: center">Free</th>
-                            <th style="text-align: center">Stream</th>
-                            <th style="text-align: center">HyperStream</th>
+                            <th style="text-align: center">JPAstreamer<br>OSS</th>
+                            <th style="text-align: center">Speedment<br>OSS</th>
+                            <th style="text-align: center">Speedment<br>Free</th>
+                            <th style="text-align: center">Speedment<br>Stream</th>
+                            <th style="text-align: center">Speedment<br>HyperStream</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td style="text-align: left">Database Size
                             </td>
+                            <td>Unlimited</td>
                             <td>Unlimited</td>
                             <td>500 MB</td>
                             <td>Unlimited</td>
@@ -271,12 +273,51 @@ get_header('pricing'); ?>
                             <td></td>
                         </tr>
                         <tr>
-                            <th>Java Stream ORM</th>
+                            <th>Query API</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left">Java Stream API
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="Express database queries using standard Java Streams">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Object Relational Mapping</th>
                         </tr>
                         <tr>
                             <td style="text-align: left">Code Generation
                                 <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
                                    data-placement="bottom" data-content="A Java representation of the database domain model is automatically generated">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer relies on the Java domain model used by an underlying JPA provider.">
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
@@ -298,6 +339,12 @@ get_header('pricing'); ?>
                                 <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
                                    data-placement="bottom" data-content="The GUI enables developers to connect to a data source and configure what part of the data that is needed in the application.">
                                     <i class="fa fa-question-circle qmark"></i>
+                                </a>
+                            </td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer does not require a GUI to extend the application API.">
+                                    <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
                             <td>
@@ -332,11 +379,20 @@ get_header('pricing'); ?>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td  style="text-align: left">Join Component
                                 <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
                                    data-placement="bottom" data-content="Allows simple joining of up to 10 tables in Java Streams.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer uses a similar JOIN-configuration to avoid the Select N+1 problem.">
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
@@ -359,6 +415,9 @@ get_header('pricing'); ?>
                                    data-placement="bottom" data-content="Allows SQL VIEWS to be viewed as standard Java Streams.">
                                     <i class="fa fa-question-circle"></i>
                                 </a>
+                            </td>
+                            <td>
+                                <i class="fa fa-check"></i>
                             </td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -406,9 +465,15 @@ get_header('pricing'); ?>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td  style="text-align: left">Kubernetes/Docker etc.</td>
+                            <td>
+                                <i class="fa fa-check"></i>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -438,6 +503,12 @@ get_header('pricing'); ?>
                             <th></th>
                         <tr>
                             <td  style="text-align: left">MySQL</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -453,6 +524,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td  style="text-align: left">PostgreSQL</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -468,6 +545,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td style="text-align: left">MariaDB</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -483,6 +566,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td style="text-align: left">SQLite</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -498,6 +587,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td style="text-align: left">Oracle</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>-</i></td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -511,6 +606,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td style="text-align: left">SQL Server</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -524,6 +625,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td style="text-align: left"">DB2</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -537,6 +644,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td style="text-align: left">AS400</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -550,6 +663,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td style="text-align: left">Informix</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -563,6 +682,12 @@ get_header('pricing'); ?>
                         </tr>
                         <tr>
                             <td style="text-align: left">Snowflake</td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -578,6 +703,12 @@ get_header('pricing'); ?>
                             <td style="text-align: left">Files
                                 <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
                                    data-placement="bottom" data-content="Read data from binary- or text files, such as avro, protobuf, bson, csv, xlsx etc.">
+                                    <i class="fa fa-question-circle"></i>
+                                </a>
+                            </td>
+                            <td>N/A
+                                <a style="color: black" href="#" data-toggle="popover" data-trigger="hover"
+                                   data-placement="bottom" data-content="JPAstreamer is database agnostic as it relies on an underlying JPA provider to handle the database connection.">
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
@@ -611,6 +742,7 @@ get_header('pricing'); ?>
                                 </a>
                             </td>
                             <td>N/A</td>
+                            <td>N/A</td>
                             <td>500 MB</td>
                             <td>N/A</td>
                             <td>Unlimited</td>
@@ -622,6 +754,7 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
+                            <td>-</td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -639,6 +772,7 @@ get_header('pricing'); ?>
                                 </a>
                             </td>
                             <td>-</td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -654,6 +788,7 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
+                            <td>-</td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -671,6 +806,7 @@ get_header('pricing'); ?>
                                 </a>
                             </td>
                             <td>-</td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -687,6 +823,7 @@ get_header('pricing'); ?>
                                 </a>
                             </td>
                             <td>-</td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -702,6 +839,7 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
+                            <td>-</td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -734,6 +872,7 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -754,6 +893,7 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -775,6 +915,7 @@ get_header('pricing'); ?>
                                 </a>
                             </td>
                             <td>-</td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -792,6 +933,7 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
+                            <td>-</td>
                             <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
@@ -827,6 +969,7 @@ get_header('pricing'); ?>
                             </td>
                             <td>-</td>
                             <td>-</td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -841,6 +984,7 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
+                            <td>-</td>
                             <td>-</td>
                             <td>-</td>
                             <td>
@@ -859,6 +1003,7 @@ get_header('pricing'); ?>
                             </td>
                             <td>-</td>
                             <td>-</td>
+                            <td>-</td>
                             <td>
                                 <i class="fa fa-check"></i>
                             </td>
@@ -872,6 +1017,7 @@ get_header('pricing'); ?>
                                    data-placement="bottom" data-content="Including emergency patches and target response times.">
                                     <i class="fa fa-question-circle"></i>
                                 </a></td>
+                            <td>-</td>
                             <td>-</td>
                             <td>-</td>
                             <td>
@@ -888,6 +1034,7 @@ get_header('pricing'); ?>
                                     <i class="fa fa-question-circle"></i>
                                 </a>
                             </td>
+                            <td>-</td>
                             <td>-</td>
                             <td>-</td>
                             <td>
@@ -908,7 +1055,10 @@ get_header('pricing'); ?>
                         <tr>
                             <td></td>
                             <td style="text-align: center; vertical-align: middle">
-                                <a href="http://speedment.com/oss-download" target="_blank" style="font-family: Titillium Web; font-size: 0.9em" rel="noopener noreferrer">Get OSS</a>
+                                <a href="http://jpastreamer.org/install" target="_blank" style="font-family: Titillium Web; font-size: 0.9em" rel="noopener noreferrer" class="btn btn-primary btn-small btn-gray">Get JPAstreamer OSS</a>
+                            </td>
+                            <td style="text-align: center; vertical-align: middle">
+                                <a href="http://speedment.com/oss-download" target="_blank" style="font-family: Titillium Web; font-size: 0.9em" rel="noopener noreferrer"  class="btn btn-primary btn-small btn-gray">Get Speedment OSS</a>
                             </td>
                             <td style="text-align: center">
                                 <a href="http://speedment.com/initializer" class="btn btn-primary btn-small btn-gray">Get Free</a>
