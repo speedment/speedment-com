@@ -31,7 +31,7 @@
                         <img src="http://speedment.com/wp-content/uploads/2019/07/ICON-logo-white.png" width="35px" height="38px">
                     </div>
                     <div class="col-md d-flex justify-content-center justify-content-md-start">
-                        <p>© 2019 Speedment,&nbsp;Inc. All rights reserved.</br>
+                        <p>© 2021 Speedment,&nbsp;Inc. All rights reserved.</br>
 
                             <a href="<?php echo get_permalink(3); ?>" alt="Read the Speedment Privacy Policy">
                                 Privacy&nbsp;Policy</a>&nbsp;|&nbsp;
